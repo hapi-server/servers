@@ -1,0 +1,30 @@
+[
+	{ 
+		"ResourceID": "CDAWeb",
+		"ResourceHeader": 
+			{
+				"ResourceName": "CDAWeb",
+				"ReleaseDate": "",
+				"ExpirationDate": "",
+				"Description": "A server and dataset for testing HAPI clients and HAPI verifiers",
+				"Acknowledgement": "",
+				"Contact": [
+					{"PersonID":"spase://SMWG/Nand.Lal","Role":"GeneralContact"},
+				],
+				"InformationURL":
+					[
+						{
+							"Name":"HAPI/CDAWeb Information",
+							"URL":"https://voyager.gsfc.nasa.gov/hapiproto/hapi",
+							"Description":"Information about HAPI services for CDAWeb data"
+						}
+					],
+				"AccessURL":
+					[
+						{"Name":"HAPI Endpoint Root URL"},
+						{"URL":"https://voyager.gsfc.nasa.gov/hapiproto/hapi"},
+						{"Description":""}
+					]
+			}		
+	}
+]

@@ -1,0 +1,67 @@
+[
+	{ 
+		"ResourceID": "TestData",
+		"ResourceHeader": 
+			{
+				"ResourceName": "HAPI/TestData",
+				"ReleaseDate": "",
+				"ExpirationDate": "",
+				"Description": "A server and dataset for testing HAPI clients and HAPI verifiers",
+				"Acknowledgement": "",
+				"Contact": [
+					{"PersonID":"spase://SMWG/Robert.S.Weigel","Role":"DataProducer"},
+				],
+				"InformationURL":
+					[
+						{
+							"Name":"TestData Information",
+							"URL":"http://hapi-server.org/TestData/hapi",
+							"Description":"Information about the TestData dataset"
+						}
+					],
+				"AccessURL":
+					[
+						{"Name":"HAPI Endpoint Root URL"},
+						{"URL":"http://hapi-server.org/TestData/hapi"},
+						{"Description":""}
+					]
+
+			}
+		
+	},
+	{ 
+		"ResourceID": "TSDS/SSCWeb",
+		"ResourceHeader": 
+			{
+				"ResourceName": "TSDS/SSCWeb",
+				"ReleaseDate": "",
+				"ExpirationDate": "",
+				"Description": "SSCWeb data made available through a HAPI API using http://tsds.org/",
+				"Acknowledgement": "Ephemeris values for the __NAME__ satellite from SSCWeb[1,2] was obtained through the TSDS[3] interface[4] on __DATE__. [1] McGuire, R. E., Burley, R. J., Candey, R. M., Kessel, R. L., & Kovalick, T. J. (2000). CDAWeb and SSCWeb: Enabling correlative international Sun-Earth-connections science entering the era of IMAGE and Cluster. Eos Trans. AGU, 81, 19, [2] http://sscweb.gsfc.nasa.gov/, [3] Weigel, R. S., Lindholm, D. M., Wilson, A., & Faden, J. (2010). TSDS: high-performance merge, subset, and filter software for time series-like data. Earth Science Informatics, 3(1-2), 29-40.",
+				"Contact": [
+					{"PersonID":"spase://SMWG/Robert.S.Weigel","Role":"GeneralContact"},
+					{"PersonID":"spase://SMWG/Robert.E.McGuire","Role":"DataProducer"}
+				],
+				"InformationURL":
+					[
+						{
+							"Name":"TSDS/SSCWeb Information",
+							"URL":"http://tsds.org/get/#catalog=SSCWeb",
+							"Description":"Information about how SSCWeb data are served using TSDS."
+						},
+						{
+							"Name":"SSCWeb Information",
+							"URL":"https://sscweb.gsfc.nasa.gov/",
+							"Description":"Information about SSCWeb data."
+						}
+					],
+				"AccessURL":
+					[
+						{"Name":"HAPI Endpoint Root URL"},
+						{"URL":"http://tsds.org/get/SSCWeb/hapi"},
+						{"Description":""}
+					]
+
+			}
+	}
+]

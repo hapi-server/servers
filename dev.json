@@ -9,7 +9,7 @@
 				"Description": "A server and dataset for testing HAPI clients and HAPI verifiers",
 				"Acknowledgement": "",
 				"Contact": [
-					{"PersonID":"spase://SMWG/Nand.Lal","Role":"GeneralContact"},
+					{"PersonID":"spase://SMWG/Nand.Lal","Role":"GeneralContact"}
 				],
 				"InformationURL":
 					[

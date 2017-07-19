@@ -8,5 +8,4 @@ The files in this repository should considered temporary because
 Files
 
 * `all.json`/`all.txt` - List of production HAPI servers
-* `test.json`/`test.json` - List of HAPI servers for testing clients and verifiers
 * `dev.json`/`dev.txt` - List of HAPI servers under development and not production ready

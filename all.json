@@ -9,7 +9,7 @@
 				"Description": "A server and dataset for testing HAPI clients and HAPI verifiers",
 				"Acknowledgement": "",
 				"Contact": [
-					{"PersonID":"spase://SMWG/Robert.S.Weigel","Role":"DataProducer"},
+					{"PersonID":"spase://SMWG/Robert.S.Weigel","Role":"DataProducer"}
 				],
 				"InformationURL":
 					[
@@ -23,6 +23,36 @@
 					[
 						{"Name":"HAPI Endpoint Root URL"},
 						{"URL":"http://hapi-server.org/TestData/hapi"},
+						{"Description":""}
+					]
+
+			}
+		
+	},
+	{ 
+		"ResourceID": "DataShop",
+		"ResourceHeader": 
+			{
+				"ResourceName": "DataShop",
+				"ReleaseDate": "",
+				"ExpirationDate": "",
+				"Description": "",
+				"Acknowledgement": "",
+				"Contact": [
+					{"PersonID":"spase://SMWG/Jon.Vandegriff","Role":"GeneralContact"}
+				],
+				"InformationURL":
+					[
+						{
+							"Name":"DataShop Information",
+							"URL":"http://datashop.elasticbeanstalk.com/hapi",
+							"Description":"Information about datasets available from DataShop"
+						}
+					],
+				"AccessURL":
+					[
+						{"Name":"HAPI Endpoint Root URL"},
+						{"URL":"http://datashop.elasticbeanstalk.com/hapi"},
 						{"Description":""}
 					]
 

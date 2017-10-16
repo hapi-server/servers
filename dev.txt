@@ -1,1 +1,2 @@
 https://voyager.gsfc.nasa.gov/hapiproto/hapi
+http://jfaden.net:8180/HapiServerDemo/hapi

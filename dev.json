@@ -15,14 +15,14 @@
 					[
 						{
 							"Name":"HAPI/CDAWeb Information",
-							"URL":"https://voyager.gsfc.nasa.gov/hapiproto/hapi",
+							"URL":"https://voyager.gsfc.nasa.gov/hapiproto",
 							"Description":"Information about HAPI services for CDAWeb data"
 						}
 					],
 				"AccessURL":
 					[
 						{"Name":"HAPI Endpoint Root URL"},
-						{"URL":"https://voyager.gsfc.nasa.gov/hapiproto/hapi"},
+						{"URL":"https://voyager.gsfc.nasa.gov/hapiproto"},
 						{"Description":""}
 					]
 			}		

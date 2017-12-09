@@ -6,7 +6,7 @@
 				"ResourceName": "CDAWeb",
 				"ReleaseDate": "",
 				"ExpirationDate": "",
-				"Description": "A server and dataset for testing HAPI clients and HAPI verifiers",
+				"Description": "CDAWeb data served through a HAPI API",
 				"Acknowledgement": "",
 				"Contact": [
 					{"PersonID":"spase://SMWG/Nand.Lal","Role":"GeneralContact"}
@@ -23,6 +23,34 @@
 					[
 						{"Name":"HAPI Endpoint Root URL"},
 						{"URL":"https://voyager.gsfc.nasa.gov/hapiproto"},
+						{"Description":""}
+					]
+			}		
+	},
+	{ 
+		"ResourceID": "JFaden",
+		"ResourceHeader": 
+			{
+				"ResourceName": "JFaden",
+				"ReleaseDate": "",
+				"ExpirationDate": "",
+				"Description": "Test data served through a HAPI API",
+				"Acknowledgement": "",
+				"Contact": [
+					{"PersonID":"spase://SMWG/Jeremy.Faden","Role":"GeneralContact"}
+				],
+				"InformationURL":
+					[
+						{
+							"Name":"Dataset Information",
+							"URL":"http://jfaden.net/HapiServerDemo/hapi",
+							"Description":"Information about HAPI services"
+						}
+					],
+				"AccessURL":
+					[
+						{"Name":"HAPI Endpoint Root URL"},
+						{"URL":"http://jfaden.net/HapiServerDemo/hapi"},
 						{"Description":""}
 					]
 			}		

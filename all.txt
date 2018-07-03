@@ -1,4 +1,4 @@
+http://hapi-server.org/servers/TestData/hapi
+http://hapi-server.org/servers/SSCWeb/hapi
 http://datashop.elasticbeanstalk.com/hapi
-http://tsds.org/get/SSCWeb/hapi
-http://mag.gmu.edu/TestData/hapi
 https://cdaweb.gsfc.nasa.gov/hapi

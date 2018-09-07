@@ -3,3 +3,4 @@ http://hapi-server.org/servers/SSCWeb/hapi
 http://datashop.elasticbeanstalk.com/hapi
 https://cdaweb.gsfc.nasa.gov/hapi
 http://planet.physics.uiowa.edu/das/das2Server/hapi
+https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi

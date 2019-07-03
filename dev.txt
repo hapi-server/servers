@@ -1,4 +1,3 @@
 http://jfaden.net/HapiServerDemo/hapi
-https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi
 https://pds-ppi.igpp.ucla.edu/hapi
 http://hapi.ftecs.com/hapi

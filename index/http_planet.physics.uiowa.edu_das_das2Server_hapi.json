@@ -1,1 +1,359 @@
-{"catalog":[{"description":"One minute Cassini Saturn centered orbit parameters","id":"Cassini/Ephemeris/Saturn,60s","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"R_S","description":"R!dS!n","units":"Rs"},{"name":"Lon","description":"Lon","units":"degrees"},{"name":"Lat","description":"Lat","units":"degrees"},{"name":"LT","description":"LT","units":"hours"},{"name":"L","description":"L","units":"null"}]},{"description":"Electron Cyclotron Resonance Frequency","id":"Cassini/MAG/ElectronCyclotron","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Fce","description":"F!dce!n (Hz)","units":"Hz"}]},{"description":"Magnetic Field Magnitude","id":"Cassini/MAG/Magnitude","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"B_mag","description":"|B| (nT)","units":"nT"}]},{"description":"Magnetometer Vector values in Kronocentric Solar Orbital coordinates from PDS volume CO-E_SW_J_S-MAG-4-SUMM-1SECAVG-V1.0","id":"Cassini/MAG/VectorKSO","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"magnitude","description":"|B|","units":"nT"},{"name":"X","description":"B!dX!n","units":"nT"},{"name":"Y","description":"B!dY!n","units":"nT"},{"name":"Z","description":"B!dZ!n","units":"nT"}]},{"description":"Magnetometer Data in Spacecraft Coordinates from http://mapsview.engin.umich.edu/","id":"Cassini/MAG/VectorSC","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"x","description":"X!bSC!n","units":"nT"},{"name":"y","description":"Y!bSC!n","units":"nT"},{"name":"z","description":"Z!bSC!n","units":"nT"},{"name":"total","description":"|B|!bSC!n","units":"nT"}]},{"description":"See the Bx Antenna values sampled at 100 Hz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_100Hz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Bx","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the Bx Antenna values sampled at 7.143 kHz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_7kHz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Bx","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the By Antenna values sampled at 100 Hz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,By_100Hz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"By","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the By Antenna values sampled at 7.143 kHz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,By_7kHz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"By","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the Bz Antenna values sampled at 100 Hz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_100Hz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Bz","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the Bz Antenna values sampled at 7.143 kHz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_7kHz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Bz","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"nT**2 Hz**-1"}]},{"description":"See the Ew Antenna values sampled at 100 Hz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_100Hz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Ew","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"See the Ew Antenna values sampled at 7.143 kHz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_7kHz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Ew","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"See the Ex Antenna values sampled at 100 Hz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_100Hz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Ex","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"See the Ex Antenna values sampled at 7.143 kHz","id":"Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_7kHz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"Ex","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"Ex,Ew Antenna samples at 27.8 kHz, transformed by 512 pt DFT with 1/2 overlap","id":"Cassini/RPWS/HiRes_MidFreq_Spectra,10khz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"WBR","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"Ex,Ew Antenna samples at 222 kHz, transformed by 512 pt DFT with 1/2 overlap","id":"Cassini/RPWS/HiRes_MidFreq_Spectra,80khz","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"WBR","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"Survey Mode Magnetic Spectral Densities","id":"Cassini/RPWS/Survey_KeyParam,B","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"magnetic_specdens","description":"Spectral Density (nT!a2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]},{"description":"Survey Mode Electric Spectral Densities","id":"Cassini/RPWS/Survey_KeyParam,E","parameters":[{"name":"time","description":"","units":"UTC"},{"name":"electric_specdens","description":"Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)","units":"V**2 m**-2 Hz**-1"}]}],"id":"http://planet.physics.uiowa.edu/das/das2Server/hapi"}
+{
+  "catalog": [
+    {
+      "description": "One minute Cassini Saturn centered orbit parameters",
+      "id": "Cassini/Ephemeris/Saturn,60s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "R!dS!n",
+          "name": "R_S",
+          "units": "Rs"
+        },
+        {
+          "description": "Lon",
+          "name": "Lon",
+          "units": "degrees"
+        },
+        {
+          "description": "Lat",
+          "name": "Lat",
+          "units": "degrees"
+        },
+        {
+          "description": "LT",
+          "name": "LT",
+          "units": "hours"
+        },
+        {
+          "description": "L",
+          "name": "L",
+          "units": "null"
+        }
+      ]
+    },
+    {
+      "description": "Electron Cyclotron Resonance Frequency",
+      "id": "Cassini/MAG/ElectronCyclotron",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "F!dce!n (Hz)",
+          "name": "Fce",
+          "units": "Hz"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic Field Magnitude",
+      "id": "Cassini/MAG/Magnitude",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "|B| (nT)",
+          "name": "B_mag",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetometer Vector values in Kronocentric Solar Orbital coordinates from PDS volume CO-E_SW_J_S-MAG-4-SUMM-1SECAVG-V1.0",
+      "id": "Cassini/MAG/VectorKSO",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "|B|",
+          "name": "magnitude",
+          "units": "nT"
+        },
+        {
+          "description": "B!dX!n",
+          "name": "X",
+          "units": "nT"
+        },
+        {
+          "description": "B!dY!n",
+          "name": "Y",
+          "units": "nT"
+        },
+        {
+          "description": "B!dZ!n",
+          "name": "Z",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetometer Data in Spacecraft Coordinates from http://mapsview.engin.umich.edu/",
+      "id": "Cassini/MAG/VectorSC",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "X!bSC!n",
+          "name": "x",
+          "units": "nT"
+        },
+        {
+          "description": "Y!bSC!n",
+          "name": "y",
+          "units": "nT"
+        },
+        {
+          "description": "Z!bSC!n",
+          "name": "z",
+          "units": "nT"
+        },
+        {
+          "description": "|B|!bSC!n",
+          "name": "total",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "See the Bx Antenna values sampled at 100 Hz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_100Hz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "Bx",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Bx Antenna values sampled at 7.143 kHz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_7kHz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "Bx",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the By Antenna values sampled at 100 Hz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_100Hz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "By",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the By Antenna values sampled at 7.143 kHz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_7kHz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "By",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Bz Antenna values sampled at 100 Hz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_100Hz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "Bz",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Bz Antenna values sampled at 7.143 kHz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_7kHz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "Bz",
+          "units": "nT**2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Ew Antenna values sampled at 100 Hz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_100Hz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "Ew",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Ew Antenna values sampled at 7.143 kHz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_7kHz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "Ew",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Ex Antenna values sampled at 100 Hz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_100Hz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "Ex",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "See the Ex Antenna values sampled at 7.143 kHz",
+      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_7kHz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "Ex",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "Ex,Ew Antenna samples at 27.8 kHz, transformed by 512 pt DFT with 1/2 overlap",
+      "id": "Cassini/RPWS/HiRes_MidFreq_Spectra,10khz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "WBR",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "Ex,Ew Antenna samples at 222 kHz, transformed by 512 pt DFT with 1/2 overlap",
+      "id": "Cassini/RPWS/HiRes_MidFreq_Spectra,80khz",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "WBR",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "Survey Mode Magnetic Spectral Densities",
+      "id": "Cassini/RPWS/Survey_KeyParam,B",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
+          "name": "magnetic_specdens",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    },
+    {
+      "description": "Survey Mode Electric Spectral Densities",
+      "id": "Cassini/RPWS/Survey_KeyParam,E",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral Density (V!a2!n m!a-2!n Hz!a-1!n)",
+          "name": "electric_specdens",
+          "units": "V**2 m**-2 Hz**-1"
+        }
+      ]
+    }
+  ],
+  "id": "http://planet.physics.uiowa.edu/das/das2Server/hapi"
+}

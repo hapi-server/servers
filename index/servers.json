@@ -1,0 +1,30 @@
+[
+  {
+    "URL": "http://hapi-server.org/servers/TestData/hapi",
+    "index": "http_hapi-server.org_servers_TestData_hapi.json"
+  },
+  {
+    "URL": "http://hapi-server.org/servers/SSCWeb/hapi",
+    "index": "http_hapi-server.org_servers_SSCWeb_hapi.json"
+  },
+  {
+    "URL": "http://datashop.elasticbeanstalk.com/hapi",
+    "index": "http_datashop.elasticbeanstalk.com_hapi.json"
+  },
+  {
+    "URL": "https://cdaweb.gsfc.nasa.gov/hapi",
+    "index": "https_cdaweb.gsfc.nasa.gov_hapi.json"
+  },
+  {
+    "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
+    "index": "http_planet.physics.uiowa.edu_das_das2Server_hapi.json"
+  },
+  {
+    "URL": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+    "index": "https_iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi.json"
+  },
+  {
+    "URL": "http://lasp.colorado.edu/lisird/hapi",
+    "index": "http_lasp.colorado.edu_lisird_hapi.json"
+  }
+]

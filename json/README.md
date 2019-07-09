@@ -1,0 +1,1 @@
+This are drafts of the text file lists using an ad-hoc schema. The schema for these files are not a part of the HAPI specification.

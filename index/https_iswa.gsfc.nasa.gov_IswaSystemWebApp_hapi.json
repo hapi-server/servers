@@ -162,6 +162,77 @@
     },
     {
       "description": "",
+      "id": "stereo_a_impact_P1M__STEREO-A",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTElectrons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFHETElectrons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTIons1",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTIons2",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFLETProtons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFHETProtons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSITHe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFSITCNO",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFSITFe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETHe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETCNO",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETFe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "stereo_b_impact_P1M__STEREO-B",
       "parameters": [
         {

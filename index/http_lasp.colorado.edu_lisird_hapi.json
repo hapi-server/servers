@@ -2,43 +2,6 @@
   "catalog": [
     {
       "description": "",
-      "id": "yeo_nonempirical_tsi_reconstruction",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_see",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
       "id": "bremen_composite_mgii",
       "parameters": [
         {
@@ -65,128 +28,7 @@
     },
     {
       "description": "",
-      "id": "musil_solstice_muv",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_solstice_fuv",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "empire_tsi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_sim",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "gome_mgii",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mgii",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sorce_ssi_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sorce_mg_index",
+      "id": "composite_mg_index",
       "parameters": [
         {
           "description": "",
@@ -197,10 +39,88 @@
           "description": "",
           "name": "mg_index",
           "units": "core to wing ratio (unitless)"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "composite_lyman_alpha",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
         },
         {
           "description": "",
-          "name": "unc",
+          "name": "LymanAlpha",
+          "units": "1e11 photons/cm^2/sec"
+        },
+        {
+          "description": "",
+          "name": "type",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "cak",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "emdx",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "viored",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "k2vk3",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delk1",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delk2",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delwb",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "k3",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "yeo_nonempirical_tsi_reconstruction",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
           "units": "undefined"
         }
       ]
@@ -349,208 +269,7 @@
     },
     {
       "description": "",
-      "id": "timed_see_lines_l3a",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_284",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_335",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_361",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_IX_368",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_417",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VII_465",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_499",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_521",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_537",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_554",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_584",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_610",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_V_630",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_704",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "N_IV_765",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_770",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_780",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_788",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_834",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_938",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_950",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_III_977",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_1026",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_1032",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_1038",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "N_II_1085",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_1216",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_I_1304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_II_1335",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_IV_1394",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_IV_1403",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_IV_1549",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_I_1561",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_1640",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_I_1657",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_II_1808",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_II_1817",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_egs_ssi_l2",
+      "id": "nrl2_tsi_prelim_P1M",
       "parameters": [
         {
           "description": "",
@@ -560,235 +279,18 @@
         {
           "description": "",
           "name": "irradiance",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_lines_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_284",
           "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_335",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_361",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_IX_368",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_417",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VII_465",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_499",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_521",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_537",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_554",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_584",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_610",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_V_630",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_704",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "N_IV_765",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_770",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_780",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_788",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_834",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_938",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_950",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_III_977",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_1026",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_1032",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_1038",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "N_II_1085",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_1216",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_I_1304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_II_1335",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_IV_1394",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_IV_1403",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_IV_1549",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_I_1561",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_1640",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_I_1657",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_II_1808",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_II_1817",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_ssi_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
         },
         {
           "description": "",
           "name": "uncertainty",
-          "units": "W/m^2/nm"
+          "units": "W/m^2"
         }
       ]
     },
     {
       "description": "",
-      "id": "timed_see_ssi_l3a",
+      "id": "nrl2_tsi_P1D",
       "parameters": [
         {
           "description": "",
@@ -798,7 +300,75 @@
         {
           "description": "",
           "name": "irradiance",
-          "units": "W/m^2/nm"
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_tsi_prelim_P1D",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_tsi_P1M",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_tsi_P1Y",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
         }
       ]
     },
@@ -946,23 +516,7 @@
     },
     {
       "description": "",
-      "id": "historical_tsi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Irradiance",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sme_ssi",
+      "id": "empire_tsi",
       "parameters": [
         {
           "description": "",
@@ -972,1055 +526,11 @@
         {
           "description": "",
           "name": "irradiance",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "uars_solstice_ssi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_ssi_1nm_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
+          "units": "undefined"
         },
         {
           "description": "",
           "name": "uncertainty",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_lines_l2b",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVIII_9",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_VIII_13",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_13",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_IX_17",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_X_18",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XI_18",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XII_20",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIII_20",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIV_21",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_26",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_28",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_30",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_34",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_36",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_IX_37",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "S_XIV_45",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VII_47",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_50",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_52",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_53",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_54",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_55",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_57",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_58",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIX_59",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_60",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_61",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_62",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_V_63",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_72",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_72",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_77",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_79",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_84",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_95",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_97",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_III_98",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_103",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_103",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVIII_9_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_VIII_13_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_13_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_IX_17_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_X_18_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XI_18_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XII_20_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIII_20_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIV_21_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "He_II_26_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_28_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "He_II_30_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_34_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_36_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Mg_IX_37_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "S_XIV_45_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Ne_VII_47_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_50_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_52_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_III_53_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "He_I_54_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_IV_55_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_57_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "He_I_58_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIX_59_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_III_60_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_61_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_62_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_V_63_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_II_72_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_72_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_77_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_IV_79_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_II_84_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "H_I_95_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "H_I_97_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "C_III_98_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "H_I_103_accuracy",
-          "units": "relative"
-        },
-        {
-          "description": "",
-          "name": "O_VI_103_accuracy",
-          "units": "relative"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_bands_l2b",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "AIA_A94",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A131",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A171",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A193",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A211",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A304",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A335",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_A",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_B",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA171",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA257",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA366",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "E7_37",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "E37_45",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A1",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A2",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_short",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_both",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_long",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "AIA_A94_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A131_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A171_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A193_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A211_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A304_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A335_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_A_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_B_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MA171_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MA257_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MA304_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MA366_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "E7_37_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "E37_45_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A1_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A2_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_short_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_both_accuracy",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_long_accuracy",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_lines_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVIII_9",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_VIII_13",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_13",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_IX_17",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_X_18",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XI_18",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XII_20",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIII_20",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIV_21",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_26",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XV_28",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_II_30",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_34",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XVI_36",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_IX_37",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "S_XIV_45",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VII_47",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_50",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Si_XII_52",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_53",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_54",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_55",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_57",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "He_I_58",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XIX_59",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_III_60",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_61",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Mg_X_62",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_V_63",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_72",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Fe_XX_72",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "Ne_VIII_77",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_IV_79",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_II_84",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_95",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_97",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "C_III_98",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "H_I_103",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "O_VI_103",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_bands_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "AIA_A94",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A131",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A171",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A193",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A211",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A304",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "AIA_A335",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_A",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "GOES_14_EUV_B",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA171",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA257",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA304",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MA366",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "E7_37",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "E37_45",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A1",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_A2",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_short",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_both",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "MEGS_B_long",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "composite_lyman_alpha",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "LymanAlpha",
-          "units": "1e11 photons/cm^2/sec"
-        },
-        {
-          "description": "",
-          "name": "type",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "composite_mg_index",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mg_index",
-          "units": "core to wing ratio (unitless)"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "cak",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "emdx",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "viored",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "k2vk3",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delk1",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delk2",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delwb",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "k3",
           "units": "undefined"
         }
       ]
@@ -2048,6 +558,64 @@
     },
     {
       "description": "",
+      "id": "sme_ssi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "sorce_ssi_l3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_solstice_muv",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "nrl2_ssi_P1M",
       "parameters": [
         {
@@ -2064,48 +632,6 @@
           "description": "",
           "name": "uncertainty",
           "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_P1D",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_prelim_P1D",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
         }
       ]
     },
@@ -2132,48 +658,6 @@
     },
     {
       "description": "",
-      "id": "nrl2_tsi_P1M",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_P1Y",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
       "id": "nrl2_ssi_P1D",
       "parameters": [
         {
@@ -2195,27 +679,6 @@
     },
     {
       "description": "",
-      "id": "nrl2_tsi_prelim_P1M",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
       "id": "nrl2_ssi_prelim_P1D",
       "parameters": [
         {
@@ -2232,6 +695,175 @@
           "description": "",
           "name": "uncertainty",
           "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_sim",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "uars_solstice_ssi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "timed_see_ssi_l3a",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "timed_see_xps_ssi_l4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_see",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "timed_see_ssi_l3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "sdo_eve_ssi_1nm_l3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "timed_see_egs_ssi_l2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_solstice_fuv",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
         }
       ]
     }

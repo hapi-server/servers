@@ -1,0 +1,158 @@
+# create a JSON file for each server which contains lists of parameters for each dataset.  This will then be posted on 
+# the github site so that others can use the service.
+
+# git diff-index --quiet HEAD -- || git commit -m "changes detected"
+# git push
+
+from org.json import JSONObject, JSONArray, JSONString
+
+# org.json javadoc: https://static.javadoc.io/org.json/json/20170516/index.html
+
+from java.util.logging import Level
+from org.das2.util import LoggerManager
+from java.io import FileWriter
+
+serverLimit= getParam( 'serverLimit', 10000, 'maximum number of servers handled', [10000,2] )
+catalogLimit= getParam( 'catalogLimit', 10000, 'maximum number of ids from a catalog handled', [10000,3] )
+sleepNice= getParam( 'sleepNice', 0, 'insert delays (in milliseconds) between transactions to reduce load on servers' )
+runParallel= getParam( 'runParallel', 'F', 'test all servers at once', ['T','F'] )
+serverList= getParam( 'list', 'all', 'server list in https://github.com/hapi-server/servers', [ 'all', 'dev' ] )
+
+logger= LoggerManager.getLogger('makeGiantCatalog')
+logger.level = Level.INFO
+
+logger2= LoggerManager.getLogger('das2.url')
+logger2.level= Level.FINE
+
+# create "servers" which is the list of servers.
+servers= []
+
+u= URL('https://github.com/hapi-server/servers/blob/master/%s.txt' % serverList )
+
+logger.fine('get %s' % u)
+f= getFile(u, monitor.getSubtaskMonitor('read server list'))
+for line in open(str(f)):
+    servers.append(line.strip())
+
+def get( jsonobject, tag, deft ):
+    if ( jsonobject.has( tag ) ):
+        return jsonobject.get( tag )
+    else:
+        return deft
+
+def readToJsonObject( u, mon ):
+    logger.fine( 'downloadResourceAsTempFile %s'% u )
+    f= downloadResourceAsTempFile( u, mon )
+    data= open(str(f)).readlines()
+    data= ''.join(data)
+    return JSONObject(data)
+    
+def compileServer( myserver, mon=None ): 
+    serverObject= JSONObject()
+    serverObject.put( 'id', myserver )
+    u= URL( myserver + '/catalog' )
+    logger.fine( 'opening %s' % u )    
+    
+    try:
+        catalog= readToJsonObject( u, mon.getSubtaskMonitor('read catalog') )
+    except:
+        logger.warning( 'unable to reach %s' % u )
+        return ''
+    
+    ids= JSONArray()
+    catalogc= catalog.get('catalog')
+    
+    nwork= min( catalogLimit, catalogc.length() )
+    mon.setTaskSize( nwork )
+    for i in xrange( nwork ):
+        mon.setTaskProgress( i )
+        try: 
+            infoObject= JSONObject()
+            idstr= catalogc.get(i).get('id')
+            infoObject.put( 'id', idstr )
+            infoObject.put( 'description', get( catalogc.get(i), 'description', '' ) )
+    
+            u = URL( myserver + '/info?id=' + idstr )
+            info= readToJsonObject( u, mon.getSubtaskMonitor( i, i+1, 'read info' ) )
+            # get the description from the catalog node, or info if catalog doesn't contain.
+            description= get( catalogc.get(i), 'description', get( info, 'description', '' ) )
+            infoObject.put( 'description', description )
+            paramz= JSONArray()
+            parametersArray= info.get( 'parameters' )
+            for j in xrange( parametersArray.length() ):
+                param= parametersArray.get(j)
+                paramObject= JSONObject()
+                paramObject.put( 'name', param.get('name') )
+                paramObject.put( 'units', get( param, 'units', '' ) )
+                paramObject.put( 'description', get( param, 'description', '' ) )
+                paramz.put( paramObject )
+            
+            infoObject.put( 'parameters', paramz )
+            ids.put(infoObject)
+        except:
+            import traceback
+            traceback.print_exc()
+            logger.log( Level.WARNING, 'Exception %s' % u )
+            
+        sleep( sleepNice )
+        
+    serverObject.put( 'catalog', ids )
+    return serverObject
+
+outputFileName= '/tmp/hapi/servers.json'
+mkdir( '/tmp/hapi/' )
+
+fw= FileWriter( outputFileName )
+ja= JSONArray()
+for server in servers:
+    s= JSONObject()
+    s.put( "URL", server )
+    s.put( "index", "%s.json" % ( server.replace( '://', '_' ).replace('/','_') ) )
+    ja.put( s )
+fw= FileWriter( outputFileName )
+jaStr= ja.toString(2)   
+fw.write( jaStr )
+fw.close()
+
+if ( runParallel=='T' ):
+    serversArray= runInParallel( compileServer, servers, monitor )
+    
+    for i in xrange( len( serversArray ) ):
+        server= servers[i]
+        serverObject= serversArray[i]
+        
+        outputFileName= '/tmp/hapi/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
+        mkdir('/tmp/hapi/')
+        
+        fw= FileWriter( outputFileName )
+        
+        serverObjectStr= serverObject.toString(2)
+        fw.write( serverObjectStr )
+        fw.close()
+        
+        print 'wrote ' + outputFileName
+        
+else:
+    monitor.setTaskSize(len(servers)*100)
+    monitor.started()
+
+    iserver= 0
+    for server in servers:
+        mon= monitor.getSubtaskMonitor( iserver*100, (iserver+1)*100, 'read '+ str(server) )
+        
+        iserver= iserver + 1
+        if ( iserver>serverLimit ): break        
+        
+        serverObject= compileServer( server, mon )
+        
+        outputFileName= '/tmp/hapi/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
+        mkdir('/tmp/hapi/')
+        
+        fw= FileWriter( outputFileName )
+        serverObjectStr= serverObject.toString(2)
+        fw.write( serverObjectStr )
+        fw.close()
+        print 'wrote ' + outputFileName
+            
+    monitor.finished()
+

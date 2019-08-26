@@ -1,5 +1,7 @@
 # create a JSON file for each server which contains lists of parameters for each dataset.  This will then be posted on 
-# the github site so that others can use the service.
+# the github site so that others can use the service.  This assumes that the scientist running the script can write to
+# /tmp/hapi/.
+
 
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
 # git push

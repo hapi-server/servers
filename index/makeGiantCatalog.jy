@@ -1,7 +1,7 @@
 setScriptDescription('''Create a JSON file for each server which contains lists
 of parameters for each dataset.  This will then be posted on the github site so
 that others can use the service.  This assumes that the scientist running the 
-script can write to /tmp/hapi/.''')
+script can write to the same folder as the script.''')
 setScriptTitle('Make Giant HAPI Catalog')
 
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
@@ -29,6 +29,11 @@ logger2.level= Level.FINE
 
 # create "servers" which is the list of servers.
 servers= []
+
+if URI(PWD).scheme != 'file':
+   raise Exception('This must be run locally')
+else:
+   CWD= URI(PWD).path
 
 u= URL('https://github.com/hapi-server/servers/blob/master/%s.txt' % serverList )
 
@@ -60,7 +65,7 @@ def compileServer( myserver, mon=None ):
         catalog= readToJsonObject( u, mon.getSubtaskMonitor('read catalog') )
     except:
         logger.warning( 'unable to reach %s' % u )
-        return ''
+        return None
     
     ids= JSONArray()
     catalogc= catalog.get('catalog')
@@ -102,8 +107,7 @@ def compileServer( myserver, mon=None ):
     serverObject.put( 'catalog', ids )
     return serverObject
 
-outputFileName= '/tmp/hapi/servers.json'
-mkdir( '/tmp/hapi/' )
+outputFileName= CWD+'/servers.json'
 
 fw= FileWriter( outputFileName )
 ja= JSONArray()
@@ -124,8 +128,7 @@ if ( runParallel=='T' ):
         server= servers[i]
         serverObject= serversArray[i]
         
-        outputFileName= '/tmp/hapi/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
-        mkdir('/tmp/hapi/')
+        outputFileName= CWD+'/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
         
         fw= FileWriter( outputFileName )
         
@@ -147,15 +150,17 @@ else:
         if ( iserver>serverLimit ): break        
         
         serverObject= compileServer( server, mon )
-        
-        outputFileName= '/tmp/hapi/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
-        mkdir('/tmp/hapi/')
-        
-        fw= FileWriter( outputFileName )
-        serverObjectStr= serverObject.toString(2)
-        fw.write( serverObjectStr )
-        fw.close()
-        print 'wrote ' + outputFileName
+        if serverObject==None:
+            print 'FAILED TO CONNECT TO '+server
+        else:
+            outputFileName= CWD+'/%s.json' % ( server.replace( '://', '_' ).replace('/','_') )
+            
+            fw= FileWriter( outputFileName )
+            serverObjectStr= serverObject.toString(2)
+            fw.write( serverObjectStr )
+            fw.close()
+            print 'wrote ' + outputFileName
             
     monitor.finished()
+
 

@@ -1,0 +1,99 @@
+{
+  "catalog": [{
+    "description": "",
+    "id": "dataset1",
+    "parameters": [
+      {
+        "description": "",
+        "name": "Time",
+        "units": "UTC"
+      },
+      {
+        "description": "Sine wave with 600 s period",
+        "name": "scalar",
+        "units": "m"
+      },
+      {
+        "description": "Sine wave with 600 s period",
+        "name": "scalarint",
+        "units": "m"
+      },
+      {
+        "description": "Status checks result; P = Pass, F = Fail",
+        "name": "scalarstr",
+        "units": null
+      },
+      {
+        "description": "Category of test result",
+        "name": "scalarcats",
+        "units": null
+      },
+      {
+        "description": "Time parameter + 1 second",
+        "name": "scalariso",
+        "units": "UTC"
+      },
+      {
+        "description": "Each component is a sine wave with a 600 s period with differing phases.",
+        "name": "vector",
+        "units": "m"
+      },
+      {
+        "description": "Each component is a sine wave with a 600 s period with differing phases.",
+        "name": "vectorint",
+        "units": "m"
+      },
+      {
+        "description": "Status checks result; P = Pass, F = Fail",
+        "name": "vectorstr",
+        "units": null
+      },
+      {
+        "description": "Status of test",
+        "name": "vectorcats",
+        "units": null
+      },
+      {
+        "description": "Each component is a sine wave with a 600 s period with differing phases.",
+        "name": "vectoriso",
+        "units": "UTC"
+      },
+      {
+        "description": "Two vectors; Each component of each vector is a sine wave with a 600 s period with differing phases.",
+        "name": "vectormulti",
+        "units": "m"
+      },
+      {
+        "description": "Transformation matrix elements Txx=0, Txy=1, Txz=2, Tyx=3, Tyy=4, Tzz=5, Tzx=6, Tzy=7, Tzz=9.",
+        "name": "transform",
+        "units": "m"
+      },
+      {
+        "description": "3-D transformation matrix. Txx=0, Txy=1, Txz=2, Tyx=3, Tyy=4, Tzz=5, Tzx=6, Tzy=7, Tzz=9",
+        "name": "transformmulti",
+        "units": "m"
+      },
+      {
+        "description": "A time independent 1/f spectra.",
+        "name": "spectra",
+        "units": "m"
+      },
+      {
+        "description": "A time independent 1/f spectra.",
+        "name": "spectranobins",
+        "units": "m"
+      },
+      {
+        "description": "A time independent 1/f spectra.",
+        "name": "spectralarge",
+        "units": "m"
+      },
+      {
+        "description": "Two time independent 1/f spectra.",
+        "name": "spectramulti",
+        "units": "m"
+      }
+    ]
+  }],
+  "id": "http://hapi-server.org/servers/TestData2.0/hapi"
+}

@@ -1,7 +1,8 @@
-# create a JSON file for each server which contains lists of parameters for each dataset.  This will then be posted on 
-# the github site so that others can use the service.  This assumes that the scientist running the script can write to
-# /tmp/hapi/.
-
+setScriptDescription('''Create a JSON file for each server which contains lists
+of parameters for each dataset.  This will then be posted on the github site so
+that others can use the service.  This assumes that the scientist running the 
+script can write to /tmp/hapi/.''')
+setScriptTitle('Make Giant HAPI Catalog')
 
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
 # git push

@@ -1,9 +1,5 @@
 [
   {
-    "URL": "http://hapi-server.org/servers/TestData/hapi",
-    "index": "http_hapi-server.org_servers_TestData_hapi.json"
-  },
-  {
     "URL": "http://hapi-server.org/servers/SSCWeb/hapi",
     "index": "http_hapi-server.org_servers_SSCWeb_hapi.json"
   },
@@ -26,5 +22,9 @@
   {
     "URL": "http://lasp.colorado.edu/lisird/hapi",
     "index": "http_lasp.colorado.edu_lisird_hapi.json"
+  },
+  {
+    "URL": "http://hapi-server.org/servers/TestData2.0/hapi",
+    "index": "http_hapi-server.org_servers_TestData2.0_hapi.json"
   }
 ]

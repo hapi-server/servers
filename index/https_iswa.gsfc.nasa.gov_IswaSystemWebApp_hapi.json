@@ -18,47 +18,6 @@
     },
     {
       "description": "",
-      "id": "ace_swepam_P1M__ACE",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "ModifiedJulianDay",
-          "units": "MJD"
-        },
-        {
-          "description": "",
-          "name": "SecondsOfTheDay",
-          "units": "sec"
-        },
-        {
-          "description": "",
-          "name": "Status_S",
-          "units": "unknown"
-        },
-        {
-          "description": "",
-          "name": "ProtonDensity",
-          "units": "p/cc"
-        },
-        {
-          "description": "",
-          "name": "BulkSpeed",
-          "units": "km/s"
-        },
-        {
-          "description": "",
-          "name": "IonTemperature",
-          "units": "K"
-        }
-      ]
-    },
-    {
-      "description": "",
       "id": "ace_mag_P1M__ACE",
       "parameters": [
         {
@@ -378,37 +337,6 @@
           "description": "",
           "name": "KP_180",
           "units": "unknown"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "WIND_MFI_P2M__WIND",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "B_x",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_y",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_z",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_t",
-          "units": "nT"
         }
       ]
     },
@@ -4081,6 +4009,37 @@
     },
     {
       "description": "",
+      "id": "goesp_mag_p1m__GOES-P",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "Hp",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "He",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "Hn",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "TotalField",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "goess_part_flux_P5M__GOES-S",
       "parameters": [
         {
@@ -4173,37 +4132,6 @@
           "description": "",
           "name": "Long_Wave",
           "units": "Watts/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "goess_mag_p1m__GOES-S",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Hp",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "He",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "Hn",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "TotalField",
-          "units": "nT"
         }
       ]
     },

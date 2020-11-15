@@ -59,62 +59,6 @@
     },
     {
       "description": "",
-      "id": "ace_mag_P1M__ACE",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "ModifiedJulianDay",
-          "units": "MJD"
-        },
-        {
-          "description": "",
-          "name": "SecondsOfTheDay",
-          "units": "sec"
-        },
-        {
-          "description": "",
-          "name": "B_x",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_y",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_z",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_t",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "Latitude",
-          "units": "degrees"
-        },
-        {
-          "description": "",
-          "name": "Longitude",
-          "units": "degrees"
-        },
-        {
-          "description": "",
-          "name": "Status_S",
-          "units": "unknown"
-        }
-      ]
-    },
-    {
-      "description": "",
       "id": "goesp_xray_flux_P1M__GOES-P",
       "parameters": [
         {
@@ -157,6 +101,77 @@
           "description": "",
           "name": "KP",
           "units": "unknown"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "stereo_a_impact_P1M__STEREO-A",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTElectrons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFHETElectrons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTIons1",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSEPTIons2",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFLETProtons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFHETProtons",
+          "units": "1/(cm^2-s-ster-MeV)"
+        },
+        {
+          "description": "",
+          "name": "SFSITHe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFSITCNO",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFSITFe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETHe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETCNO",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
+        },
+        {
+          "description": "",
+          "name": "SFLETFe",
+          "units": "1/(cm^2-s-ster-MeV/nuc)"
         }
       ]
     },
@@ -378,37 +393,6 @@
           "description": "",
           "name": "KP_180",
           "units": "unknown"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "WIND_MFI_P2M__WIND",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "B_x",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_y",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_z",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "B_t",
-          "units": "nT"
         }
       ]
     },

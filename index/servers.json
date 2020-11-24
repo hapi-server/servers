@@ -26,5 +26,9 @@
   {
     "URL": "http://hapi-server.org/servers/TestData2.0/hapi",
     "index": "http_hapi-server.org_servers_TestData2.0_hapi.json"
+  },
+  {
+    "URL": "http://amda.irap.omp.eu/service/hapi",
+    "index": "http_amda.irap.omp.eu_service_hapi.json"
   }
 ]

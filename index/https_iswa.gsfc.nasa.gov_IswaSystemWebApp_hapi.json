@@ -59,6 +59,62 @@
     },
     {
       "description": "",
+      "id": "ace_mag_P1M__ACE",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "ModifiedJulianDay",
+          "units": "MJD"
+        },
+        {
+          "description": "",
+          "name": "SecondsOfTheDay",
+          "units": "sec"
+        },
+        {
+          "description": "",
+          "name": "B_x",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "B_y",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "B_z",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "B_t",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "Latitude",
+          "units": "degrees"
+        },
+        {
+          "description": "",
+          "name": "Longitude",
+          "units": "degrees"
+        },
+        {
+          "description": "",
+          "name": "Status_S",
+          "units": "unknown"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "goesp_xray_flux_P1M__GOES-P",
       "parameters": [
         {

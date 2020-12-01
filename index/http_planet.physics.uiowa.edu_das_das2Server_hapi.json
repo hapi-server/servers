@@ -163,22 +163,6 @@
       ]
     },
     {
-      "description": "See the By Antenna values sampled at 100 Hz",
-      "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_100Hz",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "Spectral Density (nT!a2!n Hz!a-1!n)",
-          "name": "By",
-          "units": "nT**2 Hz**-1"
-        }
-      ]
-    },
-    {
       "description": "See the By Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_7kHz",
       "parameters": [

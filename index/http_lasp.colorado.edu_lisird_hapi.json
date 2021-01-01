@@ -632,6 +632,22 @@
     },
     {
       "description": "",
+      "id": "timed_see_xps_ssi_l4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "musil_see",
       "parameters": [
         {

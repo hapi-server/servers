@@ -888,6 +888,470 @@
       ]
     },
     {
+      "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-esa-l2e",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_e",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_e_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp1_n_e",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp1_t_e",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "athp1_el_sp",
+          "units": "eV/cmÂ²-s-sr-eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-esa-l2i",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_i",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_i_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Module of Velocity",
+          "name": "athp1_v_i_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp1_n_i",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp1_t_i",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "athp1_ion_sp",
+          "units": "eV/cmÂ²-s-sr-eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-peen-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron Density",
+          "name": "athp1_n_peem",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp1_t_peem",
+          "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-peim-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_peim",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp1_v_peim_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Module of Velocity",
+          "name": "athp1_v_peim_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp1_n_peim",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp1_t_peim",
+          "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-orb-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "position in GSE coordinates",
+          "name": "athp1_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "position in GSM coordinates",
+          "name": "athp1_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "position in HEE coordinates",
+          "name": "athp1_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "position in LSE coordinates",
+          "name": "athp1_xyz_lse",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "athp1_r",
+          "units": "km"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 0.25S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-fgm-l",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bl",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bl_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bl_lse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "athp1_bl_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
+      "id": "athp1-fgm-s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bs",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bs_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp1_bs_lse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "athp1_bs_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
+      "id": "athp2-esa-l2e",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_e",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_e_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp2_n_e",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp2_t_e",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "athp2_el_sp",
+          "units": "eV/cmÂ²-s-sr-eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
+      "id": "athp2-esa-l2i",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_i",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_i_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Module of Velocity",
+          "name": "athp2_v_i_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp2_n_i",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp2_t_i",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "athp2_ion_sp",
+          "units": "eV/cmÂ²-s-sr-eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
+      "id": "athp2-peem-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron Density",
+          "name": "athp2_n_peem",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp2_t_peem",
+          "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
+      "id": "athp2-peim-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_peim",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "athp2_v_peim_lse",
+          "units": "km/s"
+        },
+        {
+          "description": "Module of Velocity",
+          "name": "athp2_v_peim_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Density",
+          "name": "athp2_n_peim",
+          "units": "cm-3"
+        },
+        {
+          "description": "Temperature",
+          "name": "athp2_t_peim",
+          "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: IRAP_THEMIS",
+      "id": "athp2-orb-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "position in GSE coordinates",
+          "name": "athp2_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "position in GSM coordinates",
+          "name": "athp2_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "position in HEE coordinates",
+          "name": "athp2_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "position in LSE coordinates",
+          "name": "athp2_xyz_lse",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "athp2_r",
+          "units": "km"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 0.25S",
+      "id": "athp2-fgm-l",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp2_bl",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp2_bl_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp2_bl_lse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "athp2_bl_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S",
+      "id": "athp2-fgm-s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp2_bs",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field",
+          "name": "athp2_bs_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic Field (LSE)",
+          "name": "athp2_bs_lse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "athp2_bs_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Bepi ephemeris during cruise phase<br/> Sampling: 1H<br/> Provider: ESAC",
       "id": "bepi-cruise-all",
       "parameters": [
@@ -2738,6 +3202,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c1-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_c1_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_c1_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c1-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_c1_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_c1_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_c1_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Cluster 1 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
       "id": "clust1-pea-mom",
       "parameters": [
@@ -2800,6 +3311,27 @@
           "description": "Perpendicular electron temperature at spin time resolution",
           "name": "c1_pea_tperp",
           "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "Cluster1 2D Pitch-Angle/Energy electron distribution<br/> Sampling: 4S<br/> Provider: CSA",
+      "id": "clust1-pea-pa",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron differential energy flux at spin time resolution",
+          "name": "c1_pea_pad",
+          "units": "keV/cmÂ²-s-str-keV"
+        },
+        {
+          "description": "Background energy flux at spin time resolution",
+          "name": "c1_pea_bckgrd",
+          "units": "keV/cmÂ²-s-str-keV"
         }
       ]
     },
@@ -3001,6 +3533,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c2-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_c2_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_c2_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c2-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_c2_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_c2_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_c2_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Cluster 2 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
       "id": "clust2-pea-mom",
       "parameters": [
@@ -3063,6 +3642,27 @@
           "description": "Perpendicular electron temperature at spin time resolution",
           "name": "c2_pea_tperp",
           "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "Cluster2 2D Pitch-Angle/Energy electron distribution<br/> Sampling: 4S<br/> Provider: CSA",
+      "id": "clust2-pea-pa",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron differential energy flux at spin time resolution",
+          "name": "c2_pea_pad",
+          "units": "keV/cmÂ²-s-str-keV"
+        },
+        {
+          "description": "Background energy flux at spin time resolution",
+          "name": "c2_pea_bckgrd",
+          "units": "keV/cmÂ²-s-str-keV"
         }
       ]
     },
@@ -3387,6 +3987,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c3-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_c3_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_c3_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c3-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_c3_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_c3_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_c3_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Cluster 3 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
       "id": "clust3-pea-mom",
       "parameters": [
@@ -3449,6 +4096,27 @@
           "description": "Perpendicular electron temperature at spin time resolution",
           "name": "c3_pea_tperp",
           "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "Cluster3 2D Pitch-Angle/Energy electron distribution<br/> Sampling: 4S<br/> Provider: CSA",
+      "id": "clust3-pea-pa",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron differential energy flux at spin time resolution",
+          "name": "c3_pea_pad",
+          "units": "keV/cmÂ²-s-str-keV"
+        },
+        {
+          "description": "Background energy flux at spin time resolution",
+          "name": "c3_pea_bckgrd",
+          "units": "keV/cmÂ²-s-str-keV"
         }
       ]
     },
@@ -3691,6 +4359,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c4-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_c4_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_c4_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "c4-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_c4_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_c4_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_c4_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Cluster 4 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
       "id": "clust4-pea-mom",
       "parameters": [
@@ -3753,6 +4468,27 @@
           "description": "Perpendicular electron temperature at spin time resolution",
           "name": "c4_pea_tperp",
           "units": "eV"
+        }
+      ]
+    },
+    {
+      "description": "Cluster4 2D Pitch-Angle/Energy electron distribution<br/> Sampling: 4S<br/> Provider: CSA",
+      "id": "clust4-pea-pa",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron differential energy flux at spin time resolution",
+          "name": "c4_pea_pad",
+          "units": "keV/cmÂ²-s-str-keV"
+        },
+        {
+          "description": "Background energy flux at spin time resolution",
+          "name": "c4_pea_bckgrd",
+          "units": "keV/cmÂ²-s-str-keV"
         }
       ]
     },
@@ -8394,6 +9130,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "gtl-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_gtl_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_gtl_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "gtl-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_gtl_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_gtl_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_gtl_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> Sampling: 60S<br/> Provider: PDS",
       "id": "gio-orb-comet",
       "parameters": [
@@ -9516,8 +10299,29 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 1H<br/> Provider: ESA",
-      "id": "juice-cruise-all",
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "it-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_it_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_it_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "it-t96-model",
       "parameters": [
         {
           "description": "",
@@ -9526,59 +10330,55 @@
         },
         {
           "description": "",
-          "name": "juice_cruise_xyz_hee",
-          "units": "AU"
+          "name": "b_t96gse_it_xyz",
+          "units": "nT"
         },
         {
           "description": "",
-          "name": "juice_cruise_xyz_hci",
-          "units": "AU"
+          "name": "b_t96gsm_it_xyz",
+          "units": "nT"
         },
         {
           "description": "",
-          "name": "juice_cruise_xyz_iausun",
-          "units": "AU"
+          "name": "b_t96tot_it_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-callisto-cr30",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
         },
         {
           "description": "",
-          "name": "juice_cruise_r",
-          "units": "AU"
+          "name": "juice_cacr30_xyz",
+          "units": "km"
         },
         {
           "description": "",
-          "name": "juice_cruise_lon_hee",
+          "name": "juice_cacr30_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr30_lon",
           "units": "deg"
         },
         {
           "description": "",
-          "name": "juice_cruise_lat_hee",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "juice_cruise_lon_hci",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "juice_cruise_lat_hci",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "juice_cruise_lon_iausun",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "juice_cruise_lat_iausun",
+          "name": "juice_cacr30_lat",
           "units": "deg"
         }
       ]
     },
     {
-      "description": "<br/> Sampling: 10M",
-      "id": "juice-ganymede-all",
+      "description": "<br/> Sampling: 1H<br/> Provider: ESA",
+      "id": "juice-cruise-cr30",
       "parameters": [
         {
           "description": "",
@@ -9587,29 +10387,90 @@
         },
         {
           "description": "",
-          "name": "juice_gan_xyz",
-          "units": "Rg"
+          "name": "juice_cr30_xyz_hee",
+          "units": "AU"
         },
         {
           "description": "",
-          "name": "juice_gan_r",
-          "units": "Rg"
+          "name": "juice_cr30_xyz_hci",
+          "units": "AU"
         },
         {
           "description": "",
-          "name": "juice_gan_lon",
+          "name": "juice_cr30_xyz_iausun",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_r",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_lon_hee",
           "units": "deg"
         },
         {
           "description": "",
-          "name": "juice_gan_lat",
+          "name": "juice_cr30_lat_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_lon_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_lat_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_lon_iausun",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr30_lat_iausun",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-europa-cr30",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr30_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr30_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr30_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr30_lat",
           "units": "deg"
         }
       ]
     },
     {
       "description": "<br/> Sampling: 1H",
-      "id": "juice-jupiter-all",
+      "id": "juice-ganymede-cr30",
       "parameters": [
         {
           "description": "",
@@ -9618,33 +10479,517 @@
         },
         {
           "description": "",
-          "name": "juice_jup_xyz",
-          "units": "Rj"
+          "name": "juice_gacr30_xyz",
+          "units": "km"
         },
         {
           "description": "",
-          "name": "juice_jup_r",
-          "units": "Rj"
+          "name": "juice_gacr30_r",
+          "units": "km"
         },
         {
           "description": "",
-          "name": "juice_jup_lon",
+          "name": "juice_gacr30_lon",
           "units": "deg"
         },
         {
           "description": "",
-          "name": "juice_jup_lat",
+          "name": "juice_gacr30_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H",
+      "id": "juice-jup-cr30",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr30_xyz",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr30_r",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr30_lon",
           "units": "deg"
         },
         {
           "description": "",
-          "name": "juice_jup_jsm",
+          "name": "juice_jucr30_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr30_jsm",
           "units": "Rj"
         },
         {
           "description": "",
-          "name": "juice_jup_jso",
+          "name": "juice_jucr30_jso",
           "units": "Rj"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-callisto-cr32",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr32_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr32_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr32_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr32_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: ESA",
+      "id": "juice-cruise-cr32",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_xyz_hci",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_xyz_iausun",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_r",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lon_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lat_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lon_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lat_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lon_iausun",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr32_lat_iausun",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-europa-cr32",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr32_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr32_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr32_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr32_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H",
+      "id": "juice-ganymede-cr32",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr32_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr32_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr32_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr32_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H",
+      "id": "juice-jup-cr32",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_xyz",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_r",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_jsm",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr32_jso",
+          "units": "Rj"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-callisto-cr41",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr41_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr41_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr41_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cacr41_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: ESA",
+      "id": "juice-cruise-cr41",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_xyz_hci",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_xyz_iausun",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_r",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lon_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lat_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lon_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lat_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lon_iausun",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr41_lat_iausun",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-europa-cr41",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr41_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr41_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr41_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_eucr41_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H",
+      "id": "juice-ganymede-cr41",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr41_xyz",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr41_r",
+          "units": "km"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr41_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_gacr41_lat",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H",
+      "id": "juice-jup-cr41",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_xyz",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_r",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_jsm",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr41_jso",
+          "units": "Rj"
+        }
+      ]
+    },
+    {
+      "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice30-jrm09-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_60_1_juice_jucr30_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_tot_60_1_juice_jucr30_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice32-jrm09-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_60_1_juice_jucr32_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_tot_60_1_juice_jucr32_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice41-jrm09-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_60_1_juice_jucr41_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_tot_60_1_juice_jucr41_xyz",
+          "units": "nT"
         }
       ]
     },
@@ -10156,6 +11501,27 @@
       ]
     },
     {
+      "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "jun-jrm09-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_60_1_juno_jup_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_tot_60_1_juno_jup_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 1S; MaxSampling: 10S<br/> Provider: PDS",
       "id": "juno-wav-crub",
       "parameters": [
@@ -10595,6 +11961,27 @@
         {
           "description": "",
           "name": "mavb_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Morschhauser model martian crustal magnetic field<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mav-morsch-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_mso_60_mav_xyz_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_tot_60_mav_xyz_mso",
           "units": "nT"
         }
       ]
@@ -12237,6 +13624,27 @@
       ]
     },
     {
+      "description": "Morschhauser model martian crustal magnetic field<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mex-morsch-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_mso_60_mex_xyz_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_tot_60_mex_xyz_mso",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> Sampling: 60S<br/> Provider: NAIF",
       "id": "mex-orb-mars",
       "parameters": [
@@ -12346,6 +13754,27 @@
       ]
     },
     {
+      "description": "Morschhauser model martian crustal magnetic field<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mgs-morsch-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_mso_60_xyz_mgs_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "bmorsch_tot_60_xyz_mgs_mso",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 1H; MaxSampling: 2H<br/> Provider: David Brain",
       "id": "mgs-proxy-drap",
       "parameters": [
@@ -12399,79 +13828,6 @@
       ]
     },
     {
-      "description": "dc electric field / fast / l2<br/> Sampling: 0.03S<br/> Provider: IRAP",
-      "id": "mms1-edp-dce",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mms1_dce_gse",
-          "units": "mV/m"
-        },
-        {
-          "description": "",
-          "name": "mms1_dce_gsm",
-          "units": "mV/m"
-        },
-        {
-          "description": "",
-          "name": "mms1_dce_err",
-          "units": "mV/m"
-        },
-        {
-          "description": "",
-          "name": "mms1_dce_para",
-          "units": "mV/m"
-        },
-        {
-          "description": "Quality indicator (3 good), (2 ok data, use with some caution), (1 bad data, use with caution), (0 Really bad data or no data at all)",
-          "name": "mms1_edp_dce_qual",
-          "units": ""
-        }
-      ]
-    },
-    {
-      "description": "ac electric field spectral density / srvy / l2<br/> Sampling: 16S<br/> Provider: IRAP",
-      "id": "mms1-edp-hfesp",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mms1_edp_espec",
-          "units": "(V/m)Â²/Hz"
-        }
-      ]
-    },
-    {
-      "description": "sc potential / fast / l2<br/> Sampling: 0.03S<br/> Provider: IRAP",
-      "id": "mms1-edp-scpot",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mms1_edp_scpot",
-          "units": "V"
-        },
-        {
-          "description": "Quality indicator (3 good), (2 ok data, use with some caution), (1 bad data, use with caution), (0 Really bad data or no data at all)",
-          "name": "mms1_edp_scpot_qual",
-          "units": ""
-        }
-      ]
-    },
-    {
       "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
       "id": "mms1-orb-t89d",
       "parameters": [
@@ -12484,6 +13840,32 @@
           "description": "Spacecraft position in GSE",
           "name": "mms1_xyz_gse",
           "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "id": "mms1-fgm-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms1_brst_bgse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms1_brst_bgsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms1_brst_btot",
+          "units": "nT"
         }
       ]
     },
@@ -12810,8 +14192,29 @@
       ]
     },
     {
-      "description": "<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: IRAP",
-      "id": "mms1-fgm-current",
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms1-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_mms1_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_mms1_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms1-t96-model",
       "parameters": [
         {
           "description": "",
@@ -12820,58 +14223,18 @@
         },
         {
           "description": "",
-          "name": "mms1234_j_gse",
-          "units": "A/mÂ²"
+          "name": "b_t96gse_mms1_xyz_gse",
+          "units": "nT"
         },
         {
           "description": "",
-          "name": "mms1234_j_gsm",
-          "units": "A/mÂ²"
+          "name": "b_t96gsm_mms1_xyz_gse",
+          "units": "nT"
         },
         {
           "description": "",
-          "name": "mms1234_j_tot",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_para_gse",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_para_gsm",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_para_tot",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_perp_gse",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_perp_gsm",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1234_j_perp_tot",
-          "units": "A/mÂ²"
-        },
-        {
-          "description": "",
-          "name": "mms1_r_c",
-          "units": "Re"
-        },
-        {
-          "description": "",
-          "name": "mms1_div_t",
-          "units": "T/m"
+          "name": "b_t96tot_mms1_xyz_gse",
+          "units": "nT"
         }
       ]
     },
@@ -12892,6 +14255,79 @@
       ]
     },
     {
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "id": "mms2-fgm-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms2_brst_bgse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms2_brst_bgsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms2_brst_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms2-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_mms2_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_mms2_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms2-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_mms2_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_mms2_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_mms2_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
       "id": "mms3-orb-t89d",
       "parameters": [
@@ -12908,6 +14344,79 @@
       ]
     },
     {
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "id": "mms3-fgm-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms3_brst_bgse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms3_brst_bgsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms3_brst_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms3-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_mms3_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_mms3_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms3-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_mms3_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_mms3_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_mms3_xyz_gse",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
       "id": "mms4-orb-t89d",
       "parameters": [
@@ -12920,6 +14429,79 @@
           "description": "Spacecraft position in GSE",
           "name": "mms4_xyz_gse",
           "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "id": "mms4-fgm-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms4_brst_bgse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms4_brst_bgsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms4_brst_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms4-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_mms4_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_mms4_xyz_gse",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "mms4-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_mms4_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_mms4_xyz_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_mms4_xyz_gse",
+          "units": "nT"
         }
       ]
     },
@@ -13132,7 +14714,7 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 01M<br/> Provider: CDAWeb",
+      "description": "<br/> Sampling: 60S<br/> Provider: CDAWeb",
       "id": "plr-orb-all",
       "parameters": [
         {
@@ -13158,6 +14740,78 @@
       ]
     },
     {
+      "description": "Polar HYDRA 13.8s spectra<br/> Sampling: 13.8S<br/> Provider: CDAWeb",
+      "id": "plr-hyd-h0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "plr_hyd_h0edef",
+          "units": "1/(cmÂ²-s-sr)"
+        },
+        {
+          "description": "",
+          "name": "plr_hyd_h0idef",
+          "units": "1/(cmÂ²-s-sr)"
+        }
+      ]
+    },
+    {
+      "description": "Polar Fast Plasma Analyzer 13.8 second Resolution Moments<br/> Sampling: 14S<br/> Provider: CDAWeb",
+      "id": "plr-hyd-mom",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "plr_el_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "plr_el_v_gsm",
+          "units": "km/s"
+        },
+        {
+          "description": "Electron Moment Parallel Mean Energy in eV",
+          "name": "plr_el_t_para",
+          "units": "eV"
+        },
+        {
+          "description": "Electron Moment Perpendicular Mean Energy in eV",
+          "name": "plr_el_t_perp",
+          "units": "eV"
+        },
+        {
+          "description": "Ion Moment Density",
+          "name": "plr_n_ion",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "Ion Bulk_Velocity in km/s",
+          "name": "plr_i_v_gsm",
+          "units": "km/s"
+        },
+        {
+          "description": "Ion Moment Parallel Mean Energy in eV",
+          "name": "plr_i_t_para",
+          "units": "eV"
+        },
+        {
+          "description": "Ion Moment Perpendicular Mean Energy in eV",
+          "name": "plr_i_t_perp",
+          "units": "eV"
+        }
+      ]
+    },
+    {
       "description": "MFE Key Parameters<br/> Sampling: 55.2S<br/> Provider: CDAWeb",
       "id": "plr-mfe-k0",
       "parameters": [
@@ -13179,6 +14833,53 @@
         {
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "plr_b_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "plr-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_plr_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_plr_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "plr-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_plr_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_plr_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_plr_xyz",
           "units": "nT"
         }
       ]
@@ -21822,6 +23523,1395 @@
       ]
     },
     {
+      "description": "Electron Flux From AntiSun Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-e.anti",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in foil channel",
+          "name": "solo_ept_anti_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_ept_anti_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in foil channel",
+          "name": "solo_ept_anti_erate",
+          "units": "cnts/s"
+        }
+      ]
+    },
+    {
+      "description": "Electron Flux From North Ecliptic Hemisphere Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-e.north",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in foil channel",
+          "name": "solo_ept_north_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_ept_north_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in foil channel",
+          "name": "solo_ept_north_erate",
+          "units": "cnts/s"
+        }
+      ]
+    },
+    {
+      "description": "Electron Flux From South Ecliptic Hemisphere Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-e.south",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in foil channel",
+          "name": "solo_ept_south_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_ept_south_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in foil channel",
+          "name": "solo_ept_south_erate",
+          "units": "cnts/s"
+        }
+      ]
+    },
+    {
+      "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-e.sun",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in foil channel",
+          "name": "solo_ept_sun_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_ept_sun_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in foil channel",
+          "name": "solo_ept_sun_erate",
+          "units": "cnts/s"
+        }
+      ]
+    },
+    {
+      "description": "Total Electron Flux<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-e.total",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in foil channel",
+          "name": "solo_ept_tot_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        }
+      ]
+    },
+    {
+      "description": "Ion Flux From AntiSun Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-anti",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in magnet channel",
+          "name": "solo_ept_asun_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in ion flux",
+          "name": "solo_ept_asun_iunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in magnet channel",
+          "name": "solo_ept_asun_irate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "High energy particle flux in magnet channel",
+          "name": "solo_ept_asun_aflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in alpha flux",
+          "name": "solo_ept_asun_aunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "High energy particle count rate in magnet channel",
+          "name": "solo_ept_asun_arate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_ept_asun_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Ion Flux From North Ecliptic Hemispere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-north",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in magnet channel",
+          "name": "solo_ept_north_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in ion flux",
+          "name": "solo_ept_north_iunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in magnet channel",
+          "name": "solo_ept_north_irate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "High energy particle flux in magnet channel",
+          "name": "solo_ept_north_aflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in alpha flux",
+          "name": "solo_ept_north_aunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "High energy particle count rate in magnet channel",
+          "name": "solo_ept_north_arate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_ept_north_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Ion Flux From South Ecliptic Hemispere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-south",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in magnet channel",
+          "name": "solo_ept_south_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in ion flux",
+          "name": "solo_ept_south_iunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in magnet channel",
+          "name": "solo_ept_south_irate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "High energy particle flux in magnet channel",
+          "name": "solo_ept_south_aflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in alpha flux",
+          "name": "solo_ept_south_aunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "High energy particle count rate in magnet channel",
+          "name": "solo_ept_south_arate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_ept_south_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-sun",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in magnet channel",
+          "name": "solo_ept_sun_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in ion flux",
+          "name": "solo_ept_sun_iunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Particle count rate in magnet channel",
+          "name": "solo_ept_sun_irate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "High energy particle flux in magnet channel",
+          "name": "solo_ept_sun_aflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in alpha flux",
+          "name": "solo_ept_sun_aunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "High energy particle count rate in magnet channel",
+          "name": "solo_ept_sun_arate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_ept_sun_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Total Ion Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-ept-total",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flux in magnet channel",
+          "name": "solo_ept_tot_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "High energy particle flux in magnet channel",
+          "name": "solo_ept_tot_aflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        }
+      ]
+    },
+    {
+      "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-anti.1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux in 38 - 96 MeV energy range",
+          "name": "solo_het_asun_eheflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_het_asun_eheunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He3 flux",
+          "name": "solo_het_asun_he3flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He3 flux",
+          "name": "solo_het_asun_he3unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He4 flux",
+          "name": "solo_het_asun_he4flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He4 flux",
+          "name": "solo_het_asun_he4unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_asun_1_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From North Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-north.1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux in 38 - 96 MeV energy range",
+          "name": "solo_het_north_eheflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_het_north_eheunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He3 flux",
+          "name": "solo_het_north_he3flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He3 flux",
+          "name": "solo_het_north_he3unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He4 flux",
+          "name": "solo_het_north_he4flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He4 flux",
+          "name": "solo_het_north_he4unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_north_1_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From South Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-south.1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux in 38 - 96 MeV energy range",
+          "name": "solo_het_south_eheflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_het_south_eheunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He3 flux",
+          "name": "solo_het_south_he3flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He3 flux",
+          "name": "solo_het_south_he3unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He4 flux",
+          "name": "solo_het_south_he4flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He4 flux",
+          "name": "solo_het_south_he4unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_south_1_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-sun.1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux in 38 - 96 MeV energy range",
+          "name": "solo_het_sun_eheflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in electron flux",
+          "name": "solo_het_sun_eheunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He3 flux",
+          "name": "solo_het_sun_he3flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He3 flux",
+          "name": "solo_het_sun_he3unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He4 flux",
+          "name": "solo_het_sun_he4flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in He4 flux",
+          "name": "solo_het_sun_he4unc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_sun_1_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 Total Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-total.1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux in 38 - 96 MeV energy range",
+          "name": "solo_het_tot_eheflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He3 flux",
+          "name": "solo_het_tot_he3flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "He4 flux",
+          "name": "solo_het_tot_he4flux",
+          "units": "1/(s cmÂ² sr MeV)"
+        }
+      ]
+    },
+    {
+      "description": "C / N / O From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-anti.2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_het_asun_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Carbon flux",
+          "name": "solo_het_asun_cunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Nytrogen flux",
+          "name": "solo_het_asun_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Nytrogen flux",
+          "name": "solo_het_asun_nunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Oxygen Flux",
+          "name": "solo_het_asun_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Oxygen flux",
+          "name": "solo_het_asun_ounc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_asun_2_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "C / N / O From North Hemisphere Direction<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-north.2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_het_north_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Carbon flux",
+          "name": "solo_het_north_cunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Nytrogen flux",
+          "name": "solo_het_north_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Nytrogen flux",
+          "name": "solo_het_north_nunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Oxygen Flux",
+          "name": "solo_het_north_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Oxygen flux",
+          "name": "solo_het_north_ounc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_north_2_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "C / N / O From South Hemisphere Direction<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-south.2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_het_south_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Carbon flux",
+          "name": "solo_het_south_cunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Nytrogen flux",
+          "name": "solo_het_south_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Nytrogen flux",
+          "name": "solo_het_south_nunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Oxygen Flux",
+          "name": "solo_het_south_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Oxygen flux",
+          "name": "solo_het_south_ounc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_south_2_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "C / N / O From Sun Direction ( mean Parker spiral )<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-sun.2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_het_sun_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Carbon flux",
+          "name": "solo_het_sun_cunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Nytrogen flux",
+          "name": "solo_het_sun_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Nytrogen flux",
+          "name": "solo_het_sun_nunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Oxygen flux",
+          "name": "solo_het_sun_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Uncertainty in Oxygen flux",
+          "name": "solo_het_sun_ounc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_sun_2_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "C / N / O Total Flux<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-total.2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_het_tot_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Nytrogen flux",
+          "name": "solo_het_tot_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Oxygen Flux",
+          "name": "solo_het_tot_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        }
+      ]
+    },
+    {
+      "description": "Fe Flux From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-anti.3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_het_asun_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux uncertainty",
+          "name": "solo_het_asun_feunc",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_asun_3_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Fe Flux From  North Hemisphere Direction<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-north.3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_het_north_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux uncertainty",
+          "name": "solo_het_north_feunc",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_north_3_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Fe Flux From South Hemisphere Direction<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-south.3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_het_south_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux uncertainty",
+          "name": "solo_het_south_feunc",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_south_3_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Fe From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-sun.3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_het_sun_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux uncertainty",
+          "name": "solo_het_sun_feunc",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_sun_3_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Fe Total Flux<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-total.3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_het_tot_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        }
+      ]
+    },
+    {
+      "description": "Electron / Hydrogen HighCadence From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-anti.4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux",
+          "name": "solo_het_asun_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Electron flux uncertainty",
+          "name": "solo_het_asun_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_asun_hhcflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux uncertainty",
+          "name": "solo_het_asun_hhcunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_asun_4_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron / Hydrogen HighCadence From North Hemisphere Direction<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-north.4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux",
+          "name": "solo_het_north_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Electron flux uncertainty",
+          "name": "solo_het_north_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_north_hhcflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux uncertainty",
+          "name": "solo_het_north_hhcunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_north_4_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron / Hydrogen HighCadence From South Hemisphere Direction<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-south.4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux",
+          "name": "solo_het_south_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Electron flux uncertainty",
+          "name": "solo_het_south_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_south_hhcflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux uncertainty",
+          "name": "solo_het_south_hhcunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_south_4_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron / Hydrogen HighCadence From Sun Direction ( mean Parker spiral )<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-sun.4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux",
+          "name": "solo_het_sun_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Electron flux uncertainty",
+          "name": "solo_het_sun_eunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_sun_hhcflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux uncertainty",
+          "name": "solo_het_sun_hhcunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_sun_4_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Electron / Hydrogen HighCadence Total Flux<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-total.4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux",
+          "name": "solo_het_tot_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_tot_hhcflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        }
+      ]
+    },
+    {
+      "description": "Hydrogen Flux From AntiSun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-anti",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_asun_hflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in Hydrogen flux",
+          "name": "solo_het_asun_hunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen count rate",
+          "name": "solo_het_asun_hrate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_asun_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Hydrogen Flux From North Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-north",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_north_hflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in Hydrogen flux",
+          "name": "solo_het_north_hunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen count rate",
+          "name": "solo_het_north_hrate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_north_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Hydrogen Flux From South Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-south",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_south_hflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in Hydrogen flux",
+          "name": "solo_het_south_hunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen count rate",
+          "name": "solo_het_south_hrate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_south_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Hydrogen From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-sun",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_sun_hflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in Hydrogen flux",
+          "name": "solo_het_sun_hunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Hydrogen count rate",
+          "name": "solo_het_sun_hrate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_het_sun_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "Total Hydrogen Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-het-total",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_het_total_hflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        }
+      ]
+    },
+    {
+      "description": "Flux averaged over sectors<br/> MinSampling: 10S; MaxSampling: 60S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-step-rates",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnet channel. Uses a permanet magnet to deflect electrons. Measuring only ions (mostly protons)",
+          "name": "solo_step_mflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in sector averaged magnet channel flux",
+          "name": "solo_step_munc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Sector averaged magnet channel count rate",
+          "name": "solo_step_mrate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "The electron flux is recovered by subtracting the magnet channel measurements from the integral channel ones",
+          "name": "solo_step_eflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Integral channel. Measures all incoming particles",
+          "name": "solo_step_iflux",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Uncertainty in sector averaged integral channel flux",
+          "name": "solo_step_iunc",
+          "units": "1/(s cmÂ² sr MeV)"
+        },
+        {
+          "description": "Sector averaged integral channel count rate",
+          "name": "solo_step_irate",
+          "units": "cnts/s"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_step_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "so-step-rtn",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Particle flow direction (unit vector) in RTN coordinates",
+          "name": "solo_step_dir_rtn",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "SIS-A ion anti-sunward flux<br/> Sampling: 30M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "solo-sisa-slow",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_sisa_slow_hflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Helium-3 flux",
+          "name": "solo_sisa_slow_he3flux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Heliun-4 flux",
+          "name": "solo_sisa_slow_he4flux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_sisa_slow_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Nitrogen flux",
+          "name": "solo_sisa_slow_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Oxygen flux",
+          "name": "solo_sisa_slow_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Neon flux",
+          "name": "solo_sisa_slow_neflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Magnesium flux",
+          "name": "solo_sisa_slow_mgflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Silicium flux",
+          "name": "solo_sisa_slow_siflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Sulfur flux",
+          "name": "solo_sisa_slow_sflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Calcium flux",
+          "name": "solo_sisa_slow_caflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_sisa_slow_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_sisa_slow_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "SIS-B ion sunward flux<br/> Sampling: 30M<br/> Provider: http://soar.esac.esa.int/soar",
+      "id": "solo-sisb-slow",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Hydrogen flux",
+          "name": "solo_sisb_slow_hflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Helium-3 flux",
+          "name": "solo_sisb_slow_he3flux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Heliun-4 flux",
+          "name": "solo_sisb_slow_he4flux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Carbon flux",
+          "name": "solo_sisb_slow_cflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Nitrogen flux",
+          "name": "solo_sisb_slow_nflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Oxygen flux",
+          "name": "solo_sisb_slow_oflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Neon flux",
+          "name": "solo_sisb_slow_neflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Magnesium flux",
+          "name": "solo_sisb_slow_mgflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Silicium flux",
+          "name": "solo_sisb_slow_siflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Sulfur flux",
+          "name": "solo_sisb_slow_sflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Calcium flux",
+          "name": "solo_sisb_slow_caflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "Ferrum flux",
+          "name": "solo_sisb_slow_feflux",
+          "units": "1/(s cmÂ² sr MeV/n)"
+        },
+        {
+          "description": "0: Bad, 1: Known problems, 2: Survey data, 3: Good, 4: Excellent",
+          "name": "solo_sisb_slow_qf",
+          "units": ""
+        }
+      ]
+    },
+    {
       "description": "SolO ephemeris<br/> Sampling: 1H<br/> Provider: ESA",
       "id": "so-orb-all",
       "parameters": [
@@ -22024,6 +25114,437 @@
           "description": "Flag setting: 0: Bad data; 1: Known problems use at your own risk; 2: Survey data, possibly \n               not publication quality; 3: Good for publication subject to PI approval; 4: Excellent data which has received special treatment",
           "name": "solo_b_srf_qf",
           "units": ""
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
+      "id": "so-pas-3d",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "pas_3d_e0",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_e_nb",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_el0",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_el_nb",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_cem_nb",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_max_e",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_max_el",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_max_cem",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_3d_spec",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_2d_elevation",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_2d_cem",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_2d_energy",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_3d_sum",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_3d_tot",
+          "units": "cnts"
+        },
+        {
+          "description": "",
+          "name": "pas_3d_src",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 10S<br/> Provider: IRAP",
+      "id": "so-pas-hk",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_hv_centr",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_hv_perif",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_curr_centr",
+          "units": "uA"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_curr_perif",
+          "units": "uA"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_temp_centr",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_temp_perif",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_heat1_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_heat2_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_heat3_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_hvps_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_anl_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_24v",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_5v",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_hvps_p12v",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_hvps_m12v",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_fpga_3v5",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_fpga_1v5",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_dcdc_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_fpga_temp",
+          "units": "C"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_24v_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_cem_5v_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_hvps_p12v_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_hvps_m12v_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_fpga_3v5_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_fpga_1v5_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_28v_prime_curr",
+          "units": "mA"
+        },
+        {
+          "description": "",
+          "name": "pashk_main_phv",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_main_mhv",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_anl_hv",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_top_hv",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_bot_hv",
+          "units": "V"
+        },
+        {
+          "description": "",
+          "name": "pashk_topcap_hv",
+          "units": "V"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 0.25S; MaxSampling: 10S<br/> Provider: IRAP",
+      "id": "so-pas-mom",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "pas_mom_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "pas_mom_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "pas_mom_t",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "pas_mom_press",
+          "units": "J*cmâ\u0081»Â³"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
+      "id": "so-pas-l2.3d",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "pas_l2_3d_e0",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_l2_3d_enb",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_l2_3d_el0",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_l2_3d_nbel",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_l2_2d_elevation",
+          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "pas_l2_2d_cem",
+          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "pas_l2_2d_energy",
+          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
+      "id": "so-pas-l2.omni",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "pas_omni_e0",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_omni_enb",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_l2_omni",
+          "units": "eV/cmâ\u0081»Â² sâ\u0081»Â¹ eVâ\u0081»Â¹"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 0.25S; MaxSampling: 10S<br/> Provider: IRAP",
+      "id": "so-pas-momgr1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "0: Ground; 1: Normal; 2: Snapshot; 3: Burst; 4: Engineering",
+          "name": "pas_momgr1_info",
+          "units": ""
+        },
+        {
+          "description": "1: V < 270 km/s; 2: V < 380 km/s; 3: V > 380 km/s",
+          "name": "pas_momgr1_validity",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "pas_momgr_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "err = density * sqrt(cnts) / cnts",
+          "name": "pas_momgr_n_err",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "Velocity in SRF frame",
+          "name": "pas_momgr_v",
+          "units": "km/s"
+        },
+        {
+          "description": "Velocity magnitude in SRF frame",
+          "name": "pas_momgr_v_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "err = v * sqrt(t/e_mean)/sqrt(cnts)",
+          "name": "pas_momgr_v_err",
+          "units": "km/s"
+        },
+        {
+          "description": "Velocity in RTN frame",
+          "name": "pas_momgr1_v_rtn",
+          "units": "km/s"
+        },
+        {
+          "description": "Velocity magnitude in RTN frame",
+          "name": "pas_momgr1_v_rtn_tot",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "pas_momgr_tav",
+          "units": "eV"
+        },
+        {
+          "description": "Temperature components (Tx, Ty, Tz) in SRF frame",
+          "name": "pas_momgr_t",
+          "units": "eV"
+        },
+        {
+          "description": "Pressure tensor in SRF frame",
+          "name": "pas_momgr_press",
+          "units": "J*cmâ\u0081»Â³"
         }
       ]
     },
@@ -22272,6 +25793,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "tha-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_tha_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_tha_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "tha-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_tha_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_tha_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_tha_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
       "id": "thb-esa-l2e",
       "parameters": [
@@ -22480,6 +26048,53 @@
         {
           "description": "",
           "name": "thb_bs_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thb-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_thb_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_thb_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thb-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_thb_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_thb_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_thb_xyz",
           "units": "nT"
         }
       ]
@@ -22698,6 +26313,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thc-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_thc_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_thc_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thc-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_thc_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_thc_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_thc_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
       "id": "thd-esa-l2e",
       "parameters": [
@@ -22911,6 +26573,53 @@
       ]
     },
     {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thd-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_thd_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_thd_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "thd-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_thd_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_thd_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_thd_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 96.27S; MaxSampling: 551.0S<br/> Provider: IRAP_THEMIS",
       "id": "the-esa-l2e",
       "parameters": [
@@ -23119,6 +26828,53 @@
         {
           "description": "",
           "name": "the_bs_tot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "the-msph-models",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1970 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle. Valid for Ysm less than 15 Re.",
+          "name": "dz_fairfield70_the_xyz",
+          "units": "Re"
+        },
+        {
+          "description": "Distance (Re) from s/c location to Fairfield1980 neutral sheet position. Depends on spacecraft location in SM coordinates and dipole tilt angle.",
+          "name": "dz_fairfield80_the_xyz",
+          "units": "Re"
+        }
+      ]
+    },
+    {
+      "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "the-t96-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_t96gse_the_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96gsm_the_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_t96tot_the_xyz",
           "units": "nT"
         }
       ]

@@ -1,4 +1,4 @@
-https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Nand Lal, voycrs@gmail.com
+https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Robert Candey, NASA-SPDF-Support@nasa.onmicrosoft.com
 http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@gmu.edu
 http://datashop.elasticbeanstalk.com/hapi, DataShop, DataShop, Jon Vandegriff, jon.vandegriff@jhuapl.edu
 http://planet.physics.uiowa.edu/das/das2Server/hapi, DAS 2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu

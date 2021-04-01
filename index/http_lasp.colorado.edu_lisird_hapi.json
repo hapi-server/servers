@@ -2,6 +2,32 @@
   "catalog": [
     {
       "description": "",
+      "id": "bremen_composite_mgii",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mgii",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "source",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "yeo_nonempirical_tsi_reconstruction",
       "parameters": [
         {

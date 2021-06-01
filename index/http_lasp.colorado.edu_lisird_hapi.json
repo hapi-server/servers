@@ -244,6 +244,27 @@
     },
     {
       "description": "",
+      "id": "nrl2_tsi_prelim_P1M",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "composite_mg_index",
       "parameters": [
         {
@@ -323,6 +344,48 @@
     },
     {
       "description": "",
+      "id": "nrl2_tsi_prelim_P1D",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_ssi_prelim_P1M",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "nrl2_tsi_P1M",
       "parameters": [
         {
@@ -366,6 +429,27 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1D",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_ssi_prelim_P1D",
       "parameters": [
         {
           "description": "",

@@ -18,6 +18,37 @@
     },
     {
       "description": "",
+      "id": "goesp_xray_flux_P1M__GOES-P",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "ModifiedJulianDay",
+          "units": "MJD"
+        },
+        {
+          "description": "",
+          "name": "SecondsOfTheDay",
+          "units": "sec"
+        },
+        {
+          "description": "",
+          "name": "Short_Wave",
+          "units": "Watts/m^2"
+        },
+        {
+          "description": "",
+          "name": "Long_Wave",
+          "units": "Watts/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "NOAA_KP_P3H__NOAA-KP",
       "parameters": [
         {
@@ -4014,37 +4045,6 @@
           "description": "",
           "name": "Long_Wave",
           "units": "Watts/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "goess_mag_p1m__GOES-S",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Hp",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "He",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "Hn",
-          "units": "nT"
-        },
-        {
-          "description": "",
-          "name": "TotalField",
-          "units": "nT"
         }
       ]
     },

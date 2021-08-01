@@ -5080,52 +5080,6 @@
     },
     {
       "description": "<br/> Sampling: 20M<br/> Provider: SPICE",
-      "id": "amalthea-orb-all",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_jsm",
-          "units": "Rj"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_jso",
-          "units": "Rj"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_xyz",
-          "units": "Rj"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_r",
-          "units": "Rj"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_lat",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "amal_jup_lon",
-          "units": "deg"
-        },
-        {
-          "description": "mlat=10.31Â°xcos(196.61Â°-lon_iau_west)+lat_iau",
-          "name": "amal_jup_mlat",
-          "units": "deg"
-        }
-      ]
-    },
-    {
-      "description": "<br/> Sampling: 20M<br/> Provider: SPICE",
       "id": "callisto-orb-all",
       "parameters": [
         {
@@ -8147,42 +8101,6 @@
           "description": "magnetic field spectral power density",
           "name": "gll_pwshr_mag",
           "units": "nTÂ²/Hz"
-        }
-      ]
-    },
-    {
-      "description": "special Galileo ephemeris<br/> Sampling: 300S<br/> Provider: University of Iowa",
-      "id": "gll-eph-pol",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "Galileo Longitude (in System III jovian longitude)",
-          "name": "gll_pol_lon",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo Latitude (relative to Jovian equator)",
-          "name": "gll_pol_lat",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo invariant Magnetic Latitude",
-          "name": "gll_pol_mlat",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo Local Time",
-          "name": "gll_pol_lt",
-          "units": "hours"
-        },
-        {
-          "description": "Galileo Phase relative to Io",
-          "name": "gll_pol_iophase",
-          "units": "deg"
         }
       ]
     },
@@ -12850,47 +12768,6 @@
           "description": "",
           "name": "mes_fips_spec_o",
           "units": "(keV/e)â\u0081»Â¹ sâ\u0081»Â¹ cmâ\u0081»Â² srâ\u0081»Â¹"
-        }
-      ]
-    },
-    {
-      "description": "Ion Observed Densities<br/> Sampling: 60S<br/> Provider: PDS",
-      "id": "mess-fips-nobs",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_h",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_he2",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_he",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_na",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_o",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "mes_fips_n_qual",
-          "units": ""
         }
       ]
     },

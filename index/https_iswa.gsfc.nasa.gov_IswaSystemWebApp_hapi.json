@@ -18,7 +18,7 @@
     },
     {
       "description": "",
-      "id": "goesp_xray_flux_P1M__GOES-P",
+      "id": "ace_swepam_P1M__ACE",
       "parameters": [
         {
           "description": "",
@@ -37,13 +37,23 @@
         },
         {
           "description": "",
-          "name": "Short_Wave",
-          "units": "Watts/m^2"
+          "name": "Status_S",
+          "units": "unknown"
         },
         {
           "description": "",
-          "name": "Long_Wave",
-          "units": "Watts/m^2"
+          "name": "ProtonDensity",
+          "units": "p/cc"
+        },
+        {
+          "description": "",
+          "name": "BulkSpeed",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "IonTemperature",
+          "units": "K"
         }
       ]
     },
@@ -3948,6 +3958,37 @@
           "description": "",
           "name": "P500",
           "units": "Protons/cm^2 - s^-1 - sr"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "goesp_mag_p1m__GOES-P",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "Hp",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "He",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "Hn",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "TotalField",
+          "units": "nT"
         }
       ]
     },

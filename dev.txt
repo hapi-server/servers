@@ -1,4 +1,4 @@
-http://jfaden.net/HapiServerDemo/hapi
+https://jfaden.net/HapiServerDemo/hapi
 https://pds-ppi.igpp.ucla.edu/hapi
 http://hapi.ftecs.com/hapi
 https://staging.viresdisc.vires.services/hapi

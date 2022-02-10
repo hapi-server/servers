@@ -6,3 +6,4 @@ https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi
 http://lasp.colorado.edu/lisird/hapi
 http://hapi-server.org/servers/TestData2.0/hapi
 http://amda.irap.omp.eu/service/hapi
+https://vires.services/hapi

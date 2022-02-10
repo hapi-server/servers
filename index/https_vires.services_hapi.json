@@ -1,0 +1,689 @@
+{
+  "catalog": [
+    {
+      "description": "Swarm A vector (VFM) magnetic field measurements at 50Hz rate.",
+      "id": "SW_OPER_MAGA_HR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF \u2013 Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm A vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
+      "id": "SW_OPER_MAGA_LR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field intensity",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of AOCS magneto-torquer coils",
+          "name": "dF_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of all other sources",
+          "name": "dF_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimate on magnetic field intensity",
+          "name": "F_error",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field intensity measurement (F)",
+          "name": "Flags_F",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "ASM frequency calibration data deviation",
+          "name": "ASM_Freq_Dev",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm B vector (VFM) magnetic field measurements at 50Hz rate.",
+      "id": "SW_OPER_MAGB_HR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF \u2013 Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm B vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
+      "id": "SW_OPER_MAGB_LR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field intensity",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of AOCS magneto-torquer coils",
+          "name": "dF_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of all other sources",
+          "name": "dF_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimate on magnetic field intensity",
+          "name": "F_error",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field intensity measurement (F)",
+          "name": "Flags_F",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "ASM frequency calibration data deviation",
+          "name": "ASM_Freq_Dev",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm C vector (VFM) magnetic field measurements at 50Hz rate.",
+      "id": "SW_OPER_MAGC_HR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF \u2013 Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF \u2013 Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm C vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
+      "id": "SW_OPER_MAGC_LR_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Magnetic field intensity",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of AOCS magneto-torquer coils",
+          "name": "dF_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of all other sources",
+          "name": "dF_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimate on magnetic field intensity",
+          "name": "F_error",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, VFM frame",
+          "name": "B_VFM",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field vector, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of Sun induced perturbation, VFM frame",
+          "name": "dB_Sun",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of AOCS magneto-torquer coils, VFM frame",
+          "name": "dB_AOCS",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction vector of all other sources, VFM frame",
+          "name": "dB_other",
+          "units": "nT"
+        },
+        {
+          "description": "Error estimates on magnetic field, VFM frame",
+          "name": "B_error",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ← CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "Error estimates on attitude information",
+          "name": "Att_error",
+          "units": "mdeg"
+        },
+        {
+          "description": "Flags characterizing the magnetic field intensity measurement (F)",
+          "name": "Flags_F",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the magnetic field measurement",
+          "name": "Flags_B",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the attitude information",
+          "name": "Flags_q",
+          "units": null
+        },
+        {
+          "description": "Flags characterizing the S/C platform information",
+          "name": "Flags_Platform",
+          "units": null
+        },
+        {
+          "description": "ASM frequency calibration data deviation",
+          "name": "ASM_Freq_Dev",
+          "units": null
+        },
+        {
+          "description": "Synchronization status",
+          "name": "SyncStatus",
+          "units": null
+        }
+      ]
+    },
+    {
+      "description": "Swarm A S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
+      "id": "SW_OPER_MODA_SC_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        }
+      ]
+    },
+    {
+      "description": "Swarm B S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
+      "id": "SW_OPER_MODB_SC_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        }
+      ]
+    },
+    {
+      "description": "Swarm C S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
+      "id": "SW_OPER_MODC_SC_1B",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        }
+      ]
+    }
+  ],
+  "id": "https://vires.services/hapi"
+}

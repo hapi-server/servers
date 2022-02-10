@@ -130,6 +130,22 @@
       ]
     },
     {
+      "description": "ACE SWEPAM electron pitch angle data at 272eV<br/> Sampling: 60S<br/> Provider: CalTech",
+      "id": "ace-swepam-stea",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "ace_swepam_stea_epa",
+          "units": "sÂ³ cmâ\u0081»â\u0081¶"
+        }
+      ]
+    },
+    {
       "description": "Preliminary, 5-min averages<br/> Sampling: 5M<br/> Provider: CDAWeb",
       "id": "ace-swp-all",
       "parameters": [
@@ -1048,12 +1064,27 @@
         {
           "description": "position in LSE coordinates",
           "name": "athp1_xyz_lse",
-          "units": "km"
+          "units": "Rmo"
         },
         {
           "description": "",
           "name": "athp1_r",
           "units": "km"
+        },
+        {
+          "description": "",
+          "name": "athp1_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "athp1_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "athp1_rsun",
+          "units": "AU"
         }
       ]
     },
@@ -1280,12 +1311,27 @@
         {
           "description": "position in LSE coordinates",
           "name": "athp2_xyz_lse",
-          "units": "km"
+          "units": "Rmo"
         },
         {
           "description": "",
           "name": "athp2_r",
           "units": "km"
+        },
+        {
+          "description": "",
+          "name": "athp2_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "athp2_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "athp2_rsun",
+          "units": "AU"
         }
       ]
     },
@@ -1444,6 +1490,68 @@
       ]
     },
     {
+      "description": "<br/> Sampling: 60S<br/> Provider: ESAC",
+      "id": "bepi-orb-venus1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "bepi_xyz_vso1",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "bepi_venus1_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_bepi_venus1",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_bepi_venus1",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: ESAC",
+      "id": "bepi-orb-venus2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "bepi_xyz_vso2",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "bepi_venus2_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_bepi_venus2",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_bepi_venus2",
+          "units": "deg"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 1S; MaxSampling: 32S<br/> Provider: PDS",
       "id": "cass-caps-act",
       "parameters": [
@@ -1540,8 +1648,13 @@
           "units": ""
         },
         {
-          "description": "electron count rate",
+          "description": "energy spectrogram of electron count rates",
           "name": "cass_caps_els",
+          "units": "cnts.sâ\u0081»Â¹"
+        },
+        {
+          "description": "energy spectrogram of electron count rates",
+          "name": "cass_caps_els_sum",
           "units": "cnts.sâ\u0081»Â¹"
         }
       ]
@@ -1719,8 +1832,13 @@
           "units": ""
         },
         {
-          "description": "Energy-time spectrogram of ion count rates",
+          "description": "energy spectrogram of ion count rates",
           "name": "cass_caps_sng",
+          "units": "cnts.sâ\u0081»Â¹"
+        },
+        {
+          "description": "energy spectrogram of ion count rates",
+          "name": "cass_caps_sng_sum",
           "units": "cnts.sâ\u0081»Â¹"
         }
       ]
@@ -2078,6 +2196,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "cass_bmag_orb1s",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "cass_b_rtn1s_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "cass_b_rtn1s_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -2114,6 +2242,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "cass_bmag_orb",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "cass_b_rtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "cass_b_rtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -2145,6 +2283,16 @@
           "description": "Magnetic field vector magnitude",
           "name": "cass_bmag_jup",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "cass_b_jup_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "cass_b_jup_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -2166,6 +2314,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "cass_bmag_rtn1",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "cass_b_rtn1_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "cass_b_rtn1_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -2187,6 +2345,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "cass_bmag_rtn60",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "cass_b_rtn60_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "cass_b_rtn60_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -4799,6 +4967,11 @@
           "description": "Double Star 1 FGM magnetic field vectors at spin resolution in GSM Coordinates in units of nT.",
           "name": "ds1_b_gsm",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "dstar1_fgm_prp_bt",
+          "units": "nT"
         }
       ]
     },
@@ -5074,6 +5247,52 @@
         {
           "description": "",
           "name": "earth_lat_hee",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 20M<br/> Provider: SPICE",
+      "id": "amalthea-orb-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_jsm",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_jso",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_xyz",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_r",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "amal_jup_lon",
+          "units": "deg"
+        },
+        {
+          "description": "mlat=10.31Â°xcos(196.61Â°-lon_iau_west)+lat_iau",
+          "name": "amal_jup_mlat",
           "units": "deg"
         }
       ]
@@ -8105,6 +8324,42 @@
       ]
     },
     {
+      "description": "special Galileo ephemeris<br/> Sampling: 300S<br/> Provider: University of Iowa",
+      "id": "gll-eph-pol",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Galileo Longitude (in System III jovian longitude)",
+          "name": "gll_pol_lon",
+          "units": "deg"
+        },
+        {
+          "description": "Galileo Latitude (relative to Jovian equator)",
+          "name": "gll_pol_lat",
+          "units": "deg"
+        },
+        {
+          "description": "Galileo invariant Magnetic Latitude",
+          "name": "gll_pol_mlat",
+          "units": "deg"
+        },
+        {
+          "description": "Galileo Local Time",
+          "name": "gll_pol_lt",
+          "units": "hours"
+        },
+        {
+          "description": "Galileo Phase relative to Io",
+          "name": "gll_pol_iophase",
+          "units": "deg"
+        }
+      ]
+    },
+    {
       "description": "<br/> MinSampling: 0.3S; MaxSampling: 0.666S<br/> Provider: PDS",
       "id": "gll-orb-burst",
       "parameters": [
@@ -9456,6 +9711,16 @@
           "description": "Magnetic field standard deviation",
           "name": "helios1_e3_std",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "helios1_e3_brtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "helios1_e3_brtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -9656,6 +9921,16 @@
           "description": "Magnetic field standard deviation",
           "name": "helios2_e3_std",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "helios2_e3_brtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "helios2_e3_brtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -9910,6 +10185,11 @@
           "description": "Triaxial magnetic field vector in GSM coordinates",
           "name": "b_isee1_gse",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "isee1_mag_all_bt",
+          "units": "nT"
         }
       ]
     },
@@ -9972,6 +10252,11 @@
         {
           "description": "Triaxial magnetic field vector in GSE coordinates",
           "name": "b_isee2_gse",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "isee2_mag_all_bt",
           "units": "nT"
         }
       ]
@@ -10082,6 +10367,32 @@
         {
           "description": "",
           "name": "dst",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "SuperMAG SML, SMU, SME indices<br/> Sampling: 1M<br/> Provider: SuperMAG",
+      "id": "ground-based-sme",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "sme",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "smu",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "sml",
           "units": "nT"
         }
       ]
@@ -10260,6 +10571,205 @@
           "description": "",
           "name": "b_t96tot_it_xyz",
           "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
+      "id": "jason-amb-ele",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "High resolution electron count rate data for ELE1 detection head",
+          "name": "jason_amb_ect1",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution electron count rate data for ELE2 detection head",
+          "name": "jason_amb_ect2",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution electron count rate data for ELE3 detection head",
+          "name": "jason_amb_ect3",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution electron count rate data for ELE4 detection head",
+          "name": "jason_amb_ect4",
+          "units": "s-1"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_epa1",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_epa2",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_epa3",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_epa4",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_epaeq1",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_epaeq2",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_epaeq3",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_epaeq4",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
+      "id": "jason-amb-ion",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "High resolution ion count rate data for ION1 detection head",
+          "name": "jason_amb_ict1",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution ion count rate data for ION2 detection head",
+          "name": "jason_amb_ict2",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution ion count rate data for ION3 detection head",
+          "name": "jason_amb_ict3",
+          "units": "s-1"
+        },
+        {
+          "description": "High resolution ion count rate data for ION4 detection head",
+          "name": "jason_amb_ict4",
+          "units": "s-1"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_ipa1",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_ipa2",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_ipa3",
+          "units": "deg"
+        },
+        {
+          "description": "pitch angle",
+          "name": "jason_amb_ipa4",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_ipaeq1",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_ipaeq2",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_ipaeq3",
+          "units": "deg"
+        },
+        {
+          "description": "equatorial pitch angle",
+          "name": "jason_amb_ipaeq4",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
+      "id": "jason-amb-mag",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "calculated magnetic field strength",
+          "name": "jason_amb_b",
+          "units": "nT"
+        },
+        {
+          "description": "calculated magnetic field strength at magnetic equator",
+          "name": "jason_amb_beq",
+          "units": "nT"
+        },
+        {
+          "description": "Longitudinal adiabatic invariant",
+          "name": "jason_amb_i",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "JASON3 position in GEO coordinates, L and L* parameters<br/> Sampling: 0.522S<br/> Provider: CNES",
+      "id": "jason-amb-pos",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "jason_amb_xyz",
+          "units": "km"
+        },
+        {
+          "description": "Calculated McIlwain's L parameter",
+          "name": "jason_amb_l",
+          "units": "Re"
+        },
+        {
+          "description": "Calculated Roederer's L* parameter",
+          "name": "jason_amb_lstar",
+          "units": "Re"
+        },
+        {
+          "description": "Calculated Magnetic Local Time",
+          "name": "jason_amb_mlt",
+          "units": "hours"
         }
       ]
     },
@@ -12772,6 +13282,47 @@
       ]
     },
     {
+      "description": "Ion Observed Densities<br/> Sampling: 60S<br/> Provider: PDS",
+      "id": "mess-fips-nobs",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_h",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_he2",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_he",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_na",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_o",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "mes_fips_n_qual",
+          "units": ""
+        }
+      ]
+    },
+    {
       "description": "Ion Moments<br/> Sampling: 60S<br/> Provider: PDS",
       "id": "mess-fips-ntp",
       "parameters": [
@@ -12835,6 +13386,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "mes_bmag_rtn1s",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "mes_b_rtn1s_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "mes_b_rtn1s_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -12856,6 +13417,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "mes_bmag_rtn1m",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "mes_b_rtn1m_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "mes_b_rtn1m_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -12887,6 +13458,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "mes_bmag_orb1s",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "mes_b_orbrtn1s_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "mes_b_orbrtn1s_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -12918,6 +13499,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "mes_bmag_orb1m",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "mes_b_orbrtn1m_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "mes_b_orbrtn1m_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -12949,6 +13540,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "mes_bmag_orb",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "mes_b_orbrtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "mes_b_orbrtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -13705,7 +14306,7 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
+      "description": "<br/> Sampling: 30S<br/> Provider: LANL",
       "id": "mms1-orb-t89d",
       "parameters": [
         {
@@ -13717,11 +14318,21 @@
           "description": "Spacecraft position in GSE",
           "name": "mms1_xyz_gse",
           "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in GSM",
+          "name": "mms1_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "mms1_r",
+          "units": "Re"
         }
       ]
     },
     {
-      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: LASP",
       "id": "mms1-fgm-brst",
       "parameters": [
         {
@@ -13747,7 +14358,7 @@
       ]
     },
     {
-      "description": "survey<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: IRAP",
+      "description": "survey<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: LASP",
       "id": "mms1-fgm-srvy",
       "parameters": [
         {
@@ -13778,7 +14389,78 @@
       ]
     },
     {
-      "description": "ion moments : survey mode<br/> Sampling: 10S<br/> Provider: IRAP",
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
+      "id": "mms1-hpca-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "H+ Flux for all elevation anodes across all energies",
+          "name": "mms1_hpca_hfl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "H+ Flux for  all energies",
+          "name": "mms1_hpca_hfl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_hq",
+          "units": ""
+        },
+        {
+          "description": "He Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_hefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He Flux for  all energies",
+          "name": "mms1_hpca_hefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_heq",
+          "units": ""
+        },
+        {
+          "description": "He++ Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_heefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He++ Flux for  all energies",
+          "name": "mms1_hpca_heefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_heeq",
+          "units": ""
+        },
+        {
+          "description": "O+ Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_ofl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "O+ Flux for  all energies",
+          "name": "mms1_hpca_ofl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_oq",
+          "units": ""
+        }
+      ]
+    },
+    {
+      "description": "ion moments : survey mode<br/> Sampling: 10S<br/> Provider: LASP",
       "id": "mms1-hpca-moms",
       "parameters": [
         {
@@ -14069,6 +14751,77 @@
       ]
     },
     {
+      "description": "ion flux spectrograms : survey mode<br/> Sampling: 0.625S<br/> Provider: LASP",
+      "id": "mms1-hpca-srvy",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "H+ Flux for all elevation anodes across all energies",
+          "name": "mms1_hpca_srvy_hfl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "H+ Flux for  all energies",
+          "name": "mms1_hpca_srvy_hfl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_srvy_hq",
+          "units": ""
+        },
+        {
+          "description": "He Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_srvy_hefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He Flux for  all energies",
+          "name": "mms1_hpca_srvy_hefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_srvy_heq",
+          "units": ""
+        },
+        {
+          "description": "He++ Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_srvy_heefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He++ Flux for  all energies",
+          "name": "mms1_hpca_srvy_heefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_srvy_heeq",
+          "units": ""
+        },
+        {
+          "description": "O+ Flux for all elevation anodes accross all energies",
+          "name": "mms1_hpca_srvy_ofl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "O+ Flux for  all energies",
+          "name": "mms1_hpca_srvy_ofl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms1_hpca_srvy_oq",
+          "units": ""
+        }
+      ]
+    },
+    {
       "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
       "id": "mms1-msph-models",
       "parameters": [
@@ -14117,6 +14870,67 @@
     },
     {
       "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
+      "id": "mms1234-orb-t89d",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spacecraft barycenter position in GSE",
+          "name": "mms1234_xyz_bary_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Spacecraft barycenter position in GSM",
+          "name": "mms1234_xyz_bary_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "MMS1 barycenter separation in GSE",
+          "name": "mms1234_sep_mms1_gse",
+          "units": "km"
+        },
+        {
+          "description": "MMS1 barycenter separation in GSM",
+          "name": "mms1234_sep_mms1_gsm",
+          "units": "km"
+        },
+        {
+          "description": "MMS2 barycenter separation in GSE",
+          "name": "mms1234_sep_mms2_gse",
+          "units": "km"
+        },
+        {
+          "description": "MMS2 barycenter separation in GSM",
+          "name": "mms1234_sep_mms2_gsm",
+          "units": "km"
+        },
+        {
+          "description": "MMS3 barycenter separation in GSE",
+          "name": "mms1234_sep_mms3_gse",
+          "units": "km"
+        },
+        {
+          "description": "MMS3 barycenter separation in GSM",
+          "name": "mms1234_sep_mms3_gsm",
+          "units": "km"
+        },
+        {
+          "description": "MMS4 barycenter separation in GSE",
+          "name": "mms1234_sep_mms4_gse",
+          "units": "km"
+        },
+        {
+          "description": "MMS4 barycenter separation in GSM",
+          "name": "mms1234_sep_mms4_gsm",
+          "units": "km"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 30S<br/> Provider: LANL",
       "id": "mms2-orb-t89d",
       "parameters": [
         {
@@ -14128,11 +14942,21 @@
           "description": "Spacecraft position in GSE",
           "name": "mms2_xyz_gse",
           "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in GSM",
+          "name": "mms2_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "mms2_r",
+          "units": "Re"
         }
       ]
     },
     {
-      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: LASP",
       "id": "mms2-fgm-brst",
       "parameters": [
         {
@@ -14154,6 +14978,108 @@
           "description": "",
           "name": "mms2_brst_btot",
           "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "survey<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: LASP",
+      "id": "mms2-fgm-srvy",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms2_b_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms2_b_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms2_b_tot",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms2_pres_m",
+          "units": "nPa"
+        }
+      ]
+    },
+    {
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
+      "id": "mms2-hpca-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "H+ Flux for all elevation anodes accross all energies",
+          "name": "mms2_hpca_hfl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "H+ Flux for  all energies",
+          "name": "mms2_hpca_hfl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms2_hpca_hq",
+          "units": ""
+        },
+        {
+          "description": "He Flux for all elevation anodes accross all energies",
+          "name": "mms2_hpca_hefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He Flux for  all energies",
+          "name": "mms2_hpca_hefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms2_hpca_heq",
+          "units": ""
+        },
+        {
+          "description": "He++ Flux for all elevation anodes accross all energies",
+          "name": "mms2_hpca_heefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He++ Flux for  all energies",
+          "name": "mms2_hpca_heefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms2_hpca_heeq",
+          "units": ""
+        },
+        {
+          "description": "O+ Flux for all elevation anodes accross all energies",
+          "name": "mms2_hpca_ofl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "O+ Flux for  all energies",
+          "name": "mms2_hpca_ofl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms2_hpca_oq",
+          "units": ""
         }
       ]
     },
@@ -14205,7 +15131,7 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
+      "description": "<br/> Sampling: 30S<br/> Provider: LANL",
       "id": "mms3-orb-t89d",
       "parameters": [
         {
@@ -14217,11 +15143,21 @@
           "description": "Spacecraft position in GSE",
           "name": "mms3_xyz_gse",
           "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in GSM",
+          "name": "mms3_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "mms3_r",
+          "units": "Re"
         }
       ]
     },
     {
-      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: LASP",
       "id": "mms3-fgm-brst",
       "parameters": [
         {
@@ -14243,6 +15179,108 @@
           "description": "",
           "name": "mms3_brst_btot",
           "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "survey<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: LASP",
+      "id": "mms3-fgm-srvy",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms3_b_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms3_b_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms3_b_tot",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms3_pres_m",
+          "units": "nPa"
+        }
+      ]
+    },
+    {
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
+      "id": "mms3-hpca-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "H+ Flux for all elevation anodes accross all energies",
+          "name": "mms3_hpca_hfl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "H+ Flux for  all energies",
+          "name": "mms3_hpca_hfl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms3_hpca_hq",
+          "units": ""
+        },
+        {
+          "description": "He Flux for all elevation anodes accross all energies",
+          "name": "mms3_hpca_hefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He Flux for  all energies",
+          "name": "mms3_hpca_hefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms3_hpca_heq",
+          "units": ""
+        },
+        {
+          "description": "He++ Flux for all elevation anodes accross all energies",
+          "name": "mms3_hpca_heefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He++ Flux for  all energies",
+          "name": "mms3_hpca_heefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms3_hpca_heeq",
+          "units": ""
+        },
+        {
+          "description": "O+ Flux for all elevation anodes accross all energies",
+          "name": "mms3_hpca_ofl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "O+ Flux for  all energies",
+          "name": "mms3_hpca_ofl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms3_hpca_oq",
+          "units": ""
         }
       ]
     },
@@ -14294,7 +15332,7 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 30S<br/> Provider: IRAP",
+      "description": "<br/> Sampling: 30S<br/> Provider: LANL",
       "id": "mms4-orb-t89d",
       "parameters": [
         {
@@ -14306,11 +15344,21 @@
           "description": "Spacecraft position in GSE",
           "name": "mms4_xyz_gse",
           "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in GSM",
+          "name": "mms4_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "mms4_r",
+          "units": "Re"
         }
       ]
     },
     {
-      "description": "burst<br/> Sampling: 0.01S<br/> Provider: IRAP",
+      "description": "burst<br/> Sampling: 0.01S<br/> Provider: LASP",
       "id": "mms4-fgm-brst",
       "parameters": [
         {
@@ -14332,6 +15380,108 @@
           "description": "",
           "name": "mms4_brst_btot",
           "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "survey<br/> MinSampling: 0.0625S; MaxSampling: 0.125S<br/> Provider: LASP",
+      "id": "mms4-fgm-srvy",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mms4_b_gse",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms4_b_gsm",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms4_b_tot",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "mms4_pres_m",
+          "units": "nPa"
+        }
+      ]
+    },
+    {
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
+      "id": "mms4-hpca-brst",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "H+ Flux for all elevation anodes accross all energies",
+          "name": "mms4_hpca_hfl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "H+ Flux for  all energies",
+          "name": "mms4_hpca_hfl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms4_hpca_hq",
+          "units": ""
+        },
+        {
+          "description": "He Flux for all elevation anodes accross all energies",
+          "name": "mms4_hpca_hefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He Flux for  all energies",
+          "name": "mms4_hpca_hefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms4_hpca_heq",
+          "units": ""
+        },
+        {
+          "description": "He++ Flux for all elevation anodes accross all energies",
+          "name": "mms4_hpca_heefl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "He++ Flux for  all energies",
+          "name": "mms4_hpca_heefl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms4_hpca_heeq",
+          "units": ""
+        },
+        {
+          "description": "O+ Flux for all elevation anodes accross all energies",
+          "name": "mms4_hpca_ofl",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "O+ Flux for  all energies",
+          "name": "mms4_hpca_ofl_elevation",
+          "units": "keV/((cmÂ²-s-sr-keV))"
+        },
+        {
+          "description": "",
+          "name": "mms4_hpca_oq",
+          "units": ""
         }
       ]
     },
@@ -14379,6 +15529,390 @@
           "description": "",
           "name": "b_t96tot_mms4_xyz_gse",
           "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-m1-orb",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_xyz_mso",
+          "units": "Rme"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_xyz_mseq",
+          "units": "Rme"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_r",
+          "units": "Rme"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_lat",
+          "units": "degrees"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_lon",
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-m2-orb",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m2_xyz_seq",
+          "units": "AU"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-m3-orb",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m3_xyz",
+          "units": "AU"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic field data high resolution<br/> Sampling: 0.04S<br/> Provider: PDS",
+      "id": "m10-mag-m1highres",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_hr_b_mseq",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_m1_hr_bt",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic field data 6s average<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-mag-m1mean6s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_b_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_bt",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_b_mseq",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_b_pc",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic field data 6s average<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-mag-m2mean6s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m2_b_seq",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_m2_bt",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic field data, high resolution<br/> Sampling: 0.04S<br/> Provider: PDS",
+      "id": "m10-mag-m3highres",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m3_hr_b_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_m3_hr_bt",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Magnetic field data 6s average<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-mag-m3mean6s",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_m3_b_mso",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "m10_m3_bt",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m1count",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1count_el",
+          "units": "cnts"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m1mom",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_ht",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_c1t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_c2t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_mt",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_hd",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_c1d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_c2d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m1mom_md",
+          "units": "cmâ\u0081»Â³"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m2count",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2count_el",
+          "units": "cnts"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m2mom",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_ht",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_c1t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_c2t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_mt",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_hd",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_c1d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_c2d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m2mom_md",
+          "units": "cmâ\u0081»Â³"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m3count",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3count_el",
+          "units": "cnts"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 6S<br/> Provider: PDS",
+      "id": "m10-pls-m3mom",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_ht",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_c1t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_c2t",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_mt",
+          "units": "K"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_hd",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_c1d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_c2d",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "m10_pls_m3mom_md",
+          "units": "cmâ\u0081»Â³"
         }
       ]
     },
@@ -14559,7 +16093,7 @@
           "units": ""
         },
         {
-          "description": "",
+          "description": "The standard Kp values look like 0, 0+, 1-, 1, 1+, 2-, ... but are stored as Kp = 0, 3, 7, 10, 13, 17, ... in the OMNI data set. We have mapped 0+ to 3, 1- to 7, 1 to 10, 1+ to 13, 2- to 17, etc.",
           "name": "omni_kp",
           "units": ""
         },
@@ -14779,6 +16313,16 @@
           "description": "Magnetic field magnitude (60 sec)",
           "name": "psp_b_1min_tot",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "psp_b_1min_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "psp_b_1min_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -14799,6 +16343,100 @@
         {
           "description": "Magnetic field magnitude (4 sa/cyc)",
           "name": "psp_b_4cyc_tot",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "psp_b_4cyc_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "psp_b_4cyc_theta",
+          "units": "degrees"
+        }
+      ]
+    },
+    {
+      "description": "VENUS FLYBY #1, PSP FIELDS Fluxgate Magnetometer data, level 2, VSO coordinates<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
+      "id": "psp-mag-vflyby1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic field vector in VSO Cartesian coordinates",
+          "name": "psp_vflyby1_b_vso",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "psp_vflyby1_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "VENUS FLYBY #2, PSP FIELDS Fluxgate Magnetometer data, level 2, VSO coordinates<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
+      "id": "psp-mag-vflyby2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic field vector in VSO Cartesian coordinates",
+          "name": "psp_vflyby2_b_vso",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "psp_vflyby2_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "VENUS FLYBY #3, PSP FIELDS Fluxgate Magnetometer data, level 2, VSO coordinates<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
+      "id": "psp-mag-vflyby3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic field vector in VSO Cartesian coordinates",
+          "name": "psp_vflyby3_b_vso",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "psp_vflyby3_btot",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "VENUS FLYBY #4, PSP FIELDS Fluxgate Magnetometer data, level 2, VSO coordinates<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
+      "id": "psp-mag-vflyby4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Magnetic field vector in VSO Cartesian coordinates",
+          "name": "psp_vflyby4_b_vso",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic field magnitude",
+          "name": "psp_vflyby4_btot",
           "units": "nT"
         }
       ]
@@ -14902,6 +16540,130 @@
           "description": "",
           "name": "psp_orb_num",
           "units": ""
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: NASA",
+      "id": "psp-orb-venus1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "psp_xyz_vso1",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "psp_venus1_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_psp_venus1",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_psp_venus1",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: NASA",
+      "id": "psp-orb-venus2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "psp_xyz_vso2",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "psp_venus2_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_psp_venus2",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_psp_venus2",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: NASA",
+      "id": "psp-orb-venus3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "psp_xyz_vso3",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "psp_venus3_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_psp_venus3",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_psp_venus3",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: NASA",
+      "id": "psp-orb-venus4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "psp_xyz_vso4",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "psp_venus4_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_psp_venus4",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_psp_venus4",
+          "units": "deg"
         }
       ]
     },
@@ -15195,23 +16957,13 @@
           "units": "eV"
         },
         {
-          "description": "Temperature Tensor in RTN frame",
-          "name": "psp_spi_Hwt",
+          "description": "Temperature Tensor in instrument frame",
+          "name": "psp_spi_Hwt_inst",
           "units": "eV"
         },
         {
-          "description": "Temperature Tensor in SC frame",
-          "name": "psp_spi_Hwt_sc",
-          "units": "eV"
-        },
-        {
-          "description": "Particle Velocity in RTN frame",
-          "name": "psp_spi_Hv",
-          "units": "km/s"
-        },
-        {
-          "description": "Particle Velocity in SC frame",
-          "name": "psp_spi_Hv_sc",
+          "description": "Particle Velocity in instrument frame",
+          "name": "psp_spi_Hv_inst",
           "units": "km/s"
         }
       ]
@@ -15278,23 +17030,13 @@
           "units": "eV"
         },
         {
-          "description": "Temperature Tensor in RTN frame",
-          "name": "psp_spi_awt",
+          "description": "Temperature Tensor in instrument frame",
+          "name": "psp_spi_awt_inst",
           "units": "eV"
         },
         {
-          "description": "Temperature Tensor in SC frame",
-          "name": "psp_spi_awt_sc",
-          "units": "eV"
-        },
-        {
-          "description": "Particle Velocity in RTN frame",
-          "name": "psp_spi_av",
-          "units": "km/s"
-        },
-        {
-          "description": "Particle Velocity in SC frame",
-          "name": "psp_spi_av_sc",
+          "description": "Particle Velocity in instrument frame",
+          "name": "psp_spi_av_inst",
           "units": "km/s"
         }
       ]
@@ -16485,6 +18227,16 @@
           "description": "Hourly average of fine time scale magnetic field magnitudes",
           "name": "p10_bmag_full",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "p10_b_full_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "p10_b_full_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -16537,6 +18289,16 @@
           "description": "Hourly average of fine time scale magnetic field magnitudes",
           "name": "p11_bmag_full",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "p11_b_full_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "p11_b_full_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -17469,6 +19231,27 @@
       ]
     },
     {
+      "description": "plasma density proxy<br/> MinSampling: 2.65S; MaxSampling: 128S<br/> Provider: PSA",
+      "id": "ros-mip-estim",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "ros_mip_dens",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "ros_mip_unc",
+          "units": "cmâ\u0081»Â³"
+        }
+      ]
+    },
+    {
       "description": "long Debye length mode : power<br/> MinSampling: 2.5S; MaxSampling: 32S<br/> Provider: LPC2E via ImperialCollege",
       "id": "ros-mip-ldl",
       "parameters": [
@@ -17561,6 +19344,37 @@
           "description": "",
           "name": "ros_mip_survph",
           "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "density / pressure from COPS sensor : preliminary<br/> Sampling: 60S<br/> Provider: University of Bern via ImperialCollege",
+      "id": "ros-rsn-den",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "ros_rsn_n_ng",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "ros_rsn_p_ng",
+          "units": "nPa"
+        },
+        {
+          "description": "",
+          "name": "ros_rsn_p_rg",
+          "units": "nPa"
+        },
+        {
+          "description": "",
+          "name": "ros_rsn_proxy",
+          "units": "molecules/m"
         }
       ]
     },
@@ -18565,6 +20379,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "sta_btot_1min",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "sta_b_rtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "sta_b_rtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -18586,6 +20410,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "sta_btot",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "sta_b_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "sta_b_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -18621,7 +20455,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 day rate<br/> Sampling: 24H<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 day rate<br/> Sampling: 24H<br/> Provider: University of Kiel",
       "id": "sta-sept-1day",
       "parameters": [
         {
@@ -18652,7 +20486,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 hour rate<br/> Sampling: 1H<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 hour rate<br/> Sampling: 1H<br/> Provider: University of Kiel",
       "id": "sta-sept-1hour",
       "parameters": [
         {
@@ -18683,7 +20517,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 minute rate<br/> Sampling: 60S<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 minute rate<br/> Sampling: 60S<br/> Provider: University of Kiel",
       "id": "sta-sept-1min",
       "parameters": [
         {
@@ -19898,6 +21732,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "stb_btot_1min",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "stb_b_rtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "stb_b_rtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -19919,6 +21763,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "stb_btot",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "stb_b_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "stb_b_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -19954,7 +21808,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 day rate<br/> Sampling: 24H<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 day rate<br/> Sampling: 24H<br/> Provider: University of Kiel",
       "id": "stb-sept-1day",
       "parameters": [
         {
@@ -19985,7 +21839,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 hour rate<br/> Sampling: 1H<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 hour rate<br/> Sampling: 1H<br/> Provider: University of Kiel",
       "id": "stb-sept-1hour",
       "parameters": [
         {
@@ -20016,7 +21870,7 @@
       ]
     },
     {
-      "description": "Electron and Proton flux 1 minute rate<br/> Sampling: 60S<br/> Provider: IRAP",
+      "description": "Electron and Proton flux 1 minute rate<br/> Sampling: 60S<br/> Provider: University of Kiel",
       "id": "stb-sept-1min",
       "parameters": [
         {
@@ -24860,8 +26714,8 @@
       ]
     },
     {
-      "description": "Two SolO Venus flybys<br/> Sampling: 1H<br/> Provider: ESA",
-      "id": "so-orb-venus",
+      "description": "<br/> Sampling: 60S<br/> Provider: ESA",
+      "id": "so-orb-venus1",
       "parameters": [
         {
           "description": "",
@@ -24870,22 +26724,53 @@
         },
         {
           "description": "",
-          "name": "so_xyz_vso",
+          "name": "so_xyz_vso1",
           "units": "Rv"
         },
         {
           "description": "",
-          "name": "so_venus_r",
+          "name": "so_venus1_r",
           "units": "Rv"
         },
         {
           "description": "",
-          "name": "lon_so_venus",
+          "name": "lon_so_venus1",
           "units": "deg"
         },
         {
           "description": "",
-          "name": "lat_so_venus",
+          "name": "lat_so_venus1",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 60S<br/> Provider: ESA",
+      "id": "so-orb-venus2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "so_xyz_vso2",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "so_venus2_r",
+          "units": "Rv"
+        },
+        {
+          "description": "",
+          "name": "lon_so_venus2",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "lat_so_venus2",
           "units": "deg"
         }
       ]
@@ -24913,6 +26798,16 @@
           "description": "Magnetic field magnitude",
           "name": "solo_b_tot_8s",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "solo_b_rtn_8s_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "solo_b_rtn_8s_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -24934,6 +26829,16 @@
           "description": "Magnetic field magnitude",
           "name": "solo_b_rtn_tot",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "solo_b_rtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "solo_b_rtn_theta",
+          "units": "degrees"
         },
         {
           "description": "Flag setting: 0: Bad data; 1: Known problems use at your own risk; 2: Survey data, possibly \n              not publication quality; 3: Good for publication subject to PI approval; 4: Excellent data which has received special treatment",
@@ -24960,6 +26865,16 @@
           "description": "Magnetic field magnitude",
           "name": "solo_b_rtn_hr_tot",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "solo_b_rtn_hr_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "solo_b_rtn_hr_theta",
+          "units": "degrees"
         },
         {
           "description": "Flag setting: 0: Bad data; 1: Known problems use at your own risk; 2: Survey data, possibly \n               not publication quality; 3: Good for publication subject to PI approval; 4: Excellent data which has received special treatment",
@@ -24995,8 +26910,8 @@
       ]
     },
     {
-      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
-      "id": "so-pas-3d",
+      "description": "<br/> Sampling: 10S<br/> Provider: SOAR",
+      "id": "solo-rpw-density10s",
       "parameters": [
         {
           "description": "",
@@ -25004,287 +26919,15 @@
           "units": "UTC"
         },
         {
-          "description": "",
-          "name": "pas_3d_e0",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_e_nb",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_el0",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_el_nb",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_cem_nb",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_max_e",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_max_el",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_max_cem",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_3d_spec",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_2d_elevation",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_2d_cem",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_2d_energy",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_3d_sum",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_3d_tot",
-          "units": "cnts"
-        },
-        {
-          "description": "",
-          "name": "pas_3d_src",
-          "units": ""
-        }
-      ]
-    },
-    {
-      "description": "<br/> Sampling: 10S<br/> Provider: IRAP",
-      "id": "so-pas-hk",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_hv_centr",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_hv_perif",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_curr_centr",
-          "units": "uA"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_curr_perif",
-          "units": "uA"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_temp_centr",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_temp_perif",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_heat1_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_heat2_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_heat3_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_hvps_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_anl_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_24v",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_5v",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_hvps_p12v",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_hvps_m12v",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_fpga_3v5",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_fpga_1v5",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_dcdc_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_fpga_temp",
-          "units": "C"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_24v_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_cem_5v_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_hvps_p12v_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_hvps_m12v_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_fpga_3v5_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_fpga_1v5_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_28v_prime_curr",
-          "units": "mA"
-        },
-        {
-          "description": "",
-          "name": "pashk_main_phv",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_main_mhv",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_anl_hv",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_top_hv",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_bot_hv",
-          "units": "V"
-        },
-        {
-          "description": "",
-          "name": "pashk_topcap_hv",
-          "units": "V"
-        }
-      ]
-    },
-    {
-      "description": "<br/> MinSampling: 0.25S; MaxSampling: 10S<br/> Provider: IRAP",
-      "id": "so-pas-mom",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "pas_mom_n",
+          "description": "Plasma density derived from probe-to-spacecraft potential and electron plasma frequency. Median value over 10 s interval.",
+          "name": "solo_rpw10s_ne",
           "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "pas_mom_v",
-          "units": "km/s"
-        },
-        {
-          "description": "",
-          "name": "pas_mom_t",
-          "units": "eV"
-        },
-        {
-          "description": "",
-          "name": "pas_mom_press",
-          "units": "J*cmâ\u0081»Â³"
         }
       ]
     },
     {
-      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
-      "id": "so-pas-l2.3d",
+      "description": "<br/> Sampling: 10S<br/> Provider: SOAR",
+      "id": "solo-rpw-efield10s",
       "parameters": [
         {
           "description": "",
@@ -25292,45 +26935,15 @@
           "units": "UTC"
         },
         {
-          "description": "",
-          "name": "pas_l2_3d_e0",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_l2_3d_enb",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_l2_3d_el0",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_l2_3d_nbel",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_l2_2d_elevation",
-          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "pas_l2_2d_cem",
-          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
-        },
-        {
-          "description": "",
-          "name": "pas_l2_2d_energy",
-          "units": "cmâ\u0081»â\u0081¶ sâ\u0081»Â³"
+          "description": "Electric field vector in SRF. Median value over 10 s interval.",
+          "name": "solo_rpw10s_esrf",
+          "units": "mV/m"
         }
       ]
     },
     {
-      "description": "<br/> Sampling: 4S<br/> Provider: IRAP",
-      "id": "so-pas-l2.omni",
+      "description": "<br/> Sampling: 10S<br/> Provider: SOAR",
+      "id": "solo-rpw-scpot10s",
       "parameters": [
         {
           "description": "",
@@ -25338,90 +26951,14 @@
           "units": "UTC"
         },
         {
-          "description": "",
-          "name": "pas_omni_e0",
-          "units": ""
+          "description": "Spacecraft potential with respect to plasma. Median value over 10 s interval.",
+          "name": "solo_rpw10s_scpot",
+          "units": "V"
         },
         {
-          "description": "",
-          "name": "pas_omni_enb",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_l2_omni",
-          "units": "eV/cmâ\u0081»Â² sâ\u0081»Â¹ eVâ\u0081»Â¹"
-        }
-      ]
-    },
-    {
-      "description": "<br/> MinSampling: 0.25S; MaxSampling: 10S<br/> Provider: IRAP",
-      "id": "so-pas-momgr1",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "0: Ground; 1: Normal; 2: Snapshot; 3: Burst; 4: Engineering",
-          "name": "pas_momgr1_info",
-          "units": ""
-        },
-        {
-          "description": "1: V < 270 km/s; 2: V < 380 km/s; 3: V > 380 km/s",
-          "name": "pas_momgr1_validity",
-          "units": ""
-        },
-        {
-          "description": "",
-          "name": "pas_momgr_n",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "err = density * sqrt(cnts) / cnts",
-          "name": "pas_momgr_n_err",
-          "units": "cmâ\u0081»Â³"
-        },
-        {
-          "description": "Velocity in SRF frame",
-          "name": "pas_momgr_v",
-          "units": "km/s"
-        },
-        {
-          "description": "Velocity magnitude in SRF frame",
-          "name": "pas_momgr_v_tot",
-          "units": "km/s"
-        },
-        {
-          "description": "err = v * sqrt(t/e_mean)/sqrt(cnts)",
-          "name": "pas_momgr_v_err",
-          "units": "km/s"
-        },
-        {
-          "description": "Velocity in RTN frame",
-          "name": "pas_momgr1_v_rtn",
-          "units": "km/s"
-        },
-        {
-          "description": "Velocity magnitude in RTN frame",
-          "name": "pas_momgr1_v_rtn_tot",
-          "units": "km/s"
-        },
-        {
-          "description": "",
-          "name": "pas_momgr_tav",
-          "units": "eV"
-        },
-        {
-          "description": "Temperature components (Tx, Ty, Tz) in SRF frame",
-          "name": "pas_momgr_t",
-          "units": "eV"
-        },
-        {
-          "description": "Pressure tensor in SRF frame",
-          "name": "pas_momgr_press",
-          "units": "J*cmâ\u0081»Â³"
+          "description": "Average probe-to-spacecraft potential. Median over 10 s interval.",
+          "name": "solo_rpw10s_psp",
+          "units": "V"
         }
       ]
     },
@@ -26856,6 +28393,16 @@
           "description": "Scalar magnitude of the magnetic field in nT",
           "name": "b_ulys_mag",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "b_ulys_rtn_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "b_ulys_rtn_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -27592,9 +29139,19 @@
           "units": "nT"
         },
         {
-          "description": "Magnetic field Magnitude",
+          "description": "Magnetic field magnitude (average of high time resolution magnitudes)",
           "name": "vo1_bmag_full",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "vo1_b_full_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "vo1_b_full_theta",
+          "units": "degrees"
         }
       ]
     },
@@ -27856,9 +29413,19 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "Magnetic field magnitude (average of high time resolution magnitudes)",
           "name": "vo2_bmag_full",
           "units": "nT"
+        },
+        {
+          "description": "Magnetic field phi angle",
+          "name": "vo2_b_full_phi",
+          "units": "degrees"
+        },
+        {
+          "description": "Magnetic field theta angle",
+          "name": "vo2_b_full_theta",
+          "units": "degrees"
         }
       ]
     },

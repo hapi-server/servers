@@ -30,5 +30,9 @@
   {
     "URL": "http://amda.irap.omp.eu/service/hapi",
     "index": "http_amda.irap.omp.eu_service_hapi.json"
+  },
+  {
+    "URL": "https://vires.services/hapi",
+    "index": "https_vires.services_hapi.json"
   }
 ]

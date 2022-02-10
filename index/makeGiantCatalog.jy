@@ -18,15 +18,15 @@ from java.io import FileWriter
 
 serverLimit= getParam( 'serverLimit', 10000, 'maximum number of servers handled', [10000,2] )
 catalogLimit= getParam( 'catalogLimit', 10000, 'maximum number of ids from a catalog handled', [10000,3] )
-sleepNice= getParam( 'sleepNice', 0, 'insert delays (in milliseconds) between transactions to reduce load on servers' )
+sleepNice= getParam( 'sleepNice', 5000, 'insert delays (in milliseconds) between transactions to reduce load on servers' )
 runParallel= getParam( 'runParallel', 'F', 'test all servers at once', ['T','F'] )
 serverList= getParam( 'list', 'all', 'server list in https://github.com/hapi-server/servers', [ 'all', 'dev' ] )
 
 logger= LoggerManager.getLogger('makeGiantCatalog')
-logger.level = Level.INFO
+logger.level = Level.FINE
 
 logger2= LoggerManager.getLogger('das2.url')
-logger2.level= Level.FINE
+logger2.level= Level.INFO
 
 # create "servers" which is the list of servers.
 servers= []
@@ -42,6 +42,10 @@ logger.fine('get %s' % u)
 f= getFile(u, monitor.getSubtaskMonitor('read server list'))
 for line in open(str(f)):
     servers.append(line.strip())
+
+
+## DELETE ME or uncomment this for testing.
+#servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
 
 def get( jsonobject, tag, deft ):
     if ( jsonobject.has( tag ) ):
@@ -71,6 +75,9 @@ def compileServer( myserver, mon=None ):
     ids= JSONArray()
     catalogc= catalog.get('catalog')
     
+    # measure the number of parameters times the duration for each variable, for fun
+    parameterDays= 0.
+    
     nwork= min( catalogLimit, catalogc.length() )
     mon.setTaskSize( nwork )
     for i in xrange( nwork ):
@@ -90,12 +97,16 @@ def compileServer( myserver, mon=None ):
             stop= get( info, 'stopDate', '' )
             infoObject.put( 'startDate', start )
             infoObject.put( 'stopDate', stop )
+            parametersArray= info.get( 'parameters' )
+
             durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
-            parameterDays1= duration * parametersArray.length()
-            parameterDays= parameterDays + parameterYears1
+            parameterDays1= durationDays * parametersArray.length()
+            parameterDays= parameterDays + parameterDays1
+            
+            parameterDays1= float( "%.2f" % parameterDays1 )
+            infoObject.put( 'parameterDays', parameterDays1 )
             
             paramz= JSONArray()
-            parametersArray= info.get( 'parameters' )
             for j in xrange( parametersArray.length() ):
                 param= parametersArray.get(j)
                 paramObject= JSONObject()
@@ -114,6 +125,7 @@ def compileServer( myserver, mon=None ):
         sleep( sleepNice )
         
     serverObject.put( 'catalog', ids )
+    parameterDays= float( "%.1f" % parameterDays )
     serverObject.put( 'parameterDays', parameterDays )
     
     return serverObject

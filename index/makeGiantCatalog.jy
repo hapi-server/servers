@@ -1,3 +1,4 @@
+from org.das2.datum import TimeUtil,DatumRangeUtil
 setScriptDescription('''Create a JSON file for each server which contains lists
 of parameters for each dataset.  This will then be posted on the github site so
 that others can use the service.  This assumes that the scientist running the 
@@ -85,6 +86,14 @@ def compileServer( myserver, mon=None ):
             # get the description from the catalog node, or info if catalog doesn't contain.
             description= get( catalogc.get(i), 'description', get( info, 'description', '' ) )
             infoObject.put( 'description', description )
+            start= get( info, 'startDate', '' )
+            stop= get( info, 'stopDate', '' )
+            infoObject.put( 'startDate', start )
+            infoObject.put( 'stopDate', stop )
+            durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
+            parameterDays1= duration * parametersArray.length()
+            parameterDays= parameterDays + parameterYears1
+            
             paramz= JSONArray()
             parametersArray= info.get( 'parameters' )
             for j in xrange( parametersArray.length() ):
@@ -105,6 +114,8 @@ def compileServer( myserver, mon=None ):
         sleep( sleepNice )
         
     serverObject.put( 'catalog', ids )
+    serverObject.put( 'parameterDays', parameterDays )
+    
     return serverObject
 
 outputFileName= CWD+'/servers.json'

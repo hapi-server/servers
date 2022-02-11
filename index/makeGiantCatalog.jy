@@ -37,11 +37,19 @@ else:
    CWD= URI(PWD).path
 
 u= URL('https://github.com/hapi-server/servers/blob/master/%s.txt' % serverList )
+exclude= []
+exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
+exclude.append( 'https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi' )
+exclude.append( 'http://hapi-server.org/servers/SSCWeb/hapi' )
 
 logger.fine('get %s' % u)
 f= getFile(u, monitor.getSubtaskMonitor('read server list'))
 for line in open(str(f)):
-    servers.append(line.strip())
+    s= line.strip()
+    if s in exclude:
+        logger.fine( 'skipping ' + s )
+        continue
+    servers.append(s)
 
 
 ## DELETE ME or uncomment this for testing.

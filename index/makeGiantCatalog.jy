@@ -18,7 +18,7 @@ from java.io import FileWriter
 
 serverLimit= getParam( 'serverLimit', 10000, 'maximum number of servers handled', [10000,2] )
 catalogLimit= getParam( 'catalogLimit', 10000, 'maximum number of ids from a catalog handled', [10000,3] )
-sleepNice= getParam( 'sleepNice', 5000, 'insert delays (in milliseconds) between transactions to reduce load on servers' )
+sleepNice= getParam( 'sleepNice', 1000, 'insert delays (in milliseconds) between transactions to reduce load on servers' )
 runParallel= getParam( 'runParallel', 'F', 'test all servers at once', ['T','F'] )
 serverList= getParam( 'list', 'all', 'server list in https://github.com/hapi-server/servers', [ 'all', 'dev' ] )
 
@@ -39,8 +39,6 @@ else:
 u= URL('https://github.com/hapi-server/servers/blob/master/%s.txt' % serverList )
 exclude= []
 exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
-exclude.append( 'https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi' )
-exclude.append( 'http://hapi-server.org/servers/SSCWeb/hapi' )
 
 logger.fine('get %s' % u)
 f= getFile(u, monitor.getSubtaskMonitor('read server list'))
@@ -64,8 +62,10 @@ def get( jsonobject, tag, deft ):
 def readToJsonObject( u, mon ):
     logger.fine( 'downloadResourceAsTempFile %s'% u )
     f= downloadResourceAsTempFile( u, mon )
-    data= open(str(f)).readlines()
+    ch= open(str(f))
+    data= ch.readlines()
     data= ''.join(data)
+    ch.close()
     return JSONObject(data)
     
 def compileServer( myserver, mon=None ): 

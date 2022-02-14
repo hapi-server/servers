@@ -3,6 +3,7 @@
     {
       "description": "",
       "id": "ace_epam_P5M",
+      "parameterDays": 39167.38,
       "parameters": [
         {
           "description": "",
@@ -49,11 +50,14 @@
           "name": "AnistropyIndex",
           "units": "unknown"
         }
-      ]
+      ],
+      "startDate": "2010-03-15T00:00:00.0Z",
+      "stopDate": "2022-02-11T22:20:00.0Z"
     },
     {
       "description": "",
       "id": "ace_mag_P1M",
+      "parameterDays": 55908.96,
       "parameters": [
         {
           "description": "",
@@ -90,11 +94,14 @@
           "name": "Longitude",
           "units": "degrees"
         }
-      ]
+      ],
+      "startDate": "2000-04-01T00:00:00.0Z",
+      "stopDate": "2022-02-11T23:51:00.0Z"
     },
     {
       "description": "",
       "id": "ace_sis_P5M",
+      "parameterDays": 13055.79,
       "parameters": [
         {
           "description": "",
@@ -111,11 +118,14 @@
           "name": "IntegralProtonFlux_30",
           "units": "p/(cm^2-sec-ster)"
         }
-      ]
+      ],
+      "startDate": "2010-03-15T00:00:00.0Z",
+      "stopDate": "2022-02-11T22:20:00.0Z"
     },
     {
       "description": "",
       "id": "ace_swepam_P1M",
+      "parameterDays": 31947.99,
       "parameters": [
         {
           "description": "",
@@ -137,11 +147,14 @@
           "name": "IonTemperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2000-04-01T00:00:00.0Z",
+      "stopDate": "2022-02-11T23:57:00.0Z"
     },
     {
       "description": "",
       "id": "ALTEA_P5M",
+      "parameterDays": 2521.6,
       "parameters": [
         {
           "description": "",
@@ -168,11 +181,14 @@
           "name": "EquivalentDose_in_water",
           "units": "nSv/s"
         }
-      ]
+      ],
+      "startDate": "2011-06-27T23:57:50.0Z",
+      "stopDate": "2012-11-13T07:39:28.0Z"
     },
     {
       "description": "",
       "id": "dscovr_mag_1m",
+      "parameterDays": 14211.75,
       "parameters": [
         {
           "description": "",
@@ -209,11 +225,14 @@
           "name": "Longitude",
           "units": "degrees"
         }
-      ]
+      ],
+      "startDate": "2016-07-24T00:00:00.0Z",
+      "stopDate": "2022-02-13T05:59:00.0Z"
     },
     {
       "description": "",
       "id": "dscovr_plasma_1m",
+      "parameterDays": 8113,
       "parameters": [
         {
           "description": "",
@@ -235,11 +254,14 @@
           "name": "IonTemperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2016-07-26T00:00:00.0Z",
+      "stopDate": "2022-02-13T05:59:00.0Z"
     },
     {
       "description": "",
       "id": "ENLIL_KP_P7M",
+      "parameterDays": 5536,
       "parameters": [
         {
           "description": "",
@@ -261,11 +283,14 @@
           "name": "KP_180",
           "units": "unknown"
         }
-      ]
+      ],
+      "startDate": "2011-03-27T00:03:00.0Z",
+      "stopDate": "2015-01-09T00:02:00.0Z"
     },
     {
       "description": "",
       "id": "goesp_mag_p1m",
+      "parameterDays": 21616.25,
       "parameters": [
         {
           "description": "",
@@ -292,11 +317,14 @@
           "name": "TotalField",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2010-04-14T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "goesp_part_flux_P5M",
+      "parameterDays": 51878.96,
       "parameters": [
         {
           "description": "",
@@ -358,11 +386,14 @@
           "name": "P500",
           "units": "Protons/cm^2 - s^-1 - sr"
         }
-      ]
+      ],
+      "startDate": "2010-04-14T00:00:00.0Z",
+      "stopDate": "2022-02-13T05:55:00.0Z"
     },
     {
       "description": "",
       "id": "goesp_xray_flux_P1M",
+      "parameterDays": 12972.75,
       "parameters": [
         {
           "description": "",
@@ -379,11 +410,14 @@
           "name": "Long_Wave",
           "units": "Watts/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-04-13T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:01:00.0Z"
     },
     {
       "description": "",
       "id": "goess_mag_p1m",
+      "parameterDays": 23251.25,
       "parameters": [
         {
           "description": "",
@@ -410,11 +444,14 @@
           "name": "TotalField",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2009-05-22T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "goess_part_flux_P5M",
+      "parameterDays": 43232.47,
       "parameters": [
         {
           "description": "",
@@ -466,11 +503,14 @@
           "name": "E4_0",
           "units": "Electrons/cm^2 - s^-1 - sr"
         }
-      ]
+      ],
+      "startDate": "2010-04-14T00:00:00.0Z",
+      "stopDate": "2022-02-13T05:55:00.0Z"
     },
     {
       "description": "",
       "id": "goess_xray_flux_P1M",
+      "parameterDays": 10341.75,
       "parameters": [
         {
           "description": "",
@@ -487,11 +527,14 @@
           "name": "Long_Wave",
           "units": "Watts/m^2"
         }
-      ]
+      ],
+      "startDate": "2012-09-06T00:00:00.0Z",
+      "stopDate": "2022-02-13T05:59:00.0Z"
     },
     {
       "description": "",
       "id": "HelTomo_SolarWind_P6H",
+      "parameterDays": 6119.62,
       "parameters": [
         {
           "description": "",
@@ -508,11 +551,14 @@
           "name": "BulkSpeed",
           "units": "km/s"
         }
-      ]
+      ],
+      "startDate": "2011-07-02T12:00:00.0Z",
+      "stopDate": "2017-01-31T09:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_OPENGGCM31atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -549,11 +595,14 @@
           "name": "ZGSE",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_OPENGGCM31atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -590,11 +639,14 @@
           "name": "ZGSE",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF20090403atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -631,11 +683,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF20090403atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -672,11 +727,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF773atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -713,11 +771,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF773atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -754,11 +815,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF801atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -795,11 +859,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_SWMF801atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -836,11 +903,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_Tsyganenko1996atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -877,11 +947,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_Tsyganenko1996atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -918,11 +991,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_Tsyganenko2004atGOES10",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -959,11 +1035,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "MagneticFieldAtGEO2_Tsyganenko2004atGOES12",
+      "parameterDays": 8.17,
       "parameters": [
         {
           "description": "",
@@ -1000,11 +1079,14 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2003-10-29T02:00:00.0Z",
+      "stopDate": "2003-10-30T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NewHorizonsFlyBy_Cor-1DatNewHorizons",
+      "parameterDays": 14362.46,
       "parameters": [
         {
           "description": "",
@@ -1026,11 +1108,14 @@
           "name": "Temperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2006-01-01T01:07:00.0Z",
+      "stopDate": "2015-10-31T15:52:00.0Z"
     },
     {
       "description": "",
       "id": "NewHorizonsFlyBy_ENLIL2DatNewHorizons",
+      "parameterDays": 17953.07,
       "parameters": [
         {
           "description": "",
@@ -1057,11 +1142,14 @@
           "name": "Temperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2006-01-01T01:07:00.0Z",
+      "stopDate": "2015-10-31T15:52:00.0Z"
     },
     {
       "description": "",
       "id": "NewHorizonsFlyBy_MSFLUKSSatNewHorizons",
+      "parameterDays": 17953.07,
       "parameters": [
         {
           "description": "",
@@ -1088,11 +1176,14 @@
           "name": "Temperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2006-01-01T01:07:00.0Z",
+      "stopDate": "2015-10-31T15:52:00.0Z"
     },
     {
       "description": "",
       "id": "NewHorizonsFlyBy_mSWiMatNewHorizons",
+      "parameterDays": 17953.07,
       "parameters": [
         {
           "description": "",
@@ -1119,11 +1210,14 @@
           "name": "Temperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2006-01-01T01:07:00.0Z",
+      "stopDate": "2015-10-31T15:52:00.0Z"
     },
     {
       "description": "",
       "id": "NewHorizonsFlyBy_USMANOVatNewHorizons",
+      "parameterDays": 17953.07,
       "parameters": [
         {
           "description": "",
@@ -1150,11 +1244,14 @@
           "name": "Temperature",
           "units": "K"
         }
-      ]
+      ],
+      "startDate": "2006-01-01T01:07:00.0Z",
+      "stopDate": "2015-10-31T15:52:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-AATB",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1166,11 +1263,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-APTY",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1182,11 +1282,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-ATHN",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1198,11 +1301,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-BKSN",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1214,11 +1320,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-CALM",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1230,11 +1339,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-DRBS",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1246,11 +1358,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-FSMT",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1262,11 +1377,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-INVK",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1278,11 +1396,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JBGO",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1294,11 +1415,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JUNG",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1310,11 +1434,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JUNG1",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1326,11 +1453,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-KERG",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1342,11 +1472,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-KIEL2",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1358,11 +1491,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-LMKS",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1374,11 +1510,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MCMU",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1390,11 +1529,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MCRL",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1406,11 +1548,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MGDN",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1422,11 +1567,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MXCO",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1438,11 +1586,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NAIN",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1454,11 +1605,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NANM",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1470,11 +1624,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NEWK",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1486,11 +1643,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-OULU",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1502,11 +1662,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-PWNK",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1518,11 +1681,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-ROME",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1534,11 +1700,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-SOPB",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1550,11 +1719,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-SOPO",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1566,11 +1738,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-TERA",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1582,11 +1757,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-THUL",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1598,11 +1776,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-YKTK",
+      "parameterDays": 8852.5,
       "parameters": [
         {
           "description": "",
@@ -1614,11 +1795,14 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ]
+      ],
+      "startDate": "2010-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-13T06:00:00.0Z"
     },
     {
       "description": "",
       "id": "NOAA_KP_P3H",
+      "parameterDays": 65829.75,
       "parameters": [
         {
           "description": "",
@@ -1630,11 +1814,14 @@
           "name": "KP",
           "units": "unknown"
         }
-      ]
+      ],
+      "startDate": "1932-01-01T01:30:00.0Z",
+      "stopDate": "2022-02-11T22:30:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor0",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1661,11 +1848,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor1",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1692,11 +1882,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor10",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1723,11 +1916,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor11",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1754,11 +1950,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor12",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1785,11 +1984,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor13",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1816,11 +2018,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor14",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1847,11 +2052,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor15",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1878,11 +2086,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor16",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1909,11 +2120,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor17",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1940,11 +2154,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor18",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -1971,11 +2188,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor19",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2002,11 +2222,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor2",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2033,11 +2256,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor20",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2064,11 +2290,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor21",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2095,11 +2324,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor3",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2126,11 +2358,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor4",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2157,11 +2392,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor5",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2188,11 +2426,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor6",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2219,11 +2460,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor7",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2250,11 +2494,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor8",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2281,11 +2528,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_metop02_sensor9",
+      "parameterDays": 16200,
       "parameters": [
         {
           "description": "",
@@ -2312,11 +2562,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2021-11-15T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor0",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2343,11 +2596,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor1",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2374,11 +2630,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor10",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2405,11 +2664,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor11",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2436,11 +2698,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor12",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2467,11 +2732,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor13",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2498,11 +2766,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor14",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2529,11 +2800,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor15",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2560,11 +2834,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor16",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2591,11 +2868,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor17",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2622,11 +2902,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor18",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2653,11 +2936,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor19",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2684,11 +2970,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor2",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2715,11 +3004,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor20",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2746,11 +3038,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor21",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2777,11 +3072,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor3",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2808,11 +3106,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor4",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2839,11 +3140,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor5",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2870,11 +3174,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor6",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2901,11 +3208,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor7",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2932,11 +3242,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor8",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2963,11 +3276,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor9",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -2994,11 +3310,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor0",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3025,11 +3344,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor1",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3056,11 +3378,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor10",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3087,11 +3412,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor11",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3118,11 +3446,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor12",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3149,11 +3480,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor13",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3180,11 +3514,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor14",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3211,11 +3548,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor15",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3242,11 +3582,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor16",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3273,11 +3616,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor17",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3304,11 +3650,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor18",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3335,11 +3684,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor19",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3366,11 +3718,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor2",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3397,11 +3752,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor20",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3428,11 +3786,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor21",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3459,11 +3820,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor3",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3490,11 +3854,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor4",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3521,11 +3888,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor5",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3552,11 +3922,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor6",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3583,11 +3956,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor7",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3614,11 +3990,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor8",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3645,11 +4024,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor9",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3676,11 +4058,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor0",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3707,11 +4092,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor1",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3738,11 +4126,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor10",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3769,11 +4160,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor11",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3800,11 +4194,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor12",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3831,11 +4228,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor13",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3862,11 +4262,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor14",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3893,11 +4296,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor15",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3924,11 +4330,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor16",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3955,11 +4364,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor17",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -3986,11 +4398,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor18",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4017,11 +4432,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor19",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4048,11 +4466,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor2",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4079,11 +4500,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor20",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4110,11 +4534,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor21",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4141,11 +4568,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor3",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4172,11 +4602,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor4",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4203,11 +4636,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor5",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4234,11 +4670,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor6",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4265,11 +4704,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor7",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4296,11 +4738,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor8",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4327,11 +4772,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor9",
+      "parameterDays": 16645,
       "parameters": [
         {
           "description": "",
@@ -4358,11 +4806,14 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:00.0Z",
+      "stopDate": "2022-02-12T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "Predicted_KP_P1M",
+      "parameterDays": 8706.4,
       "parameters": [
         {
           "description": "",
@@ -4374,11 +4825,14 @@
           "name": "KP",
           "units": "unknown"
         }
-      ]
+      ],
+      "startDate": "2010-03-15T01:07:05.0Z",
+      "stopDate": "2022-02-13T05:56:00.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_ECTHOPE_e_FLUX_P1M",
+      "parameterDays": 7188.73,
       "parameters": [
         {
           "description": "",
@@ -4405,11 +4859,14 @@
           "name": "ECTHOPE_e_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-15T09:49:19.0Z",
+      "stopDate": "2016-12-23T03:44:45.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_ECTHOPE_he_FLUX_P1M",
+      "parameterDays": 7188.73,
       "parameters": [
         {
           "description": "",
@@ -4436,11 +4893,14 @@
           "name": "ECTHOPE_he_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-15T09:49:31.0Z",
+      "stopDate": "2016-12-23T03:44:33.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_ECTHOPE_o_FLUX_P1M",
+      "parameterDays": 7188.73,
       "parameters": [
         {
           "description": "",
@@ -4467,11 +4927,14 @@
           "name": "ECTHOPE_o_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-15T09:49:31.0Z",
+      "stopDate": "2016-12-23T03:44:33.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_ECTHOPE_p_FLUX_P1M",
+      "parameterDays": 7188.73,
       "parameters": [
         {
           "description": "",
@@ -4498,11 +4961,14 @@
           "name": "ECTHOPE_p_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-15T09:49:31.0Z",
+      "stopDate": "2016-12-23T03:44:33.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_ECTREPT_FLUX_P1M",
+      "parameterDays": 5808.62,
       "parameters": [
         {
           "description": "",
@@ -4524,11 +4990,14 @@
           "name": "ECTREPT_combined_flux_CH9",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-01T00:00:05.0Z",
+      "stopDate": "2016-12-23T03:45:03.0Z"
     },
     {
       "description": "",
       "id": "RBSP_A_RBSPICE_part_P1M",
+      "parameterDays": 9979.62,
       "parameters": [
         {
           "description": "",
@@ -4565,11 +5034,14 @@
           "name": "RBSPICE_slow_CH1",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-27T02:59:52.0Z",
+      "stopDate": "2016-12-22T18:50:00.0Z"
     },
     {
       "description": "",
       "id": "RBSP_B_ECTREPT_FLUX_P1M",
+      "parameterDays": 5800.35,
       "parameters": [
         {
           "description": "",
@@ -4591,11 +5063,14 @@
           "name": "ECTREPT_combined_flux_CH9",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ]
+      ],
+      "startDate": "2013-01-03T01:32:37.0Z",
+      "stopDate": "2016-12-23T03:37:31.0Z"
     },
     {
       "description": "",
       "id": "Sheffield_Electron_Flux_Model",
+      "parameterDays": 16670,
       "parameters": [
         {
           "description": "",
@@ -4622,11 +5097,14 @@
           "name": "ElectronFlux_E0_8_DailyAvg",
           "units": "1/(cm^2 sr day keV)"
         }
-      ]
+      ],
+      "startDate": "2012-05-01T23:59:59.0Z",
+      "stopDate": "2021-06-17T23:59:59.0Z"
     },
     {
       "description": "",
       "id": "SOHO_COSTEP_SEP_ACTUAL",
+      "parameterDays": 818.95,
       "parameters": [
         {
           "description": "",
@@ -4653,11 +5131,14 @@
           "name": "ProtonFlux_28p2_50p1",
           "units": "flux/(cm^2 s sr MeV/n)"
         }
-      ]
+      ],
+      "startDate": "2014-10-20T23:45:59.0Z",
+      "stopDate": "2015-04-02T18:42:19.0Z"
     },
     {
       "description": "",
       "id": "SOHO_COSTEP_SEP_FORECAST",
+      "parameterDays": 823.75,
       "parameters": [
         {
           "description": "",
@@ -4684,11 +5165,14 @@
           "name": "ProtonFlux_28p2_50p1",
           "units": "flux/(cm^2 s sr MeV/n)"
         }
-      ]
+      ],
+      "startDate": "2014-10-20T00:41:04.0Z",
+      "stopDate": "2015-04-02T18:41:19.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_BOU",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4720,11 +5204,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_BRW",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4756,11 +5243,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_BSL",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4792,11 +5282,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_CMO",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4828,11 +5321,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_DED",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4864,11 +5360,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_DLR",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4900,11 +5399,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_FRD",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4936,11 +5438,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_FRN",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -4972,11 +5477,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_GUA",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5008,11 +5516,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_HLA",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5044,11 +5555,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_HON",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5080,11 +5594,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_HUT",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5116,11 +5633,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_NEW",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5152,11 +5672,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_RAT",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5188,11 +5711,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_SHU",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5224,11 +5750,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_SIT",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5260,11 +5789,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_SJG",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5296,11 +5828,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_TMI",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5332,11 +5867,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_TUC",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5368,11 +5906,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "solar_shield_3d_VIN",
+      "parameterDays": 3895.7,
       "parameters": [
         {
           "description": "",
@@ -5404,11 +5945,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2016-06-07T19:13:00.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_BOU",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5440,11 +5984,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_BRW",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5476,11 +6023,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_BSL",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5512,11 +6062,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_CMO",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5548,11 +6101,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_DED",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5584,11 +6140,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_DLR",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5620,11 +6179,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_FRD",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5656,11 +6218,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_FRN",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5692,11 +6257,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_GUA",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5728,11 +6296,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_HLA",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5764,11 +6335,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_HON",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5800,11 +6374,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_HUT",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5836,11 +6413,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_NEW",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5872,11 +6452,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_RAT",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5908,11 +6491,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_SHU",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5944,11 +6530,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_SIT",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -5980,11 +6569,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_SJG",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -6016,11 +6608,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_TMI",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -6052,11 +6647,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_TUC",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -6088,11 +6686,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_BOU",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6124,11 +6725,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_BRW",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6160,11 +6764,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_BSL",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6196,11 +6803,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_CMO",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6232,11 +6842,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_DED",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6268,11 +6881,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_DLR",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6304,11 +6920,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_FRD",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6340,11 +6959,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_FRN",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6376,11 +6998,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_GUA",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6412,11 +7037,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_HON",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6448,11 +7076,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_NEW",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6484,11 +7115,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_SHU",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6520,11 +7154,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_SIT",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6556,11 +7193,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_SJG",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6592,11 +7232,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_USGS_TUC",
+      "parameterDays": 5502.45,
       "parameters": [
         {
           "description": "",
@@ -6628,11 +7271,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-09-14T00:00:00.0Z",
+      "stopDate": "2018-03-19T01:49:00.0Z"
     },
     {
       "description": "",
       "id": "Solar_Shield_VIN",
+      "parameterDays": 6510.28,
       "parameters": [
         {
           "description": "",
@@ -6664,11 +7310,14 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ]
+      ],
+      "startDate": "2015-03-30T00:52:50.0Z",
+      "stopDate": "2018-03-19T02:00:10.0Z"
     },
     {
       "description": "",
       "id": "stereo_a_impact_P1M",
+      "parameterDays": 69497.54,
       "parameters": [
         {
           "description": "",
@@ -6735,11 +7384,14 @@
           "name": "SFLETFe",
           "units": "1/(cm^2-s-ster-MeV/nuc)"
         }
-      ]
+      ],
+      "startDate": "2007-06-26T00:04:16.0Z",
+      "stopDate": "2022-02-12T23:13:23.0Z"
     },
     {
       "description": "",
       "id": "stereo_b_impact_P1M",
+      "parameterDays": 34456.42,
       "parameters": [
         {
           "description": "",
@@ -6806,11 +7458,14 @@
           "name": "SFLETFe",
           "units": "1/(cm^2-s-ster-MeV/nuc)"
         }
-      ]
+      ],
+      "startDate": "2007-06-26T04:36:53.0Z",
+      "stopDate": "2014-09-27T16:28:26.0Z"
     },
     {
       "description": "",
       "id": "SWMF2011wrcm_MP_STANDOFF_P5M",
+      "parameterDays": 8028.06,
       "parameters": [
         {
           "description": "",
@@ -6837,11 +7492,14 @@
           "name": "geosynchronus_orbit",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2017-09-21T15:22:15.0Z",
+      "stopDate": "2022-02-13T06:03:17.0Z"
     },
     {
       "description": "",
       "id": "SWMF_MP_STANDOFF_P5M",
+      "parameterDays": 13084.78,
       "parameters": [
         {
           "description": "",
@@ -6868,11 +7526,14 @@
           "name": "geosynchronus_orbit",
           "units": "Re"
         }
-      ]
+      ],
+      "startDate": "2011-09-11T04:41:47.0Z",
+      "stopDate": "2018-11-10T03:39:19.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES13",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -6974,11 +7635,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES14",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -7080,11 +7744,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES15",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -7186,11 +7853,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES13",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -7292,11 +7962,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES14",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -7398,11 +8071,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES15",
+      "parameterDays": 83050.19,
       "parameters": [
         {
           "description": "",
@@ -7504,11 +8180,14 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ]
+      ],
+      "startDate": "2010-05-17T16:56:00.0Z",
+      "stopDate": "2021-09-29T05:09:39.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_SWMF2008",
+      "parameterDays": 10966.95,
       "parameters": [
         {
           "description": "",
@@ -7520,11 +8199,14 @@
           "name": "dst",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2007-02-08T19:03:14.0Z",
+      "stopDate": "2022-02-13T06:29:13.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_SWMF2011wRCM",
+      "parameterDays": 10966.95,
       "parameters": [
         {
           "description": "",
@@ -7536,11 +8218,14 @@
           "name": "dst",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2007-02-08T19:03:14.0Z",
+      "stopDate": "2022-02-13T06:29:13.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BOU",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7567,11 +8252,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BRW",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7598,11 +8286,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BSL",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7629,11 +8320,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_CMO",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7660,11 +8354,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_DED",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7691,11 +8388,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_FRD",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7722,11 +8422,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_FRN",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7753,11 +8456,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_GUA",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7784,11 +8490,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_HON",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7815,11 +8524,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_NEW",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7846,11 +8558,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SHU",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7877,11 +8592,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SIT",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7908,11 +8626,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SJG",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7939,11 +8660,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_TUC",
+      "parameterDays": 19850,
       "parameters": [
         {
           "description": "",
@@ -7970,11 +8694,14 @@
           "name": "F",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2011-04-03T00:00:00.0Z",
+      "stopDate": "2022-02-13T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "WIND_MFI_P2M",
+      "parameterDays": 40376.73,
       "parameters": [
         {
           "description": "",
@@ -8001,11 +8728,14 @@
           "name": "B_t",
           "units": "nT"
         }
-      ]
+      ],
+      "startDate": "2000-01-04T20:05:49.0Z",
+      "stopDate": "2022-02-13T04:24:07.0Z"
     },
     {
       "description": "",
       "id": "WIND_SWE_P2M",
+      "parameterDays": 32301.38,
       "parameters": [
         {
           "description": "",
@@ -8027,8 +8757,11 @@
           "name": "ThermalSpeed",
           "units": "km/s"
         }
-      ]
+      ],
+      "startDate": "2000-01-04T20:08:07.0Z",
+      "stopDate": "2022-02-13T04:23:14.0Z"
     }
   ],
-  "id": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi"
+  "id": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+  "parameterDays": 3567569.4
 }

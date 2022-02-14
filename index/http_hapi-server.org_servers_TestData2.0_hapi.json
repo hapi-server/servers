@@ -3,6 +3,7 @@
     {
       "description": "",
       "id": "dataset1",
+      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -94,11 +95,14 @@
           "name": "spectramulti",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
     },
     {
       "description": "",
       "id": "dataset2",
+      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -190,11 +194,14 @@
           "name": "spectramulti",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
     },
     {
       "description": "",
       "id": "dataset3",
+      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -286,8 +293,11 @@
           "name": "spectramulti",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
     }
   ],
-  "id": "http://hapi-server.org/servers/TestData2.0/hapi"
+  "id": "http://hapi-server.org/servers/TestData2.0/hapi",
+  "parameterDays": 926964
 }

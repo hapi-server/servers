@@ -8,10 +8,6 @@
     "index": "http_datashop.elasticbeanstalk.com_hapi.json"
   },
   {
-    "URL": "https://cdaweb.gsfc.nasa.gov/hapi",
-    "index": "https_cdaweb.gsfc.nasa.gov_hapi.json"
-  },
-  {
     "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
     "index": "http_planet.physics.uiowa.edu_das_das2Server_hapi.json"
   },

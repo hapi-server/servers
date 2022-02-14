@@ -3,6 +3,7 @@
     {
       "description": "Swarm A vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGA_HR_1B",
+      "parameterDays": 47976.63,
       "parameters": [
         {
           "description": "Time stamp",
@@ -84,11 +85,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:02:51.642562Z",
+      "stopDate": "2022-02-09T23:59:59.990062Z"
     },
     {
       "description": "Swarm A vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGA_LR_1B",
+      "parameterDays": 65967.87,
       "parameters": [
         {
           "description": "Time stamp",
@@ -200,11 +204,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:02:52Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     },
     {
       "description": "Swarm B vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGB_HR_1B",
+      "parameterDays": 47976.65,
       "parameters": [
         {
           "description": "Time stamp",
@@ -286,11 +293,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:01:09.884711Z",
+      "stopDate": "2022-02-09T23:59:59.997461Z"
     },
     {
       "description": "Swarm B vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGB_LR_1B",
+      "parameterDays": 65967.9,
       "parameters": [
         {
           "description": "Time stamp",
@@ -402,11 +412,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:01:15Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     },
     {
       "description": "Swarm C vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGC_HR_1B",
+      "parameterDays": 47968,
       "parameters": [
         {
           "description": "Time stamp",
@@ -488,11 +501,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-26T00:00:00.003523Z",
+      "stopDate": "2022-02-09T23:59:59.985438Z"
     },
     {
       "description": "Swarm C vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGC_LR_1B",
+      "parameterDays": 65956,
       "parameters": [
         {
           "description": "Time stamp",
@@ -604,11 +620,14 @@
           "name": "SyncStatus",
           "units": null
         }
-      ]
+      ],
+      "startDate": "2013-11-26T00:00:00Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     },
     {
       "description": "Swarm A S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODA_SC_1B",
+      "parameterDays": 11994.17,
       "parameters": [
         {
           "description": "Time stamp",
@@ -630,11 +649,14 @@
           "name": "Radius",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "2013-11-25T10:59:54Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     },
     {
       "description": "Swarm B S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODB_SC_1B",
+      "parameterDays": 11994.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -656,11 +678,14 @@
           "name": "Radius",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:01:15Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     },
     {
       "description": "Swarm C S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODC_SC_1B",
+      "parameterDays": 11994.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -682,8 +707,11 @@
           "name": "Radius",
           "units": "m"
         }
-      ]
+      ],
+      "startDate": "2013-11-25T11:02:17Z",
+      "stopDate": "2022-02-09T23:59:59Z"
     }
   ],
-  "id": "https://vires.services/hapi"
+  "id": "https://vires.services/hapi",
+  "parameterDays": 377795.5
 }

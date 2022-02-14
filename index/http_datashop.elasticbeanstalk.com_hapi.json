@@ -3,6 +3,7 @@
     {
       "description": "Cassini CAPS/ELS electron spectra at the highest time resolution",
       "id": "CAPS_ELS_FLUX_HIRES",
+      "parameterDays": 135300,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -224,11 +225,14 @@
           "name": "SZS_LocalTime_hours",
           "units": "Cassini SZS localtime in hours"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2012-154T00:00:00.000Z"
     },
     {
       "description": "Cassini MIMI LEMMS PHA channel intensities at 1 min resolution",
       "id": "CASSINI_LEMMS_PHA_CHANNEL_1_MIN_AVG",
+      "parameterDays": 117252,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -350,11 +354,14 @@
           "name": "MinSunAngle_for_LEMMS_LET",
           "units": "degrees"
         }
-      ]
+      ],
+      "startDate": "2004-122T00:00:00.000Z",
+      "stopDate": "2017-258T12:00:00.000Z"
     },
     {
       "description": "Cassini/MIMI LEMMS PHA Channel pitch angle distributions; 10 minutes with 10 degrees per PA bin",
       "id": "CASSINI_LEMMS_PHA_PITCH_ANGLES_10_MIN",
+      "parameterDays": 117240,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -476,11 +483,14 @@
           "name": "LEMMS_PHA_F1_Electron_uncert",
           "units": "particles/cm^2/sec/ster/keV"
         }
-      ]
+      ],
+      "startDate": "2004-122T00:00:00.000Z",
+      "stopDate": "2017-258T00:00:00.000Z"
     },
     {
       "description": "Cassini magnetometer data as used by the MIMI team",
       "id": "CASSINI_MAG_HI_RES",
+      "parameterDays": 130167.39,
       "parameters": [
         {
           "description": "time as ISO 8601 UTC string with day of year and accuracy to milliseconds",
@@ -612,11 +622,14 @@
           "name": "Bz_SZS",
           "units": "nt"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     },
     {
       "description": "CHEMS PHA flux box intensities for many species at the highest time resolution",
       "id": "CHEMS_PHA_BOX_FLUXES_FULL_TIME_RES",
+      "parameterDays": 1396796.27,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -2013,11 +2026,14 @@
           "name": "PA_for_CHEMS_TALL",
           "units": "pitch angle for CHEMS data summed over all telescopes"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     },
     {
       "description": "CHEMS rate channel intensities for many species at the highest time resolution",
       "id": "CHEMS_RATES_FLUXES_FULL_TIME_RES",
+      "parameterDays": 615791.91,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -2634,11 +2650,14 @@
           "name": "PA_for_CHEMS_TALL",
           "units": "pitch angle for CHEMS data summed over all telescopes"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     },
     {
       "description": "LEMMS PHA channel intensities and uncertainties at high time resolution",
       "id": "LEMMS_PHA_CHANNELS_FULL_TIME_RES",
+      "parameterDays": 90115.89,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -2730,11 +2749,14 @@
           "name": "PA_for_LEMMS_LET",
           "units": "pitch angle for the LEMMS Low Energy Telescope"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     },
     {
       "description": "LEMMS Priority very high time resolution proton and electron channels",
       "id": "LEMMS_PRIORITY_CHANNELS_FULL_TIME_RES",
+      "parameterDays": 205263.97,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -2941,11 +2963,14 @@
           "name": "PA_for_LEMMS_HET",
           "units": "pitch angle for the LEMMS High Energy Telescope"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     },
     {
       "description": "LEMMS regular channel intensities and uncertainties at high time resolution",
       "id": "LEMMS_REGULAR_CHANNELS_FULL_TIME_RES",
+      "parameterDays": 205263.97,
       "parameters": [
         {
           "description": "time as UTC string to milliseconds",
@@ -3152,8 +3177,11 @@
           "name": "PA_for_LEMMS_HET",
           "units": "pitch angle for the LEMMS High Energy Telescope"
         }
-      ]
+      ],
+      "startDate": "2004-001T00:00:04.734Z",
+      "stopDate": "2017-258T10:31:10.425Z"
     }
   ],
-  "id": "http://datashop.elasticbeanstalk.com/hapi"
+  "id": "http://datashop.elasticbeanstalk.com/hapi",
+  "parameterDays": 3013191.4
 }

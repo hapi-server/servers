@@ -28,6 +28,14 @@ logger.level = Level.FINE
 logger2= LoggerManager.getLogger('das2.url')
 logger2.level= Level.INFO
 
+# list of servers in server list to exclude
+exclude= []
+exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
+
+# list of servers to add to the list, which are not in the server list
+include= []
+include.append( 'https://jfaden.net/HapiServerDemo/hapi' ) # include test server so I can see this is working.
+
 # create "servers" which is the list of servers.
 servers= []
 
@@ -37,8 +45,6 @@ else:
    CWD= URI(PWD).path
 
 u= URL('https://github.com/hapi-server/servers/blob/master/%s.txt' % serverList )
-exclude= []
-exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
 
 logger.fine('get %s' % u)
 f= getFile(u, monitor.getSubtaskMonitor('read server list'))
@@ -49,9 +55,14 @@ for line in open(str(f)):
         continue
     servers.append(s)
 
-
 ## DELETE ME or uncomment this for testing.
-#servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
+servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
+
+for s in include:
+    if not s in servers:
+        logger.fine( 'adding ' + s )
+        servers.append(s)
+        
 
 def get( jsonobject, tag, deft ):
     if ( jsonobject.has( tag ) ):
@@ -153,6 +164,7 @@ fw.write( jaStr )
 fw.close()
 
 if ( runParallel=='T' ):
+    # THIS IS NOT WORKING
     serversArray= runInParallel( compileServer, servers, monitor )
     
     for i in xrange( len( serversArray ) ):

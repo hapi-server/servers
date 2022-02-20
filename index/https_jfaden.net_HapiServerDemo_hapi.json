@@ -1,5 +1,406 @@
 {
-  "catalog": [],
+  "catalog": [
+    {
+      "description": "",
+      "id": "poolTemperature",
+      "parameterDays": 2292.5,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature of garden pool",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2022-02-20T06:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "atticTemperature",
+      "parameterDays": 2292.5,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "attic temperature",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2022-02-20T06:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "freezerTemperature",
+      "parameterDays": 2292.5,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "freezer temperature",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2022-02-20T06:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "groundTemp",
+      "parameterDays": 2292.5,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature at about 2ft below grade",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2022-02-20T06:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "0B000800408DD710",
+      "parameterDays": 5546,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature in garage in sensor hanging above car",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "8500080044259C10",
+      "parameterDays": 5546,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature in garage, far",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "610008002FE00410",
+      "parameterDays": 5546,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature in attic",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "AC00080040250510",
+      "parameterDays": 5546,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature at thermostat",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "10.E02340000800",
+      "parameterDays": 792,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature of compost bin",
+          "name": "Temperature",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2017-05-30T00:00:00.000Z",
+      "stopDate": "2018-06-30T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "icwc",
+      "parameterDays": 10665,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Air Temperature",
+          "name": "Temperature",
+          "units": "deg F"
+        },
+        {
+          "description": "Conditions",
+          "name": "Conditions",
+          "units": null
+        }
+      ],
+      "startDate": "2012-05-28T00:00:00.000Z",
+      "stopDate": "2022-02-20T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "Spectrum",
+      "parameterDays": 3254,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "spectrogram example (not for publication)",
+          "name": "Spectra",
+          "units": "V^2 m^-2 Hz^-1"
+        }
+      ],
+      "startDate": "2012-09-01T00:00:00.000Z",
+      "stopDate": "2017-02-14T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "PowerWheel",
+      "parameterDays": 1904,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The little wheel thingy that spins around.",
+          "name": "PowerWheel",
+          "units": "greyscale"
+        }
+      ],
+      "startDate": "2016-07-28T00:00:00.000Z",
+      "stopDate": "2019-03-07T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "SpectrogramRank2",
+      "parameterDays": 5928.5,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Example of rank 2 data.",
+          "name": "SpectrogramRank2",
+          "units": "greyscale"
+        }
+      ],
+      "startDate": "2014-01-09T00:00:00.000Z",
+      "stopDate": "2022-02-20T06:00:23.250Z"
+    },
+    {
+      "description": "",
+      "id": "PowerOnesDigitSegments",
+      "parameterDays": 459.33,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Each of the seven segments of the ones digit seven segment display",
+          "name": "PowerOnesDigitSegments",
+          "units": "greyscale"
+        }
+      ],
+      "startDate": "2016-07-28T00:00:00.000Z",
+      "stopDate": "2017-03-14T16:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "specBins",
+      "parameterDays": 2,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "specBins",
+          "units": ""
+        }
+      ],
+      "startDate": "2016-01-01T00:00:30.000Z",
+      "stopDate": "2016-01-01T23:59:30.000Z"
+    },
+    {
+      "description": "",
+      "id": "specBins.ref",
+      "parameterDays": 3,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "counts",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": ""
+        }
+      ],
+      "startDate": "2016-01-01T00:00:30.000Z",
+      "stopDate": "2016-01-01T23:59:30.000Z"
+    },
+    {
+      "description": "",
+      "id": "SpectrumTimeVaryingChannels",
+      "parameterDays": 4587,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "spectrogram example (not for publication)",
+          "name": "Spectra",
+          "units": "s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N"
+        },
+        {
+          "description": "",
+          "name": "Energy",
+          "units": "eV"
+        }
+      ],
+      "startDate": "2012-10-25T00:00:00.000Z",
+      "stopDate": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "WFR_E_B",
+      "parameterDays": 2,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "data1",
+          "units": ""
+        }
+      ],
+      "startDate": "2017-02-09T00:00:02.478Z",
+      "stopDate": "2017-02-09T23:59:56.968Z"
+    },
+    {
+      "description": "",
+      "id": "strange/\\data/",
+      "parameterDays": 792,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "temperature of compost bin",
+          "name": "mÃ©tÃ©o",
+          "units": "deg F"
+        }
+      ],
+      "startDate": "2017-05-30T00:00:00.000Z",
+      "stopDate": "2018-06-30T00:00:00.000Z"
+    },
+    {
+      "description": "",
+      "id": "rank3dep2",
+      "parameterDays": 0.12,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "spectrogram example (not for publication)",
+          "name": "Counts",
+          "units": "s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N"
+        },
+        {
+          "description": "",
+          "name": "Energy",
+          "units": "eV"
+        }
+      ],
+      "startDate": "2021-04-07T00:00:00.000Z",
+      "stopDate": "2021-04-07T01:00:00.000Z"
+    }
+  ],
   "id": "https://jfaden.net/HapiServerDemo/hapi",
-  "parameterDays": 0
+  "parameterDays": 59743
 }

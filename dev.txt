@@ -2,4 +2,8 @@ https://jfaden.net/HapiServerDemo/hapi
 https://pds-ppi.igpp.ucla.edu/hapi
 http://hapi.ftecs.com/hapi
 https://staging.viresdisc.vires.services/hapi
-
+https://hapi-server.org/servers/TestData2.0/hapi
+https://hapi-server.org/servers/TestData2.1/hapi
+https://hapi-server.org/servers/TestData3.0/hapi
+https://hapi-server.org/servers/TestData3.1/hapi
+https://hapi-server.org/servers/TestData3.0/hapi

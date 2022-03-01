@@ -1,4 +1,4 @@
-https://jfaden.net/HapiServerDemo/hapi, Faden's Test Server, FadenTest, Jeremy Faden, faden@cottagesystems.com
+https://jfaden.net/HapiServerDemo/hapi, Faden Test Server, FadenTest, Jeremy Faden, faden@cottagesystems.com
 https://pds-ppi.igpp.ucla.edu/hapi, UCLA PDS Node, PDS, In Sook Moon, imoon@igpp.ucla.edu
 http://hapi.ftecs.com/hapi, Fundamental Tech RBSPICE, RBSPICE, Jerry W. Manweiler, Manweiler@ftecs.com
 https://staging.viresdisc.vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services

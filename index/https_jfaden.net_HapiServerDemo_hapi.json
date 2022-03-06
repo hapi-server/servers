@@ -3,7 +3,7 @@
     {
       "description": "",
       "id": "poolTemperature",
-      "parameterDays": 2306.5,
+      "parameterDays": 2320.5,
       "parameters": [
         {
           "description": "",
@@ -17,12 +17,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-02-27T06:00:00.000Z"
+      "stopDate": "2022-03-06T06:00:00.000Z"
     },
     {
       "description": "",
       "id": "atticTemperature",
-      "parameterDays": 2306.5,
+      "parameterDays": 2320.5,
       "parameters": [
         {
           "description": "",
@@ -36,12 +36,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-02-27T06:00:00.000Z"
+      "stopDate": "2022-03-06T06:00:00.000Z"
     },
     {
       "description": "",
       "id": "freezerTemperature",
-      "parameterDays": 2306.5,
+      "parameterDays": 2320.5,
       "parameters": [
         {
           "description": "",
@@ -55,12 +55,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-02-27T06:00:00.000Z"
+      "stopDate": "2022-03-06T06:00:00.000Z"
     },
     {
       "description": "",
       "id": "groundTemp",
-      "parameterDays": 2306.5,
+      "parameterDays": 2320.5,
       "parameters": [
         {
           "description": "",
@@ -74,7 +74,7 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-02-27T06:00:00.000Z"
+      "stopDate": "2022-03-06T06:00:00.000Z"
     },
     {
       "description": "",
@@ -174,7 +174,7 @@
     {
       "description": "",
       "id": "icwc",
-      "parameterDays": 10686,
+      "parameterDays": 10707,
       "parameters": [
         {
           "description": "",
@@ -193,7 +193,7 @@
         }
       ],
       "startDate": "2012-05-28T00:00:00.000Z",
-      "stopDate": "2022-02-27T00:00:00.000Z"
+      "stopDate": "2022-03-06T00:00:00.000Z"
     },
     {
       "description": "",
@@ -236,7 +236,7 @@
     {
       "description": "",
       "id": "SpectrogramRank2",
-      "parameterDays": 5942.5,
+      "parameterDays": 5956.5,
       "parameters": [
         {
           "description": "",
@@ -250,7 +250,7 @@
         }
       ],
       "startDate": "2014-01-09T00:00:00.000Z",
-      "stopDate": "2022-02-27T06:00:23.089Z"
+      "stopDate": "2022-03-06T06:00:20.907Z"
     },
     {
       "description": "",
@@ -402,5 +402,5 @@
     }
   ],
   "id": "https://jfaden.net/HapiServerDemo/hapi",
-  "parameterDays": 59834
+  "parameterDays": 59925
 }

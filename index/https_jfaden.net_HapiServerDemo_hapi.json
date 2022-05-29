@@ -3,7 +3,7 @@
     {
       "description": "",
       "id": "poolTemperature",
-      "parameterDays": 2474.42,
+      "parameterDays": 2488.42,
       "parameters": [
         {
           "description": "",
@@ -17,12 +17,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-05-22T05:00:00.000Z"
+      "stopDate": "2022-05-29T05:00:00.000Z"
     },
     {
       "description": "",
       "id": "atticTemperature",
-      "parameterDays": 2474.42,
+      "parameterDays": 2488.42,
       "parameters": [
         {
           "description": "",
@@ -36,12 +36,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-05-22T05:00:00.000Z"
+      "stopDate": "2022-05-29T05:00:00.000Z"
     },
     {
       "description": "",
       "id": "freezerTemperature",
-      "parameterDays": 2474.42,
+      "parameterDays": 2488.42,
       "parameters": [
         {
           "description": "",
@@ -55,12 +55,12 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-05-22T05:00:00.000Z"
+      "stopDate": "2022-05-29T05:00:00.000Z"
     },
     {
       "description": "",
       "id": "groundTemp",
-      "parameterDays": 2474.42,
+      "parameterDays": 2488.42,
       "parameters": [
         {
           "description": "",
@@ -74,7 +74,7 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-05-22T05:00:00.000Z"
+      "stopDate": "2022-05-29T05:00:00.000Z"
     },
     {
       "description": "",
@@ -174,7 +174,7 @@
     {
       "description": "",
       "id": "icwc",
-      "parameterDays": 10938,
+      "parameterDays": 10959,
       "parameters": [
         {
           "description": "",
@@ -193,7 +193,7 @@
         }
       ],
       "startDate": "2012-05-28T00:00:00.000Z",
-      "stopDate": "2022-05-22T00:00:00.000Z"
+      "stopDate": "2022-05-29T00:00:00.000Z"
     },
     {
       "description": "",
@@ -236,7 +236,7 @@
     {
       "description": "",
       "id": "SpectrogramRank2",
-      "parameterDays": 6110.42,
+      "parameterDays": 6124.42,
       "parameters": [
         {
           "description": "",
@@ -250,7 +250,7 @@
         }
       ],
       "startDate": "2014-01-09T00:00:00.000Z",
-      "stopDate": "2022-05-22T05:00:19.539Z"
+      "stopDate": "2022-05-29T05:00:36.737Z"
     },
     {
       "description": "",
@@ -375,32 +375,8 @@
       ],
       "startDate": "2017-05-30T00:00:00.000Z",
       "stopDate": "2018-06-30T00:00:00.000Z"
-    },
-    {
-      "description": "",
-      "id": "rank3dep2",
-      "parameterDays": 0.12,
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "spectrogram example (not for publication)",
-          "name": "Counts",
-          "units": "s!E-1!Ncm!E-2!Nster!E-1!NkeV!E-1!N"
-        },
-        {
-          "description": "",
-          "name": "Energy",
-          "units": "eV"
-        }
-      ],
-      "startDate": "2021-04-07T00:00:00.000Z",
-      "stopDate": "2021-04-07T01:00:00.000Z"
     }
   ],
   "id": "https://jfaden.net/HapiServerDemo/hapi",
-  "parameterDays": 60925.5
+  "parameterDays": 61016.4
 }

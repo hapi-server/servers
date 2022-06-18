@@ -1,0 +1,52 @@
+[
+	{
+		"emailAlerts": true,
+		"emailAlertsTo": "Robert.SWeigel@gmail.com",
+		"emailThreshold": 2,
+		"url": "http://hapi-server.org/servers/SSCWeb/hapi",
+		"interval": 600000,
+		"testName": "landing",
+		"tests": {
+			"lengthChanged": true,
+			"statusCode": 200,
+			"md5Changed": false,
+			"firstByte": 1000,
+			"total": 2000,
+			"download": 1000,
+			"bodyRegExp": ["SSCWeb",""]
+		}
+	},
+	{
+		"emailAlerts": true,
+		"emailAlertsTo": "Robert.SWeigel@gmail.com",
+		"emailThreshold": 2,
+		"url": "http://hapi-server.org/servers/SSCWeb/hapi/catalog",
+		"interval": 601000,
+		"testName": "catalog",
+		"tests": {
+			"lengthChanged": true,
+			"statusCode": 200,
+			"md5Changed": false,
+			"firstByte": 1000,
+			"total": 2000,
+			"download": 1000,
+			"bodyRegExp": ["akebono",""]
+		}
+	},
+	{
+		"emailAlerts": true,
+		"emailAlertsTo": "Robert.SWeigel@gmail.com",
+		"emailThreshold": 2,
+		"url": "https://hapi-server.org/servers/SSCWeb/hapi/data?id=mms1&parameters=X_TOD&time.min=2015-03-13T10:00:29.000Z&time.max=2015-03-14T10:00:29.000Z",
+		"interval": 601000,
+		"testName": "data",
+		"tests": {
+			"lengthChanged": true,
+			"statusCode": 200,
+			"md5Changed": false,
+			"firstByte": 2000,
+			"total": 2000,
+			"download": 1000
+		}
+	}
+]

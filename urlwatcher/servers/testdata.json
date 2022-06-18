@@ -1,0 +1,66 @@
+[
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "url": "http://hapi-server.org/servers/TestData2.0/hapi",
+        "interval": 60000,
+        "testName": "2.0",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["HAPI 2.0",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "url": "http://hapi-server.org/servers/TestData2.1/hapi",
+        "interval": 60000,
+        "testName": "2.1",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["HAPI 2.1",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "url": "http://hapi-server.org/servers/TestData3.0/hapi",
+        "interval": 60000,
+        "testName": "3.0",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["HAPI 3.0",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "url": "http://hapi-server.org/servers/TestData3.1/hapi",
+        "interval": 60000,
+        "testName": "3.1",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["HAPI 3.1",""]
+        }
+    }
+]

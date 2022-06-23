@@ -56,7 +56,7 @@ for line in open(str(f)):
     servers.append(s)
 
 ## DELETE ME or uncomment this for testing.
-servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
+#servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
 
 for s in include:
     if not s in servers:

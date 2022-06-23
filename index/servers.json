@@ -1,10 +1,38 @@
 [
   {
-    "URL": "https://jfaden.net/HapiServerDemo/hapi",
-    "index": "https_jfaden.net_HapiServerDemo_hapi.json"
+    "URL": "http://hapi-server.org/servers/SSCWeb/hapi",
+    "index": "http_hapi-server.org_servers_SSCWeb_hapi.json"
   },
   {
     "URL": "http://datashop.elasticbeanstalk.com/hapi",
     "index": "http_datashop.elasticbeanstalk.com_hapi.json"
+  },
+  {
+    "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
+    "index": "http_planet.physics.uiowa.edu_das_das2Server_hapi.json"
+  },
+  {
+    "URL": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+    "index": "https_iswa.gsfc.nasa.gov_IswaSystemWebApp_hapi.json"
+  },
+  {
+    "URL": "http://lasp.colorado.edu/lisird/hapi",
+    "index": "http_lasp.colorado.edu_lisird_hapi.json"
+  },
+  {
+    "URL": "http://hapi-server.org/servers/TestData2.0/hapi",
+    "index": "http_hapi-server.org_servers_TestData2.0_hapi.json"
+  },
+  {
+    "URL": "http://amda.irap.omp.eu/service/hapi",
+    "index": "http_amda.irap.omp.eu_service_hapi.json"
+  },
+  {
+    "URL": "https://vires.services/hapi",
+    "index": "https_vires.services_hapi.json"
+  },
+  {
+    "URL": "https://jfaden.net/HapiServerDemo/hapi",
+    "index": "https_jfaden.net_HapiServerDemo_hapi.json"
   }
 ]

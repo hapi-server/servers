@@ -1,9 +1,379 @@
 {
   "catalog": [
     {
+      "description": "Cryosat-2 Platform magnetometer measurements",
+      "id": "CS_OPER_MAG",
+      "parameterDays": 65629.34,
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "calibrated magnetic vector from FGM1, in instrument frame",
+          "name": "B_FGM1",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated magnetic vector from FGM2, in instrument frame",
+          "name": "B_FGM2",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated magnetic vector from FGM3, in instrument frame",
+          "name": "B_FGM3",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector from FGM1, in NEC (North, East, Center) frame",
+          "name": "B_NEC1",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector from FGM2, in NEC (North, East, Center) frame",
+          "name": "B_NEC2",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector from FGM3, in NEC (North, East, Center) frame",
+          "name": "B_NEC3",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector in NEC (North, East, Center) frame, 5 sample (i.e. 20 second) robust average of all 3 FGM",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "magnetic field intensity determined from B_NEC",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "CHAOS-6 model field (core, crust + magnetosphere), in NEC (North, East, Center) frame",
+          "name": "B_mod_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC <- CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "experimental error indicator of attitude given in Quaternion q_NEC_CRF. Bad attitude if > approx 40",
+          "name": "q_error",
+          "units": "mdeg"
+        }
+      ],
+      "startDate": "2010-04-08T17:03:26.254008Z",
+      "stopDate": "2022-03-31T23:59:52.266008Z"
+    },
+    {
+      "description": "GRACE-FO 1 platform magnetometer measurements",
+      "id": "GF1_OPER_FGM_ACAL_CORR",
+      "parameterDays": 21450,
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Fluxgate magnetometer, FGM, aligned, vector-vector calibrated and corrected for satellite disturbances, FGM frame",
+          "name": "B_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Fluxgate magnetometer, FGM, aligned, vector-vector calibrated and corrected for satellite disturbances, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ... FGM",
+          "name": "q_NEC_FGM",
+          "units": null
+        },
+        {
+          "description": "Disturbance field related to magnetorquer, FGM frame",
+          "name": "dB_MTQ_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 2nd order non-linearities, FGM frame",
+          "name": "dB_XI_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 3rd order non-linearities, FGM frame",
+          "name": "dB_NY_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of offsets, FGM frame",
+          "name": "dB_BT_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of scale factors, FGM frame",
+          "name": "dB_ST_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to solar array currents, FGM frame",
+          "name": "dB_SA_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to battery currents, FGM frame",
+          "name": "dB_BAT_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Flags",
+          "name": "B_FLAG",
+          "units": null
+        }
+      ],
+      "startDate": "2018-06-01T00:00:00Z",
+      "stopDate": "2022-04-30T23:59:59Z"
+    },
+    {
+      "description": "GRACE-FO 2 platform magnetometer measurements",
+      "id": "GF2_OPER_FGM_ACAL_CORR",
+      "parameterDays": 21450,
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Fluxgate magnetometer, FGM, aligned, vector-vector calibrated and corrected for satellite disturbances, FGM frame",
+          "name": "B_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Fluxgate magnetometer, FGM, aligned, vector-vector calibrated and corrected for satellite disturbances, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC ... FGM",
+          "name": "q_NEC_FGM",
+          "units": null
+        },
+        {
+          "description": "Disturbance field related to magnetorquer, FGM frame",
+          "name": "dB_MTQ_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 2nd order non-linearities, FGM frame",
+          "name": "dB_XI_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 3rd order non-linearities, FGM frame",
+          "name": "dB_NY_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of offsets, FGM frame",
+          "name": "dB_BT_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of scale factors, FGM frame",
+          "name": "dB_ST_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to solar array currents, FGM frame",
+          "name": "dB_SA_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to battery currents, FGM frame",
+          "name": "dB_BAT_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "Flags",
+          "name": "B_FLAG",
+          "units": null
+        }
+      ],
+      "startDate": "2018-06-01T00:00:00Z",
+      "stopDate": "2022-04-30T23:59:59Z"
+    },
+    {
+      "description": "GRACE 1 platform magnetometer measurements",
+      "id": "GRACE_A_MAG",
+      "parameterDays": 35920,
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "calibrated magnetic vector from FGM, in instrument frame",
+          "name": "B_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector in NEC (North, East, Center) frame",
+          "name": "B_NEC_raw",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector in NEC (North, East, Center) frame, 11 sample (i.e. 11 second) robust average",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "magnetic field intensity determined from B_NEC",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC <- CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "experimental error indicator of attitude given in Quaternion q_NEC_CRF. Bad attitude if > approx 40",
+          "name": "q_error",
+          "units": "mdeg"
+        }
+      ],
+      "startDate": "2008-01-01T00:00:04.787680Z",
+      "stopDate": "2017-10-31T23:59:38.945023Z"
+    },
+    {
+      "description": "GRACE 2 platform magnetometer measurements",
+      "id": "GRACE_B_MAG",
+      "parameterDays": 35346.33,
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "calibrated magnetic vector from FGM, in instrument frame",
+          "name": "B_FGM",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector in NEC (North, East, Center) frame",
+          "name": "B_NEC_raw",
+          "units": "nT"
+        },
+        {
+          "description": "calibrated and aligned magnetic vector in NEC (North, East, Center) frame, 11 sample (i.e. 11 second) robust average",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "magnetic field intensity determined from B_NEC",
+          "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: NEC <- CRF",
+          "name": "q_NEC_CRF",
+          "units": null
+        },
+        {
+          "description": "experimental error indicator of attitude given in Quaternion q_NEC_CRF. Bad attitude if > approx 40",
+          "name": "q_error",
+          "units": "mdeg"
+        }
+      ],
+      "startDate": "2008-01-01T00:00:04.971828Z",
+      "stopDate": "2017-09-04T15:11:04.999953Z"
+    },
+    {
       "description": "Swarm A vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGA_HR_1B",
-      "parameterDays": 47976.63,
+      "parameterDays": 50056.63,
       "parameters": [
         {
           "description": "Time stamp",
@@ -87,12 +457,12 @@
         }
       ],
       "startDate": "2013-11-25T11:02:51.642562Z",
-      "stopDate": "2022-02-09T23:59:59.990062Z"
+      "stopDate": "2022-06-19T23:59:59.984922Z"
     },
     {
       "description": "Swarm A vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGA_LR_1B",
-      "parameterDays": 65967.87,
+      "parameterDays": 68827.87,
       "parameters": [
         {
           "description": "Time stamp",
@@ -206,12 +576,12 @@
         }
       ],
       "startDate": "2013-11-25T11:02:52Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     },
     {
       "description": "Swarm B vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGB_HR_1B",
-      "parameterDays": 47976.65,
+      "parameterDays": 50056.65,
       "parameters": [
         {
           "description": "Time stamp",
@@ -295,12 +665,12 @@
         }
       ],
       "startDate": "2013-11-25T11:01:09.884711Z",
-      "stopDate": "2022-02-09T23:59:59.997461Z"
+      "stopDate": "2022-06-19T23:59:59.982789Z"
     },
     {
       "description": "Swarm B vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGB_LR_1B",
-      "parameterDays": 65967.9,
+      "parameterDays": 68827.9,
       "parameters": [
         {
           "description": "Time stamp",
@@ -414,12 +784,12 @@
         }
       ],
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     },
     {
       "description": "Swarm C vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGC_HR_1B",
-      "parameterDays": 47968,
+      "parameterDays": 50048,
       "parameters": [
         {
           "description": "Time stamp",
@@ -503,12 +873,12 @@
         }
       ],
       "startDate": "2013-11-26T00:00:00.003523Z",
-      "stopDate": "2022-02-09T23:59:59.985438Z"
+      "stopDate": "2022-06-19T23:59:59.999984Z"
     },
     {
       "description": "Swarm C vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGC_LR_1B",
-      "parameterDays": 65956,
+      "parameterDays": 68816,
       "parameters": [
         {
           "description": "Time stamp",
@@ -622,12 +992,12 @@
         }
       ],
       "startDate": "2013-11-26T00:00:00Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     },
     {
       "description": "Swarm A S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODA_SC_1B",
-      "parameterDays": 11994.17,
+      "parameterDays": 12514.17,
       "parameters": [
         {
           "description": "Time stamp",
@@ -651,12 +1021,12 @@
         }
       ],
       "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     },
     {
       "description": "Swarm B S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODB_SC_1B",
-      "parameterDays": 11994.16,
+      "parameterDays": 12514.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -680,12 +1050,12 @@
         }
       ],
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     },
     {
       "description": "Swarm C S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODC_SC_1B",
-      "parameterDays": 11994.16,
+      "parameterDays": 12514.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -709,9 +1079,9 @@
         }
       ],
       "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "2022-02-09T23:59:59Z"
+      "stopDate": "2022-06-19T23:59:59Z"
     }
   ],
   "id": "https://vires.services/hapi",
-  "parameterDays": 377795.5
+  "parameterDays": 573971.2
 }

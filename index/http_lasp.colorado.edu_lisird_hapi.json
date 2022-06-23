@@ -3,7 +3,7 @@
     {
       "description": "",
       "id": "bremen_composite_mgii",
-      "parameterDays": 63216,
+      "parameterDays": 63736,
       "parameters": [
         {
           "description": "",
@@ -27,7 +27,7 @@
         }
       ],
       "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2022-02-13T00:00:00.000Z"
+      "stopDate": "2022-06-23T00:00:00.000Z"
     },
     {
       "description": "",
@@ -51,7 +51,7 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1Y",
-      "parameterDays": 450342,
+      "parameterDays": 451437,
       "parameters": [
         {
           "description": "",
@@ -70,7 +70,7 @@
         }
       ],
       "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
@@ -266,7 +266,7 @@
     {
       "description": "",
       "id": "nrl2_tsi_prelim_P1M",
-      "parameterDays": 816,
+      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -284,8 +284,8 @@
           "units": "W/m^2"
         }
       ],
-      "startDate": "2021-01-01T00:00:00.000Z",
-      "stopDate": "2021-09-30T00:00:00.000Z"
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "stopDate": "2022-03-31T00:00:00.000Z"
     },
     {
       "description": "",
@@ -333,7 +333,7 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1M",
-      "parameterDays": 152304,
+      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -352,12 +352,12 @@
         }
       ],
       "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_tsi_P1D",
-      "parameterDays": 152304,
+      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -376,12 +376,12 @@
         }
       ],
       "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_tsi_prelim_P1D",
-      "parameterDays": 816,
+      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -399,13 +399,13 @@
           "units": "W/m^2"
         }
       ],
-      "startDate": "2021-01-01T00:00:00.000Z",
-      "stopDate": "2021-09-30T00:00:00.000Z"
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "stopDate": "2022-03-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_ssi_prelim_P1M",
-      "parameterDays": 816,
+      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -423,13 +423,13 @@
           "units": "W/m^2/nm"
         }
       ],
-      "startDate": "2021-01-01T00:00:00.000Z",
-      "stopDate": "2021-09-30T00:00:00.000Z"
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "stopDate": "2022-03-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_tsi_P1M",
-      "parameterDays": 152304,
+      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -448,12 +448,12 @@
         }
       ],
       "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_tsi_P1Y",
-      "parameterDays": 450342,
+      "parameterDays": 451437,
       "parameters": [
         {
           "description": "",
@@ -472,12 +472,12 @@
         }
       ],
       "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_ssi_P1D",
-      "parameterDays": 152304,
+      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -496,12 +496,12 @@
         }
       ],
       "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2020-12-31T00:00:00.000Z"
+      "stopDate": "2021-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "nrl2_ssi_prelim_P1D",
-      "parameterDays": 816,
+      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -519,8 +519,8 @@
           "units": "W/m^2/nm"
         }
       ],
-      "startDate": "2021-01-01T00:00:00.000Z",
-      "stopDate": "2021-09-30T00:00:00.000Z"
+      "startDate": "2022-01-01T00:00:00.000Z",
+      "stopDate": "2022-03-31T00:00:00.000Z"
     },
     {
       "description": "",
@@ -617,7 +617,7 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3a",
-      "parameterDays": 14650,
+      "parameterDays": 14910,
       "parameters": [
         {
           "description": "",
@@ -631,12 +631,12 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-02-11T00:00:00.000Z"
+      "stopDate": "2022-06-21T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "historical_tsi",
-      "parameterDays": 301046,
+      "parameterDays": 298766,
       "parameters": [
         {
           "description": "",
@@ -650,12 +650,12 @@
         }
       ],
       "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2022-02-13T00:00:00.000Z"
+      "stopDate": "2018-12-31T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "composite_lyman_alpha",
-      "parameterDays": 109564,
+      "parameterDays": 110084,
       "parameters": [
         {
           "description": "",
@@ -679,12 +679,12 @@
         }
       ],
       "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2022-02-11T00:00:00.000Z"
+      "stopDate": "2022-06-21T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "timed_see_xps_ssi_l4",
-      "parameterDays": 14650,
+      "parameterDays": 14910,
       "parameters": [
         {
           "description": "",
@@ -698,7 +698,7 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-02-11T00:00:00.000Z"
+      "stopDate": "2022-06-21T00:00:00.000Z"
     },
     {
       "description": "",
@@ -727,7 +727,7 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3",
-      "parameterDays": 21924,
+      "parameterDays": 22314,
       "parameters": [
         {
           "description": "",
@@ -746,12 +746,12 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-02-11T00:00:00.000Z"
+      "stopDate": "2022-06-21T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "sdo_eve_ssi_1nm_l3",
-      "parameterDays": 12918,
+      "parameterDays": 13308,
       "parameters": [
         {
           "description": "",
@@ -770,12 +770,12 @@
         }
       ],
       "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2022-02-12T00:00:00.000Z"
+      "stopDate": "2022-06-22T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "timed_see_egs_ssi_l2",
-      "parameterDays": 14616,
+      "parameterDays": 14876,
       "parameters": [
         {
           "description": "",
@@ -789,7 +789,7 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-02-11T00:00:00.000Z"
+      "stopDate": "2022-06-21T00:00:00.000Z"
     },
     {
       "description": "",
@@ -989,5 +989,5 @@
     }
   ],
   "id": "http://lasp.colorado.edu/lisird/hapi",
-  "parameterDays": 2581343
+  "parameterDays": 2586037
 }

@@ -3,7 +3,7 @@
     {
       "description": "",
       "id": "bremen_composite_mgii",
-      "parameterDays": 63804,
+      "parameterDays": 63832,
       "parameters": [
         {
           "description": "",
@@ -27,7 +27,7 @@
         }
       ],
       "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2022-07-10T00:00:00.000Z"
+      "stopDate": "2022-07-17T00:00:00.000Z"
     },
     {
       "description": "",
@@ -617,7 +617,7 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3a",
-      "parameterDays": 14944,
+      "parameterDays": 14958,
       "parameters": [
         {
           "description": "",
@@ -631,7 +631,7 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-07-08T00:00:00.000Z"
+      "stopDate": "2022-07-15T00:00:00.000Z"
     },
     {
       "description": "",
@@ -655,7 +655,7 @@
     {
       "description": "",
       "id": "composite_lyman_alpha",
-      "parameterDays": 110152,
+      "parameterDays": 110180,
       "parameters": [
         {
           "description": "",
@@ -679,12 +679,12 @@
         }
       ],
       "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2022-07-08T00:00:00.000Z"
+      "stopDate": "2022-07-15T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "timed_see_xps_ssi_l4",
-      "parameterDays": 14944,
+      "parameterDays": 14958,
       "parameters": [
         {
           "description": "",
@@ -698,7 +698,7 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-07-08T00:00:00.000Z"
+      "stopDate": "2022-07-15T00:00:00.000Z"
     },
     {
       "description": "",
@@ -727,7 +727,7 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3",
-      "parameterDays": 22365,
+      "parameterDays": 22386,
       "parameters": [
         {
           "description": "",
@@ -746,12 +746,12 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-07-08T00:00:00.000Z"
+      "stopDate": "2022-07-15T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "sdo_eve_ssi_1nm_l3",
-      "parameterDays": 13359,
+      "parameterDays": 13380,
       "parameters": [
         {
           "description": "",
@@ -770,12 +770,12 @@
         }
       ],
       "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2022-07-09T00:00:00.000Z"
+      "stopDate": "2022-07-16T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "timed_see_egs_ssi_l2",
-      "parameterDays": 14910,
+      "parameterDays": 14924,
       "parameters": [
         {
           "description": "",
@@ -789,7 +789,7 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-07-08T00:00:00.000Z"
+      "stopDate": "2022-07-15T00:00:00.000Z"
     },
     {
       "description": "",
@@ -989,5 +989,5 @@
     }
   ],
   "id": "http://lasp.colorado.edu/lisird/hapi",
-  "parameterDays": 2586377
+  "parameterDays": 2586517
 }

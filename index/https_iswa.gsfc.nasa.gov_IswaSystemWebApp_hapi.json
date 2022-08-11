@@ -3,7 +3,7 @@
     {
       "description": "",
       "id": "ace_epam_P5M",
-      "parameterDays": 39167.38,
+      "parameterDays": 40564.81,
       "parameters": [
         {
           "description": "",
@@ -48,16 +48,16 @@
         {
           "description": "",
           "name": "AnistropyIndex",
-          "units": "unknown"
+          "units": "index"
         }
       ],
       "startDate": "2010-03-15T00:00:00.0Z",
-      "stopDate": "2022-02-11T22:20:00.0Z"
+      "stopDate": "2022-07-17T04:50:00.0Z"
     },
     {
       "description": "",
       "id": "ace_mag_P1M",
-      "parameterDays": 55908.96,
+      "parameterDays": 56995.45,
       "parameters": [
         {
           "description": "",
@@ -96,12 +96,12 @@
         }
       ],
       "startDate": "2000-04-01T00:00:00.0Z",
-      "stopDate": "2022-02-11T23:51:00.0Z"
+      "stopDate": "2022-07-17T04:58:00.0Z"
     },
     {
       "description": "",
       "id": "ace_sis_P5M",
-      "parameterDays": 13055.79,
+      "parameterDays": 13521.6,
       "parameters": [
         {
           "description": "",
@@ -120,12 +120,12 @@
         }
       ],
       "startDate": "2010-03-15T00:00:00.0Z",
-      "stopDate": "2022-02-11T22:20:00.0Z"
+      "stopDate": "2022-07-17T04:50:00.0Z"
     },
     {
       "description": "",
       "id": "ace_swepam_P1M",
-      "parameterDays": 31947.99,
+      "parameterDays": 32568.84,
       "parameters": [
         {
           "description": "",
@@ -149,7 +149,31 @@
         }
       ],
       "startDate": "2000-04-01T00:00:00.0Z",
-      "stopDate": "2022-02-11T23:57:00.0Z"
+      "stopDate": "2022-07-17T05:01:00.0Z"
+    },
+    {
+      "description": "",
+      "id": "airforce_45day",
+      "parameterDays": 546,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "F10_7",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "AP",
+          "units": "index"
+        }
+      ],
+      "startDate": "2022-03-01T00:00:00.0Z",
+      "stopDate": "2022-08-30T00:00:00.0Z"
     },
     {
       "description": "",
@@ -188,7 +212,7 @@
     {
       "description": "",
       "id": "dscovr_mag_1m",
-      "parameterDays": 14211.75,
+      "parameterDays": 15289.46,
       "parameters": [
         {
           "description": "",
@@ -216,23 +240,23 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "GSM Coordinates",
           "name": "Latitude",
           "units": "degrees"
         },
         {
-          "description": "",
+          "description": "GSM Coordinates",
           "name": "Longitude",
           "units": "degrees"
         }
       ],
       "startDate": "2016-07-24T00:00:00.0Z",
-      "stopDate": "2022-02-13T05:59:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "dscovr_plasma_1m",
-      "parameterDays": 8113,
+      "parameterDays": 8728.83,
       "parameters": [
         {
           "description": "",
@@ -256,7 +280,7 @@
         }
       ],
       "startDate": "2016-07-26T00:00:00.0Z",
-      "stopDate": "2022-02-13T05:59:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
@@ -271,17 +295,17 @@
         {
           "description": "",
           "name": "KP_18",
-          "units": "unknown"
+          "units": "index"
         },
         {
           "description": "",
           "name": "KP_90",
-          "units": "unknown"
+          "units": "index"
         },
         {
           "description": "",
           "name": "KP_180",
-          "units": "unknown"
+          "units": "index"
         }
       ],
       "startDate": "2011-03-27T00:03:00.0Z",
@@ -289,8 +313,42 @@
     },
     {
       "description": "",
+      "id": "gfz_obs_geo_indices",
+      "parameterDays": 165350,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "AP",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "SN",
+          "units": "Sunspot Number"
+        },
+        {
+          "description": "",
+          "name": "F10_7_obs",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "F10_7_adj",
+          "units": "index"
+        }
+      ],
+      "startDate": "1932-01-01T00:00:00.0Z",
+      "stopDate": "2022-07-17T00:00:00.0Z"
+    },
+    {
+      "description": "GOES Primary Mag at 1 minute intervals.  Observational data.",
       "id": "goesp_mag_p1m",
-      "parameterDays": 21616.25,
+      "parameterDays": 22386.04,
       "parameters": [
         {
           "description": "",
@@ -319,12 +377,12 @@
         }
       ],
       "startDate": "2010-04-14T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "goesp_part_flux_P5M",
-      "parameterDays": 51878.96,
+      "parameterDays": 53726.46,
       "parameters": [
         {
           "description": "",
@@ -388,12 +446,12 @@
         }
       ],
       "startDate": "2010-04-14T00:00:00.0Z",
-      "stopDate": "2022-02-13T05:55:00.0Z"
+      "stopDate": "2022-07-17T04:55:00.0Z"
     },
     {
       "description": "",
       "id": "goesp_xray_flux_P1M",
-      "parameterDays": 12972.75,
+      "parameterDays": 13434.62,
       "parameters": [
         {
           "description": "",
@@ -412,12 +470,12 @@
         }
       ],
       "startDate": "2010-04-13T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:01:00.0Z"
+      "stopDate": "2022-07-17T04:59:00.0Z"
     },
     {
       "description": "",
       "id": "goess_mag_p1m",
-      "parameterDays": 23251.25,
+      "parameterDays": 24021.05,
       "parameters": [
         {
           "description": "",
@@ -446,12 +504,12 @@
         }
       ],
       "startDate": "2009-05-22T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:01:00.0Z"
     },
     {
       "description": "",
       "id": "goess_part_flux_P5M",
-      "parameterDays": 43232.47,
+      "parameterDays": 44772.05,
       "parameters": [
         {
           "description": "",
@@ -505,12 +563,12 @@
         }
       ],
       "startDate": "2010-04-14T00:00:00.0Z",
-      "stopDate": "2022-02-13T05:55:00.0Z"
+      "stopDate": "2022-07-17T04:55:00.0Z"
     },
     {
       "description": "",
       "id": "goess_xray_flux_P1M",
-      "parameterDays": 10341.75,
+      "parameterDays": 10803.62,
       "parameters": [
         {
           "description": "",
@@ -529,7 +587,7 @@
         }
       ],
       "startDate": "2012-09-06T00:00:00.0Z",
-      "stopDate": "2022-02-13T05:59:00.0Z"
+      "stopDate": "2022-07-17T04:57:00.0Z"
     },
     {
       "description": "",
@@ -1251,7 +1309,7 @@
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-AATB",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1265,12 +1323,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-APTY",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1284,12 +1342,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-ATHN",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1303,12 +1361,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-BKSN",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1322,12 +1380,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-CALM",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1341,12 +1399,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-DRBS",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1360,12 +1418,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-FSMT",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1379,12 +1437,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-INVK",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1398,12 +1456,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JBGO",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1417,12 +1475,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JUNG",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1436,12 +1494,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-JUNG1",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1455,12 +1513,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-KERG",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1474,12 +1532,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-KIEL2",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1493,12 +1551,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-LMKS",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1512,12 +1570,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MCMU",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1531,12 +1589,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MCRL",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1550,12 +1608,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MGDN",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1569,12 +1627,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-MXCO",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1588,12 +1646,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NAIN",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1607,12 +1665,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NANM",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1626,12 +1684,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-NEWK",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1645,12 +1703,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-OULU",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1664,12 +1722,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-PWNK",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1683,12 +1741,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-ROME",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1702,12 +1760,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-SOPB",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1721,12 +1779,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-SOPO",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1740,12 +1798,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-TERA",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1759,12 +1817,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-THUL",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1778,12 +1836,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NMDB_p1m_NMDB-YKTK",
-      "parameterDays": 8852.5,
+      "parameterDays": 9160.42,
       "parameters": [
         {
           "description": "",
@@ -1797,12 +1855,12 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-13T06:00:00.0Z"
+      "stopDate": "2022-07-17T05:00:00.0Z"
     },
     {
       "description": "",
       "id": "NOAA_KP_P3H",
-      "parameterDays": 65829.75,
+      "parameterDays": 66140,
       "parameters": [
         {
           "description": "",
@@ -1810,13 +1868,13 @@
           "units": "UTC"
         },
         {
-          "description": "",
-          "name": "KP",
-          "units": "unknown"
+          "description": "KP for 3 hour windows, timestamp is for the end of the 3 hour window.  For example 06:00 timestamp is for 03:00 to 06:00",
+          "name": "KP_3H",
+          "units": "KP Index"
         }
       ],
-      "startDate": "1932-01-01T01:30:00.0Z",
-      "stopDate": "2022-02-11T22:30:00.0Z"
+      "startDate": "1932-01-01T03:00:00.0Z",
+      "stopDate": "2022-07-17T03:00:00.0Z"
     },
     {
       "description": "",
@@ -2569,7 +2627,7 @@
     {
       "description": "",
       "id": "poes_noaa15_sensor0",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2598,12 +2656,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor1",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2632,12 +2690,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor10",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2666,12 +2724,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor11",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2700,12 +2758,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor12",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2734,12 +2792,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor13",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2768,12 +2826,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor14",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2802,12 +2860,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor15",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2836,12 +2894,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor16",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2870,12 +2928,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor17",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2904,12 +2962,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor18",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2938,12 +2996,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor19",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -2972,12 +3030,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor2",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3006,12 +3064,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor20",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3040,12 +3098,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor21",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3074,12 +3132,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor3",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3108,12 +3166,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor4",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3142,12 +3200,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor5",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3176,12 +3234,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor6",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3210,12 +3268,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor7",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3244,12 +3302,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor8",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3278,12 +3336,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa15_sensor9",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3312,12 +3370,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor0",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3346,12 +3404,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor1",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3380,12 +3438,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor10",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3414,12 +3472,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor11",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3448,12 +3506,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor12",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3482,12 +3540,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor13",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3516,12 +3574,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor14",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3550,12 +3608,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor15",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3584,12 +3642,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor16",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3618,12 +3676,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor17",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3652,12 +3710,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor18",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3686,12 +3744,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor19",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3720,12 +3778,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor2",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3754,12 +3812,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor20",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3788,12 +3846,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor21",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3822,12 +3880,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor3",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3856,12 +3914,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor4",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3890,12 +3948,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor5",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3924,12 +3982,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor6",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3958,12 +4016,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor7",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -3992,12 +4050,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor8",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4026,12 +4084,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa18_sensor9",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4060,12 +4118,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor0",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4094,12 +4152,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor1",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4128,12 +4186,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor10",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4162,12 +4220,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor11",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4196,12 +4254,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor12",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4230,12 +4288,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor13",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4264,12 +4322,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor14",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4298,12 +4356,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor15",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4332,12 +4390,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor16",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4366,12 +4424,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor17",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4400,12 +4458,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor18",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4434,12 +4492,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor19",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4468,12 +4526,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor2",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4502,12 +4560,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor20",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4536,12 +4594,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor21",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4570,12 +4628,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor3",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4604,12 +4662,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor4",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4638,12 +4696,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor5",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4672,12 +4730,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor6",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4706,12 +4764,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor7",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4740,12 +4798,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor8",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4774,12 +4832,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "poes_noaa19_sensor9",
-      "parameterDays": 16645,
+      "parameterDays": 17415,
       "parameters": [
         {
           "description": "",
@@ -4808,12 +4866,12 @@
         }
       ],
       "startDate": "2013-01-01T00:00:00.0Z",
-      "stopDate": "2022-02-12T00:00:00.0Z"
+      "stopDate": "2022-07-16T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "Predicted_KP_P1M",
-      "parameterDays": 8706.4,
+      "parameterDays": 9014.32,
       "parameters": [
         {
           "description": "",
@@ -4823,11 +4881,11 @@
         {
           "description": "",
           "name": "KP",
-          "units": "unknown"
+          "units": "KP Index"
         }
       ],
       "startDate": "2010-03-15T01:07:05.0Z",
-      "stopDate": "2022-02-13T05:56:00.0Z"
+      "stopDate": "2022-07-17T04:56:00.0Z"
     },
     {
       "description": "",
@@ -7317,7 +7375,7 @@
     {
       "description": "",
       "id": "stereo_a_impact_P1M",
-      "parameterDays": 69497.54,
+      "parameterDays": 71502.65,
       "parameters": [
         {
           "description": "",
@@ -7386,7 +7444,7 @@
         }
       ],
       "startDate": "2007-06-26T00:04:16.0Z",
-      "stopDate": "2022-02-12T23:13:23.0Z"
+      "stopDate": "2022-07-17T04:58:17.0Z"
     },
     {
       "description": "",
@@ -7465,7 +7523,7 @@
     {
       "description": "",
       "id": "SWMF2011wrcm_MP_STANDOFF_P5M",
-      "parameterDays": 8028.06,
+      "parameterDays": 8798.05,
       "parameters": [
         {
           "description": "",
@@ -7494,7 +7552,7 @@
         }
       ],
       "startDate": "2017-09-21T15:22:15.0Z",
-      "stopDate": "2022-02-13T06:03:17.0Z"
+      "stopDate": "2022-07-17T06:00:02.0Z"
     },
     {
       "description": "",
@@ -8187,7 +8245,7 @@
     {
       "description": "",
       "id": "SWMF_RealTime_SWMF2008",
-      "parameterDays": 10966.95,
+      "parameterDays": 11274.91,
       "parameters": [
         {
           "description": "",
@@ -8201,12 +8259,12 @@
         }
       ],
       "startDate": "2007-02-08T19:03:14.0Z",
-      "stopDate": "2022-02-13T06:29:13.0Z"
+      "stopDate": "2022-07-17T06:00:02.0Z"
     },
     {
       "description": "",
       "id": "SWMF_RealTime_SWMF2011wRCM",
-      "parameterDays": 10966.95,
+      "parameterDays": 11274.91,
       "parameters": [
         {
           "description": "",
@@ -8220,12 +8278,41 @@
         }
       ],
       "startDate": "2007-02-08T19:03:14.0Z",
-      "stopDate": "2022-02-13T06:29:13.0Z"
+      "stopDate": "2022-07-17T06:00:02.0Z"
+    },
+    {
+      "description": "",
+      "id": "swpc_27day",
+      "parameterDays": 636,
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "F10_7",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "AP",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "Largest_KP",
+          "units": "index"
+        }
+      ],
+      "startDate": "2022-02-28T00:00:00.0Z",
+      "stopDate": "2022-08-06T00:00:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BOU",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8254,12 +8341,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BRW",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8288,12 +8375,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_BSL",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8322,12 +8409,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_CMO",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8356,12 +8443,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_DED",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8390,12 +8477,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_FRD",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8424,12 +8511,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_FRN",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8458,12 +8545,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_GUA",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8492,12 +8579,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_HON",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8526,12 +8613,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_NEW",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8560,12 +8647,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SHU",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8594,12 +8681,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SIT",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8628,12 +8715,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_SJG",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8662,12 +8749,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "USGS_Intermagnet_TUC",
-      "parameterDays": 19850,
+      "parameterDays": 20620,
       "parameters": [
         {
           "description": "",
@@ -8696,12 +8783,12 @@
         }
       ],
       "startDate": "2011-04-03T00:00:00.0Z",
-      "stopDate": "2022-02-13T23:59:00.0Z"
+      "stopDate": "2022-07-17T23:59:00.0Z"
     },
     {
       "description": "",
       "id": "WIND_MFI_P2M",
-      "parameterDays": 40376.73,
+      "parameterDays": 41125.41,
       "parameters": [
         {
           "description": "",
@@ -8730,12 +8817,12 @@
         }
       ],
       "startDate": "2000-01-04T20:05:49.0Z",
-      "stopDate": "2022-02-13T04:24:07.0Z"
+      "stopDate": "2022-07-12T22:04:29.0Z"
     },
     {
       "description": "",
       "id": "WIND_SWE_P2M",
-      "parameterDays": 32301.38,
+      "parameterDays": 32900.32,
       "parameters": [
         {
           "description": "",
@@ -8759,9 +8846,9 @@
         }
       ],
       "startDate": "2000-01-04T20:08:07.0Z",
-      "stopDate": "2022-02-13T04:23:14.0Z"
+      "stopDate": "2022-07-12T22:04:51.0Z"
     }
   ],
   "id": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
-  "parameterDays": 3567569.4
+  "parameterDays": 3821102.3
 }

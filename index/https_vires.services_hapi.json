@@ -3,7 +3,6 @@
     {
       "description": "Cryosat-2 Platform magnetometer measurements",
       "id": "CS_OPER_MAG",
-      "parameterDays": 65629.34,
       "parameters": [
         {
           "description": "Time stamp",
@@ -87,7 +86,6 @@
     {
       "description": "GRACE-FO 1 platform magnetometer measurements",
       "id": "GF1_OPER_FGM_ACAL_CORR",
-      "parameterDays": 21915,
       "parameters": [
         {
           "description": "Time stamp",
@@ -166,12 +164,11 @@
         }
       ],
       "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "2022-05-31T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "GRACE-FO 2 platform magnetometer measurements",
       "id": "GF2_OPER_FGM_ACAL_CORR",
-      "parameterDays": 21915,
       "parameters": [
         {
           "description": "Time stamp",
@@ -250,12 +247,11 @@
         }
       ],
       "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "2022-05-31T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "GRACE 1 platform magnetometer measurements",
       "id": "GRACE_A_MAG",
-      "parameterDays": 35920,
       "parameters": [
         {
           "description": "Time stamp",
@@ -314,7 +310,6 @@
     {
       "description": "GRACE 2 platform magnetometer measurements",
       "id": "GRACE_B_MAG",
-      "parameterDays": 35346.33,
       "parameters": [
         {
           "description": "Time stamp",
@@ -373,7 +368,6 @@
     {
       "description": "Swarm A vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGA_HR_1B",
-      "parameterDays": 50440.63,
       "parameters": [
         {
           "description": "Time stamp",
@@ -457,12 +451,11 @@
         }
       ],
       "startDate": "2013-11-25T11:02:51.642562Z",
-      "stopDate": "2022-07-13T23:59:59.998891Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm A vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGA_LR_1B",
-      "parameterDays": 69355.87,
       "parameters": [
         {
           "description": "Time stamp",
@@ -576,12 +569,11 @@
         }
       ],
       "startDate": "2013-11-25T11:02:52Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm B vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGB_HR_1B",
-      "parameterDays": 50440.65,
       "parameters": [
         {
           "description": "Time stamp",
@@ -665,12 +657,11 @@
         }
       ],
       "startDate": "2013-11-25T11:01:09.884711Z",
-      "stopDate": "2022-07-13T23:59:59.996711Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm B vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGB_LR_1B",
-      "parameterDays": 69355.9,
       "parameters": [
         {
           "description": "Time stamp",
@@ -784,12 +775,11 @@
         }
       ],
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm C vector (VFM) magnetic field measurements at 50Hz rate.",
       "id": "SW_OPER_MAGC_HR_1B",
-      "parameterDays": 50432,
       "parameters": [
         {
           "description": "Time stamp",
@@ -873,12 +863,11 @@
         }
       ],
       "startDate": "2013-11-26T00:00:00.003523Z",
-      "stopDate": "2022-07-13T23:59:59.997773Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm C vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
       "id": "SW_OPER_MAGC_LR_1B",
-      "parameterDays": 69344,
       "parameters": [
         {
           "description": "Time stamp",
@@ -992,12 +981,11 @@
         }
       ],
       "startDate": "2013-11-26T00:00:00Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm A S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODA_SC_1B",
-      "parameterDays": 12610.17,
       "parameters": [
         {
           "description": "Time stamp",
@@ -1021,12 +1009,11 @@
         }
       ],
       "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm B S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODB_SC_1B",
-      "parameterDays": 12610.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -1050,12 +1037,11 @@
         }
       ],
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Swarm C S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
       "id": "SW_OPER_MODC_SC_1B",
-      "parameterDays": 12610.16,
       "parameters": [
         {
           "description": "Time stamp",
@@ -1079,9 +1065,8 @@
         }
       ],
       "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "2022-07-13T23:59:59Z"
+      "stopDate": "last60days"
     }
   ],
-  "id": "https://vires.services/hapi",
-  "parameterDays": 577925.2
+  "id": "https://vires.services/hapi"
 }

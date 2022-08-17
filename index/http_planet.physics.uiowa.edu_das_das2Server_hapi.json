@@ -3,7 +3,6 @@
     {
       "description": "One minute Cassini Saturn centered orbit parameters",
       "id": "Cassini/Ephemeris/Saturn,60s",
-      "parameterDays": 40998,
       "parameters": [
         {
           "description": "",
@@ -42,7 +41,6 @@
     {
       "description": "Electron Cyclotron Resonance Frequency",
       "id": "Cassini/MAG/ElectronCyclotron",
-      "parameterDays": 13210.88,
       "parameters": [
         {
           "description": "",
@@ -61,7 +59,6 @@
     {
       "description": "Magnetic Field Magnitude",
       "id": "Cassini/MAG/Magnitude",
-      "parameterDays": 13210.88,
       "parameters": [
         {
           "description": "",
@@ -80,7 +77,6 @@
     {
       "description": "Magnetometer Vector values in Kronocentric Solar Orbital coordinates from PDS volume CO-E_SW_J_S-MAG-4-SUMM-1SECAVG-V1.0",
       "id": "Cassini/MAG/VectorKSO",
-      "parameterDays": 23075,
       "parameters": [
         {
           "description": "",
@@ -114,7 +110,6 @@
     {
       "description": "Magnetometer Data in Spacecraft Coordinates from http://mapsview.engin.umich.edu/",
       "id": "Cassini/MAG/VectorSC",
-      "parameterDays": 33027.2,
       "parameters": [
         {
           "description": "",
@@ -148,7 +143,6 @@
     {
       "description": "See the Bx Antenna values sampled at 100 Hz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_100Hz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -167,7 +161,6 @@
     {
       "description": "See the Bx Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bx_7kHz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -186,7 +179,6 @@
     {
       "description": "See the By Antenna values sampled at 100 Hz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_100Hz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -205,7 +197,6 @@
     {
       "description": "See the By Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,By_7kHz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -224,7 +215,6 @@
     {
       "description": "See the Bz Antenna values sampled at 100 Hz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_100Hz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -243,7 +233,6 @@
     {
       "description": "See the Bz Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Bz_7kHz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -262,7 +251,6 @@
     {
       "description": "See the Ew Antenna values sampled at 100 Hz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_100Hz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -281,7 +269,6 @@
     {
       "description": "See the Ew Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ew_7kHz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -300,7 +287,6 @@
     {
       "description": "See the Ex Antenna values sampled at 100 Hz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_100Hz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -319,7 +305,6 @@
     {
       "description": "See the Ex Antenna values sampled at 7.143 kHz",
       "id": "Cassini/RPWS/HiRes_LoFreq_Spectra,Ex_7kHz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -338,7 +323,6 @@
     {
       "description": "Ex,Ew Antenna samples at 27.8 kHz, transformed by 512 pt DFT with 1/2 overlap",
       "id": "Cassini/RPWS/HiRes_MidFreq_Spectra,10khz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -357,7 +341,6 @@
     {
       "description": "Ex,Ew Antenna samples at 222 kHz, transformed by 512 pt DFT with 1/2 overlap",
       "id": "Cassini/RPWS/HiRes_MidFreq_Spectra,80khz",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -376,7 +359,6 @@
     {
       "description": "Survey Mode Magnetic Spectral Densities",
       "id": "Cassini/RPWS/Survey_KeyParam,B",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -395,7 +377,6 @@
     {
       "description": "Survey Mode Electric Spectral Densities",
       "id": "Cassini/RPWS/Survey_KeyParam,E",
-      "parameterDays": 15120.61,
       "parameters": [
         {
           "description": "",
@@ -412,6 +393,5 @@
       "stopDate": "2017-09-15T10:35"
     }
   ],
-  "id": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
-  "parameterDays": 335210.5
+  "id": "http://planet.physics.uiowa.edu/das/das2Server/hapi"
 }

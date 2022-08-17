@@ -3,7 +3,6 @@
     {
       "description": "",
       "id": "bremen_composite_mgii",
-      "parameterDays": 63832,
       "parameters": [
         {
           "description": "",
@@ -27,12 +26,11 @@
         }
       ],
       "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2022-07-17T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "yeo_nonempirical_tsi_reconstruction",
-      "parameterDays": 4568,
       "parameters": [
         {
           "description": "",
@@ -51,7 +49,6 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1Y",
-      "parameterDays": 451437,
       "parameters": [
         {
           "description": "",
@@ -75,7 +72,6 @@
     {
       "description": "",
       "id": "sme_ssi",
-      "parameterDays": 5488,
       "parameters": [
         {
           "description": "",
@@ -94,7 +90,6 @@
     {
       "description": "",
       "id": "nn_sim_tsi",
-      "parameterDays": 44262,
       "parameters": [
         {
           "description": "",
@@ -118,7 +113,6 @@
     {
       "description": "",
       "id": "sorce_tsi_24hr_l3",
-      "parameterDays": 41821,
       "parameters": [
         {
           "description": "",
@@ -192,7 +186,6 @@
     {
       "description": "",
       "id": "sorce_tsi_6hr_l3",
-      "parameterDays": 80730,
       "parameters": [
         {
           "description": "",
@@ -266,7 +259,6 @@
     {
       "description": "",
       "id": "nrl2_tsi_prelim_P1M",
-      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -285,12 +277,11 @@
         }
       ],
       "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-03-31T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "composite_mg_index",
-      "parameterDays": 25340,
       "parameters": [
         {
           "description": "",
@@ -309,7 +300,6 @@
     {
       "description": "",
       "id": "musil_solstice_muv",
-      "parameterDays": 15666,
       "parameters": [
         {
           "description": "",
@@ -333,7 +323,6 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1M",
-      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -357,7 +346,6 @@
     {
       "description": "",
       "id": "nrl2_tsi_P1D",
-      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -381,7 +369,6 @@
     {
       "description": "",
       "id": "nrl2_tsi_prelim_P1D",
-      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -400,12 +387,11 @@
         }
       ],
       "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-03-31T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "nrl2_ssi_prelim_P1M",
-      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -424,12 +410,11 @@
         }
       ],
       "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-03-31T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "nrl2_tsi_P1M",
-      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -453,7 +438,6 @@
     {
       "description": "",
       "id": "nrl2_tsi_P1Y",
-      "parameterDays": 451437,
       "parameters": [
         {
           "description": "",
@@ -477,7 +461,6 @@
     {
       "description": "",
       "id": "nrl2_ssi_P1D",
-      "parameterDays": 153399,
       "parameters": [
         {
           "description": "",
@@ -501,7 +484,6 @@
     {
       "description": "",
       "id": "nrl2_ssi_prelim_P1D",
-      "parameterDays": 267,
       "parameters": [
         {
           "description": "",
@@ -520,12 +502,11 @@
         }
       ],
       "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-03-31T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "musil_sim",
-      "parameterDays": 15753,
       "parameters": [
         {
           "description": "",
@@ -549,7 +530,6 @@
     {
       "description": "",
       "id": "cak",
-      "parameterDays": 113552,
       "parameters": [
         {
           "description": "",
@@ -598,7 +578,6 @@
     {
       "description": "",
       "id": "uars_solstice_ssi",
-      "parameterDays": 7300,
       "parameters": [
         {
           "description": "",
@@ -617,7 +596,6 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3a",
-      "parameterDays": 14958,
       "parameters": [
         {
           "description": "",
@@ -631,12 +609,11 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-07-15T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "historical_tsi",
-      "parameterDays": 298766,
       "parameters": [
         {
           "description": "",
@@ -655,7 +632,6 @@
     {
       "description": "",
       "id": "composite_lyman_alpha",
-      "parameterDays": 110180,
       "parameters": [
         {
           "description": "",
@@ -679,12 +655,11 @@
         }
       ],
       "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2022-07-15T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "timed_see_xps_ssi_l4",
-      "parameterDays": 14958,
       "parameters": [
         {
           "description": "",
@@ -698,12 +673,11 @@
         }
       ],
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2022-07-15T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "musil_see",
-      "parameterDays": 17025,
       "parameters": [
         {
           "description": "",
@@ -727,7 +701,6 @@
     {
       "description": "",
       "id": "timed_see_ssi_l3",
-      "parameterDays": 22386,
       "parameters": [
         {
           "description": "",
@@ -746,12 +719,11 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-07-15T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "sdo_eve_ssi_1nm_l3",
-      "parameterDays": 13380,
       "parameters": [
         {
           "description": "",
@@ -770,12 +742,11 @@
         }
       ],
       "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2022-07-16T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "timed_see_egs_ssi_l2",
-      "parameterDays": 14924,
       "parameters": [
         {
           "description": "",
@@ -789,12 +760,11 @@
         }
       ],
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2022-07-15T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "tcte_tsi_6hr",
-      "parameterDays": 25701,
       "parameters": [
         {
           "description": "",
@@ -868,7 +838,6 @@
     {
       "description": "",
       "id": "tcte_tsi_24hr",
-      "parameterDays": 25701,
       "parameters": [
         {
           "description": "",
@@ -942,7 +911,6 @@
     {
       "description": "",
       "id": "empire_tsi",
-      "parameterDays": 77022,
       "parameters": [
         {
           "description": "",
@@ -966,7 +934,6 @@
     {
       "description": "",
       "id": "musil_solstice_fuv",
-      "parameterDays": 15666,
       "parameters": [
         {
           "description": "",
@@ -988,6 +955,5 @@
       "stopDate": "2017-08-30T00:00:00.000Z"
     }
   ],
-  "id": "http://lasp.colorado.edu/lisird/hapi",
-  "parameterDays": 2586517
+  "id": "http://lasp.colorado.edu/lisird/hapi"
 }

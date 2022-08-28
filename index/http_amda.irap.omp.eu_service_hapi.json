@@ -9965,7 +9965,7 @@
         }
       ],
       "startDate": "1993-10-05T00:00:32Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-27T12:24:00Z"
     },
     {
       "description": "<br/> Sampling: 3S<br/> Provider: DARTS",
@@ -10021,7 +10021,7 @@
         }
       ],
       "startDate": "1992-09-04T19:14:06Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-27T12:23:54Z"
     },
     {
       "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -20975,7 +20975,7 @@
         }
       ],
       "startDate": "1996-05-07T17:19:56Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-27T23:59:30Z"
     },
     {
       "description": "LED detector<br/> Provider: https://srl.utu.fi/export/",
@@ -20998,7 +20998,7 @@
         }
       ],
       "startDate": "1996-05-07T17:19:56Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-27T23:59:30Z"
     },
     {
       "description": "STEREO-A orbit<br/> Sampling: 900S<br/> Provider: https://sohowww.nascom.nasa.gov",
@@ -24496,7 +24496,7 @@
         }
       ],
       "startDate": "2018-10-21T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-26T00:00:00Z"
     },
     {
       "description": "Tao SW Bepi / Input Stereo-A<br/> Sampling: 1H",
@@ -25237,7 +25237,7 @@
         }
       ],
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-26T00:00:00Z"
     },
     {
       "description": "Tao SW Mercury / Input Stereo-A<br/> Sampling: 1H",
@@ -25500,7 +25500,7 @@
         }
       ],
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-25T23:00:00Z"
     },
     {
       "description": "Tao SW Neptune / Input Stereo-A<br/> Sampling: 1H",
@@ -25786,7 +25786,7 @@
         }
       ],
       "startDate": "2018-08-12T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-25T23:00:00Z"
     },
     {
       "description": "Tao SW PSP / Input Stereo-A<br/> Sampling: 1H",
@@ -26072,7 +26072,7 @@
         }
       ],
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-26T23:00:00Z"
     },
     {
       "description": "Tao SW Saturn / Input Stereo-A<br/> Sampling: 1H",
@@ -26335,7 +26335,7 @@
         }
       ],
       "startDate": "2020-03-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-25T23:00:00Z"
     },
     {
       "description": "Tao SW SolO / Input OMNI<br/> Sampling: 1H",
@@ -26454,7 +26454,7 @@
         }
       ],
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-06-26T23:00:00Z"
     },
     {
       "description": "Tao SW Uranus / Input Stereo-A<br/> Sampling: 1H",

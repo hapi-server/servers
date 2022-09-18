@@ -4063,7 +4063,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Cluster 2 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4142,7 +4142,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4170,7 +4170,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Cluster 2 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -4545,7 +4545,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Cluster 3 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4624,7 +4624,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4652,7 +4652,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-16T00:00:00Z"
     },
     {
       "description": "Cluster 3 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -17104,7 +17104,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:57:00Z"
     },
     {
       "description": "Five min averaged<br/> Sampling: 5M<br/> Provider: OMNIWeb",
@@ -17172,7 +17172,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:55:00Z"
     },
     {
       "description": "Hourly averaged<br/> Sampling: 1H<br/> Provider: OMNIWeb",
@@ -24592,7 +24592,7 @@
         }
       ],
       "startDate": "2018-10-21T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-14T00:00:00Z"
     },
     {
       "description": "Tao SW Bepi / Input ACE Real Time<br/> Sampling: 1H",
@@ -24855,7 +24855,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:00:00Z"
     },
     {
       "description": "Tao SW Jupiter / Input ACE RealTime<br/> Sampling: 1H",
@@ -25118,7 +25118,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:00:00Z"
     },
     {
       "description": "Tao SW Mars / Input ACE Real Time<br/> Sampling: 1H",
@@ -25381,7 +25381,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-14T00:00:00Z"
     },
     {
       "description": "Tao SW Mercury / Input ACE Real Time<br/> Sampling: 1H",
@@ -25644,7 +25644,7 @@
         }
       ],
       "startDate": "2000-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:00:00Z"
     },
     {
       "description": "Tao SW Neptune / Input ACE Real Time<br/> Sampling: 1H",
@@ -25882,7 +25882,7 @@
         }
       ],
       "startDate": "2018-08-12T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-14T00:00:00Z"
     },
     {
       "description": "Tao SW Psp / Input ACE Real Time<br/> Sampling: 1H",
@@ -26216,7 +26216,7 @@
         }
       ],
       "startDate": "1990-01-01T01:30:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:00:00Z"
     },
     {
       "description": "Tao SW Saturn / Input ACE Real Time<br/> Sampling: 1H",
@@ -26383,7 +26383,7 @@
         }
       ],
       "startDate": "2020-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-14T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Uranus<br/> Sampling: 1H",
@@ -26598,7 +26598,7 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-15T00:00:00Z"
     },
     {
       "description": "Tao SW Uranus / Input ACE Real Time<br/> Sampling: 1H",
@@ -26861,7 +26861,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-07-14T00:00:00Z"
     },
     {
       "description": "Tao SW Venus / / Input ACE Real Time<br/> Sampling: 1H",

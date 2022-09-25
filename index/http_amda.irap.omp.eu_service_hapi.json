@@ -254,7 +254,7 @@
           "units": "nT"
         }
       ],
-      "startDate": "2022-05-17T00:00:00Z",
+      "startDate": "2022-06-28T00:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -335,7 +335,7 @@
           "units": "nPa"
         }
       ],
-      "startDate": "2022-05-17T00:00:00Z",
+      "startDate": "2022-06-28T00:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -4063,7 +4063,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Cluster 2 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4142,7 +4142,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4170,7 +4170,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Cluster 2 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -4545,7 +4545,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Cluster 3 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4624,7 +4624,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4652,7 +4652,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "2022-07-16T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Cluster 3 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -11186,7 +11186,7 @@
         }
       ],
       "startDate": "1975-01-01T00:00:00Z",
-      "stopDate": "2021-12-31T23:59:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Polar Cap Index<br/> Sampling: 1M<br/> Provider: http://pc-index.org",
@@ -13649,7 +13649,7 @@
         }
       ],
       "startDate": "2014-09-22T19:34:31Z",
-      "stopDate": "2022-02-22T15:18:21Z"
+      "stopDate": "2022-05-15T00:00:02Z"
     },
     {
       "description": "<br/> Sampling: 32S<br/> Provider: PDS",
@@ -13765,7 +13765,7 @@
         }
       ],
       "startDate": "2014-09-22T19:34:31Z",
-      "stopDate": "2022-02-22T15:18:21Z"
+      "stopDate": "2022-05-15T00:00:00Z"
     },
     {
       "description": "STATIC : key parameters<br/> MinSampling: 4S; MaxSampling: 8S<br/> Provider: PDS",
@@ -13951,7 +13951,7 @@
         }
       ],
       "startDate": "2014-10-13T00:00:20Z",
-      "stopDate": "2022-02-22T15:18:10Z"
+      "stopDate": "2022-05-15T00:00:29Z"
     },
     {
       "description": "<br/> Sampling: 4S<br/> Provider: PDS",
@@ -13984,7 +13984,7 @@
         }
       ],
       "startDate": "2014-10-13T00:00:04Z",
-      "stopDate": "2022-02-22T15:18:14Z"
+      "stopDate": "2022-05-15T00:00:01Z"
     },
     {
       "description": "SWEA : key parameters<br/> MinSampling: 4S; MaxSampling: 8S<br/> Provider: PDS",
@@ -14151,7 +14151,7 @@
         }
       ],
       "startDate": "2014-03-19T14:19:43Z",
-      "stopDate": "2022-02-22T15:18:20Z"
+      "stopDate": "2022-05-15T00:00:23Z"
     },
     {
       "description": "<br/> Sampling: 4S<br/> Provider: PDS",
@@ -14174,7 +14174,7 @@
         }
       ],
       "startDate": "2014-03-19T14:20:43Z",
-      "stopDate": "2022-02-22T15:18:04Z"
+      "stopDate": "2022-05-15T00:00:15Z"
     },
     {
       "description": "<br/> Sampling: 30S<br/> Provider: PDS",
@@ -15818,7 +15818,7 @@
         }
       ],
       "startDate": "2222-08-11T22:22:22Z",
-      "stopDate": "2022-07-09T23:59:32Z"
+      "stopDate": "last60days"
     },
     {
       "description": "ion flux spectrograms : survey mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -17104,7 +17104,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "2022-07-15T00:57:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Five min averaged<br/> Sampling: 5M<br/> Provider: OMNIWeb",
@@ -17172,7 +17172,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "2022-07-15T00:55:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Hourly averaged<br/> Sampling: 1H<br/> Provider: OMNIWeb",
@@ -17514,7 +17514,7 @@
         }
       ],
       "startDate": "2018-10-02T03:48:30Z",
-      "stopDate": "2021-09-30T23:59:30Z"
+      "stopDate": "2022-03-31T23:59:30Z"
     },
     {
       "description": "PSP FIELDS Fluxgate Magnetometer data, level 2, 4 samples/cycle<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
@@ -17547,7 +17547,7 @@
         }
       ],
       "startDate": "2018-10-02T03:48:26Z",
-      "stopDate": "2021-09-30T23:59:59Z"
+      "stopDate": "2022-03-31T23:59:59Z"
     },
     {
       "description": "VENUS FLYBY #1, PSP FIELDS Fluxgate Magnetometer data, level 2, VSO coordinates<br/> MinSampling: 0.0034S; MaxSampling: 0.4347S<br/> Provider: SPDF",
@@ -17662,7 +17662,7 @@
         }
       ],
       "startDate": "2018-10-02T03:48:30Z",
-      "stopDate": "2021-09-30T23:59:30Z"
+      "stopDate": "2022-03-31T23:59:30Z"
     },
     {
       "description": "Parker Solar Probe orbit<br/> Sampling: 1H<br/> Provider: NASA",
@@ -18030,7 +18030,7 @@
         }
       ],
       "startDate": "2018-10-30T23:59:59Z",
-      "stopDate": "2021-11-12T23:59:58Z"
+      "stopDate": "2022-04-29T10:08:23Z"
     },
     {
       "description": "SWEAP Level 3 data quality flags<br/> MinSampling: 0.2S; MaxSampling: 30S<br/> Provider: SPDF",
@@ -18053,7 +18053,7 @@
         }
       ],
       "startDate": "2018-10-30T23:59:59Z",
-      "stopDate": "2021-11-12T23:59:58Z"
+      "stopDate": "2022-04-29T10:08:23Z"
     },
     {
       "description": "SWEAP Level 3 moments<br/> MinSampling: 0.2S; MaxSampling: 30S<br/> Provider: SPDF",
@@ -18116,7 +18116,7 @@
         }
       ],
       "startDate": "2018-10-30T23:59:59Z",
-      "stopDate": "2021-11-12T23:59:58Z"
+      "stopDate": "2022-04-29T10:08:23Z"
     },
     {
       "description": "SWEAP SPANe Level 3 spectrogramms<br/> MinSampling: 28S; MaxSampling: 1400S<br/> Provider: SPDF",
@@ -18139,7 +18139,7 @@
         }
       ],
       "startDate": "2018-10-02T04:04:01Z",
-      "stopDate": "2021-09-30T23:55:29Z"
+      "stopDate": "2022-04-29T10:07:40Z"
     },
     {
       "description": "SWEAP SPAN-Ai Level 3 data quality flags<br/> MinSampling: 0.2S; MaxSampling: 30S<br/> Provider: SPDF",
@@ -18510,7 +18510,7 @@
         }
       ],
       "startDate": "2018-09-28T00:29:56Z",
-      "stopDate": "2021-11-04T15:29:59Z"
+      "stopDate": "2022-03-29T22:30:00Z"
     },
     {
       "description": "High Energy Telescope 1 min rate<br/> Sampling: 60S<br/> Provider: SPDF",
@@ -18563,7 +18563,7 @@
         }
       ],
       "startDate": "2018-09-28T00:00:26Z",
-      "stopDate": "2021-11-04T16:43:29Z"
+      "stopDate": "2022-03-29T23:44:30Z"
     },
     {
       "description": "Low Energy Telescope 1, 1h rate<br/> Sampling: 3600S<br/> Provider: SPDF",
@@ -18776,7 +18776,7 @@
         }
       ],
       "startDate": "2018-09-28T00:29:56Z",
-      "stopDate": "2021-11-04T15:29:59Z"
+      "stopDate": "2022-03-30T17:30:00Z"
     },
     {
       "description": "Low Energy Telescope 1 1 min rate<br/> Sampling: 60S<br/> Provider: SPDF",
@@ -18829,7 +18829,7 @@
         }
       ],
       "startDate": "2018-09-28T00:00:26Z",
-      "stopDate": "2021-11-04T16:44:29Z"
+      "stopDate": "2022-03-30T18:50:30Z"
     },
     {
       "description": "Low Energy Telescope 2, 1h rate<br/> Sampling: 3600S<br/> Provider: SPDF",
@@ -18942,7 +18942,7 @@
         }
       ],
       "startDate": "2018-09-28T00:29:56Z",
-      "stopDate": "2019-10-06T19:29:56Z"
+      "stopDate": "2022-03-30T17:30:00Z"
     },
     {
       "description": "Low Energy Telescope 2, 1 min rate<br/> Sampling: 60S<br/> Provider: SPDF",
@@ -18975,7 +18975,7 @@
         }
       ],
       "startDate": "2018-09-28T00:00:26Z",
-      "stopDate": "2019-09-07T23:11:26Z"
+      "stopDate": "2022-03-30T18:50:30Z"
     },
     {
       "description": "Ion Composition Group 1 (He3, He4, O, Fe)<br/> MinSampling: 60S; MaxSampling: 1800S<br/> Provider: SPDF",
@@ -20975,7 +20975,7 @@
         }
       ],
       "startDate": "1996-05-07T17:19:56Z",
-      "stopDate": "2022-06-27T23:59:30Z"
+      "stopDate": "last60days"
     },
     {
       "description": "LED detector<br/> Provider: https://srl.utu.fi/export/",
@@ -20998,7 +20998,7 @@
         }
       ],
       "startDate": "1996-05-07T17:19:56Z",
-      "stopDate": "2022-06-27T23:59:30Z"
+      "stopDate": "last60days"
     },
     {
       "description": "STEREO-A orbit<br/> Sampling: 900S<br/> Provider: https://sohowww.nascom.nasa.gov",
@@ -21070,7 +21070,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2006-10-26T00:01:05Z",
+      "startDate": "2006-10-26T00:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -21104,7 +21104,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2022-07-10T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "electrons and protons flux 1 hour rate<br/> Sampling: 3600S<br/> Provider: IRAP",
@@ -21137,7 +21137,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2022-07-10T21:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "electrons and protons flux 1 minute rate<br/> Sampling: 60S<br/> Provider: IRAP",
@@ -21170,7 +21170,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2022-07-10T21:43:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Ion flux 10 minutes rate<br/> Sampling: 600S<br/> Provider: IRAP",
@@ -21922,7 +21922,7 @@
         }
       ],
       "startDate": "2006-11-07T00:00:30Z",
-      "stopDate": "2022-04-30T23:59:30Z"
+      "stopDate": "2022-05-31T23:59:30Z"
     },
     {
       "description": "Magnetic Field : 1 sec averaged<br/> Sampling: 1S<br/> Provider: UCLA",
@@ -24592,7 +24592,7 @@
         }
       ],
       "startDate": "2018-10-21T00:00:00Z",
-      "stopDate": "2022-07-14T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Bepi / Input ACE Real Time<br/> Sampling: 1H",
@@ -24639,7 +24639,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-15T01:00:00Z",
+      "startDate": "2022-06-26T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -24855,7 +24855,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "2022-07-15T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Jupiter / Input ACE RealTime<br/> Sampling: 1H",
@@ -24902,7 +24902,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-18T01:00:00Z",
+      "startDate": "2022-06-29T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -25118,7 +25118,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "2022-07-15T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Mars / Input ACE Real Time<br/> Sampling: 1H",
@@ -25165,7 +25165,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-18T01:00:00Z",
+      "startDate": "2022-06-29T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -25381,7 +25381,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "2022-07-14T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Mercury / Input ACE Real Time<br/> Sampling: 1H",
@@ -25428,7 +25428,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-15T01:00:00Z",
+      "startDate": "2022-06-26T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -25644,7 +25644,7 @@
         }
       ],
       "startDate": "2000-01-01T00:00:00Z",
-      "stopDate": "2022-07-15T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Neptune / Input ACE Real Time<br/> Sampling: 1H",
@@ -25691,7 +25691,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-18T01:00:00Z",
+      "startDate": "2022-06-29T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -25882,7 +25882,7 @@
         }
       ],
       "startDate": "2018-08-12T00:00:00Z",
-      "stopDate": "2022-07-14T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Psp / Input ACE Real Time<br/> Sampling: 1H",
@@ -25929,7 +25929,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-15T01:00:00Z",
+      "startDate": "2022-06-26T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -26216,7 +26216,7 @@
         }
       ],
       "startDate": "1990-01-01T01:30:00Z",
-      "stopDate": "2022-07-15T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Saturn / Input ACE Real Time<br/> Sampling: 1H",
@@ -26263,7 +26263,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-18T01:00:00Z",
+      "startDate": "2022-06-29T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -26383,7 +26383,7 @@
         }
       ],
       "startDate": "2020-01-01T00:00:00Z",
-      "stopDate": "2022-07-14T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Ballistic delay from the Earth to Uranus<br/> Sampling: 1H",
@@ -26598,7 +26598,7 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "2022-07-15T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Uranus / Input ACE Real Time<br/> Sampling: 1H",
@@ -26645,7 +26645,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-18T01:00:00Z",
+      "startDate": "2022-06-29T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -26861,7 +26861,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "2022-07-14T00:00:00Z"
+      "stopDate": "last60days"
     },
     {
       "description": "Tao SW Venus / / Input ACE Real Time<br/> Sampling: 1H",
@@ -26908,7 +26908,7 @@
           "units": "deg"
         }
       ],
-      "startDate": "2022-05-15T01:00:00Z",
+      "startDate": "2022-06-26T01:00:00Z",
       "stopDate": "last60days"
     },
     {
@@ -27033,7 +27033,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Electron Flux From North Ecliptic Hemisphere Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27061,7 +27061,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Omni Electron Flux<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27079,7 +27079,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Electron Flux From South Ecliptic Hemisphere Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27107,7 +27107,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27135,7 +27135,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Ion Flux From AntiSun Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27183,7 +27183,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Ion Flux From North Ecliptic Hemispere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27231,7 +27231,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Omni Ion Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27254,7 +27254,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Ion Flux From South Ecliptic Hemispere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27302,7 +27302,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27350,7 +27350,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:59Z"
+      "stopDate": "2022-04-03T23:59:59Z"
     },
     {
       "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27398,7 +27398,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From North Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27446,7 +27446,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 Omni Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27474,7 +27474,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From South Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27522,7 +27522,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron HighEnergy ( 38-96 MeV ) / He3 / He4 From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27570,7 +27570,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "C / N / O From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27618,7 +27618,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "C / N / O From North Hemisphere Direction<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27666,7 +27666,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "C / N / O Omni Flux<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27694,7 +27694,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "C / N / O From South Hemisphere Direction<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27742,7 +27742,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "C / N / O From Sun Direction ( mean Parker spiral )<br/> MinSampling: 1M; MaxSampling: 5M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27790,7 +27790,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Fe Flux From Antisun Direction ( mean Parker spiral )<br/> MinSampling: 5M; MaxSampling: 10M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27958,7 +27958,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron / Hydrogen HighCadence From North Hemisphere Direction<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -27996,7 +27996,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron / Hydrogen HighCadence Omni Flux<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28019,7 +28019,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron / Hydrogen HighCadence From South Hemisphere Direction<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28057,7 +28057,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Electron / Hydrogen HighCadence From Sun Direction ( mean Parker spiral )<br/> MinSampling: 1S; MaxSampling: 5S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28095,7 +28095,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Hydrogen Flux From AntiSun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28128,7 +28128,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Hydrogen Flux From North Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28161,7 +28161,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Omni Hydrogen Flux<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28179,7 +28179,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Hydrogen Flux From South Hemisphere Direction<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28212,7 +28212,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Hydrogen From Sun Direction ( mean Parker spiral )<br/> MinSampling: 5S; MaxSampling: 30S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28245,7 +28245,7 @@
         }
       ],
       "startDate": "2020-05-13T00:00:03Z",
-      "stopDate": "2022-03-14T23:59:55Z"
+      "stopDate": "2022-04-03T23:59:58Z"
     },
     {
       "description": "Flux averaged over sectors<br/> MinSampling: 10S; MaxSampling: 60S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28394,7 +28394,7 @@
         }
       ],
       "startDate": "2020-04-02T10:52:18Z",
-      "stopDate": "2022-03-14T23:41:39Z"
+      "stopDate": "2022-04-03T23:41:42Z"
     },
     {
       "description": "SIS-B ion sunward flux<br/> Sampling: 30M<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28687,7 +28687,7 @@
         }
       ],
       "startDate": "2020-04-15T00:00:29Z",
-      "stopDate": "2022-02-28T23:59:30Z"
+      "stopDate": "2022-03-31T23:59:30Z"
     },
     {
       "description": "Magnetic Field in RTN : 0.1 sec<br/> Sampling: 0.1S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28725,7 +28725,7 @@
         }
       ],
       "startDate": "2020-04-15T00:00:00Z",
-      "stopDate": "2022-02-28T23:59:59Z"
+      "stopDate": "2022-03-31T23:59:59Z"
     },
     {
       "description": "Magnetic Field in spacecraft reference frame : 0.1 sec<br/> Sampling: 0.1S<br/> Provider: http://soar.esac.esa.int/soar",
@@ -28753,7 +28753,7 @@
         }
       ],
       "startDate": "2020-04-15T00:00:00Z",
-      "stopDate": "2022-02-28T23:59:59Z"
+      "stopDate": "2022-03-31T23:59:59Z"
     },
     {
       "description": "<br/> Sampling: 10S<br/> Provider: SOAR",

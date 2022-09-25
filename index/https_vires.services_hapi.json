@@ -250,6 +250,104 @@
       "stopDate": "last60days"
     },
     {
+      "description": "GOCE platform magnetometer measurements",
+      "id": "GO_MAG_ACAL_CORR",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Fluxgate magnetometer, combined MAG, aligned, vector-vector calibrated and corrected for satellite disturbances, SC frame",
+          "name": "B_MAG",
+          "units": "nT"
+        },
+        {
+          "description": "Fluxgate magnetometer, combined MAG, aligned, vector-vector calibrated and corrected for satellite disturbances, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: SC ... NEC",
+          "name": "q_SC_NEC",
+          "units": null
+        },
+        {
+          "description": "Quaternion, transformation: MAG ... SC",
+          "name": "q_MAG_SC",
+          "units": null
+        },
+        {
+          "description": "Disturbance field related to magnetorquer, SC frame",
+          "name": "dB_MTQ_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 2nd order non-linearities, SC frame",
+          "name": "dB_XI_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to 3rd order non-linearities, SC frame",
+          "name": "dB_NY_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of offsets, SC frame",
+          "name": "dB_BT_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to temperature dependency of scale factors, SC frame",
+          "name": "dB_ST_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to solar array currents, SC frame",
+          "name": "dB_SA_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to battery currents, SC frame",
+          "name": "dB_BAT_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Disturbance field related to housekeeping data, SC frame",
+          "name": "dB_HK_SC",
+          "units": "nT"
+        },
+        {
+          "description": "Block correction for MAG2 and MAG3, MAG frame",
+          "name": "dB_BLOCK_CORR",
+          "units": "nT"
+        },
+        {
+          "description": "Flags",
+          "name": "B_FLAG",
+          "units": null
+        }
+      ],
+      "startDate": "2009-11-01T00:49:15.411000Z",
+      "stopDate": "2013-09-30T02:47:35.586000Z"
+    },
+    {
       "description": "GRACE 1 platform magnetometer measurements",
       "id": "GRACE_A_MAG",
       "parameters": [

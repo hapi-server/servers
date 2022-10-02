@@ -202,6 +202,59 @@
       "stopDate": "2022-05-01T23:58:00Z"
     },
     {
+      "description": "orbit L1 libration point<br/> Sampling: 12M<br/> Provider: CDAWeb/SSCWeb",
+      "id": "ace-orb-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spacecraft position in GSE",
+          "name": "ace_xyz_gse",
+          "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in GSM",
+          "name": "ace_xyz_gsm",
+          "units": "Re"
+        },
+        {
+          "description": "Spacecraft position in HCI",
+          "name": "ace_xyz_hci",
+          "units": "AU"
+        },
+        {
+          "description": "Spacecraft position in HEE",
+          "name": "ace_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "ace_r",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "ace_r_sun",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "ace_lon_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "ace_lat_hee",
+          "units": "deg"
+        }
+      ],
+      "startDate": "1997-08-25T17:48:00Z",
+      "stopDate": "last60days"
+    },
+    {
       "description": "Interplanetary Magnetic Field 16-sec Level2/PRELIM Data<br/> Sampling: 16S<br/> Provider: CDAWeb",
       "id": "ace-imf-all",
       "parameters": [
@@ -392,59 +445,6 @@
         }
       ],
       "startDate": "2001-01-01T00:00:00Z",
-      "stopDate": "last60days"
-    },
-    {
-      "description": "orbit L1 libration point<br/> Sampling: 12M<br/> Provider: CDAWeb/SSCWeb",
-      "id": "ace-orb-all",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "Spacecraft position in GSE",
-          "name": "ace_xyz_gse",
-          "units": "Re"
-        },
-        {
-          "description": "Spacecraft position in GSM",
-          "name": "ace_xyz_gsm",
-          "units": "Re"
-        },
-        {
-          "description": "Spacecraft position in HCI",
-          "name": "ace_xyz_hci",
-          "units": "AU"
-        },
-        {
-          "description": "Spacecraft position in HEE",
-          "name": "ace_xyz_hee",
-          "units": "AU"
-        },
-        {
-          "description": "",
-          "name": "ace_r",
-          "units": "Re"
-        },
-        {
-          "description": "",
-          "name": "ace_r_sun",
-          "units": "AU"
-        },
-        {
-          "description": "",
-          "name": "ace_lon_hee",
-          "units": "deg"
-        },
-        {
-          "description": "",
-          "name": "ace_lat_hee",
-          "units": "deg"
-        }
-      ],
-      "startDate": "1997-08-25T17:48:00Z",
       "stopDate": "last60days"
     },
     {
@@ -1233,7 +1233,7 @@
     },
     {
       "description": "<br/> Sampling: 3S<br/> Provider: IRAP_THEMIS",
-      "id": "athp1-peen-all",
+      "id": "athp1-peem-all",
       "parameters": [
         {
           "description": "",
@@ -1342,8 +1342,8 @@
           "units": "AU"
         }
       ],
-      "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "last60days"
+      "startDate": "2007-02-17T23:36:00Z",
+      "stopDate": "2019-01-23T23:59:00Z"
     },
     {
       "description": "<br/> Sampling: 0.25S<br/> Provider: IRAP_THEMIS",
@@ -3811,7 +3811,7 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "Average Magnetic Field magnitude",
           "name": "b_t96tot_c1_xyz_gse",
           "units": "nT"
         }
@@ -4164,7 +4164,7 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "Average Magnetic Field magnitude",
           "name": "b_t96tot_c2_xyz_gse",
           "units": "nT"
         }
@@ -4646,7 +4646,7 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "Average Magnetic Field magnitude",
           "name": "b_t96tot_c3_xyz_gse",
           "units": "nT"
         }
@@ -5042,7 +5042,7 @@
           "units": "nT"
         },
         {
-          "description": "",
+          "description": "Average Magnetic Field magnitude",
           "name": "b_t96tot_c4_xyz_gse",
           "units": "nT"
         }
@@ -5468,7 +5468,7 @@
           "units": "nT"
         },
         {
-          "description": "Magnetic field magnitude",
+          "description": "Magnetic Field magnitude",
           "name": "dstar1_fgm_prp_bt",
           "units": "nT"
         }
@@ -11091,6 +11091,11 @@
           "description": "Auroral Electrojet (AO = (AU + AL) / 2)",
           "name": "ao",
           "units": "nT"
+        },
+        {
+          "description": "Auroral Power (Newell 2011)",
+          "name": "ap_wdc",
+          "units": "GW"
         }
       ],
       "startDate": "1975-01-01T00:00:00Z",
@@ -15817,7 +15822,7 @@
           "units": "nPa"
         }
       ],
-      "startDate": "2222-08-11T22:22:22Z",
+      "startDate": "2015-06-20T20:55:22Z",
       "stopDate": "last60days"
     },
     {
@@ -15891,7 +15896,7 @@
         }
       ],
       "startDate": "2222-08-11T22:22:22Z",
-      "stopDate": "2021-12-31T23:59:56Z"
+      "stopDate": "2000-01-01T00:00:00Z"
     },
     {
       "description": "Distance to model neutral sheet<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -16310,7 +16315,7 @@
       "stopDate": "2022-07-09T00:00:05Z"
     },
     {
-      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
       "id": "mms3-hpca-brst",
       "parameters": [
         {
@@ -16319,7 +16324,7 @@
           "units": "UTC"
         },
         {
-          "description": "H+ Flux for all elevation anodes accross all energies",
+          "description": "H+ Flux for all elevation anodes across all energies",
           "name": "mms3_hpca_hfl",
           "units": "keV/((cmÂ²-s-sr-keV))"
         },
@@ -16523,7 +16528,7 @@
       "stopDate": "2022-07-09T00:00:06Z"
     },
     {
-      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
+      "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
       "id": "mms4-hpca-brst",
       "parameters": [
         {
@@ -16532,7 +16537,7 @@
           "units": "UTC"
         },
         {
-          "description": "H+ Flux for all elevation anodes accross all energies",
+          "description": "H+ Flux for all elevation anodes across all energies",
           "name": "mms4_hpca_hfl",
           "units": "keV/((cmÂ²-s-sr-keV))"
         },
@@ -20886,7 +20891,7 @@
       "stopDate": "2016-09-30T10:17:55Z"
     },
     {
-      "description": "<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
+      "description": "<br/> Sampling: 10M<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
       "id": "soho-ephin-10min",
       "parameters": [
         {
@@ -20909,7 +20914,7 @@
       "stopDate": "last60days"
     },
     {
-      "description": "<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
+      "description": "<br/> Sampling: 1M<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
       "id": "soho-ephin-1min",
       "parameters": [
         {
@@ -20932,7 +20937,7 @@
       "stopDate": "last60days"
     },
     {
-      "description": "<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
+      "description": "<br/> Sampling: 60M<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
       "id": "soho-ephin-60min",
       "parameters": [
         {
@@ -20955,7 +20960,7 @@
       "stopDate": "last60days"
     },
     {
-      "description": "HED detector<br/> Provider: https://srl.utu.fi/export/",
+      "description": "HED detector<br/> Sampling: 1M<br/> Provider: https://srl.utu.fi/export/",
       "id": "soho-erne-hed",
       "parameters": [
         {
@@ -20978,7 +20983,7 @@
       "stopDate": "last60days"
     },
     {
-      "description": "LED detector<br/> Provider: https://srl.utu.fi/export/",
+      "description": "LED detector<br/> Sampling: 1M<br/> Provider: https://srl.utu.fi/export/",
       "id": "soho-erne-led",
       "parameters": [
         {
@@ -27110,7 +27115,7 @@
       "stopDate": "2022-04-03T23:59:59Z"
     },
     {
-      "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> Provider: http://soar.esac.esa.int/soar",
+      "description": "Ion Flux From Sun Direction ( mean Parker spiral )<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
       "id": "so-ept-e.sun",
       "parameters": [
         {

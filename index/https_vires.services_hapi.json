@@ -548,7 +548,7 @@
           "units": null
         }
       ],
-      "startDate": "2013-11-25T11:02:51.642562Z",
+      "startDate": "2013-11-25T11:02:52.002562Z",
       "stopDate": "last60days"
     },
     {
@@ -754,7 +754,7 @@
           "units": null
         }
       ],
-      "startDate": "2013-11-25T11:01:09.884711Z",
+      "startDate": "2013-11-25T11:01:15.004367Z",
       "stopDate": "last60days"
     },
     {
@@ -960,7 +960,7 @@
           "units": null
         }
       ],
-      "startDate": "2013-11-26T00:00:00.003523Z",
+      "startDate": "2013-11-25T11:02:17.004078Z",
       "stopDate": "last60days"
     },
     {
@@ -1078,7 +1078,7 @@
           "units": null
         }
       ],
-      "startDate": "2013-11-26T00:00:00Z",
+      "startDate": "2013-11-25T11:02:17Z",
       "stopDate": "last60days"
     },
     {

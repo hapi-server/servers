@@ -276,6 +276,60 @@
     },
     {
       "description": "",
+      "id": "dst_final",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Disturbance Storm Time Index",
+          "name": "Dst",
+          "units": "index"
+        }
+      ],
+      "startDate": "1957-01-01T00:00:00.0Z",
+      "stopDate": "2016-12-31T23:00:00.0Z"
+    },
+    {
+      "description": "",
+      "id": "dst_provisional",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Disturbance Storm Time Index",
+          "name": "Dst",
+          "units": "index"
+        }
+      ],
+      "startDate": "2017-01-01T00:00:00.0Z",
+      "stopDate": "2021-12-31T23:00:00.0Z"
+    },
+    {
+      "description": "",
+      "id": "dst_quicklook",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Disturbance Storm Time Index",
+          "name": "Dst",
+          "units": "index"
+        }
+      ],
+      "startDate": "2022-09-01T00:00:00.0Z",
+      "stopDate": "last60days"
+    },
+    {
+      "description": "",
       "id": "ENLIL_KP_P7M",
       "parameters": [
         {
@@ -4453,7 +4507,7 @@
       "stopDate": "last60days"
     },
     {
-      "description": "",
+      "description": "POES Belt Indicies for NOAA19 sensor 21.",
       "id": "poes_noaa19_sensor21",
       "parameters": [
         {

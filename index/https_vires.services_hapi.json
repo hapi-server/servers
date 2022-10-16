@@ -348,6 +348,74 @@
       "stopDate": "2013-09-30T02:47:35.586000Z"
     },
     {
+      "description": "GOCE platform magnetometer measurements (ML calibrated)",
+      "id": "GO_MAG_ACAL_CORR_ML",
+      "parameters": [
+        {
+          "description": "Time stamp",
+          "name": "Timestamp",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in ITRF - Latitude",
+          "name": "Latitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Longitude",
+          "name": "Longitude",
+          "units": "deg"
+        },
+        {
+          "description": "Position in ITRF - Radius",
+          "name": "Radius",
+          "units": "m"
+        },
+        {
+          "description": "Quasi-dipole latitude",
+          "name": "Latitude_QD",
+          "units": "deg"
+        },
+        {
+          "description": "Quasi-dipole longitude",
+          "name": "Longitude_QD",
+          "units": "deg"
+        },
+        {
+          "description": "Fluxgate magnetometer, combined MAG, aligned, vector-vector calibrated and corrected for satellite disturbances, SC frame",
+          "name": "B_MAG",
+          "units": "nT"
+        },
+        {
+          "description": "Fluxgate magnetometer, combined MAG, aligned, vector-vector calibrated and corrected for satellite disturbances, NEC frame",
+          "name": "B_NEC",
+          "units": "nT"
+        },
+        {
+          "description": "Quaternion, transformation: combined FGM ... NEC",
+          "name": "q_FGM_NEC",
+          "units": null
+        },
+        {
+          "description": "Flag for combined FGM (Bit field:0: Data correct,1: Outlier detected,2: FGM interpolation corrupted)",
+          "name": "B_FLAG",
+          "units": null
+        },
+        {
+          "description": "Kp and Dst flag (0 low magnetic activity, 1 high magnetic activity)",
+          "name": "KP_DST_FLAG",
+          "units": null
+        },
+        {
+          "description": "Flag for filled NaN values with column mean value (0: Data complete,1: NaN values filled",
+          "name": "NaN_FLAG",
+          "units": null
+        }
+      ],
+      "startDate": "2009-11-01T00:49:15.411000Z",
+      "stopDate": "2013-09-30T02:47:35.586000Z"
+    },
+    {
       "description": "GRACE 1 platform magnetometer measurements",
       "id": "GRACE_A_MAG",
       "parameters": [

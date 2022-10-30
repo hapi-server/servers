@@ -649,6 +649,11 @@
           "units": "nT"
         },
         {
+          "description": "Magnetic stray field correction intensity of Sun ASM frame",
+          "name": "dF_Sun",
+          "units": "nT"
+        },
+        {
           "description": "Magnetic stray field correction intensity of AOCS magneto-torquer coils",
           "name": "dF_AOCS",
           "units": "nT"
@@ -855,6 +860,11 @@
           "units": "nT"
         },
         {
+          "description": "Magnetic stray field correction intensity of Sun ASM frame",
+          "name": "dF_Sun",
+          "units": "nT"
+        },
+        {
           "description": "Magnetic stray field correction intensity of AOCS magneto-torquer coils",
           "name": "dF_AOCS",
           "units": "nT"
@@ -1058,6 +1068,11 @@
         {
           "description": "Magnetic field intensity",
           "name": "F",
+          "units": "nT"
+        },
+        {
+          "description": "Magnetic stray field correction intensity of Sun ASM frame",
+          "name": "dF_Sun",
           "units": "nT"
         },
         {

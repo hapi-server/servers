@@ -15823,7 +15823,7 @@
         }
       ],
       "startDate": "2015-06-20T20:55:22Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-03T23:59:31Z"
     },
     {
       "description": "ion flux spectrograms : survey mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -24607,7 +24607,7 @@
         }
       ],
       "startDate": "2018-10-21T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-07T00:00:00Z"
     },
     {
       "description": "Tao SW Bepi / Input ACE Real Time<br/> Sampling: 1H",
@@ -25396,7 +25396,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-07T00:00:00Z"
     },
     {
       "description": "Tao SW Mercury / Input ACE Real Time<br/> Sampling: 1H",
@@ -25897,7 +25897,7 @@
         }
       ],
       "startDate": "2018-08-12T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-07T00:00:00Z"
     },
     {
       "description": "Tao SW Psp / Input ACE Real Time<br/> Sampling: 1H",
@@ -26398,7 +26398,7 @@
         }
       ],
       "startDate": "2020-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-07T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Uranus<br/> Sampling: 1H",
@@ -26876,7 +26876,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-09-07T00:00:00Z"
     },
     {
       "description": "Tao SW Venus / / Input ACE Real Time<br/> Sampling: 1H",

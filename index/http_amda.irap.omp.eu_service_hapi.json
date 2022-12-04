@@ -24918,7 +24918,7 @@
         }
       ],
       "startDate": "2022-07-12T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-05T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Mars<br/> Sampling: 1H",
@@ -25181,7 +25181,7 @@
         }
       ],
       "startDate": "2022-07-12T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-05T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Mercury<br/> Sampling: 1H",
@@ -25707,7 +25707,7 @@
         }
       ],
       "startDate": "2022-07-12T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-05T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to PSP<br/> Sampling: 1H",
@@ -26279,7 +26279,7 @@
         }
       ],
       "startDate": "2022-07-12T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-05T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Solar Orbiter<br/> Sampling: 1H",
@@ -26661,7 +26661,7 @@
         }
       ],
       "startDate": "2022-07-12T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-05T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Venus<br/> Sampling: 1H",

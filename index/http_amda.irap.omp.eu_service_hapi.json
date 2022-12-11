@@ -24655,7 +24655,7 @@
         }
       ],
       "startDate": "2022-07-09T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-06T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Jupiter<br/> Sampling: 1H",
@@ -25444,7 +25444,7 @@
         }
       ],
       "startDate": "2022-07-09T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-06T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Neptune<br/> Sampling: 1H",
@@ -25945,7 +25945,7 @@
         }
       ],
       "startDate": "2022-07-09T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-06T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Rosetta<br/> Sampling: 1H",
@@ -26924,7 +26924,7 @@
         }
       ],
       "startDate": "2022-07-09T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-06T00:00:00Z"
     },
     {
       "description": "Tao SW Cassini / Input OMNI : Cruise Phase<br/> Sampling: 1H",

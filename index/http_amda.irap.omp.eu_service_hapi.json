@@ -15457,7 +15457,7 @@
         }
       ],
       "startDate": "2015-09-01T00:00:12Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-18T00:00:05Z"
     },
     {
       "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -15823,7 +15823,7 @@
         }
       ],
       "startDate": "2015-06-20T20:55:22Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-15T23:59:15Z"
     },
     {
       "description": "ion flux spectrograms : survey mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -16099,7 +16099,7 @@
         }
       ],
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-18T00:00:05Z"
     },
     {
       "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: IRAP",
@@ -16312,7 +16312,7 @@
         }
       ],
       "startDate": "2015-09-01T00:00:06Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-18T00:00:05Z"
     },
     {
       "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -16525,7 +16525,7 @@
         }
       ],
       "startDate": "2015-09-01T00:00:04Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-18T00:00:03Z"
     },
     {
       "description": "ion flux spectrograms : burst mode<br/> Sampling: 0.625S<br/> Provider: LASP",
@@ -20990,7 +20990,7 @@
         }
       ],
       "startDate": "1996-05-07T17:19:56Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-16T23:59:31Z"
     },
     {
       "description": "LED detector<br/> Sampling: 1M<br/> Provider: https://srl.utu.fi/export/",
@@ -23857,7 +23857,7 @@
         }
       ],
       "startDate": "2013-12-02T10:11:13Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-13T23:59:59Z"
     },
     {
       "description": "Level2daily/Entire_mission_data/FAC dataset<br/> Sampling: 1S<br/> Provider: ftp://swarm-diss.eo.esa.int",
@@ -24081,7 +24081,7 @@
         }
       ],
       "startDate": "2013-12-02T11:44:45Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-13T23:59:59Z"
     },
     {
       "description": "Level2daily/Entire_mission_data/FAC dataset<br/> Sampling: 1S<br/> Provider: ftp://swarm-diss.eo.esa.int",
@@ -24282,7 +24282,7 @@
         }
       ],
       "startDate": "2013-12-02T13:21:20Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-13T23:59:59Z"
     },
     {
       "description": "<br/> Sampling: 1S<br/> Provider: ftp://swarm-diss.eo.esa.int",
@@ -24607,7 +24607,7 @@
         }
       ],
       "startDate": "2018-10-21T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-19T00:00:00Z"
     },
     {
       "description": "Tao SW Bepi / Input ACE Real Time<br/> Sampling: 1H",
@@ -25396,7 +25396,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-19T00:00:00Z"
     },
     {
       "description": "Tao SW Mercury / Input ACE Real Time<br/> Sampling: 1H",
@@ -25897,7 +25897,7 @@
         }
       ],
       "startDate": "2018-08-12T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-19T00:00:00Z"
     },
     {
       "description": "Tao SW Psp / Input ACE Real Time<br/> Sampling: 1H",
@@ -26398,7 +26398,7 @@
         }
       ],
       "startDate": "2020-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-19T00:00:00Z"
     },
     {
       "description": "Ballistic delay from the Earth to Uranus<br/> Sampling: 1H",
@@ -26876,7 +26876,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-19T00:00:00Z"
     },
     {
       "description": "Tao SW Venus / / Input ACE Real Time<br/> Sampling: 1H",

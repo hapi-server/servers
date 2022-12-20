@@ -30,7 +30,7 @@ logger2.level= Level.INFO
 
 # list of servers in server list to exclude
 exclude= []
-exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
+# exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
 
 # list of servers to add to the list, which are not in the server list
 include= []
@@ -56,7 +56,7 @@ for line in open(str(f)):
     servers.append(s)
 
 ## DELETE ME or uncomment this for testing.
-#servers= ['https://jfaden.net/HapiServerDemo/hapi','http://datashop.elasticbeanstalk.com/hapi']
+#servers= ['https://cdaweb.gsfc.nasa.gov/hapi']
 
 for s in include:
     if not s in servers:
@@ -97,6 +97,8 @@ def compileServer( myserver, mon=None ):
     # measure the number of parameters times the duration for each variable, for fun
     parameterDays= 0.
     
+    recentThreshold = str(TimeUtil.now()-'60days')
+    
     nwork= min( catalogLimit, catalogc.length() )
     mon.setTaskSize( nwork )
     for i in xrange( nwork ):
@@ -115,15 +117,18 @@ def compileServer( myserver, mon=None ):
             start= get( info, 'startDate', '' )
             stop= get( info, 'stopDate', '' )
             infoObject.put( 'startDate', start )
+            
+            if ( stop>recentThreshold ): stop='last60days'
+            
             infoObject.put( 'stopDate', stop )
             parametersArray= info.get( 'parameters' )
 
-            durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
-            parameterDays1= durationDays * parametersArray.length()
-            parameterDays= parameterDays + parameterDays1
+            #durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
+            #parameterDays1= durationDays * parametersArray.length()
+            #parameterDays= parameterDays + parameterDays1
             
-            parameterDays1= float( "%.2f" % parameterDays1 )
-            infoObject.put( 'parameterDays', parameterDays1 )
+            #parameterDays1= float( "%.2f" % parameterDays1 )
+            # infoObject.put( 'parameterDays', parameterDays1 )
             
             paramz= JSONArray()
             for j in xrange( parametersArray.length() ):
@@ -145,7 +150,7 @@ def compileServer( myserver, mon=None ):
         
     serverObject.put( 'catalog', ids )
     parameterDays= float( "%.1f" % parameterDays )
-    serverObject.put( 'parameterDays', parameterDays )
+    # serverObject.put( 'parameterDays', parameterDays )
     
     return serverObject
 

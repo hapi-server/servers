@@ -17109,7 +17109,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:32:00Z"
     },
     {
       "description": "Five min averaged<br/> Sampling: 5M<br/> Provider: OMNIWeb",
@@ -17177,7 +17177,7 @@
         }
       ],
       "startDate": "1981-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:30:00Z"
     },
     {
       "description": "Hourly averaged<br/> Sampling: 1H<br/> Provider: OMNIWeb",
@@ -24870,7 +24870,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:00:00Z"
     },
     {
       "description": "Tao SW Jupiter / Input ACE RealTime<br/> Sampling: 1H",
@@ -25133,7 +25133,7 @@
         }
       ],
       "startDate": "1990-01-01T01:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:00:00Z"
     },
     {
       "description": "Tao SW Mars / Input ACE Real Time<br/> Sampling: 1H",
@@ -25659,7 +25659,7 @@
         }
       ],
       "startDate": "2000-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:00:00Z"
     },
     {
       "description": "Tao SW Neptune / Input ACE Real Time<br/> Sampling: 1H",
@@ -26231,7 +26231,7 @@
         }
       ],
       "startDate": "1990-01-01T01:30:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:00:00Z"
     },
     {
       "description": "Tao SW Saturn / Input ACE Real Time<br/> Sampling: 1H",
@@ -26613,7 +26613,7 @@
         }
       ],
       "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-20T00:00:00Z"
     },
     {
       "description": "Tao SW Uranus / Input ACE Real Time<br/> Sampling: 1H",

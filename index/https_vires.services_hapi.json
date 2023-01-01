@@ -164,7 +164,7 @@
         }
       ],
       "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-31T23:59:59Z"
     },
     {
       "description": "GRACE-FO 2 platform magnetometer measurements",
@@ -247,7 +247,7 @@
         }
       ],
       "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-31T23:59:59Z"
     },
     {
       "description": "GOCE platform magnetometer measurements",

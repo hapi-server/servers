@@ -4063,7 +4063,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Cluster 2 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4142,7 +4142,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4170,7 +4170,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Cluster 2 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -4545,7 +4545,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Cluster 3 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -4624,7 +4624,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -4652,7 +4652,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T00:00:00Z"
     },
     {
       "description": "Cluster 3 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -11455,7 +11455,7 @@
         }
       ],
       "startDate": "2016-02-13T23:59:54Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-26T23:58:53Z"
     },
     {
       "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
@@ -11528,7 +11528,7 @@
         }
       ],
       "startDate": "2016-02-13T23:59:54Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-26T23:58:53Z"
     },
     {
       "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
@@ -11556,7 +11556,7 @@
         }
       ],
       "startDate": "2016-02-13T23:59:54Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-26T23:58:53Z"
     },
     {
       "description": "JASON3 position in GEO coordinates, L and L* parameters<br/> Sampling: 0.522S<br/> Provider: CNES",
@@ -11589,7 +11589,7 @@
         }
       ],
       "startDate": "2016-02-13T23:59:54Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-26T23:58:53Z"
     },
     {
       "description": "<br/> Sampling: 5M",
@@ -31577,7 +31577,7 @@
         }
       ],
       "startDate": "1994-11-12T00:00:01Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T23:59:58Z"
     },
     {
       "description": "<br/> Sampling: 60S<br/> Provider: CDAWeb",
@@ -31600,7 +31600,7 @@
         }
       ],
       "startDate": "1994-11-12T00:00:30Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-10-29T23:59:30Z"
     },
     {
       "description": "<br/> Sampling: 90S<br/> Provider: CDAWeb",

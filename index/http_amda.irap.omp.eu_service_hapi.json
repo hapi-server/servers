@@ -280,7 +280,7 @@
         }
       ],
       "startDate": "1997-09-02T00:00:12Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-05T23:59:50Z"
     },
     {
       "description": "Interplanetary Magnetic Field 60-sec real time Data<br/> Sampling: 60S<br/> Provider: NOAA",
@@ -445,7 +445,7 @@
         }
       ],
       "startDate": "2001-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-05T23:55:00Z"
     },
     {
       "description": "Magnetic Field<br/> MinSampling: 5.2S; MaxSampling: 5.4S<br/> Provider: JHUAPL",
@@ -3710,7 +3710,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:46:00Z"
     },
     {
       "description": "Cluster 1 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -3789,7 +3789,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:46:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -3817,7 +3817,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:46:00Z"
     },
     {
       "description": "Cluster 1 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -4941,7 +4941,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:48:00Z"
     },
     {
       "description": "Cluster 4 5-vector-per-spin FGM Data<br/> Sampling: 0.2S<br/> Provider: CSA",
@@ -5020,7 +5020,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:48:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -5048,7 +5048,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:48:00Z"
     },
     {
       "description": "Cluster 4 electron moments<br/> Sampling: 4S<br/> Provider: CSA",
@@ -9894,7 +9894,7 @@
         }
       ],
       "startDate": "1992-07-27T16:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T00:00:00Z"
     },
     {
       "description": "<br/> Sampling: 12S<br/> Provider: DARTS",
@@ -10044,7 +10044,7 @@
         }
       ],
       "startDate": "1992-07-27T16:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T00:00:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -10072,7 +10072,7 @@
         }
       ],
       "startDate": "1992-07-27T16:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T00:00:00Z"
     },
     {
       "description": "<br/> Sampling: 60S<br/> Provider: PDS",
@@ -11354,7 +11354,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:46:00Z"
     },
     {
       "description": "Tsyganenko96 geomagnetospheric magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
@@ -11382,7 +11382,7 @@
         }
       ],
       "startDate": "2000-08-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-06T19:46:00Z"
     },
     {
       "description": "<br/> Sampling: 0.522S<br/> Provider: CNES",
@@ -13086,7 +13086,7 @@
         }
       ],
       "startDate": "2014-09-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T20:07:00Z"
     },
     {
       "description": "MAVEN orbital phase<br/> Sampling: 1S<br/> Provider: SPICE/NAIF",
@@ -13129,7 +13129,7 @@
         }
       ],
       "startDate": "2014-09-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T20:08:49Z"
     },
     {
       "description": "LPW : key parameters<br/> MinSampling: 4S; MaxSampling: 8S<br/> Provider: PDS",
@@ -13375,7 +13375,7 @@
         }
       ],
       "startDate": "2014-09-22T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T20:07:00Z"
     },
     {
       "description": "NGIMS : key parameters<br/> MinSampling: 4S; MaxSampling: 8S<br/> Provider: PDS",
@@ -17285,7 +17285,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "<br/> Sampling: 60S<br/> Provider: CDAWeb",
@@ -20921,7 +20921,7 @@
         }
       ],
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-03T23:50:00Z"
     },
     {
       "description": "<br/> Sampling: 1M<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
@@ -20944,7 +20944,7 @@
         }
       ],
       "startDate": "1995-12-08T00:01:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-03T23:59:00Z"
     },
     {
       "description": "<br/> Sampling: 60M<br/> Provider: http://ulysses.physik.uni-kiel.de/costep/level3/l3i/",
@@ -20967,7 +20967,7 @@
         }
       ],
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-03T23:00:00Z"
     },
     {
       "description": "HED detector<br/> Sampling: 1M<br/> Provider: https://srl.utu.fi/export/",
@@ -21119,7 +21119,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T00:00:00Z"
     },
     {
       "description": "electrons and protons flux 1 hour rate<br/> Sampling: 3600S<br/> Provider: IRAP",
@@ -21152,7 +21152,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T02:00:00Z"
     },
     {
       "description": "electrons and protons flux 1 minute rate<br/> Sampling: 60S<br/> Provider: IRAP",
@@ -21185,7 +21185,7 @@
         }
       ],
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-07T02:29:00Z"
     },
     {
       "description": "Ion flux 10 minutes rate<br/> Sampling: 600S<br/> Provider: IRAP",
@@ -24463,7 +24463,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Bepi / Input DSCOVR<br/> Sampling: 1H",
@@ -24678,7 +24678,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Jupiter / Input DSCOVR<br/> Sampling: 1H",
@@ -24941,7 +24941,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Mars / Input DSCOVR<br/> Sampling: 1H",
@@ -25204,7 +25204,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Mercury / Input DSCOVR<br/> Sampling: 1H",
@@ -25467,7 +25467,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Neptune / Input DSCOVR<br/> Sampling: 1H",
@@ -25753,7 +25753,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW PSP / Input DSCOVR<br/> Sampling: 1H",
@@ -25968,7 +25968,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Rosetta @ C-G / Input OMNI<br/> Sampling: 1H",
@@ -26039,7 +26039,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Saturn / Input DSCOVR<br/> Sampling: 1H",
@@ -26421,7 +26421,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Uranus / Input DSCOVR<br/> Sampling: 1H",
@@ -26684,7 +26684,7 @@
         }
       ],
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      "stopDate": "2022-11-02T18:00:00Z"
     },
     {
       "description": "Tao SW Venus / Input DSCOVR<br/> Sampling: 1H",

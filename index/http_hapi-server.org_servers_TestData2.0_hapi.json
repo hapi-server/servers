@@ -3,7 +3,6 @@
     {
       "description": "",
       "id": "dataset1",
-      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -102,7 +101,6 @@
     {
       "description": "",
       "id": "dataset2",
-      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -201,7 +199,6 @@
     {
       "description": "",
       "id": "dataset3",
-      "parameterDays": 308988,
       "parameters": [
         {
           "description": "",
@@ -298,6 +295,5 @@
       "stopDate": "2016-12-31Z"
     }
   ],
-  "id": "http://hapi-server.org/servers/TestData2.0/hapi",
-  "parameterDays": 926964
+  "id": "http://hapi-server.org/servers/TestData2.0/hapi"
 }

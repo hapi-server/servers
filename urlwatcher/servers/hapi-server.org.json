@@ -5,7 +5,7 @@
         "emailThreshold": 2,
         "url": "http://hapi-server.org/",
         "interval": 60000,
-        "testName": "",
+        "testName": "landing",
         "tests": {
             "timeout": 2000,
             "lengthChanged": true,
@@ -23,7 +23,41 @@
         "emailThreshold": 2,
         "url": "http://mag.gmu.edu/hapi-server/plot",
         "interval": 300000,
-        "testName": "plot",
+        "testName": "plot-mag",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 3000,
+            "total": 4000,
+            "download": 1000
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
+        "url": "http://rweigel.dynu.net/plot",
+        "timeout": 2000,
+        "interval": 300000,
+        "testName": "plot-dynu",
+        "tests": {
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 3000,
+            "total": 4000,
+            "download": 1000
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
+        "url": "https://hapi-server.org/plot/?server=http://hapi-server.org/servers/TestData2.0/hapi&id=dataset1&format=gallery",
+        "timeout": 2000,
+        "interval": 300000,
+        "testName": "gallery",
         "tests": {
             "timeout": 2000,
             "lengthChanged": true,
@@ -60,6 +94,23 @@
         "testName": "servers",
         "tests": {
             "timeout": 2000,
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 3000,
+            "total": 4000,
+            "download": 1000
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
+        "url": "http://rweigel.dynu.net/servers/",
+        "timeout": 2000,
+        "interval": 30000,
+        "testName": "servers-dynu",
+        "tests": {
             "lengthChanged": true,
             "statusCode": 200,
             "md5Changed": true,

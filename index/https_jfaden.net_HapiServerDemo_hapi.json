@@ -14,9 +14,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -32,9 +30,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2021-07-22T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -50,9 +46,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -68,9 +62,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -86,9 +78,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2012-01-09T00:00:00.000Z",
-      "stopDate": "2019-08-13T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -104,9 +94,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2012-01-09T00:00:00.000Z",
-      "stopDate": "2019-08-13T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -122,9 +110,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2012-01-09T00:00:00.000Z",
-      "stopDate": "2019-08-13T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -140,9 +126,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2012-01-09T00:00:00.000Z",
-      "stopDate": "2019-08-13T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -158,9 +142,7 @@
           "name": "Temperature",
           "units": "deg F"
         }
-      ],
-      "startDate": "2017-05-30T00:00:00.000Z",
-      "stopDate": "2018-06-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -181,9 +163,7 @@
           "name": "Conditions",
           "units": null
         }
-      ],
-      "startDate": "2012-05-28T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -199,9 +179,7 @@
           "name": "Spectra",
           "units": "V^2 m^-2 Hz^-1"
         }
-      ],
-      "startDate": "2012-09-01T00:00:00.000Z",
-      "stopDate": "2017-02-14T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -217,9 +195,7 @@
           "name": "PowerWheel",
           "units": "greyscale"
         }
-      ],
-      "startDate": "2016-07-28T00:00:00.000Z",
-      "stopDate": "2019-03-07T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -235,9 +211,7 @@
           "name": "SpectrogramRank2",
           "units": "greyscale"
         }
-      ],
-      "startDate": "2014-01-09T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -253,9 +227,7 @@
           "name": "PowerOnesDigitSegments",
           "units": "greyscale"
         }
-      ],
-      "startDate": "2016-07-28T00:00:00.000Z",
-      "stopDate": "2017-03-14T16:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -271,9 +243,7 @@
           "name": "specBins",
           "units": ""
         }
-      ],
-      "startDate": "2016-01-01T00:00:30.000Z",
-      "stopDate": "2016-01-01T23:59:30.000Z"
+      ]
     },
     {
       "description": "",
@@ -294,9 +264,7 @@
           "name": "flux",
           "units": ""
         }
-      ],
-      "startDate": "2016-01-01T00:00:30.000Z",
-      "stopDate": "2016-01-01T23:59:30.000Z"
+      ]
     },
     {
       "description": "",
@@ -317,9 +285,7 @@
           "name": "Energy",
           "units": "eV"
         }
-      ],
-      "startDate": "2012-10-25T00:00:00.000Z",
-      "stopDate": "2017-01-01T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -335,9 +301,7 @@
           "name": "data1",
           "units": ""
         }
-      ],
-      "startDate": "2017-02-09T00:00:02.478Z",
-      "stopDate": "2017-02-09T23:59:56.968Z"
+      ]
     },
     {
       "description": "",
@@ -353,9 +317,7 @@
           "name": "mÃ©tÃ©o",
           "units": "deg F"
         }
-      ],
-      "startDate": "2017-05-30T00:00:00.000Z",
-      "stopDate": "2018-06-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -376,9 +338,7 @@
           "name": "Energy",
           "units": "eV"
         }
-      ],
-      "startDate": "2021-04-07T00:00:00.000Z",
-      "stopDate": "2021-04-07T01:00:00.000Z"
+      ]
     }
   ],
   "id": "https://jfaden.net/HapiServerDemo/hapi"

@@ -4,8 +4,8 @@
     "index": "http_hapi-server.org_servers_SSCWeb_hapi.json"
   },
   {
-    "URL": "http://datashop.elasticbeanstalk.com/hapi",
-    "index": "http_datashop.elasticbeanstalk.com_hapi.json"
+    "URL": "https://cdaweb.gsfc.nasa.gov/hapi",
+    "index": "https_cdaweb.gsfc.nasa.gov_hapi.json"
   },
   {
     "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",

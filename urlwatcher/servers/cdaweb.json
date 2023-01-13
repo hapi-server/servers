@@ -45,8 +45,8 @@
 			"statusCode": 200,
 			"md5Changed": false,
 			"firstByte": 2000,
-			"total": 3000,
-			"download": 1000
+			"total": 4000,
+			"download": 2000
 		}
 	}
 ]

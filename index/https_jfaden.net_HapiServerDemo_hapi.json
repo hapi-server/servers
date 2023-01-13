@@ -3,7 +3,6 @@
     {
       "description": "",
       "id": "poolTemperature",
-      "parameterDays": 2539.39,
       "parameters": [
         {
           "description": "",
@@ -17,12 +16,11 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-06-23T16:42:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "atticTemperature",
-      "parameterDays": 2539.39,
       "parameters": [
         {
           "description": "",
@@ -36,12 +34,11 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-06-23T16:42:00.000Z"
+      "stopDate": "2021-07-22T00:00:00.000Z"
     },
     {
       "description": "",
       "id": "freezerTemperature",
-      "parameterDays": 2539.39,
       "parameters": [
         {
           "description": "",
@@ -55,12 +52,11 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-06-23T16:42:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "groundTemp",
-      "parameterDays": 2539.39,
       "parameters": [
         {
           "description": "",
@@ -74,12 +70,11 @@
         }
       ],
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2022-06-23T16:42:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "0B000800408DD710",
-      "parameterDays": 5546,
       "parameters": [
         {
           "description": "",
@@ -98,7 +93,6 @@
     {
       "description": "",
       "id": "8500080044259C10",
-      "parameterDays": 5546,
       "parameters": [
         {
           "description": "",
@@ -117,7 +111,6 @@
     {
       "description": "",
       "id": "610008002FE00410",
-      "parameterDays": 5546,
       "parameters": [
         {
           "description": "",
@@ -136,7 +129,6 @@
     {
       "description": "",
       "id": "AC00080040250510",
-      "parameterDays": 5546,
       "parameters": [
         {
           "description": "",
@@ -155,7 +147,6 @@
     {
       "description": "",
       "id": "10.E02340000800",
-      "parameterDays": 792,
       "parameters": [
         {
           "description": "",
@@ -174,7 +165,6 @@
     {
       "description": "",
       "id": "icwc",
-      "parameterDays": 11034,
       "parameters": [
         {
           "description": "",
@@ -193,12 +183,11 @@
         }
       ],
       "startDate": "2012-05-28T00:00:00.000Z",
-      "stopDate": "2022-06-23T00:00:00.000Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "Spectrum",
-      "parameterDays": 3254,
       "parameters": [
         {
           "description": "",
@@ -217,7 +206,6 @@
     {
       "description": "",
       "id": "PowerWheel",
-      "parameterDays": 1904,
       "parameters": [
         {
           "description": "",
@@ -236,7 +224,6 @@
     {
       "description": "",
       "id": "SpectrogramRank2",
-      "parameterDays": 6175.39,
       "parameters": [
         {
           "description": "",
@@ -250,12 +237,11 @@
         }
       ],
       "startDate": "2014-01-09T00:00:00.000Z",
-      "stopDate": "2022-06-23T16:42:20.629Z"
+      "stopDate": "last60days"
     },
     {
       "description": "",
       "id": "PowerOnesDigitSegments",
-      "parameterDays": 459.33,
       "parameters": [
         {
           "description": "",
@@ -274,7 +260,6 @@
     {
       "description": "",
       "id": "specBins",
-      "parameterDays": 2,
       "parameters": [
         {
           "description": "",
@@ -293,7 +278,6 @@
     {
       "description": "",
       "id": "specBins.ref",
-      "parameterDays": 3,
       "parameters": [
         {
           "description": "",
@@ -317,7 +301,6 @@
     {
       "description": "",
       "id": "SpectrumTimeVaryingChannels",
-      "parameterDays": 4587,
       "parameters": [
         {
           "description": "",
@@ -341,7 +324,6 @@
     {
       "description": "",
       "id": "WFR_E_B",
-      "parameterDays": 2,
       "parameters": [
         {
           "description": "",
@@ -360,7 +342,6 @@
     {
       "description": "",
       "id": "strange/\\data/",
-      "parameterDays": 792,
       "parameters": [
         {
           "description": "",
@@ -379,7 +360,6 @@
     {
       "description": "",
       "id": "rank3dep2",
-      "parameterDays": 0.12,
       "parameters": [
         {
           "description": "",
@@ -401,6 +381,5 @@
       "stopDate": "2021-04-07T01:00:00.000Z"
     }
   ],
-  "id": "https://jfaden.net/HapiServerDemo/hapi",
-  "parameterDays": 61346.4
+  "id": "https://jfaden.net/HapiServerDemo/hapi"
 }

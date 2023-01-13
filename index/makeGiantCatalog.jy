@@ -6,7 +6,7 @@ script can write to the same folder as the script.''')
 setScriptTitle('Make Giant HAPI Catalog')
 
 from java.lang import System
-System.setProperty("http.agent", "HapiBotJ/1.0; +https://github.com/hapi-server/data-specification/issues/148");
+System.setProperty("http.agent", "hapibot-a/1.0; https://github.com/hapi-server/data-specification/wiki/hapi-bots.md#hapibot-a");
 
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
 # git push

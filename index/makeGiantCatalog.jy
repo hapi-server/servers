@@ -5,6 +5,9 @@ that others can use the service.  This assumes that the scientist running the
 script can write to the same folder as the script.''')
 setScriptTitle('Make Giant HAPI Catalog')
 
+from java.lang import System
+System.setProperty("http.agent", "HapiBotJ/1.0; +https://github.com/hapi-server/data-specification/issues/148");
+
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
 # git push
 

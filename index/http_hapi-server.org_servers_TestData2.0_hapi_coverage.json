@@ -1,0 +1,21 @@
+{
+  "catalog": [
+    {
+      "id": "dataset1",
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
+    },
+    {
+      "id": "dataset2",
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
+    },
+    {
+      "id": "dataset3",
+      "startDate": "1970-01-01Z",
+      "stopDate": "2016-12-31Z"
+    }
+  ],
+  "id": "http://hapi-server.org/servers/TestData2.0/hapi",
+  "parameterDays": 926964
+}

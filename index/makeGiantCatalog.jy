@@ -30,7 +30,7 @@ logger.level = Level.FINE
 
 # list of servers in server list to exclude
 exclude= []
-# exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
+exclude.append( 'https://cdaweb.gsfc.nasa.gov/hapi' ) # server at Goddard gets gummed up, so scanning thier server is paused
 
 # list of servers to add to the list, which are not in the server list
 include= []

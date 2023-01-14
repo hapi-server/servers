@@ -24,9 +24,7 @@
           "name": "source",
           "units": "undefined"
         }
-      ],
-      "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -42,9 +40,7 @@
           "name": "irradiance",
           "units": "undefined"
         }
-      ],
-      "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2016-07-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -65,9 +61,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -93,9 +87,7 @@
           "name": "quality",
           "units": "undefined"
         }
-      ],
-      "startDate": "1981-10-08T00:00:00.000Z",
-      "stopDate": "1989-04-13T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -116,9 +108,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2019-03-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -189,9 +179,7 @@
           "name": "std_dev_measurement_date",
           "units": "days"
         }
-      ],
-      "startDate": "2004-11-01T00:00:00.000Z",
-      "stopDate": "2013-08-23T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -262,9 +250,7 @@
           "name": "std_dev_measurement_date",
           "units": "days"
         }
-      ],
-      "startDate": "2003-02-25T00:00:00.000Z",
-      "stopDate": "2020-02-26T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -285,9 +271,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-09-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -303,9 +287,7 @@
           "name": "mg_index",
           "units": "core to wing ratio (unitless)"
         }
-      ],
-      "startDate": "1978-11-06T00:00:00.000Z",
-      "stopDate": "2013-07-15T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -326,9 +308,7 @@
           "name": "correction",
           "units": "unitless"
         }
-      ],
-      "startDate": "2003-05-14T00:00:00.000Z",
-      "stopDate": "2017-08-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -349,9 +329,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -372,9 +350,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -395,9 +371,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-09-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -418,9 +392,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-09-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -441,9 +413,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -464,9 +434,7 @@
           "name": "uncertainty",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -487,9 +455,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2021-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -510,9 +476,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2022-01-01T00:00:00.000Z",
-      "stopDate": "2022-09-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -533,9 +497,7 @@
           "name": "correction",
           "units": "unitless"
         }
-      ],
-      "startDate": "2003-04-14T00:00:00.000Z",
-      "stopDate": "2017-08-29T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -581,9 +543,7 @@
           "name": "k3",
           "units": "undefined"
         }
-      ],
-      "startDate": "1976-11-20T00:00:00.000Z",
-      "stopDate": "2015-10-01T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -604,9 +564,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "1991-10-03T00:00:00.000Z",
-      "stopDate": "2001-09-30T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -622,9 +580,7 @@
           "name": "irradiance",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -640,9 +596,7 @@
           "name": "Irradiance",
           "units": "W/m^2"
         }
-      ],
-      "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2018-12-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -668,9 +622,7 @@
           "name": "type",
           "units": "undefined"
         }
-      ],
-      "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -686,9 +638,7 @@
           "name": "irradiance",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -709,9 +659,7 @@
           "name": "correction",
           "units": "unitless"
         }
-      ],
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2017-08-23T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -732,9 +680,7 @@
           "name": "uncertainty",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -765,9 +711,7 @@
           "name": "accuracy",
           "units": "undefined"
         }
-      ],
-      "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -783,9 +727,7 @@
           "name": "irradiance",
           "units": "W/m^2/nm"
         }
-      ],
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -856,9 +798,7 @@
           "name": "std_dev_measurement_date",
           "units": "days"
         }
-      ],
-      "startDate": "2013-12-16T00:00:00.000Z",
-      "stopDate": "2019-05-16T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -929,9 +869,7 @@
           "name": "std_dev_measurement_date",
           "units": "days"
         }
-      ],
-      "startDate": "2013-12-16T00:00:00.000Z",
-      "stopDate": "2019-05-16T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -962,9 +900,7 @@
           "name": "source",
           "units": "1: TIMED XPS, 2: Rocket EVE, 3: TIMED EGS, 4: SORCE SOLSTICE, 5: SORCE SIM, -1: fill"
         }
-      ],
-      "startDate": "2008-03-20T00:00:00.000Z",
-      "stopDate": "2008-04-16T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -985,9 +921,7 @@
           "name": "uncertainty",
           "units": "undefined"
         }
-      ],
-      "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2017-05-31T00:00:00.000Z"
+      ]
     },
     {
       "description": "",
@@ -1008,9 +942,7 @@
           "name": "correction",
           "units": "unitless"
         }
-      ],
-      "startDate": "2003-05-14T00:00:00.000Z",
-      "stopDate": "2017-08-30T00:00:00.000Z"
+      ]
     }
   ],
   "id": "http://lasp.colorado.edu/lisird/hapi"

@@ -34,9 +34,7 @@
           "name": "L",
           "units": "null"
         }
-      ],
-      "startDate": "1999-01-01T00:00:00",
-      "stopDate": "2017-09-16"
+      ]
     },
     {
       "description": "Electron Cyclotron Resonance Frequency",
@@ -52,9 +50,7 @@
           "name": "Fce",
           "units": "Hz"
         }
-      ],
-      "startDate": "1999-08-16T00:00:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Magnetic Field Magnitude",
@@ -70,9 +66,7 @@
           "name": "B_mag",
           "units": "nT"
         }
-      ],
-      "startDate": "1999-08-16T00:00:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Magnetometer Vector values in Kronocentric Solar Orbital coordinates from PDS volume CO-E_SW_J_S-MAG-4-SUMM-1SECAVG-V1.0",
@@ -103,9 +97,7 @@
           "name": "Z",
           "units": "nT"
         }
-      ],
-      "startDate": "2004-05-14T00:00:00",
-      "stopDate": "2017-01-01"
+      ]
     },
     {
       "description": "Magnetometer Data in Spacecraft Coordinates from http://mapsview.engin.umich.edu/",
@@ -136,9 +128,7 @@
           "name": "total",
           "units": "nT"
         }
-      ],
-      "startDate": "1999-08-16T00:00:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Bx Antenna values sampled at 100 Hz",
@@ -154,9 +144,7 @@
           "name": "Bx",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Bx Antenna values sampled at 7.143 kHz",
@@ -172,9 +160,7 @@
           "name": "Bx",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the By Antenna values sampled at 100 Hz",
@@ -190,9 +176,7 @@
           "name": "By",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the By Antenna values sampled at 7.143 kHz",
@@ -208,9 +192,7 @@
           "name": "By",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Bz Antenna values sampled at 100 Hz",
@@ -226,9 +208,7 @@
           "name": "Bz",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Bz Antenna values sampled at 7.143 kHz",
@@ -244,9 +224,7 @@
           "name": "Bz",
           "units": "nT**2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Ew Antenna values sampled at 100 Hz",
@@ -262,9 +240,7 @@
           "name": "Ew",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Ew Antenna values sampled at 7.143 kHz",
@@ -280,9 +256,7 @@
           "name": "Ew",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Ex Antenna values sampled at 100 Hz",
@@ -298,9 +272,7 @@
           "name": "Ex",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "See the Ex Antenna values sampled at 7.143 kHz",
@@ -316,9 +288,7 @@
           "name": "Ex",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Ex,Ew Antenna samples at 27.8 kHz, transformed by 512 pt DFT with 1/2 overlap",
@@ -334,9 +304,7 @@
           "name": "WBR",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Ex,Ew Antenna samples at 222 kHz, transformed by 512 pt DFT with 1/2 overlap",
@@ -352,9 +320,7 @@
           "name": "WBR",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Survey Mode Magnetic Spectral Densities",
@@ -370,9 +336,7 @@
           "name": "magnetic_specdens",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     },
     {
       "description": "Survey Mode Electric Spectral Densities",
@@ -388,9 +352,7 @@
           "name": "electric_specdens",
           "units": "V**2 m**-2 Hz**-1"
         }
-      ],
-      "startDate": "1997-01-03T03:15:00",
-      "stopDate": "2017-09-15T10:35"
+      ]
     }
   ],
   "id": "http://planet.physics.uiowa.edu/das/das2Server/hapi"

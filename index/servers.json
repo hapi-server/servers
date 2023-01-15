@@ -5,6 +5,11 @@
     "index": "http_hapi-server.org_servers_SSCWeb_hapi.json"
   },
   {
+    "URL": "https://cdaweb.gsfc.nasa.gov/hapi",
+    "coverage": "https_cdaweb.gsfc.nasa.gov_hapi_coverage.json",
+    "index": "https_cdaweb.gsfc.nasa.gov_hapi.json"
+  },
+  {
     "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
     "coverage": "http_planet.physics.uiowa.edu_das_das2Server_hapi_coverage.json",
     "index": "http_planet.physics.uiowa.edu_das_das2Server_hapi.json"

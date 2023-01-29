@@ -3,7 +3,7 @@
     {
       "id": "bremen_composite_mgii",
       "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2023-01-15T00:00:00.000Z"
+      "stopDate": "2023-01-29T00:00:00.000Z"
     },
     {
       "id": "yeo_nonempirical_tsi_reconstruction",
@@ -108,7 +108,7 @@
     {
       "id": "timed_see_ssi_l3a",
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2023-01-13T00:00:00.000Z"
+      "stopDate": "2023-01-27T00:00:00.000Z"
     },
     {
       "id": "historical_tsi",
@@ -118,12 +118,12 @@
     {
       "id": "composite_lyman_alpha",
       "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2023-01-13T00:00:00.000Z"
+      "stopDate": "2023-01-27T00:00:00.000Z"
     },
     {
       "id": "timed_see_xps_ssi_l4",
       "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2023-01-13T00:00:00.000Z"
+      "stopDate": "2023-01-27T00:00:00.000Z"
     },
     {
       "id": "musil_see",
@@ -133,17 +133,17 @@
     {
       "id": "timed_see_ssi_l3",
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2023-01-13T00:00:00.000Z"
+      "stopDate": "2023-01-27T00:00:00.000Z"
     },
     {
       "id": "sdo_eve_ssi_1nm_l3",
       "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2023-01-14T00:00:00.000Z"
+      "stopDate": "2023-01-28T00:00:00.000Z"
     },
     {
       "id": "timed_see_egs_ssi_l2",
       "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2023-01-13T00:00:00.000Z"
+      "stopDate": "2023-01-27T00:00:00.000Z"
     },
     {
       "id": "tcte_tsi_6hr",
@@ -172,5 +172,5 @@
     }
   ],
   "id": "http://lasp.colorado.edu/lisird/hapi",
-  "parameterDays": 2610910
+  "parameterDays": 2611218
 }

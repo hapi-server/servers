@@ -13,7 +13,7 @@
     {
       "id": "AC_AT_DEF",
       "startDate": "1997-08-26T00:00:00Z",
-      "stopDate": "2023-01-25T05:00:00Z"
+      "stopDate": "2023-01-31T15:00:00Z"
     },
     {
       "id": "AC_H0_MFI",
@@ -38,12 +38,12 @@
     {
       "id": "AC_H1_SIS",
       "startDate": "1997-08-29T00:00:26Z",
-      "stopDate": "2022-12-20T23:56:45Z"
+      "stopDate": "2023-01-16T23:58:54Z"
     },
     {
       "id": "AC_H2_CRIS",
       "startDate": "1997-08-27T00:00:00Z",
-      "stopDate": "2022-12-20T23:00:00Z"
+      "stopDate": "2023-01-16T23:00:00Z"
     },
     {
       "id": "AC_H2_EPM",
@@ -63,7 +63,7 @@
     {
       "id": "AC_H2_SIS",
       "startDate": "1997-08-29T00:00:00Z",
-      "stopDate": "2022-12-20T23:00:00Z"
+      "stopDate": "2023-01-16T23:00:00Z"
     },
     {
       "id": "AC_H2_SWE",
@@ -83,7 +83,7 @@
     {
       "id": "AC_H3_CRIS",
       "startDate": "1997-08-27T00:00:00Z",
-      "stopDate": "2022-12-20T00:00:00Z"
+      "stopDate": "2023-01-16T00:00:00Z"
     },
     {
       "id": "AC_H3_EPM",
@@ -123,47 +123,47 @@
     {
       "id": "AC_K0_EPM",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:55:00Z"
+      "stopDate": "2023-01-28T23:55:00Z"
     },
     {
       "id": "AC_K0_MFI",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:55:00Z"
+      "stopDate": "2023-01-28T23:55:00Z"
     },
     {
       "id": "AC_K0_SIS",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:00:00Z"
+      "stopDate": "2023-01-28T23:00:00Z"
     },
     {
       "id": "AC_K0_SWE",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:55:00Z"
+      "stopDate": "2023-01-28T23:55:00Z"
     },
     {
       "id": "AC_K1_EPM",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:00:00Z"
+      "stopDate": "2023-01-28T23:00:00Z"
     },
     {
       "id": "AC_K1_MFI",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:59:53Z"
+      "stopDate": "2023-01-28T23:59:51Z"
     },
     {
       "id": "AC_K1_SWE",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:00:00Z"
+      "stopDate": "2023-01-28T23:00:00Z"
     },
     {
       "id": "AC_K2_MFI",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-21T23:00:00Z"
+      "stopDate": "2023-01-28T23:00:00Z"
     },
     {
       "id": "AC_OR_DEF",
       "startDate": "1997-08-26T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "AC_OR_SSC",
@@ -2081,11 +2081,6 @@
       "stopDate": "2025-11-01T00:00:00Z"
     },
     {
-      "id": "BORRELLY_HELIO1DAY_POSITION",
-      "startDate": "1996-01-01T00:00:00Z",
-      "stopDate": "2018-12-31T00:00:00Z"
-    },
-    {
       "id": "C1_CP_FGM_SPIN",
       "startDate": "2001-01-30T20:17:42Z",
       "stopDate": "2021-06-02T17:51:46Z"
@@ -2346,11 +2341,6 @@
       "stopDate": "2021-12-25T13:31:05Z"
     },
     {
-      "id": "CASSINI_HELIO1DAY_POSITION",
-      "startDate": "1997-10-16T00:00:00Z",
-      "stopDate": "2017-09-21T00:00:00Z"
-    },
-    {
       "id": "CASSINI_MAG_1MIN_MAGNETIC_FIELD",
       "startDate": "2000-01-20T02:28:00Z",
       "stopDate": "2004-06-26T23:59:00Z"
@@ -2414,16 +2404,6 @@
       "id": "CN_K1_MARI",
       "startDate": "1992-09-01T00:00:00Z",
       "stopDate": "1999-12-30T23:59:00Z"
-    },
-    {
-      "id": "COMETGS_HELIO1DAY_POSITION",
-      "startDate": "1984-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
-    },
-    {
-      "id": "COMETHMP_HELIO1DAY_POSITION",
-      "startDate": "1996-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
     },
     {
       "id": "CRRES_H0_MEA",
@@ -2688,12 +2668,7 @@
     {
       "id": "DSCOVR_ORBIT_PRE",
       "startDate": "2015-02-11T23:39:07Z",
-      "stopDate": "2023-02-22T12:00:00Z"
-    },
-    {
-      "id": "EARTH_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
+      "stopDate": "2023-03-01T12:00:00Z"
     },
     {
       "id": "ELA_L1_EPDEF",
@@ -3041,11 +3016,6 @@
       "stopDate": "1998-07-27T23:59:30Z"
     },
     {
-      "id": "GALILEO_HELIO1DAY_POSITION",
-      "startDate": "1989-10-20T00:00:00Z",
-      "stopDate": "2003-09-30T00:00:00Z"
-    },
-    {
       "id": "GENESIS_3DL2_GIM",
       "startDate": "2001-08-24T16:16:12Z",
       "stopDate": "2004-04-30T23:58:09Z"
@@ -3141,16 +3111,6 @@
       "stopDate": "2020-08-04T23:58:33Z"
     },
     {
-      "id": "GIACOBINI_HELIO1DAY_POSITION",
-      "startDate": "1984-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
-    },
-    {
-      "id": "GIOTTO_HELIO1DAY_POSITION",
-      "startDate": "1992-01-01T00:00:00Z",
-      "stopDate": "1993-01-01T00:00:00Z"
-    },
-    {
       "id": "GOES10_EPHEMERIS_SSC",
       "startDate": "1997-04-25T00:06:00Z",
       "stopDate": "2009-01-01T00:00:00Z"
@@ -3213,7 +3173,7 @@
     {
       "id": "GOES14_EPHEMERIS_SSC",
       "startDate": "2009-07-09T00:00:00Z",
-      "stopDate": "2023-01-01T00:00:00Z"
+      "stopDate": "2023-02-12T00:00:00Z"
     },
     {
       "id": "GOES14_EPS-MAGED_1MIN",
@@ -3238,7 +3198,7 @@
     {
       "id": "GOES15_EPHEMERIS_SSC",
       "startDate": "2010-03-21T00:00:00Z",
-      "stopDate": "2023-01-01T00:00:00Z"
+      "stopDate": "2023-02-12T00:00:00Z"
     },
     {
       "id": "GOES15_EPS-MAGED_1MIN",
@@ -3258,17 +3218,17 @@
     {
       "id": "GOES16_EPHEMERIS_SSC",
       "startDate": "2016-12-03T10:56:00Z",
-      "stopDate": "2023-01-01T00:00:00Z"
+      "stopDate": "2023-02-13T00:00:00Z"
     },
     {
       "id": "GOES17_EPHEMERIS_SSC",
       "startDate": "2018-03-21T00:00:00Z",
-      "stopDate": "2023-01-01T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "GOES18_EPHEMERIS_SSC",
       "startDate": "2022-03-18T00:00:00Z",
-      "stopDate": "2023-01-01T00:00:00Z"
+      "stopDate": "2023-02-12T00:00:00Z"
     },
     {
       "id": "GPS_ROTI15MIN_JPL",
@@ -3278,27 +3238,17 @@
     {
       "id": "GPS_TEC15MIN_IGS",
       "startDate": "1995-05-16T00:00:00Z",
-      "stopDate": "2023-01-24T23:45:00Z"
+      "stopDate": "2023-01-31T23:45:00Z"
     },
     {
       "id": "GPS_TEC1HR_IGS",
       "startDate": "1995-05-16T00:00:00Z",
-      "stopDate": "2023-01-25T23:00:00Z"
+      "stopDate": "2023-02-01T23:00:00Z"
     },
     {
       "id": "GPS_TEC2HR_IGS",
       "startDate": "1998-06-01T01:00:00Z",
-      "stopDate": "2023-01-25T22:00:00Z"
-    },
-    {
-      "id": "HALEBOPP_HELIO1DAY_POSITION",
-      "startDate": "1996-01-01T00:00:00Z",
-      "stopDate": "2018-12-31T00:00:00Z"
-    },
-    {
-      "id": "HALLEY_HELIO1DAY_POSITION",
-      "startDate": "1984-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
+      "stopDate": "2023-02-01T22:00:00Z"
     },
     {
       "id": "HEL1_6SEC_NESSMAG",
@@ -3331,11 +3281,6 @@
       "stopDate": "1983-12-31T14:35:00Z"
     },
     {
-      "id": "HELIOS1_HELIO1DAY_POSITION",
-      "startDate": "1974-12-10T00:00:00Z",
-      "stopDate": "1985-12-30T00:00:00Z"
-    },
-    {
       "id": "HELIOS2_40SEC_MAG-PLASMA",
       "startDate": "1976-01-17T01:21:36Z",
       "stopDate": "1980-03-08T17:43:50Z"
@@ -3356,11 +3301,6 @@
       "stopDate": "1980-03-08T16:25:00Z"
     },
     {
-      "id": "HELIOS2_HELIO1DAY_POSITION",
-      "startDate": "1976-01-01T00:00:00Z",
-      "stopDate": "1985-12-31T00:00:00Z"
-    },
-    {
       "id": "HK_H0_MAG",
       "startDate": "1974-06-06T04:28:06Z",
       "stopDate": "1978-04-28T17:57:30Z"
@@ -3369,11 +3309,6 @@
       "id": "HK_H0_VLF",
       "startDate": "1974-06-08T06:45:10Z",
       "stopDate": "1978-04-26T15:59:05Z"
-    },
-    {
-      "id": "HYAKUTAKE_HELIO1DAY_POSITION",
-      "startDate": "1995-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
     },
     {
       "id": "I1_AV2_QUI",
@@ -3871,6 +3806,11 @@
       "stopDate": "2010-02-25T15:25:34Z"
     },
     {
+      "id": "IBEX_OR_SSC",
+      "startDate": "2008-10-19T20:01:30Z",
+      "stopDate": "2032-07-22T07:53:26Z"
+    },
+    {
       "id": "IG_K0_PCI",
       "startDate": "1995-08-07T00:02:30Z",
       "stopDate": "2000-10-22T23:57:30Z"
@@ -3969,11 +3909,6 @@
       "id": "IM_OR_PRE",
       "startDate": "2001-02-21T00:00:00Z",
       "stopDate": "2006-01-30T23:59:59Z"
-    },
-    {
-      "id": "ISEE-3_HELIO1DAY_POSITION",
-      "startDate": "1984-01-01T00:00:00Z",
-      "stopDate": "1999-12-31T00:00:00Z"
     },
     {
       "id": "ISEE-3_MAGPLASMA_2MIN_MAGNETIC_FIELD_PLASMA",
@@ -4106,16 +4041,6 @@
       "stopDate": "2000-10-16T13:55:00Z"
     },
     {
-      "id": "JUNO_HELIO1DAY_POSITION",
-      "startDate": "2011-08-06T00:00:00Z",
-      "stopDate": "2025-10-20T00:00:00Z"
-    },
-    {
-      "id": "JUPITER_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
       "id": "L0_K0_MPA",
       "startDate": "1992-12-16T00:02:44Z",
       "stopDate": "2005-11-09T23:57:44Z"
@@ -4176,26 +4101,6 @@
       "stopDate": "2007-10-15T23:58:30Z"
     },
     {
-      "id": "MARS_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
-      "id": "MAVEN_HELIO1DAY_POSITION",
-      "startDate": "2013-11-19T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
-      "id": "MERCURY_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
-      "id": "MESSENGER_HELIO1DAY_POSITION",
-      "startDate": "2004-08-05T00:00:00Z",
-      "stopDate": "2015-05-01T00:00:00Z"
-    },
-    {
       "id": "MESSENGER_MAG_RTN@0",
       "startDate": "2004-08-12T17:44:08Z",
       "stopDate": "2015-04-30T15:08:14Z"
@@ -4208,7 +4113,7 @@
     {
       "id": "METOP1_POES-SEM2_FLUXES-2SEC",
       "startDate": "2012-10-03T00:20:42Z",
-      "stopDate": "2023-01-26T12:27:13Z"
+      "stopDate": "2023-02-02T12:32:32Z"
     },
     {
       "id": "METOP2_POES-SEM2_FLUXES-2SEC",
@@ -4218,42 +4123,42 @@
     {
       "id": "METOP3_POES-SEM2_FLUXES-2SEC",
       "startDate": "2019-01-01T00:00:01Z",
-      "stopDate": "2023-01-26T12:29:01Z"
+      "stopDate": "2023-02-02T11:44:44Z"
     },
     {
       "id": "MMS1_ASPOC_SRVY_L2",
       "startDate": "2015-03-28T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_DSP_FAST_L2_BPSD",
       "startDate": "2015-03-17T00:00:26Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_DSP_FAST_L2_EPSD",
       "startDate": "2015-03-17T00:00:22Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_DSP_SLOW_L2_BPSD",
       "startDate": "2015-03-17T00:00:22Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_DSP_SLOW_L2_EPSD",
       "startDate": "2015-07-15T11:30:58Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_AMB-PM2@0",
       "startDate": "2016-01-14T20:45:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_AMB-PM2@1",
       "startDate": "2016-01-14T20:45:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_AMB@0",
@@ -4268,32 +4173,32 @@
     {
       "id": "MMS1_EDI_BRST_L2_EFIELD",
       "startDate": "2015-09-14T14:13:07Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_Q0@0",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_Q0@1",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_BRST_L2_Q0@2",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_AMB-PM2@0",
       "startDate": "2016-01-06T00:38:49Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_AMB-PM2@1",
       "startDate": "2016-01-06T00:38:49Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_AMB@0",
@@ -4308,62 +4213,62 @@
     {
       "id": "MMS1_EDI_SRVY_L2_EFIELD",
       "startDate": "2015-09-01T00:03:08Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_Q0@0",
       "startDate": "2015-09-01T00:02:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_Q0@1",
       "startDate": "2015-09-01T00:02:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDI_SRVY_L2_Q0@2",
       "startDate": "2015-09-01T00:02:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_BRST_L2_DCE",
       "startDate": "2015-08-02T00:03:44Z",
-      "stopDate": "2022-11-26T16:06:33Z"
+      "stopDate": "2022-11-29T16:05:13Z"
     },
     {
       "id": "MMS1_EDP_BRST_L2_HMFE",
       "startDate": "2015-09-01T12:11:18Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_BRST_L2_SCPOT",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_FAST_L2_DCE",
       "startDate": "2015-09-01T09:51:44Z",
-      "stopDate": "2022-12-11T23:59:58Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_FAST_L2_SCPOT",
       "startDate": "2015-07-15T15:18:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_SLOW_L2_DCE",
       "startDate": "2015-08-28T00:27:40Z",
-      "stopDate": "2022-12-10T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_SLOW_L2_SCPOT",
       "startDate": "2015-07-15T11:31:21Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EDP_SRVY_L2_HFESP",
       "startDate": "2015-09-01T00:00:11Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_EPD-EIS_BRST_L2_EXTOF",
@@ -4393,52 +4298,52 @@
     {
       "id": "MMS1_FEEPS_BRST_L2_ELECTRON",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FEEPS_BRST_L2_ION",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FEEPS_SRVY_L2_ELECTRON",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FEEPS_SRVY_L2_ION",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FGM_BRST_L2@0",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FGM_BRST_L2@1",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FGM_SRVY_L2@0",
       "startDate": "2015-09-01T00:00:12Z",
-      "stopDate": "2022-12-09T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FGM_SRVY_L2@1",
       "startDate": "2015-09-01T00:00:12Z",
-      "stopDate": "2022-12-09T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_BRST_L2_DES-DIST",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-11-04T19:45:22Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_BRST_L2_DES-MOMS",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-11-04T19:45:22Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_BRST_L2_DES-PARTMOMS",
@@ -4448,12 +4353,12 @@
     {
       "id": "MMS1_FPI_BRST_L2_DIS-DIST",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_BRST_L2_DIS-MOMS",
       "startDate": "2015-07-15T15:27:04Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_BRST_L2_DIS-PARTMOMS",
@@ -4463,12 +4368,12 @@
     {
       "id": "MMS1_FPI_FAST_L2_DES-DIST",
       "startDate": "2015-07-15T15:11:27Z",
-      "stopDate": "2022-11-26T19:29:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_FAST_L2_DES-MOMS",
       "startDate": "2015-07-15T15:11:27Z",
-      "stopDate": "2022-11-19T01:34:06Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_FAST_L2_DES-PARTMOMS",
@@ -4478,12 +4383,12 @@
     {
       "id": "MMS1_FPI_FAST_L2_DIS-DIST",
       "startDate": "2015-07-15T15:11:27Z",
-      "stopDate": "2022-11-26T19:29:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_FAST_L2_DIS-MOMS",
       "startDate": "2015-07-15T15:11:27Z",
-      "stopDate": "2022-11-26T19:29:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_FPI_FAST_L2_DIS-PARTMOMS",
@@ -4503,17 +4408,17 @@
     {
       "id": "MMS1_HPCA_SRVY_L2_ION",
       "startDate": "2015-06-20T20:55:22Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_HPCA_SRVY_L2_MOMENTS",
       "startDate": "2015-06-20T20:55:22Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_HPCA_SRVY_L2_TOF-COUNTS",
       "startDate": "2018-11-15T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_MEC_BRST_L2_EPHT89D",
@@ -4533,67 +4438,67 @@
     {
       "id": "MMS1_MEC_SRVY_L2_EPHT89D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_MEC_SRVY_L2_EPHT89Q",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_MEC_SRVY_L2_EPHTS04D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-08T23:59:30Z"
+      "stopDate": "2022-12-15T23:59:30Z"
     },
     {
       "id": "MMS1_SCM_BRST_L2_SCB",
       "startDate": "2015-08-04T15:44:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_SCM_BRST_L2_SCHB",
       "startDate": "2015-09-01T12:11:18Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS1_SCM_SRVY_L2_SCSRVY",
       "startDate": "2015-09-02T00:00:01Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_ASPOC_SRVY_L2",
       "startDate": "2015-03-28T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_DSP_FAST_L2_BPSD",
       "startDate": "2015-03-17T00:00:31Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_DSP_FAST_L2_EPSD",
       "startDate": "2015-03-17T00:00:27Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_DSP_SLOW_L2_BPSD",
       "startDate": "2015-03-17T00:00:27Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_DSP_SLOW_L2_EPSD",
       "startDate": "2015-07-20T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDI_BRST_L2_AMB-PM2@0",
       "startDate": "2016-01-04T22:25:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDI_BRST_L2_AMB-PM2@1",
       "startDate": "2016-01-04T22:25:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDI_BRST_L2_AMB@0",
@@ -4628,12 +4533,12 @@
     {
       "id": "MMS2_EDI_SRVY_L2_AMB-PM2@0",
       "startDate": "2016-01-04T16:23:45Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDI_SRVY_L2_AMB-PM2@1",
       "startDate": "2016-01-04T16:23:45Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDI_SRVY_L2_AMB@0",
@@ -4668,42 +4573,42 @@
     {
       "id": "MMS2_EDP_BRST_L2_DCE",
       "startDate": "2015-08-02T00:03:44Z",
-      "stopDate": "2022-11-26T16:06:32Z"
+      "stopDate": "2022-11-29T16:05:12Z"
     },
     {
       "id": "MMS2_EDP_BRST_L2_HMFE",
       "startDate": "2015-09-01T12:11:17Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_BRST_L2_SCPOT",
       "startDate": "2015-07-22T17:31:44Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_FAST_L2_DCE",
       "startDate": "2015-09-01T00:00:10Z",
-      "stopDate": "2022-12-11T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_FAST_L2_SCPOT",
       "startDate": "2015-06-22T17:52:58Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_SLOW_L2_DCE",
       "startDate": "2015-08-28T00:28:39Z",
-      "stopDate": "2022-12-11T14:12:11Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_SLOW_L2_SCPOT",
       "startDate": "2015-06-22T14:17:01Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EDP_SRVY_L2_HFESP",
       "startDate": "2015-09-01T00:00:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_EPD-EIS_BRST_L2_EXTOF",
@@ -4718,67 +4623,67 @@
     {
       "id": "MMS2_EPD-EIS_SRVY_L2_ELECTRONENERGY",
       "startDate": "2015-09-01T00:00:02Z",
-      "stopDate": "2022-12-12T18:44:47Z"
+      "stopDate": "2022-12-23T07:01:32Z"
     },
     {
       "id": "MMS2_EPD-EIS_SRVY_L2_EXTOF",
       "startDate": "2015-09-01T08:08:49Z",
-      "stopDate": "2022-12-12T23:59:58Z"
+      "stopDate": "2022-12-24T08:42:25Z"
     },
     {
       "id": "MMS2_EPD-EIS_SRVY_L2_PHXTOF",
       "startDate": "2015-09-01T08:08:49Z",
-      "stopDate": "2022-12-12T23:59:58Z"
+      "stopDate": "2022-12-24T08:42:25Z"
     },
     {
       "id": "MMS2_FEEPS_BRST_L2_ELECTRON",
       "startDate": "2015-07-19T18:50:44Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FEEPS_BRST_L2_ION",
       "startDate": "2015-07-19T18:50:44Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FEEPS_SRVY_L2_ELECTRON",
       "startDate": "2015-06-12T15:20:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FEEPS_SRVY_L2_ION",
       "startDate": "2015-06-12T15:20:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FGM_BRST_L2@0",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FGM_BRST_L2@1",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FGM_SRVY_L2@0",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2022-12-10T00:00:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FGM_SRVY_L2@1",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2022-12-10T00:00:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_BRST_L2_DES-DIST",
       "startDate": "2015-06-22T17:56:25Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_BRST_L2_DES-MOMS",
       "startDate": "2015-06-22T17:56:25Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_BRST_L2_DES-PARTMOMS",
@@ -4788,12 +4693,12 @@
     {
       "id": "MMS2_FPI_BRST_L2_DIS-DIST",
       "startDate": "2015-06-22T17:56:25Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_BRST_L2_DIS-MOMS",
       "startDate": "2015-06-22T17:56:25Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_BRST_L2_DIS-PARTMOMS",
@@ -4803,12 +4708,12 @@
     {
       "id": "MMS2_FPI_FAST_L2_DES-DIST",
       "startDate": "2015-06-22T17:46:20Z",
-      "stopDate": "2022-11-26T19:28:45Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_FAST_L2_DES-MOMS",
       "startDate": "2015-06-22T17:46:20Z",
-      "stopDate": "2022-11-19T01:33:48Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_FAST_L2_DES-PARTMOMS",
@@ -4818,12 +4723,12 @@
     {
       "id": "MMS2_FPI_FAST_L2_DIS-DIST",
       "startDate": "2015-06-22T17:46:20Z",
-      "stopDate": "2022-11-26T19:28:45Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_FAST_L2_DIS-MOMS",
       "startDate": "2015-06-22T17:46:20Z",
-      "stopDate": "2022-11-26T19:28:45Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_FPI_FAST_L2_DIS-PARTMOMS",
@@ -4843,17 +4748,17 @@
     {
       "id": "MMS2_HPCA_SRVY_L2_ION",
       "startDate": "2015-06-25T02:11:50Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_HPCA_SRVY_L2_MOMENTS",
       "startDate": "2015-06-25T02:11:50Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_HPCA_SRVY_L2_TOF-COUNTS",
       "startDate": "2018-11-15T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_MEC_BRST_L2_EPHT89D",
@@ -4873,57 +4778,57 @@
     {
       "id": "MMS2_MEC_SRVY_L2_EPHT89D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_MEC_SRVY_L2_EPHT89Q",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_MEC_SRVY_L2_EPHTS04D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-08T23:59:30Z"
+      "stopDate": "2022-12-15T23:59:30Z"
     },
     {
       "id": "MMS2_SCM_BRST_L2_SCB",
       "startDate": "2015-08-04T15:44:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_SCM_BRST_L2_SCHB",
       "startDate": "2015-09-01T12:11:17Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS2_SCM_SRVY_L2_SCSRVY",
       "startDate": "2015-09-02T00:00:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_ASPOC_SRVY_L2",
       "startDate": "2015-03-28T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_DSP_FAST_L2_BPSD",
       "startDate": "2015-03-17T00:00:34Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_DSP_FAST_L2_EPSD",
       "startDate": "2015-03-17T00:00:30Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_DSP_SLOW_L2_BPSD",
       "startDate": "2015-03-17T00:00:30Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_DSP_SLOW_L2_EPSD",
       "startDate": "2015-05-06T18:13:34Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_BRST_L2_AMB-PM2@0",
@@ -4953,17 +4858,17 @@
     {
       "id": "MMS3_EDI_BRST_L2_Q0@0",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_BRST_L2_Q0@1",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_BRST_L2_Q0@2",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_SRVY_L2_AMB-PM2@0",
@@ -4993,57 +4898,57 @@
     {
       "id": "MMS3_EDI_SRVY_L2_Q0@0",
       "startDate": "2015-09-01T00:03:13Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_SRVY_L2_Q0@1",
       "startDate": "2015-09-01T00:03:13Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDI_SRVY_L2_Q0@2",
       "startDate": "2015-09-01T00:03:13Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_BRST_L2_DCE",
       "startDate": "2015-08-02T00:03:44Z",
-      "stopDate": "2022-11-26T16:06:32Z"
+      "stopDate": "2022-11-29T16:05:13Z"
     },
     {
       "id": "MMS3_EDP_BRST_L2_HMFE",
       "startDate": "2015-09-01T12:11:16Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_BRST_L2_SCPOT",
       "startDate": "2015-07-19T03:08:34Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_FAST_L2_DCE",
       "startDate": "2015-09-01T00:00:10Z",
-      "stopDate": "2022-12-11T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_FAST_L2_SCPOT",
       "startDate": "2015-05-06T23:05:29Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_SLOW_L2_DCE",
       "startDate": "2015-08-15T01:57:05Z",
-      "stopDate": "2022-12-11T14:12:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_SLOW_L2_SCPOT",
       "startDate": "2015-05-06T18:13:59Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EDP_SRVY_L2_HFESP",
       "startDate": "2015-03-01T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_EPD-EIS_BRST_L2_EXTOF",
@@ -5058,67 +4963,67 @@
     {
       "id": "MMS3_EPD-EIS_SRVY_L2_ELECTRONENERGY",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2022-12-12T18:44:45Z"
+      "stopDate": "2022-12-23T07:01:23Z"
     },
     {
       "id": "MMS3_EPD-EIS_SRVY_L2_EXTOF",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:57Z"
     },
     {
       "id": "MMS3_EPD-EIS_SRVY_L2_PHXTOF",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:57Z"
     },
     {
       "id": "MMS3_FEEPS_BRST_L2_ELECTRON",
       "startDate": "2015-07-18T04:03:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FEEPS_BRST_L2_ION",
       "startDate": "2015-07-18T04:03:04Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FEEPS_SRVY_L2_ELECTRON",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FEEPS_SRVY_L2_ION",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FGM_BRST_L2@0",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FGM_BRST_L2@1",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FGM_SRVY_L2@0",
       "startDate": "2015-09-01T00:00:06Z",
-      "stopDate": "2022-12-10T00:00:07Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FGM_SRVY_L2@1",
       "startDate": "2015-09-01T00:00:06Z",
-      "stopDate": "2022-12-10T00:00:07Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_BRST_L2_DES-DIST",
       "startDate": "2015-05-06T00:00:00Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_BRST_L2_DES-MOMS",
       "startDate": "2015-05-06T00:00:00Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_BRST_L2_DES-PARTMOMS",
@@ -5128,12 +5033,12 @@
     {
       "id": "MMS3_FPI_BRST_L2_DIS-DIST",
       "startDate": "2015-05-06T00:00:00Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_BRST_L2_DIS-MOMS",
       "startDate": "2015-05-06T00:00:00Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_BRST_L2_DIS-PARTMOMS",
@@ -5143,12 +5048,12 @@
     {
       "id": "MMS3_FPI_FAST_L2_DES-DIST",
       "startDate": "2015-05-06T00:00:01Z",
-      "stopDate": "2022-11-26T19:28:41Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_FAST_L2_DES-MOMS",
       "startDate": "2015-05-06T00:00:01Z",
-      "stopDate": "2022-11-19T01:33:40Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_FAST_L2_DES-PARTMOMS",
@@ -5158,12 +5063,12 @@
     {
       "id": "MMS3_FPI_FAST_L2_DIS-DIST",
       "startDate": "2015-05-06T00:00:01Z",
-      "stopDate": "2022-11-26T19:28:41Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_FAST_L2_DIS-MOMS",
       "startDate": "2015-05-06T00:00:01Z",
-      "stopDate": "2022-11-26T19:28:41Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_FPI_FAST_L2_DIS-PARTMOMS",
@@ -5183,17 +5088,17 @@
     {
       "id": "MMS3_HPCA_SRVY_L2_ION",
       "startDate": "2015-06-21T20:52:09Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_HPCA_SRVY_L2_MOMENTS",
       "startDate": "2015-06-21T20:52:09Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_HPCA_SRVY_L2_TOF-COUNTS",
       "startDate": "2018-11-15T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_MEC_BRST_L2_EPHT89D",
@@ -5213,57 +5118,57 @@
     {
       "id": "MMS3_MEC_SRVY_L2_EPHT89D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_MEC_SRVY_L2_EPHT89Q",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_MEC_SRVY_L2_EPHTS04D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-08T23:59:30Z"
+      "stopDate": "2022-12-15T23:59:30Z"
     },
     {
       "id": "MMS3_SCM_BRST_L2_SCB",
       "startDate": "2015-08-04T15:44:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_SCM_BRST_L2_SCHB",
       "startDate": "2015-09-01T12:11:16Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS3_SCM_SRVY_L2_SCSRVY",
       "startDate": "2015-09-02T00:00:02Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_ASPOC_SRVY_L2",
       "startDate": "2015-03-28T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_DSP_FAST_L2_BPSD",
       "startDate": "2015-03-17T00:00:24Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_DSP_FAST_L2_EPSD",
       "startDate": "2015-03-17T00:00:20Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_DSP_SLOW_L2_BPSD",
       "startDate": "2015-03-17T00:00:20Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_DSP_SLOW_L2_EPSD",
       "startDate": "2015-07-28T04:01:31Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_BRST_L2_AMB-PM2@0",
@@ -5283,17 +5188,17 @@
     {
       "id": "MMS4_EDI_BRST_L2_Q0@0",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_BRST_L2_Q0@1",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_BRST_L2_Q0@2",
       "startDate": "2016-04-12T22:24:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_SRVY_L2_AMB-PM2@0",
@@ -5323,32 +5228,32 @@
     {
       "id": "MMS4_EDI_SRVY_L2_Q0@0",
       "startDate": "2015-09-02T10:26:40Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_SRVY_L2_Q0@1",
       "startDate": "2015-09-02T10:26:40Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDI_SRVY_L2_Q0@2",
       "startDate": "2015-09-02T10:26:40Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDP_BRST_L2_DCE",
       "startDate": "2015-08-02T00:03:44Z",
-      "stopDate": "2022-11-26T16:06:32Z"
+      "stopDate": "2022-11-29T16:05:12Z"
     },
     {
       "id": "MMS4_EDP_BRST_L2_HMFE",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDP_BRST_L2_SCPOT",
       "startDate": "2015-07-30T23:06:53Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDP_FAST_L2_DCE",
@@ -5358,7 +5263,7 @@
     {
       "id": "MMS4_EDP_FAST_L2_SCPOT",
       "startDate": "2015-07-28T13:51:37Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDP_SLOW_L2_DCE",
@@ -5368,12 +5273,12 @@
     {
       "id": "MMS4_EDP_SLOW_L2_SCPOT",
       "startDate": "2015-07-28T04:01:47Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EDP_SRVY_L2_HFESP",
       "startDate": "2015-09-01T00:00:09Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_EPD-EIS_BRST_L2_EXTOF",
@@ -5388,47 +5293,47 @@
     {
       "id": "MMS4_EPD-EIS_SRVY_L2_ELECTRONENERGY",
       "startDate": "2015-09-01T01:49:35Z",
-      "stopDate": "2022-12-07T05:18:36Z"
+      "stopDate": "2022-12-24T10:52:39Z"
     },
     {
       "id": "MMS4_EPD-EIS_SRVY_L2_EXTOF",
       "startDate": "2015-09-01T00:00:01Z",
-      "stopDate": "2022-12-07T05:18:34Z"
+      "stopDate": "2022-12-24T10:52:39Z"
     },
     {
       "id": "MMS4_EPD-EIS_SRVY_L2_PHXTOF",
       "startDate": "2015-09-01T00:00:01Z",
-      "stopDate": "2022-12-07T05:18:34Z"
+      "stopDate": "2022-12-24T10:52:39Z"
     },
     {
       "id": "MMS4_FEEPS_BRST_L2_ELECTRON",
       "startDate": "2015-07-27T15:30:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FEEPS_BRST_L2_ION",
       "startDate": "2015-07-27T15:30:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FEEPS_SRVY_L2_ELECTRON",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FEEPS_SRVY_L2_ION",
       "startDate": "2015-06-12T15:20:03Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FGM_BRST_L2@0",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FGM_BRST_L2@1",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-08T19:42:32Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FGM_SRVY_L2@0",
@@ -5448,12 +5353,12 @@
     {
       "id": "MMS4_FPI_BRST_L2_DIS-DIST",
       "startDate": "2015-07-27T15:30:54Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FPI_BRST_L2_DIS-MOMS",
       "startDate": "2015-07-27T15:30:54Z",
-      "stopDate": "2022-10-28T15:22:12Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FPI_BRST_L2_DIS-PARTMOMS",
@@ -5463,7 +5368,7 @@
     {
       "id": "MMS4_FPI_FAST_L2_DES-DIST",
       "startDate": "2015-07-28T00:00:02Z",
-      "stopDate": "2022-11-26T19:28:54Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FPI_FAST_L2_DES-MOMS",
@@ -5478,12 +5383,12 @@
     {
       "id": "MMS4_FPI_FAST_L2_DIS-DIST",
       "startDate": "2015-07-28T00:00:02Z",
-      "stopDate": "2022-11-26T19:28:54Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FPI_FAST_L2_DIS-MOMS",
       "startDate": "2015-07-28T00:00:02Z",
-      "stopDate": "2022-11-26T19:28:54Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_FPI_FAST_L2_DIS-PARTMOMS",
@@ -5503,17 +5408,17 @@
     {
       "id": "MMS4_HPCA_SRVY_L2_ION",
       "startDate": "2015-07-13T18:40:07Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_HPCA_SRVY_L2_MOMENTS",
       "startDate": "2015-07-13T18:40:07Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_HPCA_SRVY_L2_TOF-COUNTS",
       "startDate": "2018-11-15T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_MEC_BRST_L2_EPHT89D",
@@ -5533,37 +5438,32 @@
     {
       "id": "MMS4_MEC_SRVY_L2_EPHT89D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_MEC_SRVY_L2_EPHT89Q",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_MEC_SRVY_L2_EPHTS04D",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2022-12-08T23:59:30Z"
+      "stopDate": "2022-12-11T23:59:30Z"
     },
     {
       "id": "MMS4_SCM_BRST_L2_SCB",
       "startDate": "2015-08-04T15:44:54Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_SCM_BRST_L2_SCHB",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2022-12-22T23:59:59Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MMS4_SCM_SRVY_L2_SCSRVY",
       "startDate": "2015-09-02T00:00:01Z",
-      "stopDate": "2022-12-22T23:59:59Z"
-    },
-    {
-      "id": "MSL_HELIO1DAY_POSITION",
-      "startDate": "2011-11-27T00:00:00Z",
-      "stopDate": "2012-08-05T00:00:00Z"
+      "stopDate": "2022-12-29T23:59:59Z"
     },
     {
       "id": "MUNIN_M1_MDSE",
@@ -5666,16 +5566,6 @@
       "stopDate": "2022-08-16T00:00:39Z"
     },
     {
-      "id": "NEPTUNE_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
-      "id": "NEW_HORIZONS_HELIO1DAY_POSITION",
-      "startDate": "2006-01-20T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
       "id": "NEW_HORIZONS_SWAP_PICKUP-IONS",
       "startDate": "2008-11-16T18:08:03Z",
       "stopDate": "2017-03-31T18:08:01Z"
@@ -5728,7 +5618,7 @@
     {
       "id": "NOAA15_POES-SEM2_FLUXES-2SEC",
       "startDate": "2013-01-01T00:02:35Z",
-      "stopDate": "2023-01-26T11:17:32Z"
+      "stopDate": "2023-02-02T11:42:24Z"
     },
     {
       "id": "NOAA16_POES-SEM2_FLUXES-2SEC",
@@ -5738,12 +5628,12 @@
     {
       "id": "NOAA18_POES-SEM2_FLUXES-2SEC",
       "startDate": "2013-01-01T00:01:05Z",
-      "stopDate": "2023-01-26T08:55:21Z"
+      "stopDate": "2023-02-02T09:11:29Z"
     },
     {
       "id": "NOAA19_POES-SEM2_FLUXES-2SEC",
       "startDate": "2013-01-01T00:00:54Z",
-      "stopDate": "2023-01-26T11:24:08Z"
+      "stopDate": "2023-02-02T11:50:00Z"
     },
     {
       "id": "OMNI2_H0_MRG1HR",
@@ -5776,19 +5666,9 @@
       "stopDate": "2023-01-05T00:50:00Z"
     },
     {
-      "id": "PHOBOS2_HELIO1DAY_POSITION",
-      "startDate": "1988-07-13T00:00:00Z",
-      "stopDate": "1989-01-30T00:00:00Z"
-    },
-    {
       "id": "PIONEER10_COHO1HR_MERGED_MAG_PLASMA",
       "startDate": "1972-01-01T00:00:00Z",
       "stopDate": "1995-09-07T02:00:00Z"
-    },
-    {
-      "id": "PIONEER10_HELIO1DAY_POSITION",
-      "startDate": "1972-03-04T00:00:00Z",
-      "stopDate": "2049-12-31T00:00:00Z"
     },
     {
       "id": "PIONEER10_MAG_1MIN_MAGNETIC_FIELD@0",
@@ -5806,11 +5686,6 @@
       "stopDate": "1994-12-31T17:00:00Z"
     },
     {
-      "id": "PIONEER11_HELIO1DAY_POSITION",
-      "startDate": "1973-04-07T00:00:00Z",
-      "stopDate": "2049-12-31T00:00:00Z"
-    },
-    {
       "id": "PIONEERVENUS_COHO1HR_MERGED_MAG_PLASMA",
       "startDate": "1978-12-05T00:00:00Z",
       "stopDate": "1992-12-31T23:00:00Z"
@@ -5819,11 +5694,6 @@
       "id": "PIONEERVENUS_MERGED_SOLAR-WIND_10M",
       "startDate": "1978-12-06T00:00:00Z",
       "stopDate": "1988-08-07T10:50:00Z"
-    },
-    {
-      "id": "PLUTO_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
     },
     {
       "id": "POLAR_HYDRA_MOMENTS-14SEC",
@@ -6509,6 +6379,11 @@
       "id": "PSP_FLD_L2_RFS_LFR@9",
       "startDate": "2018-09-02T22:19:16Z",
       "stopDate": "2022-07-31T23:59:57Z"
+    },
+    {
+      "id": "PSP_FLD_L2_TDS_WF",
+      "startDate": "2018-08-13T11:50:15Z",
+      "stopDate": "2022-07-07T14:10:58Z"
     },
     {
       "id": "PSP_FLD_L3_MERGED_SCAM_WF",
@@ -7576,24 +7451,9 @@
       "stopDate": "2015-12-13T07:45:19Z"
     },
     {
-      "id": "ROSETTA_HELIO1DAY_POSITION",
-      "startDate": "2004-03-03T00:00:00Z",
-      "stopDate": "2016-12-31T00:00:00Z"
-    },
-    {
       "id": "RS_K0_IPEI",
       "startDate": "1999-03-11T00:00:00Z",
       "stopDate": "2004-06-11T23:59:56Z"
-    },
-    {
-      "id": "SAKIGAKE_HELIO1DAY_POSITION",
-      "startDate": "1985-01-21T00:00:00Z",
-      "stopDate": "1997-12-31T00:00:00Z"
-    },
-    {
-      "id": "SATURN_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
     },
     {
       "id": "SE_K0_AIS",
@@ -7643,42 +7503,42 @@
     {
       "id": "SOHO_CELIAS-SEM_15S",
       "startDate": "1995-12-21T00:00:05Z",
-      "stopDate": "2023-01-12T23:59:51Z"
+      "stopDate": "2023-01-30T23:59:53Z"
     },
     {
       "id": "SOHO_CELIAS-SEM_1DAY",
       "startDate": "1995-01-01T12:00:00Z",
-      "stopDate": "2023-01-12T12:00:00Z"
+      "stopDate": "2023-01-29T12:00:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-10MIN",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-01-12T23:50:00Z"
+      "stopDate": "2023-01-30T23:50:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-1DAY",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-01-12T00:00:00Z"
+      "stopDate": "2023-01-30T00:00:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-1HR",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-01-12T23:00:00Z"
+      "stopDate": "2023-01-30T23:00:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-1MIN",
       "startDate": "1995-12-08T00:01:00Z",
-      "stopDate": "2023-01-12T23:59:00Z"
+      "stopDate": "2023-01-30T23:59:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-30MIN",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-01-12T23:30:00Z"
+      "stopDate": "2023-01-30T23:30:00Z"
     },
     {
       "id": "SOHO_COSTEP-EPHIN_L3I-5MIN",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-01-12T23:55:00Z"
+      "stopDate": "2023-01-30T23:55:00Z"
     },
     {
       "id": "SOHO_ERNE-HED_L2-1MIN",
@@ -7689,11 +7549,6 @@
       "id": "SOHO_ERNE-LED_L2-1MIN",
       "startDate": "1996-05-07T17:19:56Z",
       "stopDate": "2022-08-16T23:59:12Z"
-    },
-    {
-      "id": "SOHO_HELIO1DAY_POSITION",
-      "startDate": "1995-12-03T00:00:00Z",
-      "stopDate": "2023-03-05T00:00:00Z"
     },
     {
       "id": "SOLO_COHO1HR_MERGED_MAG_PLASMA",
@@ -8163,17 +8018,17 @@
     {
       "id": "SOLO_L2_SWA-EAS1-NM3D-DEF",
       "startDate": "2020-06-15T14:48:38Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-30T23:35:50Z"
     },
     {
       "id": "SOLO_L2_SWA-EAS1-NM3D-DNF",
       "startDate": "2020-06-15T14:48:38Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-25T23:23:40Z"
     },
     {
       "id": "SOLO_L2_SWA-EAS1-NM3D-PSD",
       "startDate": "2020-06-15T14:48:38Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-01T11:53:36Z"
     },
     {
       "id": "SOLO_L2_SWA-EAS1-SS-DEF",
@@ -8223,17 +8078,17 @@
     {
       "id": "SOLO_L2_SWA-PAS-EFLUX",
       "startDate": "2020-07-07T16:43:06Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-30T23:59:53Z"
     },
     {
       "id": "SOLO_L2_SWA-PAS-GRND-MOM",
       "startDate": "2020-07-07T16:43:06Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-30T23:59:53Z"
     },
     {
       "id": "SOLO_L2_SWA-PAS-VDF",
       "startDate": "2020-07-07T16:43:06Z",
-      "stopDate": "2022-08-31T23:59:56Z"
+      "stopDate": "2022-09-30T23:59:53Z"
     },
     {
       "id": "SOLO_L3_SWA-HIS-COMP-10MIN",
@@ -8243,32 +8098,32 @@
     {
       "id": "SOLO_LL02_EPD-EPT-ASUN-RATES@0",
       "startDate": "2020-06-03T14:22:15Z",
-      "stopDate": "2023-01-25T21:21:08Z"
+      "stopDate": "2023-02-01T21:28:39Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-ASUN-RATES@1",
       "startDate": "2020-06-03T14:22:15Z",
-      "stopDate": "2023-01-25T21:21:08Z"
+      "stopDate": "2023-02-01T21:28:39Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-NORTH-RATES@0",
       "startDate": "2020-06-03T14:22:45Z",
-      "stopDate": "2023-01-25T21:18:08Z"
+      "stopDate": "2023-02-01T21:31:09Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-NORTH-RATES@1",
       "startDate": "2020-06-03T14:22:45Z",
-      "stopDate": "2023-01-25T21:18:08Z"
+      "stopDate": "2023-02-01T21:31:09Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-SOUTH-RATES@0",
       "startDate": "2020-06-03T14:22:45Z",
-      "stopDate": "2023-01-25T21:18:08Z"
+      "stopDate": "2023-02-01T21:31:09Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-SOUTH-RATES@1",
       "startDate": "2020-06-03T14:22:45Z",
-      "stopDate": "2023-01-25T21:18:08Z"
+      "stopDate": "2023-02-01T21:31:09Z"
     },
     {
       "id": "SOLO_LL02_EPD-EPT-SUN-RATES@0",
@@ -8403,7 +8258,7 @@
     {
       "id": "SOLO_LL02_MAG",
       "startDate": "2020-06-03T14:28:15Z",
-      "stopDate": "2023-01-25T21:24:49Z"
+      "stopDate": "2023-02-01T21:40:42Z"
     },
     {
       "id": "SOLO_LL02_RPW-SBM1",
@@ -8418,27 +8273,27 @@
     {
       "id": "SOLO_LL02_RPW-TNR",
       "startDate": "2020-06-03T14:10:19Z",
-      "stopDate": "2023-01-25T21:22:39Z"
+      "stopDate": "2023-01-31T20:19:27Z"
     },
     {
       "id": "SOLO_LL02_SWA-EAS-SS@0",
       "startDate": "2021-04-12T10:11:49Z",
-      "stopDate": "2023-01-25T21:26:46Z"
+      "stopDate": "2023-01-31T20:26:47Z"
     },
     {
       "id": "SOLO_LL02_SWA-EAS-SS@1",
       "startDate": "2021-04-12T10:11:49Z",
-      "stopDate": "2023-01-25T21:26:46Z"
+      "stopDate": "2023-01-31T20:26:47Z"
     },
     {
       "id": "SOLO_LL02_SWA-HIS-RAT",
       "startDate": "2021-04-01T02:05:22Z",
-      "stopDate": "2023-01-25T21:35:43Z"
+      "stopDate": "2023-01-31T20:23:09Z"
     },
     {
       "id": "SOLO_LL02_SWA-PAS-MOM",
       "startDate": "2020-08-19T16:03:47Z",
-      "stopDate": "2023-01-25T21:28:46Z"
+      "stopDate": "2023-01-31T20:28:47Z"
     },
     {
       "id": "SO_AT_DEF",
@@ -8489,11 +8344,6 @@
       "id": "STA_COHO1HR_MERGED_MAG_PLASMA",
       "startDate": "2007-01-01T00:00:00Z",
       "stopDate": "2022-12-31T23:00:00Z"
-    },
-    {
-      "id": "STA_HELIO1DAY_POSITION",
-      "startDate": "2006-10-27T00:00:00Z",
-      "stopDate": "2029-06-17T00:00:00Z"
     },
     {
       "id": "STA_L1_HET",
@@ -8633,27 +8483,27 @@
     {
       "id": "STA_L3_WAV_HFR",
       "startDate": "2006-10-28T00:00:08Z",
-      "stopDate": "2022-12-27T23:59:50Z"
+      "stopDate": "2023-01-04T00:00:23Z"
     },
     {
       "id": "STA_L3_WAV_LFR",
       "startDate": "2006-10-28T00:00:06Z",
-      "stopDate": "2022-12-27T23:59:57Z"
+      "stopDate": "2023-01-03T23:59:56Z"
     },
     {
       "id": "STA_LB_IMPACT@0",
       "startDate": "2007-03-20T17:04:31Z",
-      "stopDate": "2023-01-26T17:31:11Z"
+      "stopDate": "2023-02-02T17:30:11Z"
     },
     {
       "id": "STA_LB_IMPACT@1",
       "startDate": "2007-03-20T17:04:31Z",
-      "stopDate": "2023-01-26T17:31:11Z"
+      "stopDate": "2023-02-02T17:30:11Z"
     },
     {
       "id": "STA_LB_IMPACT@2",
       "startDate": "2007-03-20T17:04:31Z",
-      "stopDate": "2023-01-26T17:31:11Z"
+      "stopDate": "2023-02-02T17:30:11Z"
     },
     {
       "id": "STA_LB_MAG_RTN",
@@ -8663,17 +8513,12 @@
     {
       "id": "STA_LB_PLA_BROWSE",
       "startDate": "2011-07-06T15:37:15Z",
-      "stopDate": "2023-01-26T17:34:11Z"
+      "stopDate": "2023-02-02T17:30:11Z"
     },
     {
       "id": "STB_COHO1HR_MERGED_MAG_PLASMA",
       "startDate": "2007-01-01T00:00:00Z",
       "stopDate": "2014-09-27T16:00:00Z"
-    },
-    {
-      "id": "STB_HELIO1DAY_POSITION",
-      "startDate": "2006-10-27T00:00:00Z",
-      "stopDate": "2029-06-16T00:00:00Z"
     },
     {
       "id": "STB_L1_HET",
@@ -8813,12 +8658,7 @@
     {
       "id": "STEREO_LEVEL2_SWAVES",
       "startDate": "2006-10-27T00:00:30Z",
-      "stopDate": "2023-01-23T23:59:30Z"
-    },
-    {
-      "id": "SUISEI_HELIO1DAY_POSITION",
-      "startDate": "1989-01-01T00:00:00Z",
-      "stopDate": "1999-12-31T00:00:00Z"
+      "stopDate": "2023-01-29T23:59:30Z"
     },
     {
       "id": "SX_K0_30F",
@@ -8833,327 +8673,327 @@
     {
       "id": "THA_L1_STATE@0",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THA_L1_STATE@1",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THA_L1_STATE@2",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THA_L2_EFI@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_EFI@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_EFI@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_EFI@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_EFI@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_EFI@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@0",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@1",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@2",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@3",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@4",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@5",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@6",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_ESA@7",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FBK@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@10",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@11",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@12",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@13",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@14",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@15",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FBK@9",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_FFT@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FFT@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_FGM@0",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FGM@1",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FGM@2",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FGM@3",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FIT@0",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FIT@1",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FIT@2",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_FIT@3",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@6",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_GMOM@7",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THA_L2_MOM@0",
       "startDate": "2007-08-02T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_MOM@1",
       "startDate": "2007-08-02T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_MOM@2",
       "startDate": "2007-08-02T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_MOM@3",
       "startDate": "2007-08-02T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_MOM@4",
       "startDate": "2007-08-02T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THA_L2_SCM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_SCM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_SCM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THA_L2_SST@0",
@@ -9188,302 +9028,297 @@
     {
       "id": "THA_OR_SSC",
       "startDate": "2007-02-18T00:14:00Z",
-      "stopDate": "2023-01-24T23:59:00Z"
-    },
-    {
-      "id": "THB_HELIO1DAY_POSITION",
-      "startDate": "2007-02-19T00:00:00Z",
-      "stopDate": "2023-02-08T00:00:00Z"
+      "stopDate": "2023-01-31T23:59:00Z"
     },
     {
       "id": "THB_L1_STATE@0",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THB_L1_STATE@1",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THB_L1_STATE@2",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THB_L2_EFI@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_EFI@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_EFI@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_EFI@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_EFI@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_EFI@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@0",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@1",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@2",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@3",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@4",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@5",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@6",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_ESA@7",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FBK@0",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@1",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@10",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@11",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@12",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@13",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@14",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@15",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@2",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@3",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@4",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@5",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@6",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@7",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@8",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FBK@9",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_FFT@0",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@1",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@2",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@3",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@4",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@5",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@6",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@7",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FFT@8",
       "startDate": "2006-06-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FGM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FGM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FGM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FGM@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FIT@0",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FIT@1",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FIT@2",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_FIT@3",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@6",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_GMOM@7",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THB_L2_MERGED",
@@ -9493,372 +9328,367 @@
     {
       "id": "THB_L2_MOM@0",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_MOM@1",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_MOM@2",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_MOM@3",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_MOM@4",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SCM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_SCM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_SCM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-23T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THB_L2_SST@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SST@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SST@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SST@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SST@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_L2_SST@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-24T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THB_OR_SSC",
       "startDate": "2007-02-18T00:14:00Z",
-      "stopDate": "2023-01-24T23:59:00Z"
-    },
-    {
-      "id": "THC_HELIO1DAY_POSITION",
-      "startDate": "2007-02-19T00:00:00Z",
-      "stopDate": "2023-02-08T00:00:00Z"
+      "stopDate": "2023-01-31T23:59:00Z"
     },
     {
       "id": "THC_L1_STATE@0",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THC_L1_STATE@1",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THC_L1_STATE@2",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THC_L2_EFI@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_EFI@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_EFI@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_EFI@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_EFI@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_EFI@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@0",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@1",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@2",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@3",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@4",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@5",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@6",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_ESA@7",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FBK@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@10",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@11",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@12",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@13",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@14",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@15",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FBK@9",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_FFT@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FFT@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FGM@0",
       "startDate": "2007-02-22T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FGM@1",
       "startDate": "2007-02-22T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FGM@2",
       "startDate": "2007-02-22T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FGM@3",
       "startDate": "2007-02-22T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FIT@0",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FIT@1",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FIT@2",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_FIT@3",
       "startDate": "2007-02-26T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@6",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_GMOM@7",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_MERGED",
@@ -9868,907 +9698,907 @@
     {
       "id": "THC_L2_MOM@0",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_MOM@1",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_MOM@2",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_MOM@3",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_MOM@4",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SCM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_SCM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_SCM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-30T23:59:59Z"
     },
     {
       "id": "THC_L2_SST@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SST@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SST@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SST@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SST@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_L2_SST@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THC_OR_SSC",
       "startDate": "2007-02-18T00:14:00Z",
-      "stopDate": "2023-01-24T23:59:00Z"
+      "stopDate": "2023-01-31T23:59:00Z"
     },
     {
       "id": "THD_L1_STATE@0",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THD_L1_STATE@1",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THD_L1_STATE@2",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-26T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THD_L2_EFI@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_EFI@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_EFI@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_EFI@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_EFI@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_EFI@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@0",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@1",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@2",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@3",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@4",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@5",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@6",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_ESA@7",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FBK@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@10",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@11",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@12",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@13",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@14",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@15",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FBK@9",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THD_L2_FFT@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FFT@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THD_L2_FGM@0",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FGM@1",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FGM@2",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FGM@3",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FIT@0",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FIT@1",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FIT@2",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_FIT@3",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@6",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_GMOM@7",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THD_L2_MOM@0",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_MOM@1",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_MOM@2",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_MOM@3",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_MOM@4",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SCM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THD_L2_SCM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THD_L2_SCM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THD_L2_SST@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SST@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SST@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SST@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SST@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_L2_SST@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THD_OR_SSC",
       "startDate": "2007-02-18T00:14:00Z",
-      "stopDate": "2023-01-24T23:59:00Z"
+      "stopDate": "2023-01-31T23:59:00Z"
     },
     {
       "id": "THE_L1_STATE@0",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-25T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THE_L1_STATE@1",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-25T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THE_L1_STATE@2",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-01-25T23:59:00Z"
+      "stopDate": "2023-02-02T23:59:00Z"
     },
     {
       "id": "THE_L2_EFI@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_EFI@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_EFI@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_EFI@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_EFI@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_EFI@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@0",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@1",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@2",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@3",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@4",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@5",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@6",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_ESA@7",
       "startDate": "2007-03-07T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FBK@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@10",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@11",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@12",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@13",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@14",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@15",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FBK@9",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-02T23:59:59Z"
     },
     {
       "id": "THE_L2_FFT@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@3",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@4",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@5",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@6",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@7",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FFT@8",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THE_L2_FGM@0",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FGM@1",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FGM@2",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FGM@3",
       "startDate": "2007-02-23T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FIT@0",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FIT@1",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FIT@2",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_FIT@3",
       "startDate": "2007-02-28T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@6",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_GMOM@7",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THE_L2_MOM@0",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_MOM@1",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_MOM@2",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_MOM@3",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_MOM@4",
       "startDate": "2007-08-10T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SCM@0",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THE_L2_SCM@1",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THE_L2_SCM@2",
       "startDate": "2007-02-24T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-02-01T23:59:59Z"
     },
     {
       "id": "THE_L2_SST@0",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SST@1",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SST@2",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SST@3",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SST@4",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_L2_SST@5",
       "startDate": "2007-03-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THE_OR_SSC",
       "startDate": "2007-02-18T00:14:00Z",
-      "stopDate": "2023-01-24T23:59:00Z"
+      "stopDate": "2023-01-31T23:59:00Z"
     },
     {
       "id": "THG_L1_ASK@0",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@1",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@10",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@11",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@12",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@13",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@14",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@15",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@16",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@17",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@18",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@19",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@2",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@3",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@4",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@5",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@6",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@7",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@8",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L1_ASK@9",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T07:59:54Z"
+      "stopDate": "2023-02-02T11:59:54Z"
     },
     {
       "id": "THG_L2_MAG_AKUL",
@@ -10793,7 +10623,7 @@
     {
       "id": "THG_L2_MAG_AND",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_ARCT",
@@ -10828,12 +10658,12 @@
     {
       "id": "THG_L2_MAG_BFE",
       "startDate": "2008-09-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_BJN",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_BLC",
@@ -10888,7 +10718,7 @@
     {
       "id": "THG_L2_MAG_CHBR",
       "startDate": "2006-07-14T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_CIGO",
@@ -10918,7 +10748,7 @@
     {
       "id": "THG_L2_MAG_DMH",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_DNB",
@@ -10928,12 +10758,12 @@
     {
       "id": "THG_L2_MAG_DOB",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_DON",
       "startDate": "2007-11-14T10:55:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_DRBY",
@@ -10943,7 +10773,7 @@
     {
       "id": "THG_L2_MAG_EAGL",
       "startDate": "2007-01-01T01:00:00Z",
-      "stopDate": "2023-01-26T01:59:58Z"
+      "stopDate": "2023-02-02T01:59:58Z"
     },
     {
       "id": "THG_L2_MAG_EKAT",
@@ -10953,12 +10783,12 @@
     {
       "id": "THG_L2_MAG_FCC",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_FHB",
       "startDate": "2009-05-01T00:04:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_FRD",
@@ -10973,7 +10803,7 @@
     {
       "id": "THG_L2_MAG_FSIM",
       "startDate": "2006-11-01T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-31T23:59:59Z"
     },
     {
       "id": "THG_L2_MAG_FSJ",
@@ -10983,7 +10813,7 @@
     {
       "id": "THG_L2_MAG_FSMI",
       "startDate": "2006-11-01T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-31T23:59:59Z"
     },
     {
       "id": "THG_L2_MAG_FTN",
@@ -10993,7 +10823,7 @@
     {
       "id": "THG_L2_MAG_FYKN",
       "startDate": "2006-01-01T01:00:00Z",
-      "stopDate": "2023-01-26T01:59:58Z"
+      "stopDate": "2023-02-02T01:59:58Z"
     },
     {
       "id": "THG_L2_MAG_FYTS",
@@ -11003,7 +10833,7 @@
     {
       "id": "THG_L2_MAG_GAKO",
       "startDate": "2006-01-01T01:00:00Z",
-      "stopDate": "2023-01-26T01:59:58Z"
+      "stopDate": "2023-02-02T01:59:58Z"
     },
     {
       "id": "THG_L2_MAG_GBAY",
@@ -11013,7 +10843,7 @@
     {
       "id": "THG_L2_MAG_GDH",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_GHB",
@@ -11023,12 +10853,12 @@
     {
       "id": "THG_L2_MAG_GILL",
       "startDate": "2006-11-29T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-31T23:59:59Z"
     },
     {
       "id": "THG_L2_MAG_GJOA",
       "startDate": "2006-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_GLYN",
@@ -11063,7 +10893,7 @@
     {
       "id": "THG_L2_MAG_HOP",
       "startDate": "2008-09-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_HOTS",
@@ -11073,7 +10903,7 @@
     {
       "id": "THG_L2_MAG_HOV",
       "startDate": "2016-06-21T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_HRIS",
@@ -11088,12 +10918,12 @@
     {
       "id": "THG_L2_MAG_IGLO",
       "startDate": "2008-10-09T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_INUK",
       "startDate": "2014-10-12T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_INUV",
@@ -11113,12 +10943,12 @@
     {
       "id": "THG_L2_MAG_JAN",
       "startDate": "2014-09-26T12:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_JCK",
       "startDate": "2010-09-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_KAKO",
@@ -11128,12 +10958,12 @@
     {
       "id": "THG_L2_MAG_KAPU",
       "startDate": "2006-05-18T02:19:37Z",
-      "stopDate": "2023-01-26T09:15:24Z"
+      "stopDate": "2023-02-02T09:15:24Z"
     },
     {
       "id": "THG_L2_MAG_KAR",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_KENA",
@@ -11148,7 +10978,7 @@
     {
       "id": "THG_L2_MAG_KIAN",
       "startDate": "2006-09-08T00:00:00Z",
-      "stopDate": "2023-01-26T09:25:04Z"
+      "stopDate": "2023-02-02T09:25:04Z"
     },
     {
       "id": "THG_L2_MAG_KIL",
@@ -11168,12 +10998,12 @@
     {
       "id": "THG_L2_MAG_KUUJ",
       "startDate": "2007-11-02T00:11:43Z",
-      "stopDate": "2023-01-26T09:25:11Z"
+      "stopDate": "2023-02-02T09:25:07Z"
     },
     {
       "id": "THG_L2_MAG_KUV",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_LARG",
@@ -11188,7 +11018,7 @@
     {
       "id": "THG_L2_MAG_LETH",
       "startDate": "2005-09-23T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_LOYS",
@@ -11228,7 +11058,7 @@
     {
       "id": "THG_L2_MAG_LYR",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_MAS",
@@ -11258,17 +11088,17 @@
     {
       "id": "THG_L2_MAG_NAIN",
       "startDate": "2006-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_NAL",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_NAQ",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_NEW",
@@ -11278,7 +11108,7 @@
     {
       "id": "THG_L2_MAG_NOR",
       "startDate": "2007-09-28T14:27:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_NRD",
@@ -11358,12 +11188,12 @@
     {
       "id": "THG_L2_MAG_PGEO",
       "startDate": "2005-01-01T00:00:00Z",
-      "stopDate": "2023-01-26T09:15:07Z"
+      "stopDate": "2023-02-02T09:15:04Z"
     },
     {
       "id": "THG_L2_MAG_PINA",
       "startDate": "2006-11-01T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:59Z"
+      "stopDate": "2023-01-31T23:59:59Z"
     },
     {
       "id": "THG_L2_MAG_PINE",
@@ -11378,7 +11208,7 @@
     {
       "id": "THG_L2_MAG_POKR",
       "startDate": "2007-01-01T01:00:00Z",
-      "stopDate": "2023-01-26T01:59:58Z"
+      "stopDate": "2023-02-02T01:59:58Z"
     },
     {
       "id": "THG_L2_MAG_PTRS",
@@ -11393,7 +11223,7 @@
     {
       "id": "THG_L2_MAG_RADI",
       "startDate": "2014-10-22T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_RAN",
@@ -11403,12 +11233,12 @@
     {
       "id": "THG_L2_MAG_RANK",
       "startDate": "2006-11-01T00:00:00Z",
-      "stopDate": "2023-01-24T23:59:59Z"
+      "stopDate": "2023-01-31T23:59:59Z"
     },
     {
       "id": "THG_L2_MAG_RBAY",
       "startDate": "2006-03-29T00:00:00Z",
-      "stopDate": "2023-01-26T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_REDR",
@@ -11428,22 +11258,22 @@
     {
       "id": "THG_L2_MAG_ROE",
       "startDate": "2008-09-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_ROTH",
       "startDate": "2005-10-02T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_RVK",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SALU",
       "startDate": "2014-10-01T00:01:31Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SATX",
@@ -11453,7 +11283,7 @@
     {
       "id": "THG_L2_MAG_SCHF",
       "startDate": "2014-10-29T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SCO",
@@ -11463,7 +11293,7 @@
     {
       "id": "THG_L2_MAG_SEPT",
       "startDate": "2014-10-27T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SHU",
@@ -11483,7 +11313,7 @@
     {
       "id": "THG_L2_MAG_SKT",
       "startDate": "2007-02-05T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SNAP",
@@ -11498,17 +11328,17 @@
     {
       "id": "THG_L2_MAG_SOL",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SOR",
       "startDate": "2007-01-08T16:30:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_STF",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_STFD",
@@ -11518,7 +11348,7 @@
     {
       "id": "THG_L2_MAG_STFL",
       "startDate": "2014-10-24T16:35:43Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-03T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_STJ",
@@ -11528,12 +11358,12 @@
     {
       "id": "THG_L2_MAG_SUM",
       "startDate": "2016-05-23T12:05:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SVS",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_SWNO",
@@ -11543,7 +11373,7 @@
     {
       "id": "THG_L2_MAG_TAB",
       "startDate": "2013-07-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_TAR",
@@ -11558,7 +11388,7 @@
     {
       "id": "THG_L2_MAG_THL",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_TIK",
@@ -11573,7 +11403,7 @@
     {
       "id": "THG_L2_MAG_TPAS",
       "startDate": "2006-01-01T00:00:01Z",
-      "stopDate": "2023-01-26T09:15:24Z"
+      "stopDate": "2023-02-02T09:15:25Z"
     },
     {
       "id": "THG_L2_MAG_TRAP",
@@ -11583,7 +11413,7 @@
     {
       "id": "THG_L2_MAG_TRO",
       "startDate": "2006-12-30T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_TUC",
@@ -11598,12 +11428,12 @@
     {
       "id": "THG_L2_MAG_UMQ",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_UPN",
       "startDate": "2007-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-02-01T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_VIC",
@@ -11618,7 +11448,7 @@
     {
       "id": "THG_L2_MAG_VLDR",
       "startDate": "2005-11-07T00:00:00Z",
-      "stopDate": "2023-01-27T00:00:00Z"
+      "stopDate": "2023-02-02T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_WHIT",
@@ -11643,7 +11473,7 @@
     {
       "id": "THG_L2_MAG_YKC",
       "startDate": "2008-10-24T21:21:36Z",
-      "stopDate": "2023-01-25T00:00:00Z"
+      "stopDate": "2023-01-31T00:00:00Z"
     },
     {
       "id": "THG_L2_MAG_YKNF",
@@ -11658,7 +11488,7 @@
     {
       "id": "TIMED_L1BV20_SABER",
       "startDate": "2002-01-25T01:21:56Z",
-      "stopDate": "2023-01-24T01:00:49Z"
+      "stopDate": "2023-01-31T00:41:54Z"
     },
     {
       "id": "TIMED_L1CDISK_GUVI@0",
@@ -11673,12 +11503,12 @@
     {
       "id": "TIMED_L2A_SABER",
       "startDate": "2002-01-25T01:21:48Z",
-      "stopDate": "2023-01-21T00:26:48Z"
+      "stopDate": "2023-01-28T00:08:26Z"
     },
     {
       "id": "TIMED_L3A_SEE",
       "startDate": "2002-01-22T05:10:36Z",
-      "stopDate": "2023-01-11T22:40:54Z"
+      "stopDate": "2023-01-31T22:28:49Z"
     },
     {
       "id": "TOOWINDY_E_NE@0",
@@ -13666,16 +13496,6 @@
       "stopDate": "2017-11-07T09:10:00Z"
     },
     {
-      "id": "ULYSSES_HELIO1DAY_POSITION",
-      "startDate": "1990-10-19T00:00:00Z",
-      "stopDate": "2015-12-09T00:00:00Z"
-    },
-    {
-      "id": "URANUS_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
       "id": "UY_1MIN_VHM",
       "startDate": "1990-10-25T16:51:30Z",
       "stopDate": "2009-06-30T18:49:30Z"
@@ -13876,11 +13696,6 @@
       "stopDate": "2009-06-30T15:54:11Z"
     },
     {
-      "id": "VENUS_HELIO1DAY_POSITION",
-      "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
       "id": "VG1_PWS_LR",
       "startDate": "1977-09-05T14:20:39Z",
       "stopDate": "2022-11-09T21:57:23Z"
@@ -13944,16 +13759,6 @@
       "id": "VOYAGER1_COHO1HR_MERGED_MAG_PLASMA",
       "startDate": "1977-01-01T00:00:00Z",
       "stopDate": "2021-12-31T18:00:00Z"
-    },
-    {
-      "id": "VOYAGER1_CRS_DAILY_FLUX",
-      "startDate": "1977-09-08T00:00:00Z",
-      "stopDate": "2016-12-13T00:00:00Z"
-    },
-    {
-      "id": "VOYAGER1_HELIO1DAY_POSITION",
-      "startDate": "1977-09-06T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
     },
     {
       "id": "VOYAGER1_PLS_COMPOSITION",
@@ -14021,11 +13826,6 @@
       "stopDate": "2020-12-31T11:00:00Z"
     },
     {
-      "id": "VOYAGER2_HELIO1DAY_POSITION",
-      "startDate": "1977-08-21T00:00:00Z",
-      "stopDate": "2030-12-31T00:00:00Z"
-    },
-    {
       "id": "VOYAGER2_PLS_COMPOSITION",
       "startDate": "1979-07-07T22:24:10Z",
       "stopDate": "1979-07-10T10:00:09Z"
@@ -14056,44 +13856,19 @@
       "stopDate": "1979-08-03T17:02:32Z"
     },
     {
-      "id": "WILD2_HELIO1DAY_POSITION",
-      "startDate": "1995-01-01T00:00:00Z",
-      "stopDate": "2020-12-31T00:00:00Z"
-    },
-    {
-      "id": "WI_AT_DEF",
-      "startDate": "1994-11-01T00:00:00Z",
-      "stopDate": "1997-07-01T23:50:00Z"
-    },
-    {
-      "id": "WI_AT_PRE",
-      "startDate": "1994-08-07T00:00:00Z",
-      "stopDate": "2023-03-11T23:50:00Z"
-    },
-    {
-      "id": "WI_EHPD_3DP",
-      "startDate": "1994-12-20T15:10:03Z",
-      "stopDate": "2023-01-03T23:59:33Z"
-    },
-    {
-      "id": "WI_EHSP_3DP",
-      "startDate": "1994-12-20T15:10:03Z",
-      "stopDate": "2023-01-03T23:58:43Z"
-    },
-    {
       "id": "WI_ELM2_3DP",
       "startDate": "1994-11-15T12:54:33Z",
-      "stopDate": "2023-01-03T23:59:33Z"
+      "stopDate": "2023-01-17T23:57:05Z"
     },
     {
       "id": "WI_ELPD_3DP",
       "startDate": "1994-11-15T12:54:33Z",
-      "stopDate": "2023-01-03T23:59:33Z"
+      "stopDate": "2023-01-17T23:58:45Z"
     },
     {
       "id": "WI_ELSP_3DP",
       "startDate": "1994-11-15T12:54:34Z",
-      "stopDate": "2023-01-03T23:59:35Z"
+      "stopDate": "2023-01-17T23:57:06Z"
     },
     {
       "id": "WI_EMFITS_E0_3DP",
@@ -14103,7 +13878,7 @@
     {
       "id": "WI_EM_3DP",
       "startDate": "1994-11-15T12:53:43Z",
-      "stopDate": "2023-01-03T23:59:58Z"
+      "stopDate": "2023-01-17T23:59:57Z"
     },
     {
       "id": "WI_EPACT_STEP-DIFFERENTIAL-ION-FLUX-1HR",
@@ -14133,17 +13908,17 @@
     {
       "id": "WI_H0_MFI@0",
       "startDate": "1994-11-12T00:00:30Z",
-      "stopDate": "2023-01-14T23:59:30Z"
+      "stopDate": "2023-01-28T23:59:30Z"
     },
     {
       "id": "WI_H0_MFI@1",
       "startDate": "1994-11-12T00:00:30Z",
-      "stopDate": "2023-01-14T23:59:30Z"
+      "stopDate": "2023-01-28T23:59:30Z"
     },
     {
       "id": "WI_H0_MFI@2",
       "startDate": "1994-11-12T00:00:30Z",
-      "stopDate": "2023-01-14T23:59:30Z"
+      "stopDate": "2023-01-28T23:59:30Z"
     },
     {
       "id": "WI_H0_SWE",
@@ -14151,29 +13926,14 @@
       "stopDate": "2001-05-31T23:59:57Z"
     },
     {
-      "id": "WI_H0_WAV",
-      "startDate": "1994-11-12T00:00:25Z",
-      "stopDate": "2023-01-26T00:00:02Z"
-    },
-    {
       "id": "WI_H1_SWE",
       "startDate": "1994-11-17T19:50:45Z",
       "stopDate": "2022-12-11T16:27:13Z"
     },
     {
-      "id": "WI_H1_WAV@0",
-      "startDate": "1994-11-10T00:00:30Z",
-      "stopDate": "2021-11-30T23:59:30Z"
-    },
-    {
-      "id": "WI_H1_WAV@1",
-      "startDate": "1994-11-10T00:00:30Z",
-      "stopDate": "2021-11-30T23:59:30Z"
-    },
-    {
       "id": "WI_H2_MFI",
       "startDate": "1994-11-13T15:50:26Z",
-      "stopDate": "2023-01-14T23:59:59Z"
+      "stopDate": "2023-01-28T23:59:59Z"
     },
     {
       "id": "WI_H3_SWE",
@@ -14191,49 +13951,24 @@
       "stopDate": "2020-12-31T23:57:55Z"
     },
     {
-      "id": "WI_K0_3DP",
-      "startDate": "2019-01-01T00:00:39Z",
-      "stopDate": "2023-01-25T23:59:10Z"
-    },
-    {
-      "id": "WI_K0_EPA",
-      "startDate": "1994-11-16T00:00:14Z",
-      "stopDate": "2023-01-25T23:59:10Z"
-    },
-    {
       "id": "WI_K0_MFI",
       "startDate": "2017-07-01T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:56Z"
-    },
-    {
-      "id": "WI_K0_SMS",
-      "startDate": "1994-12-12T16:32:00Z",
-      "stopDate": "2000-05-27T04:02:00Z"
-    },
-    {
-      "id": "WI_K0_SPHA",
-      "startDate": "1994-11-01T09:06:02Z",
-      "stopDate": "2023-01-25T23:59:10Z"
+      "stopDate": "2023-02-01T23:58:32Z"
     },
     {
       "id": "WI_K0_SWE",
       "startDate": "1994-01-01T00:00:00Z",
-      "stopDate": "2023-01-25T23:59:13Z"
-    },
-    {
-      "id": "WI_K0_WAV",
-      "startDate": "1994-11-10T00:01:30Z",
-      "stopDate": "2023-01-25T23:58:30Z"
+      "stopDate": "2023-02-01T23:58:38Z"
     },
     {
       "id": "WI_L2-1HOUR-SEP_EPACT-APE_B",
       "startDate": "1994-11-03T00:00:00Z",
-      "stopDate": "2021-12-31T23:00:00Z"
+      "stopDate": "2022-12-31T23:00:00Z"
     },
     {
       "id": "WI_L2-1HOUR-SEP_EPACT-LEMT",
       "startDate": "1994-11-03T00:00:00Z",
-      "stopDate": "2022-06-30T23:00:00Z"
+      "stopDate": "2022-12-31T23:00:00Z"
     },
     {
       "id": "WI_L2-30MIN_SMS-STICS-AFM-MAGNETOSPHERE",
@@ -14296,44 +14031,24 @@
       "stopDate": "2001-07-10T00:00:35Z"
     },
     {
-      "id": "WI_OR_DEF",
-      "startDate": "1994-11-01T11:00:00Z",
-      "stopDate": "1997-07-01T23:50:00Z"
-    },
-    {
-      "id": "WI_OR_PRE",
-      "startDate": "1994-08-07T00:00:00Z",
-      "stopDate": "2023-04-01T23:50:00Z"
-    },
-    {
       "id": "WI_PLSP_3DP",
       "startDate": "1994-11-15T12:53:44Z",
-      "stopDate": "2023-01-03T23:59:35Z"
+      "stopDate": "2023-01-17T23:58:21Z"
     },
     {
       "id": "WI_PM_3DP",
       "startDate": "1994-11-15T12:53:43Z",
-      "stopDate": "2023-01-03T23:59:58Z"
-    },
-    {
-      "id": "WI_SFPD_3DP",
-      "startDate": "1994-11-15T12:56:18Z",
-      "stopDate": "2023-01-03T23:59:58Z"
-    },
-    {
-      "id": "WI_SFSP_3DP",
-      "startDate": "1994-11-15T12:56:18Z",
-      "stopDate": "2023-01-03T23:59:52Z"
+      "stopDate": "2023-01-17T23:59:57Z"
     },
     {
       "id": "WI_SOPD_3DP",
       "startDate": "1994-11-15T12:56:18Z",
-      "stopDate": "2023-01-03T23:59:58Z"
+      "stopDate": "2023-01-17T23:58:45Z"
     },
     {
       "id": "WI_SOSP_3DP",
       "startDate": "1994-11-15T12:56:18Z",
-      "stopDate": "2023-01-03T23:59:52Z"
+      "stopDate": "2023-01-17T23:59:48Z"
     },
     {
       "id": "WI_STRAHL0_SWE",
@@ -14347,5 +14062,5 @@
     }
   ],
   "id": "https://cdaweb.gsfc.nasa.gov/hapi",
-  "parameterDays": 1.3210051E8
+  "parameterDays": 1.265747999E8
 }

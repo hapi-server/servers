@@ -68,142 +68,142 @@
     {
       "id": "SW_OPER_AEJALPL_2F",
       "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "2023-02-14T00:00:33.862469Z"
+      "stopDate": "2023-02-20T23:34:29.051469Z"
     },
     {
       "id": "SW_OPER_AEJALPL_2F:Quality",
       "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "2023-02-14T00:00:33.862469Z"
+      "stopDate": "2023-02-20T23:34:29.051469Z"
     },
     {
       "id": "SW_OPER_AEJALPS_2F",
       "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "2023-02-11T23:40:49Z"
+      "stopDate": "2023-02-20T00:07:00Z"
     },
     {
       "id": "SW_OPER_AEJALPS_2F:Quality",
       "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "2023-02-11T23:40:49Z"
+      "stopDate": "2023-02-20T00:07:00Z"
     },
     {
       "id": "SW_OPER_AEJAPBL_2F",
       "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "2023-02-14T00:01:05.172508Z"
+      "stopDate": "2023-02-20T23:31:03.762836Z"
     },
     {
       "id": "SW_OPER_AEJAPBS_2F",
       "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "2023-02-11T23:37:38Z"
+      "stopDate": "2023-02-20T00:01:43Z"
     },
     {
       "id": "SW_OPER_AEJAPBS_2F:GroundMagneticDisturbance",
       "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "2023-02-11T23:37:38Z"
+      "stopDate": "2023-02-20T00:01:43Z"
     },
     {
       "id": "SW_OPER_AEJBLPL_2F",
       "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "2023-02-13T23:38:57.174453Z"
+      "stopDate": "2023-02-20T23:42:19.250586Z"
     },
     {
       "id": "SW_OPER_AEJBLPL_2F:Quality",
       "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "2023-02-13T23:38:57.174453Z"
+      "stopDate": "2023-02-20T23:42:19.250586Z"
     },
     {
       "id": "SW_OPER_AEJBLPS_2F",
       "startDate": "2013-11-25T11:01:16Z",
-      "stopDate": "2023-02-12T23:59:46Z"
+      "stopDate": "2023-02-20T00:02:53Z"
     },
     {
       "id": "SW_OPER_AEJBLPS_2F:Quality",
       "startDate": "2013-11-25T11:01:16Z",
-      "stopDate": "2023-02-12T23:59:46Z"
+      "stopDate": "2023-02-20T00:02:53Z"
     },
     {
       "id": "SW_OPER_AEJBPBL_2F",
       "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "2023-02-13T23:39:13.033906Z"
+      "stopDate": "2023-02-20T23:42:35.036891Z"
     },
     {
       "id": "SW_OPER_AEJBPBS_2F",
       "startDate": "2013-11-25T11:02:15Z",
-      "stopDate": "2023-02-12T23:59:23Z"
+      "stopDate": "2023-02-20T00:02:53Z"
     },
     {
       "id": "SW_OPER_AEJBPBS_2F:GroundMagneticDisturbance",
       "startDate": "2013-11-25T11:02:15Z",
-      "stopDate": "2023-02-12T23:59:23Z"
+      "stopDate": "2023-02-20T00:02:53Z"
     },
     {
       "id": "SW_OPER_AEJCLPL_2F",
       "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "2023-02-14T00:00:41.516922Z"
+      "stopDate": "2023-02-20T23:34:23.060930Z"
     },
     {
       "id": "SW_OPER_AEJCLPL_2F:Quality",
       "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "2023-02-14T00:00:41.516922Z"
+      "stopDate": "2023-02-20T23:34:23.060930Z"
     },
     {
       "id": "SW_OPER_AEJCLPS_2F",
       "startDate": "2013-11-26T00:19:16Z",
-      "stopDate": "2023-02-12T23:56:48Z"
+      "stopDate": "2023-02-20T00:06:54Z"
     },
     {
       "id": "SW_OPER_AEJCLPS_2F:Quality",
       "startDate": "2013-11-26T00:19:16Z",
-      "stopDate": "2023-02-12T23:56:48Z"
+      "stopDate": "2023-02-20T00:06:54Z"
     },
     {
       "id": "SW_OPER_AEJCPBL_2F",
       "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "2023-02-14T00:00:57.172312Z"
+      "stopDate": "2023-02-20T23:31:03.688922Z"
     },
     {
       "id": "SW_OPER_AEJCPBS_2F",
       "startDate": "2013-11-26T00:23:25Z",
-      "stopDate": "2023-02-12T23:56:48Z"
+      "stopDate": "2023-02-20T00:01:38Z"
     },
     {
       "id": "SW_OPER_AEJCPBS_2F:GroundMagneticDisturbance",
       "startDate": "2013-11-26T00:23:25Z",
-      "stopDate": "2023-02-12T23:56:48Z"
+      "stopDate": "2023-02-20T00:01:38Z"
     },
     {
       "id": "SW_OPER_AOBAFAC_2F",
       "startDate": "2013-11-25T11:04:22.500000Z",
-      "stopDate": "2023-02-11T23:34:05.500000Z"
+      "stopDate": "2023-02-18T23:46:45.500000Z"
     },
     {
       "id": "SW_OPER_AOBBFAC_2F",
       "startDate": "2013-11-25T11:07:03.500000Z",
-      "stopDate": "2023-02-11T23:26:52.500000Z"
+      "stopDate": "2023-02-18T23:32:57.500000Z"
     },
     {
       "id": "SW_OPER_AOBCFAC_2F",
       "startDate": "2013-11-25T11:07:16.500000Z",
-      "stopDate": "2023-02-11T23:34:00.500000Z"
+      "stopDate": "2023-02-18T23:46:36.500000Z"
     },
     {
       "id": "SW_OPER_EEFATMS_2F",
       "startDate": "2013-11-25T12:18:26.886641Z",
-      "stopDate": "2023-02-13T22:51:04.342555Z"
+      "stopDate": "2023-02-20T22:15:21.126188Z"
     },
     {
       "id": "SW_OPER_EEFBTMS_2F",
       "startDate": "2013-11-25T12:18:22.271641Z",
-      "stopDate": "2023-02-13T22:18:14.271531Z"
+      "stopDate": "2023-02-20T23:09:41.534328Z"
     },
     {
       "id": "SW_OPER_EEFCTMS_2F",
       "startDate": "2013-11-25T12:18:34.928062Z",
-      "stopDate": "2023-02-13T22:50:57.777047Z"
+      "stopDate": "2023-02-20T22:15:16.139445Z"
     },
     {
       "id": "SW_OPER_EFIA_LP_1B",
       "startDate": "2013-12-02T10:11:13.197000Z",
-      "stopDate": "2023-02-15T23:59:59.696000Z"
+      "stopDate": "2023-02-22T23:59:59.696000Z"
     },
     {
       "id": "SW_OPER_EFIATIE_2_",
@@ -213,7 +213,7 @@
     {
       "id": "SW_OPER_EFIB_LP_1B",
       "startDate": "2013-12-02T11:44:45.197000Z",
-      "stopDate": "2023-02-15T23:59:59.696000Z"
+      "stopDate": "2023-02-22T23:59:59.696000Z"
     },
     {
       "id": "SW_OPER_EFIBTIE_2_",
@@ -223,7 +223,7 @@
     {
       "id": "SW_OPER_EFIC_LP_1B",
       "startDate": "2013-12-02T13:21:20.197000Z",
-      "stopDate": "2023-02-15T23:59:59.696000Z"
+      "stopDate": "2023-02-22T23:59:59.696000Z"
     },
     {
       "id": "SW_OPER_EFICTIE_2_",
@@ -233,202 +233,202 @@
     {
       "id": "SW_OPER_FACATMS_2F",
       "startDate": "2013-11-25T11:02:52.500000Z",
-      "stopDate": "2023-02-13T23:59:59.500000Z"
+      "stopDate": "2023-02-20T23:59:59.500000Z"
     },
     {
       "id": "SW_OPER_FACBTMS_2F",
       "startDate": "2013-11-25T11:01:15.500000Z",
-      "stopDate": "2023-02-13T23:59:59.500000Z"
+      "stopDate": "2023-02-20T23:59:59.500000Z"
     },
     {
       "id": "SW_OPER_FACCTMS_2F",
       "startDate": "2013-11-25T11:02:17.500000Z",
-      "stopDate": "2023-02-13T23:59:59.500000Z"
+      "stopDate": "2023-02-20T23:59:59.500000Z"
     },
     {
       "id": "SW_OPER_FAC_TMS_2F",
       "startDate": "2013-11-25T11:02:54.500000Z",
-      "stopDate": "2023-02-13T23:59:59.500000Z"
+      "stopDate": "2023-02-20T23:59:59.500000Z"
     },
     {
       "id": "SW_OPER_IBIATMS_2F",
       "startDate": "2013-12-02T10:11:14Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_OPER_IBIBTMS_2F",
       "startDate": "2013-12-02T11:44:46Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_OPER_IBICTMS_2F",
       "startDate": "2013-12-04T09:40:05Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_OPER_IPDAIRR_2F",
       "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "2023-02-07T23:59:59.197000Z"
+      "stopDate": "2023-02-16T23:59:59.197000Z"
     },
     {
       "id": "SW_OPER_IPDBIRR_2F",
       "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "2023-02-07T23:59:59.197000Z"
+      "stopDate": "2023-02-16T23:59:59.197000Z"
     },
     {
       "id": "SW_OPER_IPDCIRR_2F",
       "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "2023-02-07T23:59:59.197000Z"
+      "stopDate": "2023-02-16T23:59:59.197000Z"
     },
     {
       "id": "SW_OPER_MAGA_HR_1B",
       "startDate": "2013-11-25T11:02:52.002562Z",
-      "stopDate": "2023-02-15T23:59:59.988648Z"
+      "stopDate": "2023-02-22T23:59:59.983383Z"
     },
     {
       "id": "SW_OPER_MAGA_LR_1B",
       "startDate": "2013-11-25T11:02:52Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_MAGB_HR_1B",
       "startDate": "2013-11-25T11:01:15.004367Z",
-      "stopDate": "2023-02-15T23:59:59.989289Z"
+      "stopDate": "2023-02-22T23:59:59.991508Z"
     },
     {
       "id": "SW_OPER_MAGB_LR_1B",
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_MAGC_HR_1B",
       "startDate": "2013-11-25T11:02:17.004078Z",
-      "stopDate": "2023-02-15T23:59:59.997203Z"
+      "stopDate": "2023-02-22T23:59:59.985203Z"
     },
     {
       "id": "SW_OPER_MAGC_LR_1B",
       "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_MITA_LP_2F:ID",
       "startDate": "2013-12-04T19:05:15.197000Z",
-      "stopDate": "2023-02-10T00:26:37.696000Z"
+      "stopDate": "2023-02-16T23:53:19.197000Z"
     },
     {
       "id": "SW_OPER_MITA_LP_2F",
       "startDate": "2013-12-04T19:05:15.197000Z",
-      "stopDate": "2023-02-10T00:26:37.696000Z"
+      "stopDate": "2023-02-16T23:53:19.197000Z"
     },
     {
       "id": "SW_OPER_MITATEC_2F:ID",
       "startDate": "2014-07-15T07:24:06Z",
-      "stopDate": "2023-02-09T22:53:36Z"
+      "stopDate": "2023-02-16T23:53:25Z"
     },
     {
       "id": "SW_OPER_MITATEC_2F",
       "startDate": "2014-07-15T07:24:06Z",
-      "stopDate": "2023-02-09T22:53:36Z"
+      "stopDate": "2023-02-16T23:53:25Z"
     },
     {
       "id": "SW_OPER_MITB_LP_2F:ID",
       "startDate": "2013-12-05T04:35:10.696000Z",
-      "stopDate": "2023-02-10T00:38:23.197000Z"
+      "stopDate": "2023-02-16T23:26:18.197000Z"
     },
     {
       "id": "SW_OPER_MITB_LP_2F",
       "startDate": "2013-12-05T04:35:10.696000Z",
-      "stopDate": "2023-02-10T00:38:23.197000Z"
+      "stopDate": "2023-02-16T23:26:18.197000Z"
     },
     {
       "id": "SW_OPER_MITBTEC_2F:ID",
       "startDate": "2014-07-15T06:42:57Z",
-      "stopDate": "2023-02-10T00:10:18Z"
+      "stopDate": "2023-02-16T23:56:21Z"
     },
     {
       "id": "SW_OPER_MITBTEC_2F",
       "startDate": "2014-07-15T06:42:57Z",
-      "stopDate": "2023-02-10T00:10:18Z"
+      "stopDate": "2023-02-16T23:56:21Z"
     },
     {
       "id": "SW_OPER_MITC_LP_2F:ID",
       "startDate": "2013-12-04T17:30:15.197000Z",
-      "stopDate": "2023-02-10T00:26:31.197000Z"
+      "stopDate": "2023-02-16T23:53:14.197000Z"
     },
     {
       "id": "SW_OPER_MITC_LP_2F",
       "startDate": "2013-12-04T17:30:15.197000Z",
-      "stopDate": "2023-02-10T00:26:31.197000Z"
+      "stopDate": "2023-02-16T23:53:14.197000Z"
     },
     {
       "id": "SW_OPER_MITCTEC_2F:ID",
       "startDate": "2014-07-10T11:33:14Z",
-      "stopDate": "2023-02-10T00:26:23Z"
+      "stopDate": "2023-02-16T23:53:16Z"
     },
     {
       "id": "SW_OPER_MITCTEC_2F",
       "startDate": "2014-07-10T11:33:14Z",
-      "stopDate": "2023-02-10T00:26:23Z"
+      "stopDate": "2023-02-16T23:53:16Z"
     },
     {
       "id": "SW_OPER_MODA_SC_1B",
       "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_MODB_SC_1B",
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_MODC_SC_1B",
       "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "2023-02-15T23:59:59Z"
+      "stopDate": "2023-02-22T23:59:59Z"
     },
     {
       "id": "SW_OPER_PPIAFAC_2F:ID",
       "startDate": "2013-11-25T12:47:36.500000Z",
-      "stopDate": "2023-02-10T00:26:50.500000Z"
+      "stopDate": "2023-02-16T23:53:09.500000Z"
     },
     {
       "id": "SW_OPER_PPIAFAC_2F",
       "startDate": "2013-11-25T12:47:36.500000Z",
-      "stopDate": "2023-02-10T00:26:50.500000Z"
+      "stopDate": "2023-02-16T23:53:09.500000Z"
     },
     {
       "id": "SW_OPER_PPIBFAC_2F:ID",
       "startDate": "2013-11-25T12:47:31.500000Z",
-      "stopDate": "2023-02-10T00:38:51.500000Z"
+      "stopDate": "2023-02-16T23:26:18.500000Z"
     },
     {
       "id": "SW_OPER_PPIBFAC_2F",
       "startDate": "2013-11-25T12:47:31.500000Z",
-      "stopDate": "2023-02-10T00:38:51.500000Z"
+      "stopDate": "2023-02-16T23:26:18.500000Z"
     },
     {
       "id": "SW_OPER_PPICFAC_2F:ID",
       "startDate": "2013-11-25T12:47:45.500000Z",
-      "stopDate": "2023-02-10T00:26:34.500000Z"
+      "stopDate": "2023-02-16T23:53:05.500000Z"
     },
     {
       "id": "SW_OPER_PPICFAC_2F",
       "startDate": "2013-11-25T12:47:45.500000Z",
-      "stopDate": "2023-02-10T00:26:34.500000Z"
+      "stopDate": "2023-02-16T23:53:05.500000Z"
     },
     {
       "id": "SW_OPER_TECATMS_2F",
       "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_OPER_TECBTMS_2F",
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_OPER_TECCTMS_2F",
       "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "2023-02-13T23:59:59Z"
+      "stopDate": "2023-02-20T23:59:59Z"
     },
     {
       "id": "SW_PREL_EFIAIDM_2_",
@@ -447,5 +447,5 @@
     }
   ],
   "id": "https://vires.services/hapi",
-  "parameterDays": 4007199.1
+  "parameterDays": 4013442.7
 }

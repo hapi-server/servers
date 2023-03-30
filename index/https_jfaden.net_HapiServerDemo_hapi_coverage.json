@@ -1,0 +1,106 @@
+{
+  "catalog": [
+    {
+      "id": "poolTemperature",
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2023-03-19T06:22:00.000Z"
+    },
+    {
+      "id": "atticTemperature",
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2021-07-22T00:00:00.000Z"
+    },
+    {
+      "id": "freezerTemperature",
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2023-03-19T06:22:00.000Z"
+    },
+    {
+      "id": "groundTemp",
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "stopDate": "2023-03-19T06:22:00.000Z"
+    },
+    {
+      "id": "0B000800408DD710",
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "8500080044259C10",
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "610008002FE00410",
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "AC00080040250510",
+      "startDate": "2012-01-09T00:00:00.000Z",
+      "stopDate": "2019-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "10.E02340000800",
+      "startDate": "2017-05-30T00:00:00.000Z",
+      "stopDate": "2018-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "icwc",
+      "startDate": "2012-05-28T00:00:00.000Z",
+      "stopDate": "2023-03-19T00:00:00.000Z"
+    },
+    {
+      "id": "Spectrum",
+      "startDate": "2012-09-01T00:00:00.000Z",
+      "stopDate": "2017-02-14T00:00:00.000Z"
+    },
+    {
+      "id": "PowerWheel",
+      "startDate": "2016-07-28T00:00:00.000Z",
+      "stopDate": "2019-03-07T00:00:00.000Z"
+    },
+    {
+      "id": "SpectrogramRank2",
+      "startDate": "2014-01-09T00:00:00.000Z",
+      "stopDate": "2023-03-19T06:22:47.968Z"
+    },
+    {
+      "id": "PowerOnesDigitSegments",
+      "startDate": "2016-07-28T00:00:00.000Z",
+      "stopDate": "2017-03-14T16:00:00.000Z"
+    },
+    {
+      "id": "specBins",
+      "startDate": "2016-01-01T00:00:30.000Z",
+      "stopDate": "2016-01-01T23:59:30.000Z"
+    },
+    {
+      "id": "specBins.ref",
+      "startDate": "2016-01-01T00:00:30.000Z",
+      "stopDate": "2016-01-01T23:59:30.000Z"
+    },
+    {
+      "id": "SpectrumTimeVaryingChannels",
+      "startDate": "2012-10-25T00:00:00.000Z",
+      "stopDate": "2017-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "WFR_E_B",
+      "startDate": "2017-02-09T00:00:02.478Z",
+      "stopDate": "2017-02-09T23:59:56.968Z"
+    },
+    {
+      "id": "strange/\\data/",
+      "startDate": "2017-05-30T00:00:00.000Z",
+      "stopDate": "2018-06-30T00:00:00.000Z"
+    },
+    {
+      "id": "rank3dep2",
+      "startDate": "2021-04-07T00:00:00.000Z",
+      "stopDate": "2021-04-07T01:00:00.000Z"
+    }
+  ],
+  "id": "https://jfaden.net/HapiServerDemo/hapi",
+  "parameterDays": 63628.6
+}

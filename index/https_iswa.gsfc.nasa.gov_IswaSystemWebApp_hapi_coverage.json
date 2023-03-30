@@ -1,0 +1,1261 @@
+{
+  "catalog": [
+    {
+      "id": "ace_epam_P5M",
+      "startDate": "2010-03-15T00:00:00Z",
+      "stopDate": "2023-03-19T05:15:00Z"
+    },
+    {
+      "id": "ace_mag_P1M",
+      "startDate": "2000-04-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:49:00Z"
+    },
+    {
+      "id": "ace_sis_P5M",
+      "startDate": "2010-03-15T00:00:00Z",
+      "stopDate": "2023-03-19T05:40:00Z"
+    },
+    {
+      "id": "ace_swepam_P1M",
+      "startDate": "2000-04-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "airforce_45day",
+      "startDate": "2022-03-01T00:00:00Z",
+      "stopDate": "2023-05-02T00:00:00Z"
+    },
+    {
+      "id": "ALTEA_P5M",
+      "startDate": "2011-06-27T23:57:50Z",
+      "stopDate": "2012-11-13T07:39:28Z"
+    },
+    {
+      "id": "dscovr_mag_1m",
+      "startDate": "2016-07-24T00:00:00Z",
+      "stopDate": "2023-03-19T05:54:00Z"
+    },
+    {
+      "id": "dscovr_plasma_1m",
+      "startDate": "2016-07-26T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "dst_final",
+      "startDate": "1957-01-01T00:00:00Z",
+      "stopDate": "2016-12-31T23:00:00Z"
+    },
+    {
+      "id": "dst_provisional",
+      "startDate": "2017-01-01T00:00:00Z",
+      "stopDate": "2021-12-31T23:00:00Z"
+    },
+    {
+      "id": "dst_quicklook",
+      "startDate": "2022-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:00:00Z"
+    },
+    {
+      "id": "ENLIL_KP_P7M",
+      "startDate": "2011-03-27T00:03:00Z",
+      "stopDate": "2015-01-09T00:02:00Z"
+    },
+    {
+      "id": "gfz_obs_geo_3hour_indices",
+      "startDate": "1932-01-01T03:00:00Z",
+      "stopDate": "2023-03-19T00:00:00Z"
+    },
+    {
+      "id": "gfz_obs_geo_indices",
+      "startDate": "1932-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "goesp_mag_p1m",
+      "startDate": "2010-04-14T00:00:00Z",
+      "stopDate": "2023-03-19T05:53:00Z"
+    },
+    {
+      "id": "goesp_part_flux_P5M",
+      "startDate": "2010-04-14T00:00:00Z",
+      "stopDate": "2023-03-19T05:45:00Z"
+    },
+    {
+      "id": "goesp_xray_flux_P1M",
+      "startDate": "2010-04-13T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "goess_mag_p1m",
+      "startDate": "2009-05-22T00:00:00Z",
+      "stopDate": "2023-03-19T05:44:00Z"
+    },
+    {
+      "id": "goess_part_flux_P5M",
+      "startDate": "2010-04-14T00:00:00Z",
+      "stopDate": "2023-03-19T05:45:00Z"
+    },
+    {
+      "id": "goess_xray_flux_P1M",
+      "startDate": "2012-09-06T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "HelTomo_SolarWind_P6H",
+      "startDate": "2011-07-02T12:00:00Z",
+      "stopDate": "2017-01-31T09:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_OPENGGCM31atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_OPENGGCM31atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF20090403atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF20090403atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF773atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF773atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF801atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_SWMF801atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_Tsyganenko1996atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_Tsyganenko1996atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_Tsyganenko2004atGOES10",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "MagneticFieldAtGEO2_Tsyganenko2004atGOES12",
+      "startDate": "2003-10-29T02:00:00Z",
+      "stopDate": "2003-10-30T06:00:00Z"
+    },
+    {
+      "id": "NewHorizonsFlyBy_Cor-1DatNewHorizons",
+      "startDate": "2006-01-01T01:07:00Z",
+      "stopDate": "2015-10-31T15:52:00Z"
+    },
+    {
+      "id": "NewHorizonsFlyBy_ENLIL2DatNewHorizons",
+      "startDate": "2006-01-01T01:07:00Z",
+      "stopDate": "2015-10-31T15:52:00Z"
+    },
+    {
+      "id": "NewHorizonsFlyBy_MSFLUKSSatNewHorizons",
+      "startDate": "2006-01-01T01:07:00Z",
+      "stopDate": "2015-10-31T15:52:00Z"
+    },
+    {
+      "id": "NewHorizonsFlyBy_mSWiMatNewHorizons",
+      "startDate": "2006-01-01T01:07:00Z",
+      "stopDate": "2015-10-31T15:52:00Z"
+    },
+    {
+      "id": "NewHorizonsFlyBy_USMANOVatNewHorizons",
+      "startDate": "2006-01-01T01:07:00Z",
+      "stopDate": "2015-10-31T15:52:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-AATB",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-APTY",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-ATHN",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-BKSN",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-CALM",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-DRBS",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-FSMT",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-INVK",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-JBGO",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-JUNG",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-JUNG1",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-KERG",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-KIEL2",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-LMKS",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-MCMU",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-MCRL",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-MGDN",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-MXCO",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-NAIN",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-NANM",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-NEWK",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-OULU",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-PWNK",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-ROME",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-SOPB",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-SOPO",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-TERA",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-THUL",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NMDB_p1m_NMDB-YKTK",
+      "startDate": "2010-01-01T00:00:00Z",
+      "stopDate": "2023-03-19T05:51:00Z"
+    },
+    {
+      "id": "NOAA_KP_P3H",
+      "startDate": "1932-01-01T03:00:00Z",
+      "stopDate": "2023-03-19T03:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor0",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor1",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor10",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor11",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor12",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor13",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor14",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor15",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor16",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor17",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor18",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor19",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor2",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor20",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor21",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor3",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor4",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor5",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor6",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor7",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor8",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_metop02_sensor9",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2021-11-15T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor0",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor1",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor10",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor11",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor12",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor13",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor14",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor15",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor16",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor17",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor18",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor19",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor2",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor20",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor21",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor3",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor4",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor5",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor6",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor7",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor8",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa15_sensor9",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor0",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor1",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor10",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor11",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor12",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor13",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor14",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor15",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor16",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor17",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor18",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor19",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor2",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor20",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor21",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor3",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor4",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor5",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor6",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor7",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor8",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa18_sensor9",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor0",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor1",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor10",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor11",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor12",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor13",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor14",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor15",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor16",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor17",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor18",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor19",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor2",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor20",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor21",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor3",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor4",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor5",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor6",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor7",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor8",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "poes_noaa19_sensor9",
+      "startDate": "2013-01-01T00:00:00Z",
+      "stopDate": "2023-03-18T00:00:00Z"
+    },
+    {
+      "id": "Predicted_KP_P1M",
+      "startDate": "2010-03-15T01:07:05Z",
+      "stopDate": "2023-03-19T05:36:00Z"
+    },
+    {
+      "id": "RBSP_A_ECTHOPE_e_FLUX_P1M",
+      "startDate": "2013-01-15T09:49:19Z",
+      "stopDate": "2016-12-23T03:44:45Z"
+    },
+    {
+      "id": "RBSP_A_ECTHOPE_he_FLUX_P1M",
+      "startDate": "2013-01-15T09:49:31Z",
+      "stopDate": "2016-12-23T03:44:33Z"
+    },
+    {
+      "id": "RBSP_A_ECTHOPE_o_FLUX_P1M",
+      "startDate": "2013-01-15T09:49:31Z",
+      "stopDate": "2016-12-23T03:44:33Z"
+    },
+    {
+      "id": "RBSP_A_ECTHOPE_p_FLUX_P1M",
+      "startDate": "2013-01-15T09:49:31Z",
+      "stopDate": "2016-12-23T03:44:33Z"
+    },
+    {
+      "id": "RBSP_A_ECTREPT_FLUX_P1M",
+      "startDate": "2013-01-01T00:00:05Z",
+      "stopDate": "2016-12-23T03:45:03Z"
+    },
+    {
+      "id": "RBSP_A_RBSPICE_part_P1M",
+      "startDate": "2013-01-27T02:59:52Z",
+      "stopDate": "2016-12-22T18:50:00Z"
+    },
+    {
+      "id": "RBSP_B_ECTREPT_FLUX_P1M",
+      "startDate": "2013-01-03T01:32:37Z",
+      "stopDate": "2016-12-23T03:37:31Z"
+    },
+    {
+      "id": "Sheffield_Electron_Flux_Model",
+      "startDate": "2012-05-01T23:59:59Z",
+      "stopDate": "2021-06-17T23:59:59Z"
+    },
+    {
+      "id": "SOHO_COSTEP_SEP_ACTUAL",
+      "startDate": "2014-10-20T23:45:59Z",
+      "stopDate": "2015-04-02T18:42:19Z"
+    },
+    {
+      "id": "SOHO_COSTEP_SEP_FORECAST",
+      "startDate": "2014-10-20T00:41:04Z",
+      "stopDate": "2015-04-02T18:41:19Z"
+    },
+    {
+      "id": "solar_shield_3d_BOU",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_BRW",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_BSL",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_CMO",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_DED",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_DLR",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_FRD",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_FRN",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_GUA",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_HLA",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_HON",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_HUT",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_NEW",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_RAT",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_SHU",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_SIT",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_SJG",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_TMI",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_TUC",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "solar_shield_3d_VIN",
+      "startDate": "2016-06-07T19:13:00Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_BOU",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_BRW",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_BSL",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_CMO",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_DED",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_DLR",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_FRD",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_FRN",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_GUA",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_HLA",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_HON",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_HUT",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_NEW",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_RAT",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_SHU",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_SIT",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_SJG",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_TMI",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_TUC",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_BOU",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_BRW",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_BSL",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_CMO",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_DED",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_DLR",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_FRD",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_FRN",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_GUA",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_HON",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_NEW",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_SHU",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_SIT",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_SJG",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_USGS_TUC",
+      "startDate": "2015-09-14T00:00:00Z",
+      "stopDate": "2018-03-19T01:49:00Z"
+    },
+    {
+      "id": "Solar_Shield_VIN",
+      "startDate": "2015-03-30T00:52:50Z",
+      "stopDate": "2018-03-19T02:00:10Z"
+    },
+    {
+      "id": "stereo_a_impact_P1M",
+      "startDate": "2007-06-26T00:04:16Z",
+      "stopDate": "2023-03-19T00:39:10Z"
+    },
+    {
+      "id": "stereo_b_impact_P1M",
+      "startDate": "2007-06-26T04:36:53Z",
+      "stopDate": "2014-09-27T16:28:26Z"
+    },
+    {
+      "id": "SWMF2011wrcm_MP_STANDOFF_P5M",
+      "startDate": "2017-09-21T15:22:15Z",
+      "stopDate": "2023-03-19T06:45:14Z"
+    },
+    {
+      "id": "SWMF_MP_STANDOFF_P5M",
+      "startDate": "2011-09-11T04:41:47Z",
+      "stopDate": "2018-11-10T03:39:19Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES13",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES14",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2008atGOES15",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES13",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES14",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_at_GOES_GSM_SWMF2011wRCMatGOES15",
+      "startDate": "2010-05-17T16:56:00Z",
+      "stopDate": "2021-09-29T05:09:39Z"
+    },
+    {
+      "id": "SWMF_RealTime_SWMF2008",
+      "startDate": "2007-02-08T19:03:14Z",
+      "stopDate": "2023-03-19T06:55:24Z"
+    },
+    {
+      "id": "SWMF_RealTime_SWMF2011wRCM",
+      "startDate": "2007-02-08T19:03:14Z",
+      "stopDate": "2023-03-19T06:55:24Z"
+    },
+    {
+      "id": "swpc_27day",
+      "startDate": "2022-02-28T00:00:00Z",
+      "stopDate": "2023-04-08T00:00:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_BOU",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_BRW",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_BSL",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_CMO",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_DED",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_FRD",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_FRN",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_GUA",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_HON",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_NEW",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_SHU",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_SIT",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_SJG",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "USGS_Intermagnet_TUC",
+      "startDate": "2011-04-03T00:00:00Z",
+      "stopDate": "2023-03-19T23:59:00Z"
+    },
+    {
+      "id": "WIND_MFI_P2M",
+      "startDate": "2000-01-04T20:05:49Z",
+      "stopDate": "2023-03-19T02:28:59Z"
+    },
+    {
+      "id": "WIND_SWE_P2M",
+      "startDate": "2000-01-04T20:08:07Z",
+      "stopDate": "2023-03-19T02:27:02Z"
+    }
+  ],
+  "id": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+  "parameterDays": 4110813.3
+}

@@ -49,9 +49,7 @@
           "name": "AnistropyIndex",
           "units": "index"
         }
-      ],
-      "startDate": "2010-03-15T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -92,9 +90,7 @@
           "name": "Longitude",
           "units": "degrees"
         }
-      ],
-      "startDate": "2000-04-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -115,9 +111,7 @@
           "name": "IntegralProtonFlux_30",
           "units": "p/(cm^2-sec-ster)"
         }
-      ],
-      "startDate": "2010-03-15T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -143,9 +137,7 @@
           "name": "IonTemperature",
           "units": "K"
         }
-      ],
-      "startDate": "2000-04-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -166,9 +158,7 @@
           "name": "AP",
           "units": "index"
         }
-      ],
-      "startDate": "2022-03-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -199,9 +189,7 @@
           "name": "EquivalentDose_in_water",
           "units": "nSv/s"
         }
-      ],
-      "startDate": "2011-06-27T23:57:50Z",
-      "stopDate": "2012-11-13T07:39:28Z"
+      ]
     },
     {
       "description": "",
@@ -242,9 +230,7 @@
           "name": "Longitude",
           "units": "degrees"
         }
-      ],
-      "startDate": "2016-07-24T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -270,9 +256,7 @@
           "name": "IonTemperature",
           "units": "K"
         }
-      ],
-      "startDate": "2016-07-26T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -288,9 +272,7 @@
           "name": "Dst",
           "units": "index"
         }
-      ],
-      "startDate": "1957-01-01T00:00:00Z",
-      "stopDate": "2016-12-31T23:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -306,9 +288,7 @@
           "name": "Dst",
           "units": "index"
         }
-      ],
-      "startDate": "2017-01-01T00:00:00Z",
-      "stopDate": "2021-12-31T23:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -324,9 +304,7 @@
           "name": "Dst",
           "units": "index"
         }
-      ],
-      "startDate": "2022-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -352,9 +330,28 @@
           "name": "KP_180",
           "units": "index"
         }
-      ],
-      "startDate": "2011-03-27T00:03:00Z",
-      "stopDate": "2015-01-09T00:02:00Z"
+      ]
+    },
+    {
+      "description": "",
+      "id": "gfz_obs_geo_3hour_indices",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "KP for 3 hour windows, timestamp is for the end of the 3 hour window.  For example 06:00 timestamp is for 03:00 to 06:00",
+          "name": "KP_3H",
+          "units": "KP Index"
+        },
+        {
+          "description": "AP for 3 hour windows, timestamp is for the end of the 3 hour window.  For example 06:00 timestamp is for 03:00 to 06:00",
+          "name": "AP_3H",
+          "units": "AP index"
+        }
+      ]
     },
     {
       "description": "",
@@ -385,9 +382,7 @@
           "name": "F10_7_adj",
           "units": "index"
         }
-      ],
-      "startDate": "1932-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "GOES Primary Mag at 1 minute intervals.  Observational data.",
@@ -418,9 +413,7 @@
           "name": "TotalField",
           "units": "nT"
         }
-      ],
-      "startDate": "2010-04-14T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -486,9 +479,7 @@
           "name": "P500",
           "units": "Protons/cm^2 - s^-1 - sr"
         }
-      ],
-      "startDate": "2010-04-14T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -509,9 +500,7 @@
           "name": "Long_Wave",
           "units": "Watts/m^2"
         }
-      ],
-      "startDate": "2010-04-13T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -542,9 +531,7 @@
           "name": "TotalField",
           "units": "nT"
         }
-      ],
-      "startDate": "2009-05-22T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -600,9 +587,7 @@
           "name": "E4_0",
           "units": "Electrons/cm^2 - s^-1 - sr"
         }
-      ],
-      "startDate": "2010-04-14T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -623,9 +608,7 @@
           "name": "Long_Wave",
           "units": "Watts/m^2"
         }
-      ],
-      "startDate": "2012-09-06T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -646,9 +629,7 @@
           "name": "BulkSpeed",
           "units": "km/s"
         }
-      ],
-      "startDate": "2011-07-02T12:00:00Z",
-      "stopDate": "2017-01-31T09:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -689,9 +670,7 @@
           "name": "ZGSE",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -732,9 +711,7 @@
           "name": "ZGSE",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -775,9 +752,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -818,9 +793,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -861,9 +834,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -904,9 +875,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -947,9 +916,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -990,9 +957,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1033,9 +998,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1076,9 +1039,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1119,9 +1080,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1162,9 +1121,7 @@
           "name": "ZGSM",
           "units": "Re"
         }
-      ],
-      "startDate": "2003-10-29T02:00:00Z",
-      "stopDate": "2003-10-30T06:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1190,9 +1147,7 @@
           "name": "Temperature",
           "units": "K"
         }
-      ],
-      "startDate": "2006-01-01T01:07:00Z",
-      "stopDate": "2015-10-31T15:52:00Z"
+      ]
     },
     {
       "description": "",
@@ -1223,9 +1178,7 @@
           "name": "Temperature",
           "units": "K"
         }
-      ],
-      "startDate": "2006-01-01T01:07:00Z",
-      "stopDate": "2015-10-31T15:52:00Z"
+      ]
     },
     {
       "description": "",
@@ -1256,9 +1209,7 @@
           "name": "Temperature",
           "units": "K"
         }
-      ],
-      "startDate": "2006-01-01T01:07:00Z",
-      "stopDate": "2015-10-31T15:52:00Z"
+      ]
     },
     {
       "description": "",
@@ -1289,9 +1240,7 @@
           "name": "Temperature",
           "units": "K"
         }
-      ],
-      "startDate": "2006-01-01T01:07:00Z",
-      "stopDate": "2015-10-31T15:52:00Z"
+      ]
     },
     {
       "description": "",
@@ -1322,9 +1271,7 @@
           "name": "Temperature",
           "units": "K"
         }
-      ],
-      "startDate": "2006-01-01T01:07:00Z",
-      "stopDate": "2015-10-31T15:52:00Z"
+      ]
     },
     {
       "description": "",
@@ -1340,9 +1287,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1358,9 +1303,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1376,9 +1319,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1394,9 +1335,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1412,9 +1351,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1430,9 +1367,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1448,9 +1383,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1466,9 +1399,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1484,9 +1415,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1502,9 +1431,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1520,9 +1447,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1538,9 +1463,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1556,9 +1479,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1574,9 +1495,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1592,9 +1511,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1610,9 +1527,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1628,9 +1543,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1646,9 +1559,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1664,9 +1575,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1682,9 +1591,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1700,9 +1607,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1718,9 +1623,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1736,9 +1639,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1754,9 +1655,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1772,9 +1671,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1790,9 +1687,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1808,9 +1703,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1826,9 +1719,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1844,9 +1735,7 @@
           "name": "NeutronCount_RCORR_E",
           "units": "count"
         }
-      ],
-      "startDate": "2010-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1862,9 +1751,7 @@
           "name": "KP_3H",
           "units": "KP Index"
         }
-      ],
-      "startDate": "1932-01-01T03:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -1895,9 +1782,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1928,9 +1813,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1961,9 +1844,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -1994,9 +1875,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2027,9 +1906,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2060,9 +1937,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2093,9 +1968,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2126,9 +1999,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2159,9 +2030,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2192,9 +2061,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2225,9 +2092,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2258,9 +2123,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2291,9 +2154,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2324,9 +2185,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2357,9 +2216,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2390,9 +2247,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2423,9 +2278,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2456,9 +2309,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2489,9 +2340,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2522,9 +2371,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2555,9 +2402,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2588,9 +2433,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "2021-11-15T00:00:00Z"
+      ]
     },
     {
       "description": "",
@@ -2621,9 +2464,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2654,9 +2495,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2687,9 +2526,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2720,9 +2557,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2753,9 +2588,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2786,9 +2619,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2819,9 +2650,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2852,9 +2681,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2885,9 +2712,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2918,9 +2743,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2951,9 +2774,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -2984,9 +2805,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3017,9 +2836,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3050,9 +2867,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3083,9 +2898,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3116,9 +2929,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3149,9 +2960,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3182,9 +2991,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3215,9 +3022,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3248,9 +3053,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3281,9 +3084,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3314,9 +3115,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3347,9 +3146,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3380,9 +3177,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3413,9 +3208,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3446,9 +3239,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3479,9 +3270,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3512,9 +3301,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3545,9 +3332,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3578,9 +3363,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3611,9 +3394,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3644,9 +3425,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3677,9 +3456,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3710,9 +3487,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3743,9 +3518,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3776,9 +3549,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3809,9 +3580,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3842,9 +3611,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3875,9 +3642,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3908,9 +3673,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3941,9 +3704,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -3974,9 +3735,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4007,9 +3766,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4040,9 +3797,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4073,9 +3828,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4106,9 +3859,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4139,9 +3890,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4172,9 +3921,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4205,9 +3952,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4238,9 +3983,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4271,9 +4014,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4304,9 +4045,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4337,9 +4076,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4370,9 +4107,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4403,9 +4138,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4436,9 +4169,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4469,9 +4200,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4502,9 +4231,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "POES Belt Indicies for NOAA19 sensor 21.",
@@ -4535,9 +4262,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4568,9 +4293,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4601,9 +4324,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4634,9 +4355,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4667,9 +4386,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4700,9 +4417,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4733,9 +4448,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4766,9 +4479,7 @@
           "name": "outer_belt_index",
           "units": "index"
         }
-      ],
-      "startDate": "2013-01-01T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4784,9 +4495,7 @@
           "name": "KP",
           "units": "KP Index"
         }
-      ],
-      "startDate": "2010-03-15T01:07:05Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -4817,9 +4526,7 @@
           "name": "ECTHOPE_e_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-15T09:49:19Z",
-      "stopDate": "2016-12-23T03:44:45Z"
+      ]
     },
     {
       "description": "",
@@ -4850,9 +4557,7 @@
           "name": "ECTHOPE_he_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-15T09:49:31Z",
-      "stopDate": "2016-12-23T03:44:33Z"
+      ]
     },
     {
       "description": "",
@@ -4883,9 +4588,7 @@
           "name": "ECTHOPE_o_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-15T09:49:31Z",
-      "stopDate": "2016-12-23T03:44:33Z"
+      ]
     },
     {
       "description": "",
@@ -4916,9 +4619,7 @@
           "name": "ECTHOPE_p_flux_CH4",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-15T09:49:31Z",
-      "stopDate": "2016-12-23T03:44:33Z"
+      ]
     },
     {
       "description": "",
@@ -4944,9 +4645,7 @@
           "name": "ECTREPT_combined_flux_CH9",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-01T00:00:05Z",
-      "stopDate": "2016-12-23T03:45:03Z"
+      ]
     },
     {
       "description": "",
@@ -4987,9 +4686,7 @@
           "name": "RBSPICE_slow_CH1",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-27T02:59:52Z",
-      "stopDate": "2016-12-22T18:50:00Z"
+      ]
     },
     {
       "description": "",
@@ -5015,9 +4712,7 @@
           "name": "ECTREPT_combined_flux_CH9",
           "units": "1/(cm^2 sr s MeV)"
         }
-      ],
-      "startDate": "2013-01-03T01:32:37Z",
-      "stopDate": "2016-12-23T03:37:31Z"
+      ]
     },
     {
       "description": "",
@@ -5048,9 +4743,7 @@
           "name": "ElectronFlux_E0_8_DailyAvg",
           "units": "1/(cm^2 sr day keV)"
         }
-      ],
-      "startDate": "2012-05-01T23:59:59Z",
-      "stopDate": "2021-06-17T23:59:59Z"
+      ]
     },
     {
       "description": "",
@@ -5081,9 +4774,7 @@
           "name": "ProtonFlux_28p2_50p1",
           "units": "flux/(cm^2 s sr MeV/n)"
         }
-      ],
-      "startDate": "2014-10-20T23:45:59Z",
-      "stopDate": "2015-04-02T18:42:19Z"
+      ]
     },
     {
       "description": "",
@@ -5114,9 +4805,7 @@
           "name": "ProtonFlux_28p2_50p1",
           "units": "flux/(cm^2 s sr MeV/n)"
         }
-      ],
-      "startDate": "2014-10-20T00:41:04Z",
-      "stopDate": "2015-04-02T18:41:19Z"
+      ]
     },
     {
       "description": "",
@@ -5152,9 +4841,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5190,9 +4877,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5228,9 +4913,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5266,9 +4949,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5304,9 +4985,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5342,9 +5021,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5380,9 +5057,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5418,9 +5093,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5456,9 +5129,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5494,9 +5165,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5532,9 +5201,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5570,9 +5237,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5608,9 +5273,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5646,9 +5309,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5684,9 +5345,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5722,9 +5381,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5760,9 +5417,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5798,9 +5453,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5836,9 +5489,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5874,9 +5525,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2016-06-07T19:13:00Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5912,9 +5561,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5950,9 +5597,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -5988,9 +5633,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6026,9 +5669,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6064,9 +5705,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6102,9 +5741,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6140,9 +5777,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6178,9 +5813,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6216,9 +5849,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6254,9 +5885,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6292,9 +5921,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6330,9 +5957,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6368,9 +5993,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6406,9 +6029,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6444,9 +6065,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6482,9 +6101,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6520,9 +6137,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6558,9 +6173,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6596,9 +6209,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -6634,9 +6245,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6672,9 +6281,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6710,9 +6317,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6748,9 +6353,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6786,9 +6389,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6824,9 +6425,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6862,9 +6461,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6900,9 +6497,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6938,9 +6533,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -6976,9 +6569,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7014,9 +6605,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7052,9 +6641,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7090,9 +6677,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7128,9 +6713,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7166,9 +6749,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-09-14T00:00:00Z",
-      "stopDate": "2018-03-19T01:49:00Z"
+      ]
     },
     {
       "description": "",
@@ -7204,9 +6785,7 @@
           "name": "E_y",
           "units": "mV/km"
         }
-      ],
-      "startDate": "2015-03-30T00:52:50Z",
-      "stopDate": "2018-03-19T02:00:10Z"
+      ]
     },
     {
       "description": "",
@@ -7277,9 +6856,7 @@
           "name": "SFLETFe",
           "units": "1/(cm^2-s-ster-MeV/nuc)"
         }
-      ],
-      "startDate": "2007-06-26T00:04:16Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -7350,9 +6927,7 @@
           "name": "SFLETFe",
           "units": "1/(cm^2-s-ster-MeV/nuc)"
         }
-      ],
-      "startDate": "2007-06-26T04:36:53Z",
-      "stopDate": "2014-09-27T16:28:26Z"
+      ]
     },
     {
       "description": "",
@@ -7383,9 +6958,7 @@
           "name": "geosynchronus_orbit",
           "units": "Re"
         }
-      ],
-      "startDate": "2017-09-21T15:22:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -7416,9 +6989,7 @@
           "name": "geosynchronus_orbit",
           "units": "Re"
         }
-      ],
-      "startDate": "2011-09-11T04:41:47Z",
-      "stopDate": "2018-11-10T03:39:19Z"
+      ]
     },
     {
       "description": "",
@@ -7524,9 +7095,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -7632,9 +7201,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -7740,9 +7307,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -7848,9 +7413,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -7956,9 +7519,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -8064,9 +7625,7 @@
           "name": "J",
           "units": "muA/m^2"
         }
-      ],
-      "startDate": "2010-05-17T16:56:00Z",
-      "stopDate": "2021-09-29T05:09:39Z"
+      ]
     },
     {
       "description": "",
@@ -8082,9 +7641,7 @@
           "name": "dst",
           "units": "nT"
         }
-      ],
-      "startDate": "2007-02-08T19:03:14Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8100,9 +7657,7 @@
           "name": "dst",
           "units": "nT"
         }
-      ],
-      "startDate": "2007-02-08T19:03:14Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8128,9 +7683,7 @@
           "name": "Largest_KP",
           "units": "index"
         }
-      ],
-      "startDate": "2022-02-28T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8161,9 +7714,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8194,9 +7745,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8227,9 +7776,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8260,9 +7807,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8293,9 +7838,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8326,9 +7869,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8359,9 +7900,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8392,9 +7931,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8425,9 +7962,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8458,9 +7993,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8491,9 +8024,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8524,9 +8055,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8557,9 +8086,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8590,9 +8117,7 @@
           "name": "F",
           "units": "nT"
         }
-      ],
-      "startDate": "2011-04-03T00:00:00Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8623,9 +8148,7 @@
           "name": "B_t",
           "units": "nT"
         }
-      ],
-      "startDate": "2000-01-04T20:05:49Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "",
@@ -8651,9 +8174,7 @@
           "name": "ThermalSpeed",
           "units": "km/s"
         }
-      ],
-      "startDate": "2000-01-04T20:08:07Z",
-      "stopDate": "last60days"
+      ]
     }
   ],
   "id": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi"

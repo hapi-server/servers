@@ -79,9 +79,7 @@
           "name": "q_error",
           "units": "mdeg"
         }
-      ],
-      "startDate": "2010-04-08T17:03:26.254008Z",
-      "stopDate": "2022-03-31T23:59:52.266008Z"
+      ]
     },
     {
       "description": "GRACE-FO 1 platform magnetometer measurements",
@@ -162,9 +160,7 @@
           "name": "B_FLAG",
           "units": null
         }
-      ],
-      "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "2022-10-31T23:59:59Z"
+      ]
     },
     {
       "description": "GRACE-FO 2 platform magnetometer measurements",
@@ -245,9 +241,7 @@
           "name": "B_FLAG",
           "units": null
         }
-      ],
-      "startDate": "2018-06-01T00:00:00Z",
-      "stopDate": "2022-10-31T23:59:59Z"
+      ]
     },
     {
       "description": "GOCE platform magnetometer measurements",
@@ -343,9 +337,7 @@
           "name": "B_FLAG",
           "units": null
         }
-      ],
-      "startDate": "2009-11-01T00:49:15.411000Z",
-      "stopDate": "2013-09-30T02:47:35.586000Z"
+      ]
     },
     {
       "description": "GOCE platform magnetometer measurements (ML calibrated)",
@@ -411,9 +403,7 @@
           "name": "NaN_FLAG",
           "units": null
         }
-      ],
-      "startDate": "2009-11-01T00:49:15.411000Z",
-      "stopDate": "2013-09-30T02:47:35.586000Z"
+      ]
     },
     {
       "description": "GRACE 1 platform magnetometer measurements",
@@ -469,9 +459,7 @@
           "name": "q_error",
           "units": "mdeg"
         }
-      ],
-      "startDate": "2008-01-01T00:00:04.787680Z",
-      "stopDate": "2017-10-31T23:59:38.945023Z"
+      ]
     },
     {
       "description": "GRACE 2 platform magnetometer measurements",
@@ -527,9 +515,7 @@
           "name": "q_error",
           "units": "mdeg"
         }
-      ],
-      "startDate": "2008-01-01T00:00:04.971828Z",
-      "stopDate": "2017-09-04T15:11:04.999953Z"
+      ]
     },
     {
       "description": "Swarm A Thermal Ion Imager (TII) cross track flow at 2Hz",
@@ -690,9 +676,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.225250Z",
-      "stopDate": "2022-08-05T18:47:06.225250Z"
+      ]
     },
     {
       "description": "Swarm A Thermal Ion Imager (TII) cross track flow at 16Hz",
@@ -853,9 +837,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.006750Z",
-      "stopDate": "2022-08-05T18:47:06.881750Z"
+      ]
     },
     {
       "description": "Swarm B Thermal Ion Imager (TII) cross track flow at 2Hz",
@@ -1016,9 +998,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.225250Z",
-      "stopDate": "2022-08-05T18:50:07.225250Z"
+      ]
     },
     {
       "description": "Swarm B Thermal Ion Imager (TII) cross track flow at 16Hz",
@@ -1179,9 +1159,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.006750Z",
-      "stopDate": "2022-08-05T18:50:07.881750Z"
+      ]
     },
     {
       "description": "Swarm C Thermal Ion Imager (TII) cross track flow at 2Hz",
@@ -1342,9 +1320,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-11T00:00:00.225250Z",
-      "stopDate": "2022-08-05T14:05:06.225250Z"
+      ]
     },
     {
       "description": "Swarm C Thermal Ion Imager (TII) cross track flow at 16Hz",
@@ -1505,9 +1481,7 @@
           "name": "Calibration_flags",
           "units": null
         }
-      ],
-      "startDate": "2013-12-11T00:00:00.006750Z",
-      "stopDate": "2022-08-05T14:05:06.881750Z"
+      ]
     },
     {
       "description": "Swarm A ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -1553,9 +1527,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -1576,9 +1548,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1639,9 +1609,7 @@
           "name": "J_R",
           "units": "A/km^2"
         }
-      ],
-      "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1662,9 +1630,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric auroral electrojet peaks and boundaries determined by the Line Current (LC) method",
@@ -1715,9 +1681,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:40.892609Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1768,9 +1732,7 @@
           "name": "J_DF_SemiQD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1796,9 +1758,7 @@
           "name": "B_NE",
           "units": "nT"
         }
-      ],
-      "startDate": "2013-11-25T11:02:53Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -1844,9 +1804,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -1867,9 +1825,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1930,9 +1886,7 @@
           "name": "J_R",
           "units": "A/km^2"
         }
-      ],
-      "startDate": "2013-11-25T11:01:16Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -1953,9 +1907,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:01:16Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric auroral electrojet peaks and boundaries determined by the Line Current (LC) method",
@@ -2006,9 +1958,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:35.896414Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2059,9 +2009,7 @@
           "name": "J_DF_SemiQD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T11:02:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2087,9 +2035,7 @@
           "name": "B_NE",
           "units": "nT"
         }
-      ],
-      "startDate": "2013-11-25T11:02:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -2135,9 +2081,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric sheet current densities determined by the Line Current (LC) method",
@@ -2158,9 +2102,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2221,9 +2163,7 @@
           "name": "J_R",
           "units": "A/km^2"
         }
-      ],
-      "startDate": "2013-11-26T00:19:16Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric sheet current densities determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2244,9 +2184,7 @@
           "name": "Confidence",
           "units": null
         }
-      ],
-      "startDate": "2013-11-26T00:19:16Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric auroral electrojet peaks and boundaries determined by the Line Current (LC) method",
@@ -2297,9 +2235,7 @@
           "name": "J_QD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-25T12:32:48.898938Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2350,9 +2286,7 @@
           "name": "J_DF_SemiQD",
           "units": "A/km"
         }
-      ],
-      "startDate": "2013-11-26T00:23:25Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric auroral electrojet peaks and boundaries determined by the Spherical Elementary Current Systems (SECS) method",
@@ -2378,9 +2312,7 @@
           "name": "B_NE",
           "units": "nT"
         }
-      ],
-      "startDate": "2013-11-26T00:23:25Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A aurora oval boundaries determined from the Field Aligned Current (FAC) data",
@@ -2436,9 +2368,7 @@
           "name": "Pair_Indicator",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:04:22.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B aurora oval boundaries determined from the Field Aligned Current (FAC) data",
@@ -2494,9 +2424,7 @@
           "name": "Pair_Indicator",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:07:03.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C aurora oval boundaries determined from the Field Aligned Current (FAC) data",
@@ -2552,9 +2480,7 @@
           "name": "Pair_Indicator",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:07:16.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A dayside equatorial electric field",
@@ -2595,9 +2521,7 @@
           "name": "Flags",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:18:26.886641Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B dayside equatorial electric field",
@@ -2638,9 +2562,7 @@
           "name": "Flags",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:18:22.271641Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C dayside equatorial electric field",
@@ -2681,9 +2603,7 @@
           "name": "Flags",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:18:34.928062Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A plasma data from the Langimur Probe (LP) at 2Hz rate",
@@ -2769,9 +2689,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-12-02T10:11:13.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A Thermal Ion Imager (TII) ion temperatures estimate",
@@ -2842,9 +2760,7 @@
           "name": "Flag_ti_model",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.197000Z",
-      "stopDate": "2022-07-31T23:59:59.696000Z"
+      ]
     },
     {
       "description": "Swarm B plasma data from the Langimur Probe (LP) at 2Hz rate",
@@ -2930,9 +2846,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-12-02T11:44:45.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B Thermal Ion Imager (TII) ion temperatures estimate",
@@ -3003,9 +2917,7 @@
           "name": "Flag_ti_model",
           "units": null
         }
-      ],
-      "startDate": "2013-12-10T00:00:00.197000Z",
-      "stopDate": "2022-07-31T23:59:59.696000Z"
+      ]
     },
     {
       "description": "Swarm C plasma data from the Langimur Probe (LP) at 2Hz rate",
@@ -3091,9 +3003,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-12-02T13:21:20.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C Thermal Ion Imager (TII) ion temperatures estimate",
@@ -3164,9 +3074,7 @@
           "name": "Flag_ti_model",
           "units": null
         }
-      ],
-      "startDate": "2013-12-11T00:00:16.196992Z",
-      "stopDate": "2022-07-31T23:59:59.696000Z"
+      ]
     },
     {
       "description": "Swarm A field-aligned and radial current densities using the single satellite measurements",
@@ -3232,9 +3140,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:52.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B field-aligned and radial current densities using the single satellite measurements",
@@ -3300,9 +3206,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:01:15.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C field-aligned and radial current densities using the single satellite measurements",
@@ -3368,9 +3272,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:17.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm field-aligned and radial current densities using the dual-satellite method",
@@ -3436,9 +3338,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:54.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric bubble index",
@@ -3494,9 +3394,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-12-02T10:11:14Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric bubble index",
@@ -3552,9 +3450,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-12-02T11:44:46Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric bubble index",
@@ -3610,9 +3506,7 @@
           "name": "Flags_q",
           "units": null
         }
-      ],
-      "startDate": "2013-12-04T09:40:05Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A characteristics of the plasma density and plasma irregularities",
@@ -3763,9 +3657,7 @@
           "name": "TEC_STD",
           "units": "TECU"
         }
-      ],
-      "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B characteristics of the plasma density and plasma irregularities",
@@ -3916,9 +3808,7 @@
           "name": "TEC_STD",
           "units": "TECU"
         }
-      ],
-      "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C characteristics of the plasma density and plasma irregularities",
@@ -4069,9 +3959,7 @@
           "name": "TEC_STD",
           "units": "TECU"
         }
-      ],
-      "startDate": "2014-07-16T00:00:00.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A vector (VFM) magnetic field measurements at 50Hz rate.",
@@ -4157,9 +4045,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:52.002562Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
@@ -4280,9 +4166,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:52Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B vector (VFM) magnetic field measurements at 50Hz rate.",
@@ -4368,9 +4252,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:01:15.004367Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
@@ -4491,9 +4373,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C vector (VFM) magnetic field measurements at 50Hz rate.",
@@ -4579,9 +4459,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:17.004078Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C vector (VFM) and scalar (ASM) magnetic field measurements interpolated at 1Hz rate.",
@@ -4702,9 +4580,7 @@
           "name": "SyncStatus",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -4780,9 +4656,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-12-04T19:05:15.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -4883,9 +4757,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-12-04T19:05:15.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -4956,9 +4828,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2014-07-15T07:24:06Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -5054,9 +4924,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2014-07-15T07:24:06Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -5132,9 +5000,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-12-05T04:35:10.696000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -5235,9 +5101,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-12-05T04:35:10.696000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -5308,9 +5172,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2014-07-15T06:42:57Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -5406,9 +5268,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2014-07-15T06:42:57Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -5484,9 +5344,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-12-04T17:30:15.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C mid-latitude ionospheric trough boundaries and minima from from Langmuir Probe (LP) data",
@@ -5587,9 +5445,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-12-04T17:30:15.197000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -5660,9 +5516,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2014-07-10T11:33:14Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C mid-latitude ionospheric trough boundaries and minima from from Total Electron Content (TEC) data",
@@ -5758,9 +5612,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2014-07-10T11:33:14Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
@@ -5786,9 +5638,7 @@
           "name": "Radius",
           "units": "m"
         }
-      ],
-      "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
@@ -5814,9 +5664,7 @@
           "name": "Radius",
           "units": "m"
         }
-      ],
-      "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C S/C position from the preliminary Medium Accuracy Orbit Determination (MOD). The original SP3c records have been converted to UTC and ITRF spherical coordinates.",
@@ -5842,9 +5690,7 @@
           "name": "Radius",
           "units": "m"
         }
-      ],
-      "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -5910,9 +5756,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:36.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -5988,9 +5832,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:36.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -6056,9 +5898,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:31.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -6134,9 +5974,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:31.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -6202,9 +6040,7 @@
           "name": "PointType",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:45.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C equatorward boundary of Small-Scale Field Aligned Currents (SSFAC) and the associated midnight Plasma-Pause (PP) index",
@@ -6280,9 +6116,7 @@
           "name": "Quality",
           "units": null
         }
-      ],
-      "startDate": "2013-11-25T12:47:45.500000Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A ionospheric total electron content",
@@ -6388,9 +6222,7 @@
           "name": "DCB_Error",
           "units": "TECU"
         }
-      ],
-      "startDate": "2013-11-25T10:59:54Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm B ionospheric total electron content",
@@ -6496,9 +6328,7 @@
           "name": "DCB_Error",
           "units": "TECU"
         }
-      ],
-      "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm C ionospheric total electron content",
@@ -6604,9 +6434,7 @@
           "name": "DCB_Error",
           "units": "TECU"
         }
-      ],
-      "startDate": "2013-11-25T11:02:17Z",
-      "stopDate": "last60days"
+      ]
     },
     {
       "description": "Swarm A LP ion drift, density and effective mass data",
@@ -6727,9 +6555,7 @@
           "name": "Phi_sc",
           "units": "V"
         }
-      ],
-      "startDate": "2014-10-02T00:00:00.197000Z",
-      "stopDate": "2022-10-10T23:59:59.696000Z"
+      ]
     },
     {
       "description": "Swarm B LP ion drift, density and effective mass data",
@@ -6850,9 +6676,7 @@
           "name": "Phi_sc",
           "units": "V"
         }
-      ],
-      "startDate": "2014-10-02T00:00:00.197000Z",
-      "stopDate": "2022-10-10T23:59:59.696000Z"
+      ]
     },
     {
       "description": "Swarm C LP ion drift, density and effective mass data",
@@ -6973,9 +6797,7 @@
           "name": "Phi_sc",
           "units": "V"
         }
-      ],
-      "startDate": "2014-10-02T00:00:00.197000Z",
-      "stopDate": "2022-10-10T23:59:59.696000Z"
+      ]
     }
   ],
   "id": "https://vires.services/hapi"

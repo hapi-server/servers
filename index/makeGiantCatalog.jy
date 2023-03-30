@@ -5,6 +5,9 @@ that others can use the service.  This assumes that the scientist running the
 script can write to the same folder as the script.''')
 setScriptTitle('Make Giant HAPI Catalog')
 
+from java.lang import System
+System.setProperty("http.agent", "hapibot-a/1.0; https://github.com/hapi-server/data-specification/wiki/hapi-bots.md#hapibot-a");
+
 # git diff-index --quiet HEAD -- || git commit -m "changes detected"
 # git push
 
@@ -24,9 +27,6 @@ serverList= getParam( 'list', 'all', 'server list in https://github.com/hapi-ser
 
 logger= LoggerManager.getLogger('makeGiantCatalog')
 logger.level = Level.FINE
-
-logger2= LoggerManager.getLogger('das2.url')
-logger2.level= Level.INFO
 
 # list of servers in server list to exclude
 exclude= []
@@ -55,14 +55,14 @@ for line in open(str(f)):
         continue
     servers.append(s)
 
-## DELETE ME or uncomment this for testing.
-#servers= ['https://cdaweb.gsfc.nasa.gov/hapi']
-
 for s in include:
     if not s in servers:
         logger.fine( 'adding ' + s )
         servers.append(s)
         
+## DELETE ME or uncomment this for testing.
+#servers= ['https://cdaweb.gsfc.nasa.gov/hapi']
+#servers= [ 'https://jfaden.net/HapiServerDemo/hapi' ]
 
 def get( jsonobject, tag, deft ):
     if ( jsonobject.has( tag ) ):
@@ -82,6 +82,9 @@ def readToJsonObject( u, mon ):
 def compileServer( myserver, mon=None ): 
     serverObject= JSONObject()
     serverObject.put( 'id', myserver )
+    availabilityObject= JSONObject()
+    availabilityObject.put( 'id', myserver )
+
     u= URL( myserver + '/catalog' )
     logger.fine( 'opening %s' % u )    
     
@@ -92,12 +95,12 @@ def compileServer( myserver, mon=None ):
         return None
     
     ids= JSONArray()
+    idsAvailability= JSONArray()
+
     catalogc= catalog.get('catalog')
     
     # measure the number of parameters times the duration for each variable, for fun
     parameterDays= 0.
-    
-    recentThreshold = str(TimeUtil.now()-'60days')
     
     nwork= min( catalogLimit, catalogc.length() )
     mon.setTaskSize( nwork )
@@ -105,8 +108,12 @@ def compileServer( myserver, mon=None ):
         mon.setTaskProgress( i )
         try: 
             infoObject= JSONObject()
+            infoAvailabilityObject= JSONObject()
             idstr= catalogc.get(i).get('id')
+
             infoObject.put( 'id', idstr )
+            infoAvailabilityObject.put( 'id', idstr )
+
             infoObject.put( 'description', get( catalogc.get(i), 'description', '' ) )
     
             u = URL( myserver + '/info?id=' + idstr )
@@ -116,16 +123,13 @@ def compileServer( myserver, mon=None ):
             infoObject.put( 'description', description )
             start= get( info, 'startDate', '' )
             stop= get( info, 'stopDate', '' )
-            infoObject.put( 'startDate', start )
-            
-            if ( stop>recentThreshold ): stop='last60days'
-            
-            infoObject.put( 'stopDate', stop )
+            infoAvailabilityObject.put( 'startDate', start )
+            infoAvailabilityObject.put( 'stopDate', stop )
             parametersArray= info.get( 'parameters' )
 
-            #durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
-            #parameterDays1= durationDays * parametersArray.length()
-            #parameterDays= parameterDays + parameterDays1
+            durationDays= DatumRangeUtil.parseDatumRange( start + '/' + stop ).width().doubleValue( Units.days )
+            parameterDays1= durationDays * parametersArray.length()
+            parameterDays= parameterDays + parameterDays1
             
             #parameterDays1= float( "%.2f" % parameterDays1 )
             # infoObject.put( 'parameterDays', parameterDays1 )
@@ -141,6 +145,8 @@ def compileServer( myserver, mon=None ):
             
             infoObject.put( 'parameters', paramz )
             ids.put(infoObject)
+            idsAvailability.put(infoAvailabilityObject)
+
         except:
             import traceback
             traceback.print_exc()
@@ -149,10 +155,12 @@ def compileServer( myserver, mon=None ):
         sleep( sleepNice )
         
     serverObject.put( 'catalog', ids )
-    parameterDays= float( "%.1f" % parameterDays )
-    # serverObject.put( 'parameterDays', parameterDays )
     
-    return serverObject
+    parameterDays= float( "%.1f" % parameterDays )
+    availabilityObject.put( 'parameterDays', parameterDays )
+    availabilityObject.put( 'catalog', idsAvailability )
+
+    return serverObject,availabilityObject
 
 outputFileName= CWD+'/servers.json'
 
@@ -162,6 +170,7 @@ for server in servers:
     s= JSONObject()
     s.put( "URL", server )
     s.put( "index", "%s.json" % ( server.replace( '://', '_' ).replace('/','_') ) )
+    s.put( "coverage", "%s_coverage.json" % ( server.replace( '://', '_' ).replace('/','_') ) )
     ja.put( s )
 fw= FileWriter( outputFileName )
 jaStr= ja.toString(2)   
@@ -197,7 +206,7 @@ else:
         iserver= iserver + 1
         if ( iserver>serverLimit ): break        
         
-        serverObject= compileServer( server, mon )
+        serverObject,availabilityObject= compileServer( server, mon )
         if serverObject==None:
             print 'FAILED TO CONNECT TO '+server
         else:
@@ -206,6 +215,14 @@ else:
             fw= FileWriter( outputFileName )
             serverObjectStr= serverObject.toString(2)
             fw.write( serverObjectStr )
+            fw.close()
+            print 'wrote ' + outputFileName
+
+            outputFileName= CWD+'/%s_coverage.json' % ( server.replace( '://', '_' ).replace('/','_') )
+            
+            fw= FileWriter( outputFileName )
+            availabilityObjectStr= availabilityObject.toString(2)
+            fw.write( availabilityObjectStr )
             fw.close()
             print 'wrote ' + outputFileName
             

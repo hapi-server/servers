@@ -21,22 +21,6 @@
         "emailAlerts": true,
         "emailAlertsTo": "Robert.SWeigel@gmail.com",
         "emailThreshold": 2,
-        "url": "http://mag.gmu.edu/hapi-server/plot",
-        "interval": 300000,
-        "testName": "plot-mag",
-        "tests": {
-            "lengthChanged": true,
-            "statusCode": 200,
-            "md5Changed": true,
-            "firstByte": 3000,
-            "total": 4000,
-            "download": 1000
-        }
-    },
-    {
-        "emailAlerts": true,
-        "emailAlertsTo": "Robert.SWeigel@gmail.com",
-        "emailThreshold": 2,
         "url": "http://rweigel.dynu.net/plot",
         "timeout": 2000,
         "interval": 300000,

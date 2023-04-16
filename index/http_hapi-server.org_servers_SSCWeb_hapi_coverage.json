@@ -78,7 +78,7 @@
     {
       "id": "artemisp1",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-13T23:58:59.000Z"
     },
     {
       "id": "artemisp1pred",
@@ -88,7 +88,7 @@
     {
       "id": "artemisp2",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-12T23:58:59.000Z"
     },
     {
       "id": "artemisp2pred",
@@ -553,7 +553,7 @@
     {
       "id": "dscovr",
       "startDate": "2015-02-11T23:48:06.000Z",
-      "stopDate": "2023-04-26T12:00:00.000Z"
+      "stopDate": "2023-05-10T12:00:00.000Z"
     },
     {
       "id": "dsxset",
@@ -1228,7 +1228,7 @@
     {
       "id": "themisa",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-12T23:58:59.000Z"
     },
     {
       "id": "themisapred",
@@ -1238,7 +1238,7 @@
     {
       "id": "themisb",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-13T23:58:59.000Z"
     },
     {
       "id": "themisbpred",
@@ -1248,7 +1248,7 @@
     {
       "id": "themisc",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-12T23:58:59.000Z"
     },
     {
       "id": "themiscpred",
@@ -1258,7 +1258,7 @@
     {
       "id": "themisd",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-12T23:58:59.000Z"
     },
     {
       "id": "themisdpred",
@@ -1268,7 +1268,7 @@
     {
       "id": "themise",
       "startDate": "2007-02-18T00:13:59.000Z",
-      "stopDate": "2023-04-06T23:58:59.000Z"
+      "stopDate": "2023-04-12T23:58:59.000Z"
     },
     {
       "id": "themisepred",
@@ -1313,7 +1313,7 @@
     {
       "id": "wind",
       "startDate": "1994-11-16T00:00:00.000Z",
-      "stopDate": "2023-06-13T23:48:00.000Z"
+      "stopDate": "2023-06-20T23:48:00.000Z"
     },
     {
       "id": "xmm",
@@ -1327,5 +1327,5 @@
     }
   ],
   "id": "http://hapi-server.org/servers/SSCWeb/hapi",
-  "parameterDays": 5.98647924E7
+  "parameterDays": 5.98690824E7
 }

@@ -3,6 +3,7 @@ https://jfaden.net/HapiServerDemo/hapi, Faden Test Server, FadenTest, Jeremy Fad
 https://pds-ppi.igpp.ucla.edu/hapi, UCLA PDS Node, PDS, In Sook Moon, imoon@igpp.ucla.edu
 http://hapi.ftecs.com/hapi, Fundamental Tech RBSPICE, RBSPICE, Jerry W. Manweiler, Manweiler@ftecs.com
 https://staging.viresdisc.vires.services/hapi, VirES for Swarm (dev), VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
+https://cottagesystems.com/server/esac/hapi, ESAC Cluster S/C Archive, ESAC-Cluster, Jeremy Faden, jbf@cottagesystems.org
 https://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
 https://hapi-server.org/servers/TestData2.1/hapi, 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
 https://hapi-server.org/servers/TestData3.0/hapi, 3.0 Test Data, TestData3.0, Bob Weigel, rweigel@gmu.edu

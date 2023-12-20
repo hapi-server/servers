@@ -1,8 +1,10 @@
 http://hapi-server.org/servers/SSCWeb/hapi
 https://cdaweb.gsfc.nasa.gov/hapi
+https://imag-data.bgs.ac.uk/GIN_V1/hapi
 http://planet.physics.uiowa.edu/das/das2Server/hapi
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi
 http://lasp.colorado.edu/lisird/hapi
 http://hapi-server.org/servers/TestData2.0/hapi
-http://amda.irap.omp.eu/service/hapi
+https://amda.irap.omp.eu/service/hapi
 https://vires.services/hapi
+https://api.helioviewer.org/hapi/Helioviewer/hapi

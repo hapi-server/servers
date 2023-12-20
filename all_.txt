@@ -1,4 +1,5 @@
 https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Robert Candey, NASA-SPDF-Support@nasa.onmicrosoft.com
+https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET, INTERMAGNET, Edinburgh GIN manager, e_ginman@bgs.ac.uk
 http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@gmu.edu
 http://planet.physics.uiowa.edu/das/das2Server/hapi, DAS 2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
@@ -6,3 +7,4 @@ http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindho
 http://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
 http://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, vincent.genot@irap.omp.eu
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
+https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov

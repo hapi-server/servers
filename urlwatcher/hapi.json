@@ -8,5 +8,6 @@
 	"SSCWeb": "private/hapi/servers/sscweb.json",
 	"VirES-for-SWARM": "private/hapi/servers/vires.json",
 	"TestData": "private/hapi/servers/testdata.json",
-	"hapi-server.org": "private/hapi/servers/hapi-server.org.json"
+    "hapi-server.org": "private/hapi/servers/hapi-server.org.json",
+    "Helioviewer": "https://api.helioviewer.org/hapi/Helioviewer/hapi"
 }

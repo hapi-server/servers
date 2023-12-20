@@ -37,7 +37,7 @@
 		"emailAlerts": true,
 		"emailAlertsTo": "Robert.SWeigel@gmail.com",
 		"emailThreshold": 2,
-		"url": "https://hapi-server.org/servers/SSCWeb/hapi/data?id=mms1&parameters=X_TOD&time.min=2015-03-13T10:00:29.000Z&time.max=2015-03-14T10:00:29.000Z",
+		"url": "https://hapi-server.org/servers/SSCWeb/hapi/data?id=active&time.min=1990-01-01T00:00:00.000Z&time.max=1990-01-01T00:00:02.000Z",
 		"interval": 601000,
 		"testName": "data",
 		"tests": {
@@ -62,7 +62,8 @@
 			"md5Changed": false,
 			"firstByte": 2000,
 			"total": 2000,
-			"download": 1000
+		        "download": 1000,
+		        "bodyRegExp": ["0.5731567544"]		    
 		}
 	}
 ]

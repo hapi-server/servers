@@ -21,6 +21,24 @@
         "emailAlerts": true,
         "emailAlertsTo": "Robert.SWeigel@gmail.com",
         "emailThreshold": 2,
+        "url": "http://hapi-server.org/all_.txt",
+        "interval": 60000,
+        "testName": "all_.txt",
+        "tests": {
+            "timeout": 2000,
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["cdaweb",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
         "url": "http://rweigel.dynu.net/plot",
         "timeout": 2000,
         "interval": 300000,

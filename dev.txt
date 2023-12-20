@@ -1,5 +1,6 @@
 https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET (dev), INTERMAGNET, Edinburgh GIN manager, e_ginman@bgs.ac.uk
 https://jfaden.net/HapiServerDemo/hapi, Faden Test Server, FadenTest, Jeremy Faden, faden@cottagesystems.com
+http://planet.physics.uiowa.edu/das/das2Server/hapi, DAS 2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu
 https://pds-ppi.igpp.ucla.edu/hapi, UCLA PDS Node, PDS, In Sook Moon, imoon@igpp.ucla.edu
 http://hapi.ftecs.com/hapi, Fundamental Tech RBSPICE, RBSPICE, Jerry W. Manweiler, Manweiler@ftecs.com
 https://staging.viresdisc.vires.services/hapi, VirES for Swarm (dev), VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services

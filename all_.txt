@@ -4,6 +4,6 @@ http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu
 http://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
-http://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, vincent.genot@irap.omp.eu
+https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, vincent.genot@irap.omp.eu
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
 https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov

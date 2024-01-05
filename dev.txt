@@ -10,4 +10,4 @@ https://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bo
 https://hapi-server.org/servers/TestData2.1/hapi, 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
 https://hapi-server.org/servers/TestData3.0/hapi, 3.0 Test Data, TestData3.0, Bob Weigel, rweigel@gmu.edu
 https://hapi-server.org/servers/TestData3.1/hapi, 3.1 Test Data, TestData3.1, Bob Weigel, rweigel@gmu.edu
-https://csatools.esac.esa.int/HapiServer/hapi, 3.0 ESAC Cluster S/C Archive (ope), ESAC-Cluster, esdc_cluster_logs@cosmos.esa.int
+https://csatools.esac.esa.int/HapiServer/hapi, 3.0 ESAC Cluster S/C Archive (ope), ESAC-Cluster, esdc_cluster_logs@cosmos.esa.int, esdc_cluster_logs@cosmos.esa.int

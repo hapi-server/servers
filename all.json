@@ -1,0 +1,67 @@
+{
+    "servers": [
+        {
+            "landing" : "https://cdaweb.gsfc.nasa.gov/hapi",
+            "title" : "CDAWeb",
+            "id" : "CDAWeb",
+            "contact" : "Robert Candey",
+            "contactEmail" : "NASA-SPDF-Support@nasa.onmicrosoft.com"
+        },
+        {
+            "landing" : "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+            "title" : "INTERMAGNET",
+            "id" : "INTERMAGNET",
+            "contact" : "Edinburgh GIN manager",
+            "contactEmail" : "e_ginman@bgs.ac.uk"
+        },
+        {
+            "landing" : "http://hapi-server.org/servers/SSCWeb/hapi",
+            "title" : "SSCWeb",
+            "id" : "SSCWeb",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+            "title" : "CCMC ISWA",
+            "id" : "CCMC_ISWA",
+            "contact" : "Rick Mullinix",
+            "contactEmail" : "richard.e.mullinix@nasa.gov"
+        },
+        {
+            "landing" : "http://lasp.colorado.edu/lisird/hapi",
+            "title" : "LISIRD",
+            "id" : "LISIRD",
+            "contact" : "Doug Lindholm",
+            "contactEmail" : "Doug.Lindholm@lasp.colorado.edu"
+        },
+        {
+            "landing" : "http://hapi-server.org/servers/TestData2.0/hapi",
+            "title" : "2.0 Test Data",
+            "id" : "TestData2.0",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://amda.irap.omp.eu/service/hapi",
+            "title" : "AMDA",
+            "id" : "AMDA",
+            "contact" : "Vincent Génot",
+            "contactEmail" : "vincent.genot@irap.omp.eu"
+        },
+        {
+            "landing" : "https://vires.services/hapi",
+            "title" : "VirES for Swarm",
+            "id" : "VirES-for-Swarm",
+            "contact" : "Martin Pačes (EOX)",
+            "contactEmail" : "feedback@vires.services"
+        },
+        {
+            "landing" : "https://api.helioviewer.org/hapi/Helioviewer/hapi",
+            "title" : "Helioviewer",
+            "id" : "Helioviewer",
+            "contact" : "Daniel Garcia Briseno",
+            "contactEmail" : "daniel.garciabriseno@nasa.gov"
+        }
+    ]
+}

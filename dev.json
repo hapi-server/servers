@@ -1,0 +1,95 @@
+{
+    "servers" : [
+        {
+            "landing" : "https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi",
+            "title" : "INTERMAGNET (dev)",
+            "id" : "INTERMAGNET",
+            "contact" : "Edinburgh GIN manager",
+            "contactEmail" : "e_ginman@bgs.ac.uk"
+        },
+        {
+            "landing" : "https://jfaden.net/HapiServerDemo/hapi",
+            "title" : "Faden Test Server",
+            "id" : "FadenTest",
+            "contact" : "Jeremy Faden",
+            "contactEmail" : "faden@cottagesystems.com"
+        },
+        {
+            "landing" : "http://planet.physics.uiowa.edu/das/das2Server/hapi",
+            "title" : "DAS 2",
+            "id" : "DAS2",
+            "contact" : "Jeremy Faden",
+            "contactEmail" : "jeremy-faden@uiowa.edu"
+        },
+        {
+            "landing" : "https://pds-ppi.igpp.ucla.edu/hapi",
+            "title" : "UCLA PDS Node",
+            "id" : "PDS",
+            "contact" : "In Sook Moon",
+            "contactEmail" : "imoon@igpp.ucla.edu"
+        },
+        {
+            "landing" : "http://hapi.ftecs.com/hapi",
+            "title" : "Fundamental Tech RBSPICE",
+            "id" : "RBSPICE",
+            "contact" : "Jerry W. Manweiler",
+            "contactEmail" : "Manweiler@ftecs.com"
+        },
+        {
+            "landing" : "https://staging.viresdisc.vires.services/hapi",
+            "title" : "VirES for Swarm (dev)",
+            "id" : "VirES-for-Swarm",
+            "contact" : "Martin Pačes (EOX)",
+            "contactEmail" : "feedback@vires.services"
+        },
+        {
+            "landing" : "https://cottagesystems.com/server/esac/hapi",
+            "title" : "ESAC Cluster S/C Archive (dev)",
+            "id" : "ESAC-Cluster",
+            "contact" : "Jeremy Faden",
+            "contactEmail" : "faden@cottagesystems.org"
+        },
+        {
+            "landing" : "https://cottagesystems.com/server/cdaweb/hapi",
+            "title" : "CDAWeb (dev)",
+            "id" : "CDAWebDev",
+            "contact" : "Jeremy Faden",
+            "contactEmail" : "faden@cottagesystems.org"
+        },
+        {
+            "landing" : "https://hapi-server.org/servers/TestData2.0/hapi",
+            "title" : "2.0 Test Data",
+            "id" : "TestData2.0",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://hapi-server.org/servers/TestData2.1/hapi",
+            "title" : "2.1 Test Data",
+            "id" : "TestData2.1",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://hapi-server.org/servers/TestData3.0/hapi",
+            "title" : "3.0 Test Data",
+            "id" : "TestData3.0",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://hapi-server.org/servers/TestData3.1/hapi",
+            "title" : "3.1 Test Data",
+            "id" : "TestData3.1",
+            "contact" : "Bob Weigel",
+            "contactEmail" : "rweigel@gmu.edu"
+        },
+        {
+            "landing" : "https://csatools.esac.esa.int/HapiServer/hapi",
+            "title" : "3.0 ESAC Cluster S/C Archive (ope)",
+            "id" : "ESAC-Cluster",
+            "contact" : "esdc_cluster_logs@cosmos.esa.int",
+            "contactEmail" : "esdc_cluster_logs@cosmos.esa.int"
+        }
+    ]
+}

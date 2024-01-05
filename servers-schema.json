@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "servers": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "landing": {
+              "type": "string",
+              "description": "The landing page for the HAPI server"
+            },
+            "title": {
+              "type": "string",
+              "description": "Short description for the server (<50 characters)"
+            },
+            "id": {
+              "type": "string",
+              "description": "Compact identifier for the server, not containing spaces, slashes, or parenthesis"
+            },
+            "contact": {
+              "type": "string",
+              "description": "Name of the person or entity to contact.  This contact maintains the server and can answer questions about the data on the server."
+            },
+            "contactEmail": {
+              "type": "string",
+              "description": "Email of the contact person or entity"
+              
+            }
+          },
+          "required": [
+            "landing",
+            "title",
+            "id",
+            "contact",
+            "contactEmail"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "servers"
+  ]
+}

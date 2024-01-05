@@ -2,6 +2,10 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
+    "$schema" : {
+      "description" : "schema declaration is sometimes found in response.",
+      "type" : "string"
+    },    
     "servers": {
       "type": "array",
       "items": [
@@ -13,29 +17,32 @@
               "description": "The landing page for the HAPI server"
             },
             "title": {
-              "type": "string",
-              "description": "Short description for the server (<50 characters)"
+              "description": "A short human-readable name for the server. The suggested maximum length is 40 characters.",
+              "type": "string"
             },
             "id": {
-              "type": "string",
-              "description": "Compact identifier for the server, not containing spaces, slashes, or parenthesis"
+              "description":"A unique ID for the server. Ideally, this ID has the organization name in it, e.g., NASA/SPDF/SSCWeb, NASA/SPDF/CDAWeb, INTERMAGNET, UniversityIowa/VanAllen, LASP/TSI, etc.",
+              "type": "string"
             },
+            "description" : {
+              "type" : "string",
+              "description" : "A brief description of the type of data the server provides."
+            },
+            "citation" : {
+              "description" : "How to cite the server. An actionable DOI is preferred (e.g., https://doi.org/...). This citation differs from the citation in an /info response. Here the citation is for the entity that maintains the data server.",
+              "type" : "string"
+            },            
             "contact": {
-              "type": "string",
-              "description": "Name of the person or entity to contact.  This contact maintains the server and can answer questions about the data on the server."
+              "description": "Contact information or email address for server issues. HAPI clients should show this contact information when it is certain that an error is due to a problem with the server (as opposed to the client).",
+              "type": "string"              
             },
-            "contactEmail": {
-              "type": "string",
-              "description": "Email of the contact person or entity"
-              
-            }
+            "contactID" : {
+              "description" : "The identifier in the discovery system for information about the contact. For example, a SPASE ID of a person identified in the contact string.",
+              "type" : "string"
+            },            
           },
           "required": [
-            "landing",
-            "title",
-            "id",
-            "contact",
-            "contactEmail"
+            "landing"
           ]
         }
       ]

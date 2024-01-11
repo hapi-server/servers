@@ -6247,6 +6247,47 @@
     },
     {
       "description": "<br/> Sampling: 20M<br/> Provider: SPICE",
+      "id": "iapetus-orb-all",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_r",
+          "units": "Rs"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_ksm",
+          "units": "Rs"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_kso",
+          "units": "Rs"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_xyz",
+          "units": "Rs"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "iap_sat_lon",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 20M<br/> Provider: SPICE",
       "id": "mimas-orb-all",
       "parameters": [
         {
@@ -8045,6 +8086,48 @@
       ]
     },
     {
+      "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "gll-jrm09-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_60_1_gll_xyz_iau",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm09_can_tot_60_1_gll_xyz_iau",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM33 + Con2020 jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "gll-jrm33-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_60_1_gll_xyz_iau",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_tot_60_1_gll_xyz_iau",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "<br/> Sampling: 300S",
       "id": "gll-mod-khurana",
       "parameters": [
@@ -9816,6 +9899,285 @@
       ]
     },
     {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n0",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n0",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n0",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n0",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n1",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n1",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n1",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n1",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n2",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n2",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n2",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n2",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n3",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n3",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n3",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n3",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n4",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n4",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n4",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n4",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n5",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n5",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n5",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n5",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n5",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n6",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n6",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n6",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n6",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n6",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n7",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n7",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n7",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n7",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n7",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1H<br/> Provider: HelioSwarm Team",
+      "id": "hs-ephem-n8",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Position in GSE coordinates",
+          "name": "hs_ephem_xyz_gse_n8",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_mag_n8",
+          "units": "Re"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_ta_n8",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "hs_ephem_tmfr_n8",
+          "units": "g/hr"
+        }
+      ]
+    },
+    {
       "description": "Helios corefit data product : auxilliary<br/> MinSampling: 40S; MaxSampling: 300S<br/> Provider: Helios Data Archive",
       "id": "helios1-aux-corefit",
       "parameters": [
@@ -11583,6 +11945,108 @@
       ]
     },
     {
+      "description": "<br/> Sampling: 1H<br/> Provider: ESA",
+      "id": "juice-cruise-cr51",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_xyz_hee",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_xyz_hci",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_xyz_iausun",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_r",
+          "units": "AU"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lon_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lat_hee",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lon_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lat_hci",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lon_iausun",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_cr51_lat_iausun",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5M",
+      "id": "juice-jup-cr51",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_xyz",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_r",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_lon",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_lat",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_jsm",
+          "units": "Rj"
+        },
+        {
+          "description": "",
+          "name": "juice_jucr51_jso",
+          "units": "Rj"
+        }
+      ]
+    },
+    {
       "description": "JRM09 + CAN jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
       "id": "juice30-jrm09-model",
       "parameters": [
@@ -11641,6 +12105,69 @@
         {
           "description": "",
           "name": "b_jrm09_can_tot_60_1_juice_jucr41_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM33 + Con2020 jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice30-jrm33-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_60_1_juice_jucr30_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_tot_60_1_juice_jucr30_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM33 + Con2020 jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice32-jrm33-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_60_1_juice_jucr32_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_tot_60_1_juice_jucr32_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM33 + Con2020 jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "juice41-jrm33-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_60_1_juice_jucr41_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_tot_60_1_juice_jucr41_xyz",
           "units": "nT"
         }
       ]
@@ -11994,6 +12521,16 @@
           "description": "",
           "name": "jedi_e90_mode",
           "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_e90_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_e90_ssd",
+          "units": ""
         }
       ]
     },
@@ -12024,6 +12561,16 @@
         {
           "description": "",
           "name": "jedi_e180_mode",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_e180_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_e180_ssd",
           "units": ""
         }
       ]
@@ -12056,6 +12603,16 @@
           "description": "",
           "name": "jedi_e270_mode",
           "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_e270_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_e270_ssd",
+          "units": ""
         }
       ]
     },
@@ -12086,6 +12643,16 @@
         {
           "description": "",
           "name": "jedi_i90_mode",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_i90_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_i90_ssd",
           "units": ""
         }
       ]
@@ -12118,6 +12685,16 @@
           "description": "",
           "name": "jedi_i180_mode",
           "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_i180_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_i180_ssd",
+          "units": ""
         }
       ]
     },
@@ -12149,6 +12726,16 @@
           "description": "",
           "name": "jedi_i270_mode",
           "units": ""
+        },
+        {
+          "description": "",
+          "name": "jedi_i270_pa",
+          "units": "deg"
+        },
+        {
+          "description": "",
+          "name": "jedi_i270_ssd",
+          "units": ""
         }
       ]
     },
@@ -12169,6 +12756,27 @@
         {
           "description": "",
           "name": "b_jrm09_can_tot_60_1_juno_jup_xyz",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "JRM33 + Con2020 jovian magnetic field model<br/> Sampling: 1M<br/> Provider: IRAP",
+      "id": "jun-jrm33-model",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_60_1_juno_jup_xyz",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "b_jrm33_con_tot_60_1_juno_jup_xyz",
           "units": "nT"
         }
       ]
@@ -29336,7 +29944,7 @@
       ]
     },
     {
-      "description": "Voayger 1 cruisw phase<br/> Sampling: 10H<br/> Provider: NAIF",
+      "description": "Voyager 1 cruise phase<br/> Sampling: 10H<br/> Provider: NAIF",
       "id": "vo1-ephem-all",
       "parameters": [
         {

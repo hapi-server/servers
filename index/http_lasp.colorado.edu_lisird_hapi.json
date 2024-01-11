@@ -28,7 +28,53 @@
     },
     {
       "description": "",
-      "id": "yeo_nonempirical_tsi_reconstruction",
+      "id": "cak",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "emdx",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "viored",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "k2vk3",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delk1",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delk2",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "delwb",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "k3",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "composite_lyman_alpha",
       "parameters": [
         {
           "description": "",
@@ -38,7 +84,217 @@
         {
           "description": "",
           "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "type",
           "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "composite_mg_index",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "mg_index",
+          "units": "core to wing ratio (unitless)"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "empire_tsi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "historical_tsi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "Irradiance",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_see",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_sim",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_solstice_fuv",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "musil_solstice_muv",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "flux",
+          "units": "mW/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "correction",
+          "units": "unitless"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nn_sim_tsi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_ssi_P1D",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_ssi_P1M",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
         }
       ]
     },
@@ -65,6 +321,100 @@
     },
     {
       "description": "",
+      "id": "nrl2_tsi_P1D",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_tsi_P1M",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "nrl2_tsi_P1Y",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "sdo_eve_ssi_1nm_l3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "stdev",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "precision",
+          "units": "undefined"
+        },
+        {
+          "description": "",
+          "name": "accuracy",
+          "units": "undefined"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "sme_ssi",
       "parameters": [
         {
@@ -86,27 +436,6 @@
           "description": "",
           "name": "quality",
           "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nn_sim_tsi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
         }
       ]
     },
@@ -254,7 +583,7 @@
     },
     {
       "description": "",
-      "id": "composite_mg_index",
+      "id": "tcte_tsi_24hr",
       "parameters": [
         {
           "description": "",
@@ -263,385 +592,63 @@
         },
         {
           "description": "",
-          "name": "mg_index",
-          "units": "core to wing ratio (unitless)"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_solstice_muv",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_ssi_P1M",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_P1D",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
+          "name": "tsi_1au",
           "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_P1M",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
+          "name": "instrument_accuracy_1au",
           "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_tsi_P1Y",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
+          "name": "instrument_precision_1au",
           "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "nrl2_ssi_P1D",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_sim",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "cak",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "emdx",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "viored",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "k2vk3",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delk1",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delk2",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "delwb",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "k3",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "uars_solstice_ssi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_ssi_l3a",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "historical_tsi",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "Irradiance",
-          "units": "W/m^2"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "composite_lyman_alpha",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
+          "name": "solar_standard_deviation_1au",
           "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "uncertainty",
+          "name": "measurement_uncertainty_1au",
           "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "type",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_xps_ssi_l4",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
+          "name": "tsi_true_earth",
+          "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_see",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
+          "name": "instrument_accuracy_true_earth",
+          "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "flux",
-          "units": "W/m^2/nm"
+          "name": "instrument_precision_true_earth",
+          "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "correction",
-          "units": "unitless"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_ssi_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
+          "name": "solar_standard_deviation_true_earth",
+          "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
+          "name": "measurement_uncertainty_true_earth",
+          "units": "W/m^2"
         },
         {
           "description": "",
-          "name": "uncertainty",
-          "units": "W/m^2/nm"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "sdo_eve_ssi_1nm_l3",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
+          "name": "avg_measurement_date",
+          "units": "Julian Date"
         },
         {
           "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "stdev",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "precision",
-          "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "accuracy",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "timed_see_egs_ssi_l2",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "irradiance",
-          "units": "W/m^2/nm"
+          "name": "std_dev_measurement_date",
+          "units": "days"
         }
       ]
     },
@@ -718,7 +725,7 @@
     },
     {
       "description": "",
-      "id": "tcte_tsi_24hr",
+      "id": "timed_see_egs_ssi_l2",
       "parameters": [
         {
           "description": "",
@@ -727,100 +734,88 @@
         },
         {
           "description": "",
-          "name": "tsi_1au",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "instrument_accuracy_1au",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "instrument_precision_1au",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "solar_standard_deviation_1au",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "measurement_uncertainty_1au",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "tsi_true_earth",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "instrument_accuracy_true_earth",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "instrument_precision_true_earth",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "solar_standard_deviation_true_earth",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "measurement_uncertainty_true_earth",
-          "units": "W/m^2"
-        },
-        {
-          "description": "",
-          "name": "avg_measurement_date",
-          "units": "Julian Date"
-        },
-        {
-          "description": "",
-          "name": "std_dev_measurement_date",
-          "units": "days"
+          "name": "irradiance",
+          "units": "W/m^2/nm"
         }
       ]
     },
     {
       "description": "",
-      "id": "whi_ref_spectra",
+      "id": "timed_see_ssi_l3",
       "parameters": [
         {
           "description": "",
-          "name": "wavelength",
-          "units": "nm"
+          "name": "time",
+          "units": "UTC"
         },
         {
           "description": "",
-          "name": "irradiance_mar25_mar29",
+          "name": "irradiance",
           "units": "W/m^2/nm"
         },
         {
           "description": "",
-          "name": "irradiance_mar30_apr04",
+          "name": "uncertainty",
           "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "irradiance_apr10_apr16",
-          "units": "W/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "source",
-          "units": "1: TIMED XPS, 2: Rocket EVE, 3: TIMED EGS, 4: SORCE SOLSTICE, 5: SORCE SIM, -1: fill"
         }
       ]
     },
     {
       "description": "",
-      "id": "empire_tsi",
+      "id": "timed_see_ssi_l3a",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "timed_see_xps_ssi_l4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "uars_solstice_ssi",
+      "parameters": [
+        {
+          "description": "",
+          "name": "time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "irradiance",
+          "units": "W/m^2/nm"
+        },
+        {
+          "description": "",
+          "name": "uncertainty",
+          "units": "W/m^2/nm"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "yeo_nonempirical_tsi_reconstruction",
       "parameters": [
         {
           "description": "",
@@ -831,32 +826,6 @@
           "description": "",
           "name": "irradiance",
           "units": "undefined"
-        },
-        {
-          "description": "",
-          "name": "uncertainty",
-          "units": "undefined"
-        }
-      ]
-    },
-    {
-      "description": "",
-      "id": "musil_solstice_fuv",
-      "parameters": [
-        {
-          "description": "",
-          "name": "time",
-          "units": "UTC"
-        },
-        {
-          "description": "",
-          "name": "flux",
-          "units": "mW/m^2/nm"
-        },
-        {
-          "description": "",
-          "name": "correction",
-          "units": "unitless"
         }
       ]
     }

@@ -10,9 +10,9 @@
     "index": "https_cdaweb.gsfc.nasa.gov_hapi.json"
   },
   {
-    "URL": "http://planet.physics.uiowa.edu/das/das2Server/hapi",
-    "coverage": "http_planet.physics.uiowa.edu_das_das2Server_hapi_coverage.json",
-    "index": "http_planet.physics.uiowa.edu_das_das2Server_hapi.json"
+    "URL": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+    "coverage": "https_imag-data.bgs.ac.uk_GIN_V1_hapi_coverage.json",
+    "index": "https_imag-data.bgs.ac.uk_GIN_V1_hapi.json"
   },
   {
     "URL": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
@@ -30,14 +30,19 @@
     "index": "http_hapi-server.org_servers_TestData2.0_hapi.json"
   },
   {
-    "URL": "http://amda.irap.omp.eu/service/hapi",
-    "coverage": "http_amda.irap.omp.eu_service_hapi_coverage.json",
-    "index": "http_amda.irap.omp.eu_service_hapi.json"
+    "URL": "https://amda.irap.omp.eu/service/hapi",
+    "coverage": "https_amda.irap.omp.eu_service_hapi_coverage.json",
+    "index": "https_amda.irap.omp.eu_service_hapi.json"
   },
   {
     "URL": "https://vires.services/hapi",
     "coverage": "https_vires.services_hapi_coverage.json",
     "index": "https_vires.services_hapi.json"
+  },
+  {
+    "URL": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
+    "coverage": "https_api.helioviewer.org_hapi_Helioviewer_hapi_coverage.json",
+    "index": "https_api.helioviewer.org_hapi_Helioviewer_hapi.json"
   },
   {
     "URL": "https://jfaden.net/HapiServerDemo/hapi",

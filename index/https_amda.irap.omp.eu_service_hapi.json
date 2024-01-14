@@ -8900,57 +8900,6 @@
       ]
     },
     {
-      "description": "<br/> MinSampling: 0.333S; MaxSampling: 12S<br/> Provider: PDS",
-      "id": "gll-orb-eu",
-      "parameters": [
-        {
-          "description": "",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "Galileo trajectory coordinates in EPIO coordinates",
-          "name": "gll_orb_euxyzephio",
-          "units": "Reu"
-        },
-        {
-          "description": "Galileo distance to Europa (in Europa Radii)",
-          "name": "gll_orb_euresprh",
-          "units": "Reu"
-        },
-        {
-          "description": "Galileo latitude in ESPRH coordinates",
-          "name": "gll_orb_eulatesprh",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo longitude in ESPRH coordinates",
-          "name": "gll_orb_eulonesprh",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo distance to Jupiter in Jovian Radii",
-          "name": "gll_orb_eursys3",
-          "units": "Reu"
-        },
-        {
-          "description": "Galileo latitude in System III coordinates",
-          "name": "gll_orb_eulatsys3",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo east-longitude in System III coordinates",
-          "name": "gll_orb_eulonesys3",
-          "units": "deg"
-        },
-        {
-          "description": "Galileo west-longitude in System III coordinates",
-          "name": "gll_orb_eulonwsys3",
-          "units": "deg"
-        }
-      ]
-    },
-    {
       "description": "<br/> MinSampling: 0.3S; MaxSampling: 24S<br/> Provider: PDS",
       "id": "gll-orb-ga",
       "parameters": [
@@ -13373,11 +13322,18 @@
     {
       "description": "<br/> Sampling: 1S<br/> Provider: PADC/MASER",
       "id": "juno-wav-l3f",
-      "parameters": [{
-        "description": "",
-        "name": "Time",
-        "units": "UTC"
-      }]
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "juno_wav_l3f",
+          "units": "(VÂ²/mÂ²)/Hz"
+        }
+      ]
     },
     {
       "description": "<br/> MinSampling: 1S; MaxSampling: 10S<br/> Provider: PDS",
@@ -27018,6 +26974,74 @@
       ]
     },
     {
+      "description": "Pitch angle distribution<br/> Sampling: 0.125S<br/> Provider: SOAR",
+      "id": "solo-eas-pad",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron pitch angle data - Phase Space Density",
+          "name": "eas_pad_psd",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        }
+      ]
+    },
+    {
+      "description": "Nominal Mode 3D<br/> Sampling: 10S<br/> Provider: SOAR",
+      "id": "solo-eas1-nm3d",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas1_nm3d_2d_elevation",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas1_nm3d_2d_azimuth",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas1_nm3d_2d_energy",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        }
+      ]
+    },
+    {
+      "description": "Nominal Mode 3D<br/> Sampling: 10S<br/> Provider: SOAR",
+      "id": "solo-eas2-nm3d",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas2_nm3d_2d_elevation",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas2_nm3d_2d_azimuth",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        },
+        {
+          "description": "Phase Space Density",
+          "name": "eas2_nm3d_2d_energy",
+          "units": "eV mâ\u0081»Â² sâ\u0081»Â¹ srâ\u0081»Â¹ eVâ\u0081»Â¹"
+        }
+      ]
+    },
+    {
       "description": "Electron Flux From AntiSun Direction<br/> MinSampling: 60S; MaxSampling: 300S<br/> Provider: http://soar.esac.esa.int/soar",
       "id": "so-ept-e.anti",
       "parameters": [
@@ -28540,6 +28564,362 @@
       ]
     },
     {
+      "description": "Solar Wind Analyzer, Heavy Ion Sensor, Composition 10 Minute Resolution<br/> Sampling: 600S<br/> Provider: SOAR",
+      "id": "solo-his-comp10min",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_nerr",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_nqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_ths",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_thserr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_thsqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_verr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He2_vqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_nerr",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_nqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_ths",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_thserr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_thsqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_verr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C5_vqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_nerr",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_nqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_ths",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_thserr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_thsqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_verr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O6_vqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_nerr",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_nqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_ths",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_thserr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_thsqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_verr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe10_vqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O7_O6_r",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O7_O6_rerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_O7_O6_rqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C4_r",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C4_rerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C4_rqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C5_r",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C5_rerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C6_C5_rqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Fe_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_C_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_He_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Mg_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Mg_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Mg_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Si_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Si_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Si_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Ne_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Ne_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_Ne_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_S_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_S_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_S_O_aqf",
+          "units": ""
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_N_O_a",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_N_O_aerr",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "solo_his_comp10min_N_O_aqf",
+          "units": ""
+        }
+      ]
+    },
+    {
       "description": "Low Latency Magnetic Field : Not for Publication<br/> Sampling: 8S<br/> Provider: http://soar.esac.esa.int/soar",
       "id": "solo-mag-8s",
       "parameters": [
@@ -28723,6 +29103,574 @@
           "description": "Average probe-to-spacecraft potential. Median over 10 s interval.",
           "name": "solo_rpw10s_psp",
           "units": "V"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 4S; MaxSampling: 1H<br/> Provider: SOAR",
+      "id": "solo-rpw-survasm.f0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwasmf0_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwasmf0_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwasmf0_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwasmf0_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwasmf0_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 4S; MaxSampling: 1H<br/> Provider: SOAR",
+      "id": "solo-rpw-survasm.f1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwasmf1_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwasmf1_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwasmf1_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwasmf1_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwasmf1_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> MinSampling: 4S; MaxSampling: 1H<br/> Provider: SOAR",
+      "id": "solo-rpw-survasm.f2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwasmf2_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwasmf2_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwasmf2_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwasmf2_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwasmf2_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp1.bf0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral power of B field in normal mode",
+          "name": "solo_rpwbp1bf0_pb",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "Spectral power of E field in normal mode",
+          "name": "solo_rpwbp1bf0_pe",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "Degree of polarization from magnetic field in normal mode",
+          "name": "solo_rpwbp1bf0_dop",
+          "units": ""
+        },
+        {
+          "description": "Wave ellipticity from magnetic field in normal mode",
+          "name": "solo_rpwbp1bf0_ellip",
+          "units": ""
+        },
+        {
+          "description": "Component 1 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf0_n1",
+          "units": ""
+        },
+        {
+          "description": "Component 2 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf0_n2",
+          "units": ""
+        },
+        {
+          "description": "Component 3 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf0_n3",
+          "units": ""
+        },
+        {
+          "description": "Real part of the X component of the Poynting vector in normal mode",
+          "name": "solo_rpwbp1bf0_sx",
+          "units": "nW/mÂ²/Hz"
+        },
+        {
+          "description": "Phase velocity estimated from the X projection of Maxwell-Faraday equation in normal mode",
+          "name": "solo_rpwbp1bf0_vphi",
+          "units": "km/s"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 1S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp1.bf1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral power of B field in normal mode",
+          "name": "solo_rpwbp1bf1_pb",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "Spectral power of E field in normal mode",
+          "name": "solo_rpwbp1bf1_pe",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "Degree of polarization from magnetic field in normal mode",
+          "name": "solo_rpwbp1bf1_dop",
+          "units": ""
+        },
+        {
+          "description": "Wave ellipticity from magnetic field in normal mode",
+          "name": "solo_rpwbp1bf1_ellip",
+          "units": ""
+        },
+        {
+          "description": "Component 1 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf1_n1",
+          "units": ""
+        },
+        {
+          "description": "Component 2 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf1_n2",
+          "units": ""
+        },
+        {
+          "description": "Component 3 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1bf1_n3",
+          "units": ""
+        },
+        {
+          "description": "Real part of the X component of the Poynting vector in normal mode",
+          "name": "solo_rpwbp1bf1_sx",
+          "units": "nW/mÂ²/Hz"
+        },
+        {
+          "description": "Phase velocity estimated from the X projection of Maxwell-Faraday equation in normal mode",
+          "name": "solo_rpwbp1bf1_vphi",
+          "units": "km/s"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp1.nf0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral power of B field in normal mode",
+          "name": "solo_rpwbp1nf0_pb",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "Spectral power of E field in normal mode",
+          "name": "solo_rpwbp1nf0_pe",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "Degree of polarization from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf0_dop",
+          "units": ""
+        },
+        {
+          "description": "Wave ellipticity from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf0_ellip",
+          "units": ""
+        },
+        {
+          "description": "Component 1 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf0_n1",
+          "units": ""
+        },
+        {
+          "description": "Component 2 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf0_n2",
+          "units": ""
+        },
+        {
+          "description": "Component 3 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf0_n3",
+          "units": ""
+        },
+        {
+          "description": "Real part of the X component of the Poynting vector in normal mode",
+          "name": "solo_rpwbp1nf0_sx",
+          "units": "nW/mÂ²/Hz"
+        },
+        {
+          "description": "Phase velocity estimated from the X projection of Maxwell-Faraday equation in normal mode",
+          "name": "solo_rpwbp1nf0_vphi",
+          "units": "km/s"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp1.nf1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral power of B field in normal mode",
+          "name": "solo_rpwbp1nf1_pb",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "Spectral power of E field in normal mode",
+          "name": "solo_rpwbp1nf1_pe",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "Degree of polarization from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf1_dop",
+          "units": ""
+        },
+        {
+          "description": "Wave ellipticity from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf1_ellip",
+          "units": ""
+        },
+        {
+          "description": "Component 1 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf1_n1",
+          "units": ""
+        },
+        {
+          "description": "Component 2 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf1_n2",
+          "units": ""
+        },
+        {
+          "description": "Component 3 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf1_n3",
+          "units": ""
+        },
+        {
+          "description": "Real part of the X component of the Poynting vector in normal mode",
+          "name": "solo_rpwbp1nf1_sx",
+          "units": "nW/mÂ²/Hz"
+        },
+        {
+          "description": "Phase velocity estimated from the X projection of Maxwell-Faraday equation in normal mode",
+          "name": "solo_rpwbp1nf1_vphi",
+          "units": "km/s"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 4S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp1.nf2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Spectral power of B field in normal mode",
+          "name": "solo_rpwbp1nf2_pb",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "Spectral power of E field in normal mode",
+          "name": "solo_rpwbp1nf2_pe",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "Degree of polarization from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf2_dop",
+          "units": ""
+        },
+        {
+          "description": "Wave ellipticity from magnetic field in normal mode",
+          "name": "solo_rpwbp1nf2_ellip",
+          "units": ""
+        },
+        {
+          "description": "Component 1 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf2_n1",
+          "units": ""
+        },
+        {
+          "description": "Component 2 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf2_n2",
+          "units": ""
+        },
+        {
+          "description": "Component 3 of the Wave normal vector from magnetic field in normal mode in the SCM B1-B2-B3 axis system frame",
+          "name": "solo_rpwbp1nf2_n3",
+          "units": ""
+        },
+        {
+          "description": "Real part of the X component of the Poynting vector in normal mode",
+          "name": "solo_rpwbp1nf2_sx",
+          "units": "nW/mÂ²/Hz"
+        },
+        {
+          "description": "Phase velocity estimated from the X projection of Maxwell-Faraday equation in normal mode",
+          "name": "solo_rpwbp1nf2_vphi",
+          "units": "km/s"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp2.bf0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwbp2bf0_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwbp2bf0_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwbp2bf0_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwbp2bf0_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwbp2bf0_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 5S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp2.bf1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwbp2bf1_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwbp2bf1_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwbp2bf1_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwbp2bf1_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwbp2bf1_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 20S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp2.nf0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwbp2nf0_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwbp2nf0_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwbp2nf0_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwbp2nf0_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwbp2nf0_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 20S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp2.nf1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwbp2nf1_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwbp2nf1_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwbp2nf1_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwbp2nf1_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwbp2nf1_e2",
+          "units": "VÂ²/Hz"
+        }
+      ]
+    },
+    {
+      "description": "<br/> Sampling: 20S<br/> Provider: SOAR",
+      "id": "solo-rpw-survbp2.nf2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "B1B1*",
+          "name": "solo_rpwbp2nf2_b1",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B2B2*",
+          "name": "solo_rpwbp2nf2_b2",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "B3B3*",
+          "name": "solo_rpwbp2nf2_b3",
+          "units": "nTÂ²/Hz"
+        },
+        {
+          "description": "E1E1*",
+          "name": "solo_rpwbp2nf2_e1",
+          "units": "VÂ²/Hz"
+        },
+        {
+          "description": "E2E2*",
+          "name": "solo_rpwbp2nf2_e2",
+          "units": "VÂ²/Hz"
         }
       ]
     },

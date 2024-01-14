@@ -38,17 +38,17 @@
     {
       "id": "ace-orb-all",
       "startDate": "1997-08-25T17:48:00Z",
-      "stopDate": "2023-12-11T23:59:00Z"
+      "stopDate": "2024-01-31T23:59:00Z"
     },
     {
       "id": "ace-imf-all",
       "startDate": "1997-09-02T00:00:12Z",
-      "stopDate": "2023-12-09T23:59:58Z"
+      "stopDate": "2023-12-30T23:59:55Z"
     },
     {
       "id": "ace-mag-real",
       "startDate": "2023-09-23T00:00:00Z",
-      "stopDate": "2023-12-21T03:59:59Z"
+      "stopDate": "2024-01-11T03:59:59Z"
     },
     {
       "id": "ace-swe-all",
@@ -58,7 +58,7 @@
     {
       "id": "ace-swepam-real",
       "startDate": "2023-09-23T00:00:00Z",
-      "stopDate": "2023-12-21T02:59:59Z"
+      "stopDate": "2024-01-11T02:59:59Z"
     },
     {
       "id": "ace-swepam-stea",
@@ -68,7 +68,7 @@
     {
       "id": "ace-swp-all",
       "startDate": "2001-01-01T00:00:00Z",
-      "stopDate": "2023-12-09T23:55:00Z"
+      "stopDate": "2023-12-30T23:55:00Z"
     },
     {
       "id": "cce-mag-all",
@@ -153,72 +153,72 @@
     {
       "id": "athp1-esa-l2e",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:54:49Z"
+      "stopDate": "2024-01-08T11:31:14Z"
     },
     {
       "id": "athp1-esa-l2i",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:56:11Z"
+      "stopDate": "2024-01-08T11:38:54Z"
     },
     {
       "id": "athp1-peem-all",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:56:23Z"
+      "stopDate": "2024-01-08T11:31:52Z"
     },
     {
       "id": "athp1-peim-all",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:56:23Z"
+      "stopDate": "2024-01-08T11:31:52Z"
     },
     {
       "id": "athp1-orb-all",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:55:15Z"
+      "stopDate": "2024-01-08T07:05:55Z"
     },
     {
       "id": "athp1-fgm-l",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T18:55:15Z"
+      "stopDate": "2024-01-08T07:05:55Z"
     },
     {
       "id": "athp1-fgm-s",
       "startDate": "2011-06-29T00:00:00Z",
-      "stopDate": "2023-12-18T13:46:55Z"
+      "stopDate": "2024-01-08T06:40:26Z"
     },
     {
       "id": "athp2-esa-l2e",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T19:32:13Z"
+      "stopDate": "2024-01-09T05:39:42Z"
     },
     {
       "id": "athp2-esa-l2i",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T19:32:05Z"
+      "stopDate": "2024-01-09T05:39:38Z"
     },
     {
       "id": "athp2-peem-all",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T19:33:38Z"
+      "stopDate": "2024-01-09T05:41:00Z"
     },
     {
       "id": "athp2-peim-all",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T19:33:38Z"
+      "stopDate": "2024-01-09T05:41:00Z"
     },
     {
       "id": "athp2-orb-all",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "athp2-fgm-l",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T19:32:51Z"
+      "stopDate": "2024-01-09T05:40:18Z"
     },
     {
       "id": "athp2-fgm-s",
       "startDate": "2011-07-17T00:00:00Z",
-      "stopDate": "2023-12-17T16:48:38Z"
+      "stopDate": "2024-01-09T00:00:43Z"
     },
     {
       "id": "bepi-cruise-all",
@@ -572,8 +572,8 @@
     },
     {
       "id": "clust1-pea-mom",
-      "startDate": "2001-01-10T00:02:11Z",
-      "stopDate": "2021-12-30T18:55:00Z"
+      "startDate": "2001-01-09T15:15:23Z",
+      "stopDate": "2021-12-31T21:04:57Z"
     },
     {
       "id": "clust1-pea-pa",
@@ -627,8 +627,8 @@
     },
     {
       "id": "clust2-pea-mom",
-      "startDate": "2001-01-10T00:01:11Z",
-      "stopDate": "2021-12-30T23:59:41Z"
+      "startDate": "2001-08-01T00:00:11Z",
+      "stopDate": "2021-12-31T23:59:51Z"
     },
     {
       "id": "clust2-pea-pa",
@@ -788,22 +788,22 @@
     {
       "id": "dsc-fc-1m",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "dsc-fc-3s",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:40Z"
+      "stopDate": "2024-01-10T23:59:40Z"
     },
     {
       "id": "dsc-mag-1m",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "dsc-mag-1s",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:59Z"
+      "stopDate": "2024-01-10T23:59:59Z"
     },
     {
       "id": "dstar1-orb-all",
@@ -1196,11 +1196,6 @@
       "stopDate": "2001-05-25T11:45:04Z"
     },
     {
-      "id": "gll-orb-eu",
-      "startDate": "1996-12-19T06:33:27Z",
-      "stopDate": "2000-01-03T18:30:14Z"
-    },
-    {
       "id": "gll-orb-ga",
       "startDate": "1996-06-27T06:07:08Z",
       "stopDate": "2000-12-28T08:55:20Z"
@@ -1493,7 +1488,7 @@
     {
       "id": "ground-based-aa",
       "startDate": "1975-01-01T00:00:00Z",
-      "stopDate": "2023-12-17T21:00:00Z"
+      "stopDate": "2024-01-08T21:00:00Z"
     },
     {
       "id": "ground-based-aei",
@@ -1503,7 +1498,7 @@
     {
       "id": "ground-based-am",
       "startDate": "1975-01-01T00:00:00Z",
-      "stopDate": "2023-12-17T21:00:00Z"
+      "stopDate": "2024-01-08T21:00:00Z"
     },
     {
       "id": "ground-based-asy",
@@ -1513,12 +1508,12 @@
     {
       "id": "ground-based-dst",
       "startDate": "1970-01-01T00:00:00Z",
-      "stopDate": "2023-12-17T23:00:00Z"
+      "stopDate": "2024-01-08T23:00:00Z"
     },
     {
       "id": "ground-based-sme",
       "startDate": "1975-01-01T00:00:00Z",
-      "stopDate": "2023-12-17T23:59:00Z"
+      "stopDate": "2023-12-31T23:59:00Z"
     },
     {
       "id": "indices-pc-all",
@@ -1697,7 +1692,7 @@
     },
     {
       "id": "juno-jupiter-all",
-      "startDate": "2016-08-30T00:00:00Z",
+      "startDate": "2016-06-01T00:00:00Z",
       "stopDate": "2025-10-19T23:55:00Z"
     },
     {
@@ -1807,12 +1802,12 @@
     },
     {
       "id": "jun-jrm09-model",
-      "startDate": "2016-08-30T00:00:00Z",
+      "startDate": "2016-06-01T00:00:00Z",
       "stopDate": "2025-10-19T23:55:00Z"
     },
     {
       "id": "jun-jrm33-model",
-      "startDate": "2016-08-30T00:00:00Z",
+      "startDate": "2016-06-01T00:00:00Z",
       "stopDate": "2025-10-19T23:55:00Z"
     },
     {
@@ -1843,7 +1838,7 @@
     {
       "id": "mvn-euv-clb",
       "startDate": "2014-10-18T00:00:16Z",
-      "stopDate": "2023-05-14T23:59:58Z"
+      "stopDate": "2023-08-14T23:59:58Z"
     },
     {
       "id": "mvn-euv-mod",
@@ -2168,17 +2163,17 @@
     {
       "id": "mms1-orb-t89d",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms1-fgm-brst",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2023-03-31T21:08:52Z"
+      "stopDate": "2023-11-28T21:18:33Z"
     },
     {
       "id": "mms1-fgm-srvy",
       "startDate": "2015-09-01T00:00:12Z",
-      "stopDate": "2023-09-24T00:00:01Z"
+      "stopDate": "2023-12-08T00:00:05Z"
     },
     {
       "id": "mms1-hpca-brst",
@@ -2188,37 +2183,37 @@
     {
       "id": "mms1-hpca-moms",
       "startDate": "2015-06-20T20:55:22Z",
-      "stopDate": "2023-09-30T23:59:23Z"
+      "stopDate": "2023-12-09T23:59:27Z"
     },
     {
       "id": "mms1-msph-models",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms1-t96-model",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms1234-orb-t89d",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms2-orb-t89d",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms2-fgm-brst",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2023-03-31T21:08:52Z"
+      "stopDate": "2023-11-28T20:26:22Z"
     },
     {
       "id": "mms2-fgm-srvy",
       "startDate": "2015-09-01T00:00:03Z",
-      "stopDate": "2023-09-24T00:00:01Z"
+      "stopDate": "2023-12-08T00:00:03Z"
     },
     {
       "id": "mms2-hpca-brst",
@@ -2228,27 +2223,27 @@
     {
       "id": "mms2-msph-models",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms2-t96-model",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms3-orb-t89d",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms3-fgm-brst",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2023-03-31T21:08:52Z"
+      "stopDate": "2023-11-28T22:29:53Z"
     },
     {
       "id": "mms3-fgm-srvy",
       "startDate": "2015-09-01T00:00:06Z",
-      "stopDate": "2023-09-24T00:00:05Z"
+      "stopDate": "2023-12-08T00:00:02Z"
     },
     {
       "id": "mms3-hpca-brst",
@@ -2258,27 +2253,27 @@
     {
       "id": "mms3-msph-models",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms3-t96-model",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms4-orb-t89d",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms4-fgm-brst",
       "startDate": "2015-09-01T12:11:14Z",
-      "stopDate": "2023-03-31T21:08:52Z"
+      "stopDate": "2023-11-28T20:42:23Z"
     },
     {
       "id": "mms4-fgm-srvy",
       "startDate": "2015-09-01T00:00:04Z",
-      "stopDate": "2023-09-24T00:00:07Z"
+      "stopDate": "2023-12-08T00:00:05Z"
     },
     {
       "id": "mms4-hpca-brst",
@@ -2288,12 +2283,12 @@
     {
       "id": "mms4-msph-models",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "mms4-t96-model",
       "startDate": "2015-03-13T00:00:00Z",
-      "stopDate": "2023-10-29T23:59:30Z"
+      "stopDate": "2023-12-31T23:59:30Z"
     },
     {
       "id": "m10-m1-orb",
@@ -2953,17 +2948,17 @@
     {
       "id": "soho-ephin-10min",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-12-13T23:50:00Z"
+      "stopDate": "2024-01-04T23:50:00Z"
     },
     {
       "id": "soho-ephin-1min",
       "startDate": "1995-12-08T00:01:00Z",
-      "stopDate": "2023-12-13T23:59:00Z"
+      "stopDate": "2024-01-04T23:59:00Z"
     },
     {
       "id": "soho-ephin-60min",
       "startDate": "1995-12-08T00:00:00Z",
-      "stopDate": "2023-12-13T23:00:00Z"
+      "stopDate": "2024-01-04T23:00:00Z"
     },
     {
       "id": "soho-erne-hed",
@@ -2983,22 +2978,22 @@
     {
       "id": "sta-het-1d",
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2023-12-13T00:00:00Z"
+      "stopDate": "2024-01-01T00:00:00Z"
     },
     {
       "id": "sta-het-1h",
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2023-12-13T05:00:00Z"
+      "stopDate": "2024-01-01T23:00:00Z"
     },
     {
       "id": "sta-het-1min",
       "startDate": "2006-12-01T00:00:00Z",
-      "stopDate": "2023-12-13T05:25:00Z"
+      "stopDate": "2024-01-01T23:59:00Z"
     },
     {
       "id": "sta-let-10min",
-      "startDate": "2006-11-13T00:00:00Z",
-      "stopDate": "2023-10-31T23:50:00Z"
+      "startDate": "2018-01-01T00:00:00Z",
+      "stopDate": "2018-12-31T23:50:00Z"
     },
     {
       "id": "sta-let-1day",
@@ -3163,12 +3158,12 @@
     {
       "id": "swarma-lp-all",
       "startDate": "2013-12-02T10:11:13Z",
-      "stopDate": "2023-12-03T23:59:59Z"
+      "stopDate": "2023-12-24T23:59:59Z"
     },
     {
       "id": "swarma-fac-all",
       "startDate": "2013-11-25T11:02:52Z",
-      "stopDate": "2023-12-14T23:59:59Z"
+      "stopDate": "2024-01-05T23:59:59Z"
     },
     {
       "id": "swarma-mag-all",
@@ -3183,7 +3178,7 @@
     {
       "id": "swarmac-fac-all",
       "startDate": "2013-11-26T00:07:47Z",
-      "stopDate": "2023-12-14T23:59:59Z"
+      "stopDate": "2024-01-05T23:59:59Z"
     },
     {
       "id": "swarma-tii-all",
@@ -3208,7 +3203,7 @@
     {
       "id": "swarmb-fac-all",
       "startDate": "2013-11-25T11:01:15Z",
-      "stopDate": "2023-12-14T23:59:59Z"
+      "stopDate": "2024-01-05T23:59:59Z"
     },
     {
       "id": "swarmb-mag-all",
@@ -3243,7 +3238,7 @@
     {
       "id": "swarmc-fac-all",
       "startDate": "2013-11-26T00:00:00Z",
-      "stopDate": "2023-12-14T23:59:59Z"
+      "stopDate": "2024-01-05T23:59:59Z"
     },
     {
       "id": "swarmc-mag-all",
@@ -3268,7 +3263,7 @@
     {
       "id": "bls-bepi-dsc",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "bls-bepi-omni",
@@ -3293,7 +3288,7 @@
     {
       "id": "tao-bepi-swrt",
       "startDate": "2023-09-22T00:00:00Z",
-      "stopDate": "2023-12-20T00:00:00Z"
+      "stopDate": "2024-01-08T00:00:00Z"
     },
     {
       "id": "bls-jupiter-omni",
@@ -3383,7 +3378,7 @@
     {
       "id": "tao-mercury-swrt",
       "startDate": "2023-09-22T00:00:00Z",
-      "stopDate": "2023-12-20T00:00:00Z"
+      "stopDate": "2024-01-08T00:00:00Z"
     },
     {
       "id": "bls-neptune-omni",
@@ -3418,7 +3413,7 @@
     {
       "id": "bls-psp-dsc",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "bls-psp-omni",
@@ -3443,7 +3438,7 @@
     {
       "id": "tao-psp-swrt",
       "startDate": "2023-09-22T00:00:00Z",
-      "stopDate": "2023-12-20T00:00:00Z"
+      "stopDate": "2024-01-08T00:00:00Z"
     },
     {
       "id": "bls-ros-omni",
@@ -3488,7 +3483,7 @@
     {
       "id": "bls-solo-dsc",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "tao-so-dsc",
@@ -3538,7 +3533,7 @@
     {
       "id": "tao-venus-dsc",
       "startDate": "2016-08-01T00:00:00Z",
-      "stopDate": "2023-12-19T00:00:00Z"
+      "stopDate": "2024-01-09T00:00:00Z"
     },
     {
       "id": "tao-venus-sta",
@@ -3558,7 +3553,7 @@
     {
       "id": "tao-venus-swrt",
       "startDate": "2023-09-22T00:00:00Z",
-      "stopDate": "2023-12-20T00:00:00Z"
+      "stopDate": "2024-01-10T00:00:00Z"
     },
     {
       "id": "tao-cass-sw",
@@ -3569,6 +3564,21 @@
       "id": "tao-juno-sw",
       "startDate": "2012-01-01T00:00:00Z",
       "stopDate": "2016-11-02T22:00:00Z"
+    },
+    {
+      "id": "solo-eas-pad",
+      "startDate": "2021-04-22T05:27:34Z",
+      "stopDate": "2023-08-31T17:32:33Z"
+    },
+    {
+      "id": "solo-eas1-nm3d",
+      "startDate": "2020-06-15T14:48:38Z",
+      "stopDate": "2023-08-25T08:33:20Z"
+    },
+    {
+      "id": "solo-eas2-nm3d",
+      "startDate": "2020-06-15T14:48:38Z",
+      "stopDate": "2023-08-25T08:33:20Z"
     },
     {
       "id": "so-ept-e.anti",
@@ -3781,6 +3791,11 @@
       "stopDate": "2021-08-16T23:58:00Z"
     },
     {
+      "id": "solo-his-comp10min",
+      "startDate": "2022-01-19T00:00:20Z",
+      "stopDate": "2022-12-31T23:58:03Z"
+    },
+    {
       "id": "solo-mag-8s",
       "startDate": "2020-06-03T14:28:15Z",
       "stopDate": "2023-02-13T20:49:37Z"
@@ -3788,17 +3803,17 @@
     {
       "id": "so-mag-1min",
       "startDate": "2020-04-15T00:00:29Z",
-      "stopDate": "2023-08-31T23:59:30Z"
+      "stopDate": "2023-09-30T23:58:29Z"
     },
     {
       "id": "so-mag-rtnhr",
       "startDate": "2020-04-15T00:00:00Z",
-      "stopDate": "2023-08-31T23:59:59Z"
+      "stopDate": "2023-09-30T23:58:44Z"
     },
     {
       "id": "solo-mag-hr",
       "startDate": "2020-04-15T00:00:00Z",
-      "stopDate": "2023-08-31T23:59:59Z"
+      "stopDate": "2023-09-30T23:58:44Z"
     },
     {
       "id": "solo-rpw-density10s",
@@ -3816,259 +3831,324 @@
       "stopDate": "2022-12-01T00:01:20Z"
     },
     {
+      "id": "solo-rpw-survasm.f0",
+      "startDate": "2020-06-15T01:05:14Z",
+      "stopDate": "2023-09-21T00:03:10Z"
+    },
+    {
+      "id": "solo-rpw-survasm.f1",
+      "startDate": "2020-06-15T01:05:14Z",
+      "stopDate": "2023-09-20T23:03:10Z"
+    },
+    {
+      "id": "solo-rpw-survasm.f2",
+      "startDate": "2020-06-15T01:05:14Z",
+      "stopDate": "2023-09-20T23:03:10Z"
+    },
+    {
+      "id": "solo-rpw-survbp1.bf0",
+      "startDate": "2020-07-07T22:30:02Z",
+      "stopDate": "2023-09-20T18:03:11Z"
+    },
+    {
+      "id": "solo-rpw-survbp1.bf1",
+      "startDate": "2020-07-07T22:30:02Z",
+      "stopDate": "2023-09-20T18:03:11Z"
+    },
+    {
+      "id": "solo-rpw-survbp1.nf0",
+      "startDate": "2020-06-15T00:00:17Z",
+      "stopDate": "2023-09-21T00:03:10Z"
+    },
+    {
+      "id": "solo-rpw-survbp1.nf1",
+      "startDate": "2020-06-15T00:00:17Z",
+      "stopDate": "2023-09-21T00:03:06Z"
+    },
+    {
+      "id": "solo-rpw-survbp1.nf2",
+      "startDate": "2020-06-15T00:00:17Z",
+      "stopDate": "2023-09-21T00:03:06Z"
+    },
+    {
+      "id": "solo-rpw-survbp2.bf0",
+      "startDate": "2020-07-07T22:30:06Z",
+      "stopDate": "2023-09-20T18:03:07Z"
+    },
+    {
+      "id": "solo-rpw-survbp2.bf1",
+      "startDate": "2020-07-07T22:30:06Z",
+      "stopDate": "2023-09-20T18:03:07Z"
+    },
+    {
+      "id": "solo-rpw-survbp2.nf0",
+      "startDate": "2020-06-15T00:00:29Z",
+      "stopDate": "2023-09-21T00:03:10Z"
+    },
+    {
+      "id": "solo-rpw-survbp2.nf1",
+      "startDate": "2020-06-15T00:00:29Z",
+      "stopDate": "2023-09-21T00:02:50Z"
+    },
+    {
+      "id": "solo-rpw-survbp2.nf2",
+      "startDate": "2020-06-15T00:00:29Z",
+      "stopDate": "2023-09-21T00:02:50Z"
+    },
+    {
       "id": "fermi-lat-lc",
       "startDate": "2008-08-12T00:00:31Z",
-      "stopDate": "2023-12-16T23:59:34Z"
+      "stopDate": "2024-01-06T23:59:34Z"
     },
     {
       "id": "tha-esa-l2e",
       "startDate": "2007-03-07T18:53:59Z",
-      "stopDate": "2023-12-18T12:10:35Z"
+      "stopDate": "2024-01-09T15:01:24Z"
     },
     {
       "id": "tha-esa-l2i",
       "startDate": "2007-03-07T18:53:59Z",
-      "stopDate": "2023-12-18T12:11:35Z"
+      "stopDate": "2024-01-09T15:02:11Z"
     },
     {
       "id": "tha-peem-all",
       "startDate": "2007-08-02T00:00:30Z",
-      "stopDate": "2023-12-18T12:11:38Z"
+      "stopDate": "2024-01-09T15:02:33Z"
     },
     {
       "id": "tha-peim-all",
       "startDate": "2007-08-02T00:00:30Z",
-      "stopDate": "2023-12-18T12:11:38Z"
+      "stopDate": "2024-01-09T15:02:33Z"
     },
     {
       "id": "tha-pot-mom",
       "startDate": "2007-08-02T00:00:30Z",
-      "stopDate": "2023-12-18T12:11:38Z"
+      "stopDate": "2024-01-09T15:02:33Z"
     },
     {
       "id": "tha-orb-all",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "tha-fgm-l",
       "startDate": "2007-02-23T03:29:29Z",
-      "stopDate": "2023-12-19T16:24:49Z"
+      "stopDate": "2024-01-09T15:02:07Z"
     },
     {
       "id": "tha-fgm-s",
       "startDate": "2007-02-26T23:00:35Z",
-      "stopDate": "2023-12-19T01:28:15Z"
+      "stopDate": "2024-01-09T18:52:27Z"
     },
     {
       "id": "tha-msph-models",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "tha-t96-model",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thb-esa-l2e",
       "startDate": "2007-03-07T17:55:08Z",
-      "stopDate": "2023-12-18T18:54:49Z"
+      "stopDate": "2024-01-08T11:31:14Z"
     },
     {
       "id": "thb-esa-l2i",
       "startDate": "2007-03-07T17:55:08Z",
-      "stopDate": "2023-12-18T18:56:11Z"
+      "stopDate": "2024-01-08T11:38:54Z"
     },
     {
       "id": "thb-peem-all",
       "startDate": "2007-08-10T00:02:05Z",
-      "stopDate": "2023-12-18T18:56:23Z"
+      "stopDate": "2024-01-08T11:31:52Z"
     },
     {
       "id": "thb-peim-all",
       "startDate": "2007-08-10T00:02:05Z",
-      "stopDate": "2023-12-18T18:56:23Z"
+      "stopDate": "2024-01-08T11:31:52Z"
     },
     {
       "id": "thb-pot-mom",
       "startDate": "2007-08-10T00:02:05Z",
-      "stopDate": "2023-12-18T18:56:23Z"
+      "stopDate": "2024-01-08T11:31:52Z"
     },
     {
       "id": "thb-orb-all",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thb-fgm-l",
       "startDate": "2007-02-24T04:42:44Z",
-      "stopDate": "2023-12-18T18:55:15Z"
+      "stopDate": "2024-01-08T07:05:55Z"
     },
     {
       "id": "thb-fgm-s",
       "startDate": "2007-02-26T23:26:57Z",
-      "stopDate": "2023-12-18T13:46:55Z"
+      "stopDate": "2024-01-08T06:40:26Z"
     },
     {
       "id": "thb-msph-models",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thb-t96-model",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thc-esa-l2e",
       "startDate": "2007-03-07T15:58:39Z",
-      "stopDate": "2023-12-17T19:32:13Z"
+      "stopDate": "2024-01-09T05:39:42Z"
     },
     {
       "id": "thc-esa-l2i",
       "startDate": "2007-03-07T15:58:39Z",
-      "stopDate": "2023-12-17T19:32:05Z"
+      "stopDate": "2024-01-09T05:39:38Z"
     },
     {
       "id": "thc-peem-all",
       "startDate": "2007-08-10T00:00:32Z",
-      "stopDate": "2023-12-17T19:33:38Z"
+      "stopDate": "2024-01-09T05:41:00Z"
     },
     {
       "id": "thc-peim-all",
       "startDate": "2007-08-10T00:00:32Z",
-      "stopDate": "2023-12-17T19:33:38Z"
+      "stopDate": "2024-01-09T05:41:00Z"
     },
     {
       "id": "thc-pot-mom",
       "startDate": "2007-08-10T00:00:32Z",
-      "stopDate": "2023-12-17T19:33:38Z"
+      "stopDate": "2024-01-09T05:41:00Z"
     },
     {
       "id": "thc-orb-all",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thc-fgm-l",
       "startDate": "2007-02-22T23:17:57Z",
-      "stopDate": "2023-12-17T19:32:51Z"
+      "stopDate": "2024-01-09T05:40:18Z"
     },
     {
       "id": "thc-fgm-s",
       "startDate": "2007-02-26T22:17:50Z",
-      "stopDate": "2023-12-17T16:48:38Z"
+      "stopDate": "2024-01-09T00:00:43Z"
     },
     {
       "id": "thc-msph-models",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thc-t96-model",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thd-esa-l2e",
       "startDate": "2007-03-07T16:54:49Z",
-      "stopDate": "2023-12-19T10:16:39Z"
+      "stopDate": "2024-01-08T21:14:57Z"
     },
     {
       "id": "thd-esa-l2i",
       "startDate": "2007-03-07T16:54:49Z",
-      "stopDate": "2023-12-19T10:17:16Z"
+      "stopDate": "2024-01-08T21:15:11Z"
     },
     {
       "id": "thd-peem-all",
       "startDate": "2007-08-09T23:59:56Z",
-      "stopDate": "2023-12-19T10:17:47Z"
+      "stopDate": "2024-01-08T21:15:48Z"
     },
     {
       "id": "thd-peim-all",
       "startDate": "2007-08-09T23:59:56Z",
-      "stopDate": "2023-12-19T10:17:47Z"
+      "stopDate": "2024-01-08T21:15:48Z"
     },
     {
       "id": "thd-pot-mom",
       "startDate": "2007-08-09T23:59:56Z",
-      "stopDate": "2023-12-19T10:17:47Z"
+      "stopDate": "2024-01-08T21:15:48Z"
     },
     {
       "id": "thd-orb-all",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thd-fgm-l",
       "startDate": "2007-02-23T01:31:22Z",
-      "stopDate": "2023-12-18T06:07:17Z"
+      "stopDate": "2024-01-08T21:15:31Z"
     },
     {
       "id": "thd-fgm-s",
       "startDate": "2007-02-28T02:55:28Z",
-      "stopDate": "2023-12-18T03:39:06Z"
+      "stopDate": "2024-01-08T20:21:19Z"
     },
     {
       "id": "thd-msph-models",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "thd-t96-model",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "the-esa-l2e",
       "startDate": "2007-03-07T19:54:48Z",
-      "stopDate": "2023-12-19T08:43:44Z"
+      "stopDate": "2024-01-10T02:17:20Z"
     },
     {
       "id": "the-esa-l2i",
       "startDate": "2007-03-07T19:54:48Z",
-      "stopDate": "2023-12-19T08:43:24Z"
+      "stopDate": "2024-01-10T02:18:25Z"
     },
     {
       "id": "the-peem-all",
       "startDate": "2007-08-10T00:00:17Z",
-      "stopDate": "2023-12-19T08:45:13Z"
+      "stopDate": "2024-01-10T02:18:17Z"
     },
     {
       "id": "the-peim-all",
       "startDate": "2007-08-10T00:00:17Z",
-      "stopDate": "2023-12-19T08:45:13Z"
+      "stopDate": "2024-01-10T02:18:17Z"
     },
     {
       "id": "the-pot-mom",
       "startDate": "2007-08-10T00:00:17Z",
-      "stopDate": "2023-12-19T08:45:13Z"
+      "stopDate": "2024-01-10T02:18:17Z"
     },
     {
       "id": "the-orb-all",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "the-fgm-l",
       "startDate": "2007-02-23T02:29:39Z",
-      "stopDate": "2023-12-18T00:00:12Z"
+      "stopDate": "2024-01-09T04:34:20Z"
     },
     {
       "id": "the-fgm-s",
       "startDate": "2007-02-28T05:17:46Z",
-      "stopDate": "2023-12-19T05:34:01Z"
+      "stopDate": "2024-01-09T01:13:16Z"
     },
     {
       "id": "the-msph-models",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "the-t96-model",
       "startDate": "2007-02-17T23:36:00Z",
-      "stopDate": "2023-12-20T23:59:00Z"
+      "stopDate": "2024-01-10T23:59:00Z"
     },
     {
       "id": "ulys-orb-all",
@@ -4258,7 +4338,7 @@
     {
       "id": "wnd-orb-all",
       "startDate": "1994-08-07T00:00:00Z",
-      "stopDate": "2023-12-17T23:50:00Z"
+      "stopDate": "2024-01-07T23:50:00Z"
     },
     {
       "id": "wnd-mfi-high",
@@ -4273,9 +4353,9 @@
     {
       "id": "wnd-swe-kp",
       "startDate": "1994-11-01T12:00:00Z",
-      "stopDate": "2023-12-13T23:56:49Z"
+      "stopDate": "2024-01-03T23:59:06Z"
     }
   ],
   "id": "https://amda.irap.omp.eu/service/hapi",
-  "parameterDays": 2.35422377E7
+  "parameterDays": 2.34404544E7
 }

@@ -2426,31 +2426,6 @@
       ]
     },
     {
-      "description": "Adjusted second data in NATIVE orientation from Martin de Vivies, French Southern Territories (AMS)",
-      "id": "ams/adjusted/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Adjusted second data in XYZF orientation from Martin de Vivies, French Southern Territories (AMS)",
       "id": "ams/adjusted/PT1S/xyzf",
       "parameters": [
@@ -2516,31 +2491,6 @@
             "minutes",
             "minutes",
             "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Martin de Vivies, French Southern Territories (AMS)",
-      "id": "ams/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Martin de Vivies, French Southern Territories (AMS)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
           ]
         },
         {
@@ -3295,31 +3245,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Apia, Western Samoa (API)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from L'Aquila, Italy (AQU)",
-      "id": "aqu/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from L'Aquila, Italy (AQU)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at L'Aquila, Italy (AQU)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at L'Aquila, Italy (AQU)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -6076,31 +6001,6 @@
       ]
     },
     {
-      "description": "Best-avail minute data in NATIVE orientation from Belsk, Poland (BEL)",
-      "id": "bel/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Belsk, Poland (BEL)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Belsk, Poland (BEL)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Belsk, Poland (BEL)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Best-avail minute data in XYZF orientation from Belsk, Poland (BEL)",
       "id": "bel/best-avail/PT1M/xyzf",
       "parameters": [
@@ -6865,31 +6765,6 @@
           "units": [
             "nT",
             "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Black Forest Observatory, Germany (BFO)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from Black Forest Observatory, Germany (BFO)",
-      "id": "bfo/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Black Forest Observatory, Germany (BFO)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Black Forest Observatory, Germany (BFO)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
             "nT"
           ]
         },
@@ -17751,6 +17626,81 @@
       ]
     },
     {
+      "description": "Best-avail minute data in NATIVE orientation from Del Rio, USA (DLR)",
+      "id": "dlr/best-avail/PT1M/native",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Del Rio, USA (DLR)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Del Rio, USA (DLR)",
+          "name": "Field_Vector",
+          "units": [
+            "nT / minutes",
+            "nT / minutes",
+            "nT / minutes"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Del Rio, USA (DLR)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Best-avail minute data in XYZF orientation from Del Rio, USA (DLR)",
+      "id": "dlr/best-avail/PT1M/xyzf",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Del Rio, USA (DLR)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Del Rio, USA (DLR)",
+          "name": "Field_Vector",
+          "units": [
+            "nT",
+            "nT",
+            "nT"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Del Rio, USA (DLR)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Best-avail minute data in HDZF orientation from Del Rio, USA (DLR)",
+      "id": "dlr/best-avail/PT1M/hdzf",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Del Rio, USA (DLR)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Del Rio, USA (DLR)",
+          "name": "Field_Vector",
+          "units": [
+            "nT",
+            "minutes",
+            "nT"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Del Rio, USA (DLR)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Best-avail minute data in DIFF orientation from Del Rio, USA (DLR)",
       "id": "dlr/best-avail/PT1M/diff",
       "parameters": [
@@ -18526,56 +18476,6 @@
       ]
     },
     {
-      "description": "Reported minute data in NATIVE orientation from Dome Concordia, Antarctica (DMC)",
-      "id": "dmc/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dome Concordia, Antarctica (DMC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Dome Concordia, Antarctica (DMC)",
-      "id": "dmc/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dome Concordia, Antarctica (DMC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Best-avail minute data in XYZF orientation from Dome Concordia, Antarctica (DMC)",
       "id": "dmc/best-avail/PT1M/xyzf",
       "parameters": [
@@ -18753,31 +18653,6 @@
     {
       "description": "Reported second data in NATIVE orientation from Dome Concordia, Antarctica (DMC)",
       "id": "dmc/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dome Concordia, Antarctica (DMC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dome Concordia, Antarctica (DMC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in NATIVE orientation from Dome Concordia, Antarctica (DMC)",
-      "id": "dmc/best-avail/PT1S/native",
       "parameters": [
         {
           "description": "The UTC date and time for the data from Dome Concordia, Antarctica (DMC)",
@@ -19951,206 +19826,6 @@
       ]
     },
     {
-      "description": "Best-avail second data in NATIVE orientation from Dumont d'Urville, French Southern Territories (DRV)",
-      "id": "drv/best-avail/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in XYZF orientation from Dumont d'Urville, French Southern Territories (DRV)",
-      "id": "drv/best-avail/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in HDZF orientation from Dumont d'Urville, French Southern Territories (DRV)",
-      "id": "drv/best-avail/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in DIFF orientation from Dumont d'Urville, French Southern Territories (DRV)",
-      "id": "drv/best-avail/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Dumont d'Urville, French Southern Territories (DRV)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from Duronia, Italy (DUR)",
-      "id": "dur/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in XYZF orientation from Duronia, Italy (DUR)",
-      "id": "dur/adjusted/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in HDZF orientation from Duronia, Italy (DUR)",
-      "id": "dur/adjusted/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in DIFF orientation from Duronia, Italy (DUR)",
-      "id": "dur/adjusted/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in NATIVE orientation from Duronia, Italy (DUR)",
       "id": "dur/definitive/PT1M/native",
       "parameters": [
@@ -20251,181 +19926,6 @@
       ]
     },
     {
-      "description": "Reported minute data in NATIVE orientation from Duronia, Italy (DUR)",
-      "id": "dur/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Duronia, Italy (DUR)",
-      "id": "dur/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Duronia, Italy (DUR)",
-      "id": "dur/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Duronia, Italy (DUR)",
-      "id": "dur/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Duronia, Italy (DUR)",
-      "id": "dur/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Duronia, Italy (DUR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Duronia, Italy (DUR)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Duronia, Italy (DUR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from Ebro, Spain (EBR)",
-      "id": "ebr/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from Ebro, Spain (EBR)",
-      "id": "ebr/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in HDZF orientation from Ebro, Spain (EBR)",
       "id": "ebr/definitive/PT1M/hdzf",
       "parameters": [
@@ -20465,181 +19965,6 @@
           "units": [
             "minutes",
             "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in NATIVE orientation from Ebro, Spain (EBR)",
-      "id": "ebr/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in XYZF orientation from Ebro, Spain (EBR)",
-      "id": "ebr/quasi-def/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in HDZF orientation from Ebro, Spain (EBR)",
-      "id": "ebr/quasi-def/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in DIFF orientation from Ebro, Spain (EBR)",
-      "id": "ebr/quasi-def/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Ebro, Spain (EBR)",
-      "id": "ebr/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Ebro, Spain (EBR)",
-      "id": "ebr/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Ebro, Spain (EBR)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Ebro, Spain (EBR)",
-      "id": "ebr/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Ebro, Spain (EBR)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Ebro, Spain (EBR)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
             "nT"
           ]
         },
@@ -23664,6 +22989,31 @@
           "name": "Field_Vector",
           "units": [
             "nT",
+            "minutes",
+            "nT"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Fresno, USA (FRN)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Best-avail minute data in DIFF orientation from Fresno, USA (FRN)",
+      "id": "frn/best-avail/PT1M/diff",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Fresno, USA (FRN)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Fresno, USA (FRN)",
+          "name": "Field_Vector",
+          "units": [
+            "minutes",
             "minutes",
             "nT"
           ]
@@ -29601,381 +28951,6 @@
       ]
     },
     {
-      "description": "Quasi-def minute data in DIFF orientation from Hermanus, South Africa (HER)",
-      "id": "her/quasi-def/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Hermanus, South Africa (HER)",
-      "id": "her/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Hermanus, South Africa (HER)",
-      "id": "her/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in NATIVE orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in XYZF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in HDZF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in DIFF orientation from Hermanus, South Africa (HER)",
-      "id": "her/best-avail/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hermanus, South Africa (HER)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hermanus, South Africa (HER)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hermanus, South Africa (HER)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in XYZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in HDZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in DIFF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in NATIVE orientation from Hel Observatory, Poland (HLP)",
       "id": "hlp/definitive/PT1M/native",
       "parameters": [
@@ -30051,81 +29026,6 @@
       ]
     },
     {
-      "description": "Definitive minute data in DIFF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in XYZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/quasi-def/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def minute data in HDZF orientation from Hel Observatory, Poland (HLP)",
       "id": "hlp/quasi-def/PT1M/hdzf",
       "parameters": [
@@ -30170,581 +29070,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted second data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted second data in XYZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted second data in HDZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted second data in DIFF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/adjusted/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in NATIVE orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in XYZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in HDZF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in DIFF orientation from Hel Observatory, Poland (HLP)",
-      "id": "hlp/best-avail/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hel Observatory, Poland (HLP)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hel Observatory, Poland (HLP)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hel Observatory, Poland (HLP)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from Honolulu, USA (HON)",
-      "id": "hon/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in XYZF orientation from Honolulu, USA (HON)",
-      "id": "hon/adjusted/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in HDZF orientation from Honolulu, USA (HON)",
-      "id": "hon/adjusted/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in DIFF orientation from Honolulu, USA (HON)",
-      "id": "hon/adjusted/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from Honolulu, USA (HON)",
-      "id": "hon/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from Honolulu, USA (HON)",
-      "id": "hon/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from Honolulu, USA (HON)",
-      "id": "hon/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in DIFF orientation from Honolulu, USA (HON)",
-      "id": "hon/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in NATIVE orientation from Honolulu, USA (HON)",
-      "id": "hon/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Honolulu, USA (HON)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Honolulu, USA (HON)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Honolulu, USA (HON)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -32701,31 +31026,6 @@
       ]
     },
     {
-      "description": "Quasi-def minute data in XYZF orientation from Hyderabad, India (HYB)",
-      "id": "hyb/quasi-def/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def minute data in HDZF orientation from Hyderabad, India (HYB)",
       "id": "hyb/quasi-def/PT1M/hdzf",
       "parameters": [
@@ -32770,206 +31070,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Hyderabad, India (HYB)",
-      "id": "hyb/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Hyderabad, India (HYB)",
-      "id": "hyb/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Hyderabad, India (HYB)",
-      "id": "hyb/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Hyderabad, India (HYB)",
-      "id": "hyb/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Hyderabad, India (HYB)",
-      "id": "hyb/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Hyderabad, India (HYB)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Hyderabad, India (HYB)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Hyderabad, India (HYB)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -33026,56 +31126,6 @@
       ]
     },
     {
-      "description": "Quasi-def minute data in XYZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in HDZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def minute data in DIFF orientation from Isal de Pascua, Chile (IPM)",
       "id": "ipm/quasi-def/PT1M/diff",
       "parameters": [
@@ -33095,406 +31145,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def second data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def second data in XYZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def second data in HDZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def second data in DIFF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/quasi-def/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in NATIVE orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in XYZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in HDZF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in DIFF orientation from Isal de Pascua, Chile (IPM)",
-      "id": "ipm/best-avail/PT1S/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Isal de Pascua, Chile (IPM)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Isal de Pascua, Chile (IPM)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from Iqaluit, Canada (IQA)",
-      "id": "iqa/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Iqaluit, Canada (IQA)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Iqaluit, Canada (IQA)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Iqaluit, Canada (IQA)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from Iqaluit, Canada (IQA)",
-      "id": "iqa/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Iqaluit, Canada (IQA)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Iqaluit, Canada (IQA)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Iqaluit, Canada (IQA)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -33666,31 +31316,6 @@
             "minutes",
             "minutes",
             "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Iqaluit, Canada (IQA)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Iqaluit, Canada (IQA)",
-      "id": "iqa/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Iqaluit, Canada (IQA)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Iqaluit, Canada (IQA)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
           ]
         },
         {
@@ -43151,31 +40776,6 @@
       ]
     },
     {
-      "description": "Best-avail minute data in DIFF orientation from Lanzhou, China (LZH)",
-      "id": "lzh/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Lanzhou, China (LZH)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Lanzhou, China (LZH)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Lanzhou, China (LZH)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def second data in NATIVE orientation from Lanzhou, China (LZH)",
       "id": "lzh/quasi-def/PT1S/native",
       "parameters": [
@@ -46651,81 +44251,6 @@
       ]
     },
     {
-      "description": "Definitive minute data in XYZF orientation from Midway Island, USA (MID)",
-      "id": "mid/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Midway Island, USA (MID)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Midway Island, USA (MID)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Midway Island, USA (MID)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from Midway Island, USA (MID)",
-      "id": "mid/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Midway Island, USA (MID)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Midway Island, USA (MID)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Midway Island, USA (MID)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in DIFF orientation from Midway Island, USA (MID)",
-      "id": "mid/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Midway Island, USA (MID)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Midway Island, USA (MID)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Midway Island, USA (MID)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in NATIVE orientation from Misallat, Egypt (MLT)",
       "id": "mlt/definitive/PT1M/native",
       "parameters": [
@@ -49401,31 +46926,6 @@
       ]
     },
     {
-      "description": "Definitive minute data in DIFF orientation from Niemegk, Germany (NGK)",
-      "id": "ngk/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Niemegk, Germany (NGK)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Niemegk, Germany (NGK)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Niemegk, Germany (NGK)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def minute data in NATIVE orientation from Niemegk, Germany (NGK)",
       "id": "ngk/quasi-def/PT1M/native",
       "parameters": [
@@ -50826,31 +48326,6 @@
       ]
     },
     {
-      "description": "Quasi-def minute data in NATIVE orientation from Base Orcadas, Laurie Island (ORC)",
-      "id": "orc/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Base Orcadas, Laurie Island (ORC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Quasi-def minute data in XYZF orientation from Base Orcadas, Laurie Island (ORC)",
       "id": "orc/quasi-def/PT1M/xyzf",
       "parameters": [
@@ -50916,56 +48391,6 @@
             "minutes",
             "minutes",
             "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Base Orcadas, Laurie Island (ORC)",
-      "id": "orc/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Base Orcadas, Laurie Island (ORC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Base Orcadas, Laurie Island (ORC)",
-      "id": "orc/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Base Orcadas, Laurie Island (ORC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Base Orcadas, Laurie Island (ORC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
           ]
         },
         {
@@ -54076,6 +51501,56 @@
       ]
     },
     {
+      "description": "Reported second data in NATIVE orientation from Phuthuy, Vietnam (PHU)",
+      "id": "phu/reported/PT1S/native",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Phuthuy, Vietnam (PHU)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Vector",
+          "units": [
+            "nT / minutes",
+            "nT / minutes",
+            "nT / minutes"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Best-avail second data in NATIVE orientation from Phuthuy, Vietnam (PHU)",
+      "id": "phu/best-avail/PT1S/native",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Phuthuy, Vietnam (PHU)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Vector",
+          "units": [
+            "nT / minutes",
+            "nT / minutes",
+            "nT / minutes"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
       "description": "Best-avail second data in XYZF orientation from Phuthuy, Vietnam (PHU)",
       "id": "phu/best-avail/PT1S/xyzf",
       "parameters": [
@@ -54114,6 +51589,31 @@
           "name": "Field_Vector",
           "units": [
             "nT",
+            "minutes",
+            "nT"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Best-avail second data in DIFF orientation from Phuthuy, Vietnam (PHU)",
+      "id": "phu/best-avail/PT1S/diff",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Phuthuy, Vietnam (PHU)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Phuthuy, Vietnam (PHU)",
+          "name": "Field_Vector",
+          "units": [
+            "minutes",
             "minutes",
             "nT"
           ]
@@ -55201,56 +52701,6 @@
       ]
     },
     {
-      "description": "Definitive minute data in NATIVE orientation from Port Stanley, Falklands Islands (PST)",
-      "id": "pst/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Port Stanley, Falklands Islands (PST)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Port Stanley, Falklands Islands (PST)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Port Stanley, Falklands Islands (PST)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from Port Stanley, Falklands Islands (PST)",
-      "id": "pst/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Port Stanley, Falklands Islands (PST)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Port Stanley, Falklands Islands (PST)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Port Stanley, Falklands Islands (PST)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in HDZF orientation from Port Stanley, Falklands Islands (PST)",
       "id": "pst/definitive/PT1M/hdzf",
       "parameters": [
@@ -55720,6 +53170,31 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Port Stanley, Falklands Islands (PST)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Definitive minute data in NATIVE orientation from Qsaybeh, Lebanon (QSB)",
+      "id": "qsb/definitive/PT1M/native",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Qsaybeh, Lebanon (QSB)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Qsaybeh, Lebanon (QSB)",
+          "name": "Field_Vector",
+          "units": [
+            "nT / minutes",
+            "nT / minutes",
+            "nT / minutes"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Qsaybeh, Lebanon (QSB)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -58551,31 +56026,6 @@
       ]
     },
     {
-      "description": "Reported minute data in NATIVE orientation from Shumagin, USA (SHU)",
-      "id": "shu/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Shumagin, USA (SHU)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Shumagin, USA (SHU)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Shumagin, USA (SHU)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Best-avail minute data in NATIVE orientation from Shumagin, USA (SHU)",
       "id": "shu/best-avail/PT1M/native",
       "parameters": [
@@ -58666,31 +56116,6 @@
             "minutes",
             "minutes",
             "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Shumagin, USA (SHU)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted second data in NATIVE orientation from Shumagin, USA (SHU)",
-      "id": "shu/adjusted/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Shumagin, USA (SHU)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Shumagin, USA (SHU)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
           ]
         },
         {
@@ -60126,31 +57551,6 @@
       ]
     },
     {
-      "description": "Definitive minute data in XYZF orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in HDZF orientation from Sodankyla, Finland (SOD)",
       "id": "sod/definitive/PT1M/hdzf",
       "parameters": [
@@ -60201,156 +57601,6 @@
       ]
     },
     {
-      "description": "Reported minute data in NATIVE orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Sodankyla, Finland (SOD)",
-      "id": "sod/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Sodankyla, Finland (SOD)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Sodankyla, Finland (SOD)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Sodankyla, Finland (SOD)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Definitive minute data in XYZF orientation from Saint Petersburg, Russia (SPG)",
       "id": "spg/definitive/PT1M/xyzf",
       "parameters": [
@@ -60370,506 +57620,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in DIFF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in NATIVE orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in XYZF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/quasi-def/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in HDZF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/quasi-def/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in DIFF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/quasi-def/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Saint Petersburg, Russia (SPG)",
-      "id": "spg/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Saint Petersburg, Russia (SPG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Saint Petersburg, Russia (SPG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in XYZF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/adjusted/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in HDZF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/adjusted/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in DIFF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/adjusted/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in NATIVE orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/definitive/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in XYZF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/definitive/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in HDZF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/definitive/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Definitive minute data in DIFF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in NATIVE orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/quasi-def/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -60901,83 +57651,8 @@
       ]
     },
     {
-      "description": "Quasi-def minute data in HDZF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/quasi-def/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Quasi-def minute data in DIFF orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/quasi-def/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Reported minute data in NATIVE orientation from San Pablo-Toledo, Spain (SPT)",
       "id": "spt/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at San Pablo-Toledo, Spain (SPT)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from San Pablo-Toledo, Spain (SPT)",
-      "id": "spt/best-avail/PT1M/native",
       "parameters": [
         {
           "description": "The UTC date and time for the data from San Pablo-Toledo, Spain (SPT)",
@@ -61416,31 +58091,6 @@
             "minutes",
             "minutes",
             "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at St John's, Canada (STJ)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from St John's, Canada (STJ)",
-      "id": "stj/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from St John's, Canada (STJ)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at St John's, Canada (STJ)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
           ]
         },
         {
@@ -64891,6 +61541,31 @@
             "minutes",
             "minutes",
             "nT"
+          ]
+        },
+        {
+          "description": "The scalar value of the magnetic field from an independent instrument at Tsumeb, South Africa (TSU)",
+          "name": "Field_Magnitude",
+          "units": "nT"
+        }
+      ]
+    },
+    {
+      "description": "Definitive minute data in NATIVE orientation from Tsumeb, South Africa (TSU)",
+      "id": "tsu/definitive/PT1M/native",
+      "parameters": [
+        {
+          "description": "The UTC date and time for the data from Tsumeb, South Africa (TSU)",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "The vector value of the magnetic field at Tsumeb, South Africa (TSU)",
+          "name": "Field_Vector",
+          "units": [
+            "nT / minutes",
+            "nT / minutes",
+            "nT / minutes"
           ]
         },
         {
@@ -69776,31 +66451,6 @@
       ]
     },
     {
-      "description": "Best-avail minute data in HDZF orientation from Urumqi, China (WMQ)",
-      "id": "wmq/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Urumqi, China (WMQ)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Urumqi, China (WMQ)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Urumqi, China (WMQ)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
       "description": "Best-avail minute data in DIFF orientation from Urumqi, China (WMQ)",
       "id": "wmq/best-avail/PT1M/diff",
       "parameters": [
@@ -69820,31 +66470,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Urumqi, China (WMQ)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from Wingst, Germany (WNG)",
-      "id": "wng/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Wingst, Germany (WNG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Wingst, Germany (WNG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Wingst, Germany (WNG)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -70195,106 +66820,6 @@
         },
         {
           "description": "The scalar value of the magnetic field from an independent instrument at Wingst, Germany (WNG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Wingst, Germany (WNG)",
-      "id": "wng/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Wingst, Germany (WNG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Wingst, Germany (WNG)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Wingst, Germany (WNG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Wingst, Germany (WNG)",
-      "id": "wng/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Wingst, Germany (WNG)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Wingst, Germany (WNG)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Wingst, Germany (WNG)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in NATIVE orientation from Yakutsk, Russia (YAK)",
-      "id": "yak/adjusted/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yakutsk, Russia (YAK)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yakutsk, Russia (YAK)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yakutsk, Russia (YAK)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Adjusted minute data in XYZF orientation from Yakutsk, Russia (YAK)",
-      "id": "yak/adjusted/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yakutsk, Russia (YAK)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yakutsk, Russia (YAK)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yakutsk, Russia (YAK)",
           "name": "Field_Magnitude",
           "units": "nT"
         }
@@ -70653,256 +67178,6 @@
     {
       "description": "Definitive minute data in DIFF orientation from Yellowknife, Canada (YKC)",
       "id": "ykc/definitive/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported minute data in NATIVE orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/reported/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in NATIVE orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1M/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in XYZF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1M/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in HDZF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1M/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail minute data in DIFF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1M/diff",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "minutes",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Reported second data in NATIVE orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/reported/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in NATIVE orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1S/native",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT / minutes",
-            "nT / minutes",
-            "nT / minutes"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in XYZF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1S/xyzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "nT",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in HDZF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1S/hdzf",
-      "parameters": [
-        {
-          "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",
-          "name": "Time",
-          "units": "UTC"
-        },
-        {
-          "description": "The vector value of the magnetic field at Yellowknife, Canada (YKC)",
-          "name": "Field_Vector",
-          "units": [
-            "nT",
-            "minutes",
-            "nT"
-          ]
-        },
-        {
-          "description": "The scalar value of the magnetic field from an independent instrument at Yellowknife, Canada (YKC)",
-          "name": "Field_Magnitude",
-          "units": "nT"
-        }
-      ]
-    },
-    {
-      "description": "Best-avail second data in DIFF orientation from Yellowknife, Canada (YKC)",
-      "id": "ykc/best-avail/PT1S/diff",
       "parameters": [
         {
           "description": "The UTC date and time for the data from Yellowknife, Canada (YKC)",

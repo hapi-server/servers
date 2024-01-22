@@ -7,3 +7,4 @@ http://hapi-server.org/servers/TestData2.0/hapi
 https://amda.irap.omp.eu/service/hapi
 https://vires.services/hapi
 https://api.helioviewer.org/hapi/Helioviewer/hapi
+https://csatools.esac.esa.int/HapiServer/hapi

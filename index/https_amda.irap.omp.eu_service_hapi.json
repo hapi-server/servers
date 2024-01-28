@@ -20503,6 +20503,82 @@
       ]
     },
     {
+      "description": "Analyzed sweeps (ASW). Miscellaneous physical high-level quantities derived from individual sweeps.<br/> MinSampling: 0.016S; MaxSampling: 128S<br/> Provider: PSA",
+      "id": "ros-lap-asw",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron density derived from individual sweep. An electron temperature is assumed to be fixed (value of 5 eV)",
+          "name": "ros_lap_neft",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_neft_q",
+          "units": ""
+        },
+        {
+          "description": "Electron temperature derived from exponential part of sweep",
+          "name": "ros_lap_te",
+          "units": "eV"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_te_q",
+          "units": ""
+        },
+        {
+          "description": "Electron temperature, derived by using the linear part of the electron current of the sweep, and density measurement from RPCMIP.",
+          "name": "ros_lap_te_xcalc",
+          "units": "eV"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_te_xcalc_q",
+          "units": ""
+        },
+        {
+          "description": "Photosaturation current derived from individual sweep. As LAP1 has shown no significant \ncontamination effects, these estimates should be directly proportional to the EUV flux at Rosetta position in the 20-130 nm band.",
+          "name": "ros_lap_ipho",
+          "units": "A"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_ipho_q",
+          "units": ""
+        },
+        {
+          "description": "Effective ion speed derived from individual sweep (speed; always non-negative scalar), while assuming a specific ion mass. Cross-calibrated with RPCMIP",
+          "name": "ros_lap_vi_asw",
+          "units": "m/s"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_vi_asw_q",
+          "units": ""
+        },
+        {
+          "description": "Photoelectron knee potential",
+          "name": "ros_lap_usc_asw",
+          "units": "V"
+        },
+        {
+          "description": "Quality value in the range 0 (worst) to 1 (best). Corresponds to goodness of fit or how well the model fits the data",
+          "name": "ros_lap_usc_asw_q",
+          "units": ""
+        },
+        {
+          "description": "Quality flag constructed as the sum of multiple terms, depending on what quality related effects are present. Each digit is either in \nthe range 0 (best) to 7 (worst), or 9 (not used)",
+          "name": "ros_lap_asw_f",
+          "units": ""
+        }
+      ]
+    },
+    {
       "description": "Electric field component, calculated on ground by\ntaking the difference between floating probe measurements on both probes and\ndividing by distance<br/> MinSampling: 0.05S; MaxSampling: 35S<br/> Provider: PSA",
       "id": "ros-lap-efl",
       "parameters": [
@@ -25509,6 +25585,98 @@
         {
           "description": "",
           "name": "nep_dsc_da",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "Tao SW Neptune / Input Stereo-A<br/> Sampling: 1H",
+      "id": "tao-nep-sta",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Solar Wind Proton Number Density, scalar",
+          "name": "nep_sta_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "Solar Wind Bulk Speed",
+          "name": "nep_sta_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "nep_sta_t",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "nep_sta_pdyn",
+          "units": "nPa"
+        },
+        {
+          "description": "",
+          "name": "nep_sta_b",
+          "units": "nT"
+        },
+        {
+          "description": "br along parker spiral computed with tao model outputs",
+          "name": "nep_sta_bx",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "nep_sta_da",
+          "units": "deg"
+        }
+      ]
+    },
+    {
+      "description": "Tao SW Neptune / Input Stereo-B<br/> Sampling: 1H",
+      "id": "tao-nep-stb",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Solar Wind Proton Number Density, scalar",
+          "name": "nep_stb_n",
+          "units": "cmâ\u0081»Â³"
+        },
+        {
+          "description": "Solar Wind Bulk Speed",
+          "name": "nep_stb_v",
+          "units": "km/s"
+        },
+        {
+          "description": "",
+          "name": "nep_stb_t",
+          "units": "eV"
+        },
+        {
+          "description": "",
+          "name": "nep_stb_pdyn",
+          "units": "nPa"
+        },
+        {
+          "description": "",
+          "name": "nep_stb_b",
+          "units": "nT"
+        },
+        {
+          "description": "br along parker spiral computed with tao model outputs",
+          "name": "nep_stb_bx",
+          "units": "nT"
+        },
+        {
+          "description": "",
+          "name": "nep_stb_da",
           "units": "deg"
         }
       ]

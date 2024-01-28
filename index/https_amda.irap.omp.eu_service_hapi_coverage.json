@@ -2811,6 +2811,11 @@
       "stopDate": "2016-09-30T23:58:44Z"
     },
     {
+      "id": "ros-lap-asw",
+      "startDate": "2014-03-24T08:13:00Z",
+      "stopDate": "2016-09-28T23:55:32Z"
+    },
+    {
       "id": "ros-lap-efl",
       "startDate": "2015-05-20T15:17:20Z",
       "stopDate": "2016-09-30T10:30:20Z"
@@ -3389,6 +3394,16 @@
       "id": "tao-nep-dsc",
       "startDate": "2016-08-01T00:00:00Z",
       "stopDate": "2022-06-25T23:00:00Z"
+    },
+    {
+      "id": "tao-nep-sta",
+      "startDate": "2007-03-01T00:00:00Z",
+      "stopDate": "2019-01-01T00:00:00Z"
+    },
+    {
+      "id": "tao-nep-stb",
+      "startDate": "2008-01-01T00:00:00Z",
+      "stopDate": "2014-11-01T00:00:00Z"
     },
     {
       "id": "tao-nep-sw",
@@ -4347,5 +4362,5 @@
     }
   ],
   "id": "https://amda.irap.omp.eu/service/hapi",
-  "parameterDays": 2.33876786E7
+  "parameterDays": 2.34551137E7
 }

@@ -7,4 +7,4 @@ http://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bob
 https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, amda@irap.omp.eu
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
 https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
-https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, ESAC-Cluster, esdc_cluster_logs@cosmos.esa.int, esdc_cluster_logs@cosmos.esa.int
+https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, Cluster Science Archive, esdc_cluster_logs@cosmos.esa.int

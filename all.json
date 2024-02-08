@@ -1,5 +1,5 @@
 [ 
-    { "url":"https://cdaweb.gsfc.nasa.gov/hapi"
+    { "url":"https://cdaweb.gsfc.nasa.gov/hapi",
       "title":"CDAWeb",    
       "id": "CDAWeb", 
       "contact": "Robert Candey",

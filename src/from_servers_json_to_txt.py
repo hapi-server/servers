@@ -2,7 +2,7 @@ import requests
 import json
 
 # read the JSON targeted by url and write to file fout.
-def write_text(url,fout):
+def write_text(url,fout,url_only=False):
     
     out=open(fout,"w")
 
@@ -22,7 +22,10 @@ def write_text(url,fout):
         exit(1)
 
     for item in data.get("servers"):
-        out.write( "%s,%s,%s,%s,%s\n" % ( item["url"], item["title"], item["id"], item["contact"], item["contactID"] ) )
+        if url_only:
+            out.write( "%s\n" % item["url"] )
+        else:
+            out.write( "%s, %s, %s, %s, %s\n" % ( item["url"], item["title"], item["id"], item["contact"], item["contactID"] ) )
     out.close()
 
 # write the JSON from the legacy JSON file.  Note the JSON copy is the one humans should modify.
@@ -56,4 +59,5 @@ def write_json(url,fout):
 
 #write_json("https://raw.githubusercontent.com/hapi-server/servers/20240208-all-json/dev.txt","dev.json")
 write_text("https://raw.githubusercontent.com/hapi-server/servers/20240208-all-json/all.json","all_.txt")
+write_text("https://raw.githubusercontent.com/hapi-server/servers/20240208-all-json/all.json","all.txt",url_only=True)
 write_text("https://raw.githubusercontent.com/hapi-server/servers/20240208-all-json/dev.json","dev.txt")

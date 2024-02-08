@@ -1,5 +1,4 @@
-{
-  [ 
+[ 
     { "url":"https://cdaweb.gsfc.nasa.gov/hapi"
       "title":"CDAWeb",    
       "id": "CDAWeb", 
@@ -50,5 +49,5 @@
       "id": "CSA", 
       "contact": "Cluster Science Archive",
       "contactID": " esdc_cluster_logs@cosmos.esa.int" }
-}      
+]      
 

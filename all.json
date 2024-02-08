@@ -12,7 +12,7 @@
       "contactID": "e_ginman@bgs.ac.uk" },
     { "url":"http://hapi-server.org/servers/SSCWeb/hapi",
       "title":"SSCWeb",    
-      "id": SSCWeb"", 
+      "id": "SSCWeb", 
       "contact": "Bob Weigel",
       "contactID": "rweigel@gmu.edu" },
     { "url":"https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",

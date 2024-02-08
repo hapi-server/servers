@@ -25,6 +25,7 @@ def write_text(url,fout):
         out.write( "%s,%s,%s,%s,%s\n" % ( item["url"], item["title"], item["id"], item["contact"], item["contactID"] ) )
     out.close()
 
+# write the JSON from the legacy JSON file.  Note the JSON copy is the one humans should modify.
 def write_json(url,fout):
     # Send a GET request and check for errors
     try:

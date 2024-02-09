@@ -1,3 +1,9 @@
+# TODO:
+#  This should read all.json, which is the master and will be hand-edited.
+#    Jeremy: add dataTests for everything except SSCWeb
+#    Bob: add dataTests for SSCWeb
+#    Jeremy: Add code that reads about.json, attempts to get /about response then removes
+#    any hand-edited stuff with /about response. In the case of 3.2, the dataTest would be overwritten.
 import requests
 import json
 

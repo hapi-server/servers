@@ -29,7 +29,17 @@
       "title":"2.0 Test Data",    
       "id": "TestData2.0", 
       "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu" },
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "dataset1",
+          "start": "1970-01-01T00:00:00Z",
+          "stop": "1970-01-01T00:00:10Z",
+          "parameters": "scalar"
+        }
+      }
+    },
     { "url":"https://amda.irap.omp.eu/service/hapi",
       "title":"AMDA",    
       "id": "AMDA", 

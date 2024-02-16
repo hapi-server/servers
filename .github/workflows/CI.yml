@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          git fetch --all,
+          git fetch origin 20240208-all-json:20240208-all-json,
           git checkout 20240208-all-json,
           python src/from_servers_json_to_txt.py,
           git config --global user.name ${{secrets.USER_NAME}},

@@ -40,7 +40,7 @@
         "query": {
           "dataset": "active",
           "start": "1989-09-29T00:00:00.000Z",
-          "stop": "1991-10-04T08:00:00.000Z",
+          "stop": "1991-09-30T00:00:00.000Z",
           "parameters": "X_GSE,Y_GSE,Z_GSE"
         }
       }

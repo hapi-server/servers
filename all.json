@@ -10,7 +10,7 @@
          "query": {
              "dataset": "AC_H0_MFI",
              "start": "1997-09-03T00:00:12Z",
-             "stop": "1997-09-04T00:00:12.000Z",
+             "stop": "1997-09-03T00:01:12.000Z",
              "parameters": "BGSEc"
          }
       }

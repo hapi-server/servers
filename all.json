@@ -4,12 +4,32 @@
       "title":"CDAWeb",    
       "id": "CDAWeb", 
       "contact": "Robert Candey",
-      "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com" },
+      "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com",
+      "dataTest": {
+         "name": "Ping Test",
+         "query": {
+             "dataset": "RBSP-B_DENSITY_EMFISIS-L4",
+             "start": "2019-07-15",
+             "stop": "2019-07-16",
+             "parameters": "y"
+         }
+      }
+    },
     { "url":"https://imag-data.bgs.ac.uk/GIN_V1/hapi",
       "title":"INTERMAGNET",    
       "id": "INTERMAGNET", 
       "contact": "Edinburgh GIN manager",
-      "contactID": "e_ginman@bgs.ac.uk" },
+      "contactID": "e_ginman@bgs.ac.uk",
+      "dataTest": {
+         "name": "Ping Test",
+         "query": {
+             "dataset": "aae/definitive/PT1M/native",
+             "start": "2013-12-31",
+             "stop": "2014-01-01",
+             "parameters": "Field_Magnitude"
+         }
+      }
+    },
     { "url":"http://hapi-server.org/servers/SSCWeb/hapi",
       "title":"SSCWeb",    
       "id": "SSCWeb", 
@@ -24,7 +44,17 @@
       "title":"LISIRD",    
       "id": "LISIRD", 
       "contact": "Doug Lindholm",
-      "contactID": "Doug.Lindholm@lasp.colorado.edu" },
+      "contactID": "Doug.Lindholm@lasp.colorado.edu",
+      "dataTest": {
+         "name": "Ping Test",
+         "query": {
+             "dataset": "composite_mg_index",
+             "start": "2013-07-10",
+             "stop": "2013-07-18",
+             "parameters": "mg_index"
+         }
+      }
+    },
     { "url":"http://hapi-server.org/servers/TestData2.0/hapi",
       "title":"2.0 Test Data",    
       "id": "TestData2.0", 
@@ -44,12 +74,32 @@
       "title":"AMDA",    
       "id": "AMDA", 
       "contact": "Vincent Génot",
-      "contactID": "amda@irap.omp.eu" },
+      "contactID": "amda@irap.omp.eu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "ace_r",
+          "start": "2024-01-31T00:00:00Z",
+          "stop": "2024-02-01T00:00:00Z",
+          "parameters": "ace_r"
+        }
+      }
+    },
     { "url":"https://vires.services/hapi",
       "title":"VirES for Swarm",    
       "id": "VirES-for-Swarm", 
       "contact": "Martin Pačes (EOX)",
-      "contactID": "feedback@vires.services" },
+      "contactID": "feedback@vires.services", 
+      "dataTest": {
+         "name": "Ping Test",
+         "query": {
+             "dataset":"GRACE_A_MAG",
+             "start": "2017-10-31",
+             "stop": "2017-11-01",
+             "parameters": "F"
+          }
+       }
+    },
     { "url":"https://api.helioviewer.org/hapi/Helioviewer/hapi,",
       "title":"Helioviewer",    
       "id": "Helioviewer", 
@@ -59,6 +109,16 @@
       "title": "Cluster Science Archive",    
       "id": "CSA", 
       "contact": "Cluster Science Archive",
-      "contactID": " esdc_cluster_logs@cosmos.esa.int" }
-  ]      
+      "contactID": " esdc_cluster_logs@cosmos.esa.int",
+      "dataTest": {
+         "name": "Ping Test",
+         "query": {
+             "dataset":"C4_PP_FGM",
+             "start": "2020-02-24T11:00",
+             "stop": "2020-02-24T12:00",
+             "parameters": "B_xyz_gse"
+          }
+       }
+     }
+  ]
 }

@@ -3,8 +3,12 @@ https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET, INTERMAGNET, Edinburgh GIN
 http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@gmu.edu
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu
-http://hapi-server.org/servers/TestData2.0/hapi, 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData2.0/hapi, HAPI 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData2.1/hapi, HAPI 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.0/hapi, HAPI 3.0 Test Data, TestData3.0, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.0/hapi, HAPI 3.1 Test Data, TestData3.1, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.2/hapi, HAPI 3.2 Test Data, TestData3.2, Bob Weigel, rweigel@gmu.edu
 https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, amda@irap.omp.eu
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
-https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
-https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, Cluster Science Archive, esdc_cluster_logs@cosmos.esa.int
+https://api.helioviewer.org/hapi/Helioviewer/hapi,, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
+https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, Cluster Science Archive,  esdc_cluster_logs@cosmos.esa.int

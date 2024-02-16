@@ -8,10 +8,10 @@
       "dataTest": {
          "name": "Ping Test",
          "query": {
-             "dataset": "RBSP-B_DENSITY_EMFISIS-L4",
-             "start": "2019-07-15",
-             "stop": "2019-07-16",
-             "parameters": "y"
+             "dataset": "AC_H0_MFI",
+             "start": "1997-09-03T00:00:12Z",
+             "stop": "1997-09-04T00:00:12.000Z",
+             "parameters": "BGSEc"
          }
       }
     },

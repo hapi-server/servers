@@ -175,7 +175,7 @@
           }
        }
     },
-    { "url":"https://api.helioviewer.org/hapi/Helioviewer/hapi,",
+    { "url":"https://api.helioviewer.org/hapi/Helioviewer/hapi",
       "title":"Helioviewer",    
       "id": "Helioviewer", 
       "contact": "Daniel Garcia Briseno",

@@ -24,8 +24,8 @@
          "name": "Ping Test",
          "query": {
              "dataset": "aae/definitive/PT1M/native",
-             "start": "2013-12-31",
-             "stop": "2014-01-01",
+             "start": "2013-12-31Z",
+             "stop": "2014-01-01Z",
              "parameters": "Field_Magnitude"
          }
       }
@@ -59,8 +59,8 @@
          "name": "Ping Test",
          "query": {
              "dataset": "composite_mg_index",
-             "start": "2013-07-10",
-             "stop": "2013-07-18",
+             "start": "2013-07-10Z",
+             "stop": "2013-07-18Z",
              "parameters": "mg_index"
          }
       }
@@ -169,8 +169,8 @@
          "name": "Ping Test",
          "query": {
              "dataset":"GRACE_A_MAG",
-             "start": "2017-10-31",
-             "stop": "2017-11-01",
+             "start": "2017-10-31Z",
+             "stop": "2017-11-01Z",
              "parameters": "F"
           }
        }
@@ -189,8 +189,8 @@
          "name": "Ping Test",
          "query": {
              "dataset":"C4_PP_FGM",
-             "start": "2020-02-24T11:00",
-             "stop": "2020-02-24T12:00",
+             "start": "2020-02-24T11:00Z",
+             "stop": "2020-02-24T12:00Z",
              "parameters": "B_xyz_gse"
           }
        }

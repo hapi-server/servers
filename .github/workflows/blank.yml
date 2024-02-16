@@ -31,3 +31,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           git commit README -m "cat 'Test' to README.md [skip ci]",
+          git push

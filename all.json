@@ -1,153 +1,9 @@
 {
-  "servers": [ 
-    { "url":"https://cdaweb.gsfc.nasa.gov/hapi",
-      "title":"CDAWeb",    
-      "id": "CDAWeb", 
-      "contact": "Robert Candey",
-      "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com",
-      "dataTest": {
-         "name": "Ping Test",
-         "query": {
-             "dataset": "AC_H0_MFI",
-             "start": "1997-09-03T00:00:12Z",
-             "stop": "1997-09-03T00:01:12.000Z",
-             "parameters": "BGSEc"
-         }
-      }
-    },
-    { "url":"https://imag-data.bgs.ac.uk/GIN_V1/hapi",
-      "title":"INTERMAGNET",    
-      "id": "INTERMAGNET", 
-      "contact": "Edinburgh GIN manager",
-      "contactID": "e_ginman@bgs.ac.uk",
-      "dataTest": {
-         "name": "Ping Test",
-         "query": {
-             "dataset": "aae/definitive/PT1M/native",
-             "start": "2013-12-31Z",
-             "stop": "2014-01-01Z",
-             "parameters": "Field_Magnitude"
-         }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/SSCWeb/hapi",
-      "title":"SSCWeb",    
-      "id": "SSCWeb", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "active",
-          "start": "1989-09-29T00:00:00.000Z",
-          "stop": "1991-09-30T00:00:00.000Z",
-          "parameters": "X_GSE,Y_GSE,Z_GSE"
-        }
-      }
-    },
-    { "url":"https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
-      "title":"CCMC ISWA",    
-      "id": "CCMC_ISWA", 
-      "contact": "Rick Mullinix",
-      "contactID": "richard.e.mullinix@nasa.gov" },
-    { "url":"http://lasp.colorado.edu/lisird/hapi",
-      "title":"LISIRD",    
-      "id": "LISIRD", 
-      "contact": "Doug Lindholm",
-      "contactID": "Doug.Lindholm@lasp.colorado.edu",
-      "dataTest": {
-         "name": "Ping Test",
-         "query": {
-             "dataset": "composite_mg_index",
-             "start": "2013-07-10Z",
-             "stop": "2013-07-18Z",
-             "parameters": "mg_index"
-         }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/TestData2.0/hapi",
-      "title":"HAPI 2.0 Test Data",
-      "description": "Server for testing clients on HAPI 2.0 features",    
-      "id": "TestData2.0", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "dataset1",
-          "start": "1970-01-01T00:00:00Z",
-          "stop": "1970-01-01T00:00:40Z",
-          "parameters": "scalar"
-        }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/TestData2.1/hapi",
-      "title":"HAPI 2.1 Test Data",    
-      "description": "Server for testing clients with HAPI 2.1 additions",    
-      "id": "TestData2.1", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "dataset1",
-          "start": "1970-01-01T00:00:00Z",
-          "stop": "1970-01-01T00:00:40Z",
-          "parameters": "vectorstring"
-        }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/TestData3.0/hapi",
-      "title":"HAPI 3.0 Test Data",    
-      "description": "Server for testing clients with HAPI 3.0 additions",    
-      "id": "TestData3.0", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "spectra_time_dependent_bins",
-          "start": "1970-01-01T00:00:00Z",
-          "stop": "1970-01-01T00:00:40Z",
-          "parameters": "scalar"
-        }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/TestData3.0/hapi",
-      "title":"HAPI 3.1 Test Data",    
-      "description": "Server for testing clients with HAPI 3.1 additions",    
-      "id": "TestData3.1", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "unicodevector (Z;α;☃;👍)",
-          "start": "1970-01-01T00:00:00Z",
-          "stop": "1970-01-01T00:00:40Z",
-          "parameters": "scalar"
-        }
-      }
-    },
-    { "url":"http://hapi-server.org/servers/TestData3.2/hapi",
-      "title":"HAPI 3.2 Test Data",    
-      "description": "Server for testing clients with HAPI 3.2 additions",    
-      "id": "TestData3.2", 
-      "contact": "Bob Weigel",
-      "contactID": "rweigel@gmu.edu",
-      "dataTest": {
-        "name": "Ping Test",
-        "query": {
-          "dataset": "DE1/PWI/B_H",
-          "start": "1981-09-16T02:19Z",
-          "stop": "1981-09-17T19:24Z",
-          "parameters": "scalar"
-        }
-      }
-    },
-     { "url":"https://amda.irap.omp.eu/service/hapi",
-      "title":"AMDA",    
-      "id": "AMDA", 
+  "servers": [
+    {
+      "url": "https://amda.irap.omp.eu/service/hapi",
+      "title": "AMDA",
+      "id": "AMDA",
       "contact": "Vincent Génot",
       "contactID": "amda@irap.omp.eu",
       "dataTest": {
@@ -160,40 +16,200 @@
         }
       }
     },
-    { "url":"https://vires.services/hapi",
-      "title":"VirES for Swarm",    
-      "id": "VirES-for-Swarm", 
-      "contact": "Martin Pačes (EOX)",
-      "contactID": "feedback@vires.services", 
+    {
+      "url": "https://cdaweb.gsfc.nasa.gov/hapi",
+      "title": "CDAWeb",
+      "id": "CDAWeb",
+      "contact": "Robert Candey",
+      "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com",
       "dataTest": {
-         "name": "Ping Test",
-         "query": {
-             "dataset":"GRACE_A_MAG",
-             "start": "2017-10-31Z",
-             "stop": "2017-11-01Z",
-             "parameters": "F"
-          }
-       }
+        "name": "Ping Test",
+        "query": {
+          "dataset": "AC_H0_MFI",
+          "start": "1997-09-03T00:00:12Z",
+          "stop": "1997-09-03T00:01:12.000Z",
+          "parameters": "BGSEc"
+        }
+      }
     },
-    { "url":"https://api.helioviewer.org/hapi/Helioviewer/hapi",
-      "title":"Helioviewer",    
-      "id": "Helioviewer", 
-      "contact": "Daniel Garcia Briseno",
-      "contactID": "daniel.garciabriseno@nasa.gov" },
-    { "url":"https://csatools.esac.esa.int/HapiServer/hapi",
-      "title": "Cluster Science Archive",    
-      "id": "CSA", 
+    {
+      "url": "https://csatools.esac.esa.int/HapiServer/hapi",
+      "title": "Cluster Science Archive",
+      "id": "CSA",
       "contact": "Cluster Science Archive",
       "contactID": " esdc_cluster_logs@cosmos.esa.int",
       "dataTest": {
-         "name": "Ping Test",
-         "query": {
-             "dataset":"C4_PP_FGM",
-             "start": "2020-02-24T11:00Z",
-             "stop": "2020-02-24T12:00Z",
-             "parameters": "B_xyz_gse"
-          }
-       }
-     }
+        "name": "Ping Test",
+        "query": {
+          "dataset": "C4_PP_FGM",
+          "start": "2020-02-24T11:00Z",
+          "stop": "2020-02-24T12:00Z",
+          "parameters": "B_xyz_gse"
+        }
+      }
+    },
+    {
+      "url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
+      "title": "CCMC ISWA",
+      "id": "CCMC_ISWA",
+      "contact": "Rick Mullinix",
+      "contactID": "richard.e.mullinix@nasa.gov"
+    },
+    {
+      "url": "http://lasp.colorado.edu/lisird/hapi",
+      "title": "LISIRD",
+      "id": "LISIRD",
+      "contact": "Doug Lindholm",
+      "contactID": "Doug.Lindholm@lasp.colorado.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "composite_mg_index",
+          "start": "2013-07-10Z",
+          "stop": "2013-07-18Z",
+          "parameters": "mg_index"
+        }
+      }
+    },
+    {
+      "url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
+      "title": "INTERMAGNET",
+      "id": "INTERMAGNET",
+      "contact": "Edinburgh GIN manager",
+      "contactID": "e_ginman@bgs.ac.uk",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "aae/definitive/PT1M/native",
+          "start": "2013-12-31Z",
+          "stop": "2014-01-01Z",
+          "parameters": "Field_Magnitude"
+        }
+      }
+    },
+    {
+      "url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
+      "title": "Helioviewer",
+      "id": "Helioviewer",
+      "contact": "Daniel Garcia Briseno",
+      "contactID": "daniel.garciabriseno@nasa.gov"
+    },
+    {
+      "url": "http://hapi-server.org/servers/SSCWeb/hapi",
+      "title": "SSCWeb",
+      "id": "SSCWeb",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "active",
+          "start": "1989-09-29T00:00:00.000Z",
+          "stop": "1991-09-30T00:00:00.000Z",
+          "parameters": "X_GSE,Y_GSE,Z_GSE"
+        }
+      }
+    },
+    {
+      "url": "https://vires.services/hapi",
+      "title": "VirES for Swarm",
+      "id": "VirES-for-Swarm",
+      "contact": "Martin Pačes (EOX)",
+      "contactID": "feedback@vires.services",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "GRACE_A_MAG",
+          "start": "2017-10-31Z",
+          "stop": "2017-11-01Z",
+          "parameters": "F"
+        }
+      }
+    },
+    {
+      "url": "http://hapi-server.org/servers/TestData2.0/hapi",
+      "title": "HAPI 2.0 Test Data",
+      "description": "Server for testing clients on HAPI 2.0 features",
+      "id": "TestData2.0",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "dataset1",
+          "start": "1970-01-01T00:00:00Z",
+          "stop": "1970-01-01T00:00:40Z",
+          "parameters": "scalar"
+        }
+      }
+    },
+    {
+      "url": "http://hapi-server.org/servers/TestData2.1/hapi",
+      "title": "HAPI 2.1 Test Data",
+      "description": "Server for testing clients with HAPI 2.1 additions",
+      "id": "TestData2.1",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "dataset1",
+          "start": "1970-01-01T00:00:00Z",
+          "stop": "1970-01-01T00:00:40Z",
+          "parameters": "vectorstring"
+        }
+      }
+    },
+    {
+      "url": "http://hapi-server.org/servers/TestData3.0/hapi",
+      "title": "HAPI 3.0 Test Data",
+      "description": "Server for testing clients with HAPI 3.0 additions",
+      "id": "TestData3.0",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "spectra_time_dependent_bins",
+          "start": "1970-01-01T00:00:00Z",
+          "stop": "1970-01-01T00:00:40Z",
+          "parameters": "scalar"
+        }
+      }
+    },
+    {
+      "url": "http://hapi-server.org/servers/TestData3.0/hapi",
+      "title": "HAPI 3.1 Test Data",
+      "description": "Server for testing clients with HAPI 3.1 additions",
+      "id": "TestData3.1",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "unicodevector (Z;α;☃;👍)",
+          "start": "1970-01-01T00:00:00Z",
+          "stop": "1970-01-01T00:00:40Z",
+          "parameters": "scalar"
+        }
+      }
+    },
+    {
+      "url": "http://hapi-server.org/servers/TestData3.2/hapi",
+      "title": "HAPI 3.2 Test Data",
+      "description": "Server for testing clients with HAPI 3.2 additions",
+      "id": "TestData3.2",
+      "contact": "Bob Weigel",
+      "contactID": "rweigel@gmu.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "DE1/PWI/B_H",
+          "start": "1981-09-16T02:19Z",
+          "stop": "1981-09-17T19:24Z",
+          "parameters": "scalar"
+        }
+      }
+    }
   ]
 }

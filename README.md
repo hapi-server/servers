@@ -1,19 +1,22 @@
-This repository contains lists of HAPI servers.
+# Lists
 
-* `all.txt` - List of production HAPI servers
-* `all_.txt` - Additional information about servers. To use until we have developed a schema for such information. 
-* `dev.txt` - List of HAPI servers under development and not production ready
+This repository contains lists of HAPI servers. The master lists are
 
-If you have developed a HAPI server and it is ready for production and you would like to make it automatically visible to existing software in the HAPI ecosystem, please make a pull request that adds your server URL to `dev.txt` at https://github.com/hapi-server/servers. After the pull request is accepted, it will be visible at https://hapi-server.org/servers-dev and we will run tests to verify that existing HAPI software has no issues with the server. At that point, we will move the server URL out of dev.txt and into `all_.txt` at which point it will be visible at https://hapi-server.org/servers and in (at minimum) all of the client software listed at https://github.com/hapi-server?q=client-*&type=all.
+* `all.json` - Production servers
+* `dev.json` - In-development servers
 
-# Notes on testing and indexing
+These files are updated every hour and on each commit by replacing existing information with responses from an `/about` request (for servers that support his endpoint).
 
-Production servers, those listed in all.txt, will be subjected to regular testing and indexing.  Aliveness tests are
-run each hour to see that the server is responsive.  This is done by requesting catalogs and downloading an arbitrary
-dataset.  Presently this is done using a fixed random hash, so that the same dataset is loaded with each test.  This
-is necessary because of the test being particular, and is likely to change.  However, if you would like to improve
-testing, note that the test script really needs sampleStartDate and sampleStopDate to be specified, otherwise the test
-script is going to guess time intervals several times before it gives up and declares the server broken.
+Lists in legacy format are:
 
-Indexing is done once weekly.  This is a process which from each server downloads the catalog and all info responses.  These
-info responses are compiled into a smaller catalog file which contains the parameter names and start and stop dates.  
+* `all.txt` - List of URLs for production servers
+* `all_.txt` - List of URLs for production servers and additional server metadata
+* `dev.txt` - List of URLs for in-development servers
+
+These files are updated when there are changes to `all.json` or `dev.json`.
+
+# Adding a Server
+
+If you have developed a HAPI server and you would like to make it automatically visible to existing software in the HAPI ecosystem, please make a pull request that adds your server URL to `dev.json` at https://github.com/hapi-server/servers. We recommend running tests using https://hapi-server.org/verifier before submitting a pull request.
+
+After the pull request is accepted, it will be visible at https://hapi-server.org/dev.json and https://hapi-server.org/servers-dev, and we will run tests with existing HAPI client software. We will then add the server to `all.json,` where it will be visible at https://hapi-server.org/all.json and https://hapi-server.org/servers, and the client software listed at https://github.com/hapi-server?q=client-*&type=all.

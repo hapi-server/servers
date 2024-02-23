@@ -6,7 +6,7 @@ def get_about(about_url):
 
   print(f"Fetching {about_url}")
   try:
-    response = requests.get(about_url)
+    response = requests.get(about_url, timeout=5)
     response.raise_for_status()  # Raise an error if response code is not 2xx
   except requests.exceptions.RequestException as e:
     print(f"  {e}")

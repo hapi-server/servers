@@ -5,7 +5,7 @@ This repository contains lists of HAPI servers. The master lists are
 * `all.json` - Production servers
 * `dev.json` - In-development servers
 
-These files are updated every hour and on each commit by replacing existing information with responses from an `/about` request (for servers that support his endpoint).
+These files are updated every hour and on each commit by replacing existing information for each server with responses from an `/about` request (if this endpoint is supported).
 
 Lists in legacy format are:
 

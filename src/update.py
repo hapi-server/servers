@@ -31,7 +31,7 @@ def equivalent_dicts(d1, d2):
       return False
   return True
 
-def write_legacy(fname, data):
+def write(fname, data):
   print(f"Writing {fname}")
   with open(fname, 'w') as f:
     f.write(data)
@@ -63,8 +63,8 @@ for server in all['servers']:
   all_file_str1 += f"{server['url']}, {server['title']}, {server['id']}, {server['contact']}, {server['contactID']}\n"
   all_file_str2 += f"{server['url']}\n"
 
-write_legacy('../all.json.new', json.dumps(all, ensure_ascii=False, separators=(',', ': '), indent=2))
+write('../all.json.new', json.dumps(all, ensure_ascii=False, separators=(',', ': '), indent=2))
 
 if changed == True:
-  write_legacy('../all_.txt.new', all_file_str1)
-  write_legacy('../all.txt.new', all_file_str2)
+  write('../all_.txt.new', all_file_str1)
+  write('../all.txt.new', all_file_str2)

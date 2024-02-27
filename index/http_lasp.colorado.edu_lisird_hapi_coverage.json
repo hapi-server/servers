@@ -3,37 +3,17 @@
     {
       "id": "bremen_composite_mgii",
       "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2023-04-09T00:00:00.000Z"
+      "stopDate": "2024-01-28T00:00:00.000Z"
     },
     {
-      "id": "yeo_nonempirical_tsi_reconstruction",
-      "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2016-07-31T00:00:00.000Z"
+      "id": "cak",
+      "startDate": "1976-11-20T00:00:00.000Z",
+      "stopDate": "2015-09-30T00:00:00.000Z"
     },
     {
-      "id": "nrl2_ssi_P1Y",
-      "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2022-12-31T00:00:00.000Z"
-    },
-    {
-      "id": "sme_ssi",
-      "startDate": "1981-10-08T00:00:00.000Z",
-      "stopDate": "1989-04-13T00:00:00.000Z"
-    },
-    {
-      "id": "nn_sim_tsi",
-      "startDate": "1978-11-07T00:00:00.000Z",
-      "stopDate": "2019-03-31T00:00:00.000Z"
-    },
-    {
-      "id": "sorce_tsi_24hr_l3",
-      "startDate": "2004-11-01T00:00:00.000Z",
-      "stopDate": "2013-08-23T00:00:00.000Z"
-    },
-    {
-      "id": "sorce_tsi_6hr_l3",
-      "startDate": "2003-02-25T00:00:00.000Z",
-      "stopDate": "2020-02-26T00:00:00.000Z"
+      "id": "composite_lyman_alpha",
+      "startDate": "1947-02-14T00:00:00.000Z",
+      "stopDate": "2024-01-26T00:00:00.000Z"
     },
     {
       "id": "composite_mg_index",
@@ -41,13 +21,53 @@
       "stopDate": "2013-07-15T00:00:00.000Z"
     },
     {
+      "id": "empire_tsi",
+      "startDate": "1947-02-14T00:00:00.000Z",
+      "stopDate": "2017-05-31T00:00:00.000Z"
+    },
+    {
+      "id": "historical_tsi",
+      "startDate": "1610-01-01T00:00:00.000Z",
+      "stopDate": "2018-12-31T00:00:00.000Z"
+    },
+    {
+      "id": "musil_see",
+      "startDate": "2002-02-08T00:00:00.000Z",
+      "stopDate": "2017-08-23T00:00:00.000Z"
+    },
+    {
+      "id": "musil_sim",
+      "startDate": "2003-04-14T00:00:00.000Z",
+      "stopDate": "2017-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "musil_solstice_fuv",
+      "startDate": "2003-05-14T00:00:00.000Z",
+      "stopDate": "2017-08-30T00:00:00.000Z"
+    },
+    {
       "id": "musil_solstice_muv",
       "startDate": "2003-05-14T00:00:00.000Z",
       "stopDate": "2017-08-30T00:00:00.000Z"
     },
     {
+      "id": "nn_sim_tsi",
+      "startDate": "1978-11-08T00:00:00.000Z",
+      "stopDate": "2019-03-31T00:00:00.000Z"
+    },
+    {
+      "id": "nrl2_ssi_P1D",
+      "startDate": "1882-01-01T00:00:00.000Z",
+      "stopDate": "2022-12-31T00:00:00.000Z"
+    },
+    {
       "id": "nrl2_ssi_P1M",
       "startDate": "1882-01-01T00:00:00.000Z",
+      "stopDate": "2022-12-31T00:00:00.000Z"
+    },
+    {
+      "id": "nrl2_ssi_P1Y",
+      "startDate": "1610-01-01T00:00:00.000Z",
       "stopDate": "2022-12-31T00:00:00.000Z"
     },
     {
@@ -66,19 +86,54 @@
       "stopDate": "2022-12-31T00:00:00.000Z"
     },
     {
-      "id": "nrl2_ssi_P1D",
-      "startDate": "1882-01-01T00:00:00.000Z",
-      "stopDate": "2022-12-31T00:00:00.000Z"
+      "id": "sdo_eve_ssi_1nm_l3",
+      "startDate": "2010-04-30T00:00:00.000Z",
+      "stopDate": "2024-01-27T00:00:00.000Z"
     },
     {
-      "id": "musil_sim",
-      "startDate": "2003-04-14T00:00:00.000Z",
-      "stopDate": "2017-08-29T00:00:00.000Z"
+      "id": "sme_ssi",
+      "startDate": "1981-10-08T00:00:00.000Z",
+      "stopDate": "1989-04-13T00:00:00.000Z"
     },
     {
-      "id": "cak",
-      "startDate": "1976-11-20T00:00:00.000Z",
-      "stopDate": "2015-10-01T00:00:00.000Z"
+      "id": "sorce_tsi_24hr_l3",
+      "startDate": "2003-02-25T00:00:00.000Z",
+      "stopDate": "2020-02-25T00:00:00.000Z"
+    },
+    {
+      "id": "sorce_tsi_6hr_l3",
+      "startDate": "2003-02-25T00:00:00.000Z",
+      "stopDate": "2020-02-25T00:00:00.000Z"
+    },
+    {
+      "id": "tcte_tsi_24hr",
+      "startDate": "2013-12-13T00:00:00.000Z",
+      "stopDate": "2019-05-15T00:00:00.000Z"
+    },
+    {
+      "id": "tcte_tsi_6hr",
+      "startDate": "2013-12-13T00:00:00.000Z",
+      "stopDate": "2019-05-15T00:00:00.000Z"
+    },
+    {
+      "id": "timed_see_egs_ssi_l2",
+      "startDate": "2002-02-08T00:00:00.000Z",
+      "stopDate": "2024-01-26T00:00:00.000Z"
+    },
+    {
+      "id": "timed_see_ssi_l3",
+      "startDate": "2002-02-08T00:00:00.000Z",
+      "stopDate": "2024-01-26T00:00:00.000Z"
+    },
+    {
+      "id": "timed_see_ssi_l3a",
+      "startDate": "2002-01-22T00:00:00.000Z",
+      "stopDate": "2024-01-26T00:00:00.000Z"
+    },
+    {
+      "id": "timed_see_xps_ssi_l4",
+      "startDate": "2002-01-22T00:00:00.000Z",
+      "stopDate": "2024-01-26T00:00:00.000Z"
     },
     {
       "id": "uars_solstice_ssi",
@@ -86,71 +141,11 @@
       "stopDate": "2001-09-30T00:00:00.000Z"
     },
     {
-      "id": "timed_see_ssi_l3a",
-      "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2023-04-07T00:00:00.000Z"
-    },
-    {
-      "id": "historical_tsi",
-      "startDate": "1610-01-01T00:00:00.000Z",
-      "stopDate": "2018-12-31T00:00:00.000Z"
-    },
-    {
-      "id": "composite_lyman_alpha",
-      "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2023-04-07T00:00:00.000Z"
-    },
-    {
-      "id": "timed_see_xps_ssi_l4",
-      "startDate": "2002-01-22T00:00:00.000Z",
-      "stopDate": "2023-04-07T00:00:00.000Z"
-    },
-    {
-      "id": "musil_see",
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2017-08-23T00:00:00.000Z"
-    },
-    {
-      "id": "timed_see_ssi_l3",
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2023-04-07T00:00:00.000Z"
-    },
-    {
-      "id": "sdo_eve_ssi_1nm_l3",
+      "id": "yeo_nonempirical_tsi_reconstruction",
       "startDate": "2010-04-30T00:00:00.000Z",
-      "stopDate": "2023-04-08T00:00:00.000Z"
-    },
-    {
-      "id": "timed_see_egs_ssi_l2",
-      "startDate": "2002-02-08T00:00:00.000Z",
-      "stopDate": "2023-04-07T00:00:00.000Z"
-    },
-    {
-      "id": "tcte_tsi_6hr",
-      "startDate": "2013-12-16T00:00:00.000Z",
-      "stopDate": "2019-05-16T00:00:00.000Z"
-    },
-    {
-      "id": "tcte_tsi_24hr",
-      "startDate": "2013-12-16T00:00:00.000Z",
-      "stopDate": "2019-05-16T00:00:00.000Z"
-    },
-    {
-      "id": "whi_ref_spectra",
-      "startDate": "2008-03-20T00:00:00.000Z",
-      "stopDate": "2008-04-16T00:00:00.000Z"
-    },
-    {
-      "id": "empire_tsi",
-      "startDate": "1947-02-14T00:00:00.000Z",
-      "stopDate": "2017-05-31T00:00:00.000Z"
-    },
-    {
-      "id": "musil_solstice_fuv",
-      "startDate": "2003-05-14T00:00:00.000Z",
-      "stopDate": "2017-08-30T00:00:00.000Z"
+      "stopDate": "2016-07-31T00:00:00.000Z"
     }
   ],
   "id": "http://lasp.colorado.edu/lisird/hapi",
-  "parameterDays": 2616064
+  "parameterDays": 2661321
 }

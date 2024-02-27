@@ -36,18 +36,13 @@
         },
         {
           "description": "",
+          "name": "ProtonFlux_795_1193",
+          "units": "p/(cm^2-sec-ster-MeV)"
+        },
+        {
+          "description": "",
           "name": "ProtonFlux_1060_1900",
           "units": "p/(cm^2-sec-ster-MeV)"
-        },
-        {
-          "description": "",
-          "name": "FP6p_761_1220",
-          "units": "p/(cm^2-sec-ster-MeV)"
-        },
-        {
-          "description": "",
-          "name": "AnistropyIndex",
-          "units": "index"
         }
       ]
     },
@@ -2437,6 +2432,688 @@
     },
     {
       "description": "",
+      "id": "poes_metop03_sensor0",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor1",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor10",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor11",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor12",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor13",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor14",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor15",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor16",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor17",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor18",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor19",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor2",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor20",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor21",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor3",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor4",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor5",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor6",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor7",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor8",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
+      "id": "poes_metop03_sensor9",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "",
+          "name": "total_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "inner_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "slot_belt_index",
+          "units": "index"
+        },
+        {
+          "description": "",
+          "name": "outer_belt_index",
+          "units": "index"
+        }
+      ]
+    },
+    {
+      "description": "",
       "id": "poes_noaa15_sensor0",
       "parameters": [
         {
@@ -4742,6 +5419,612 @@
           "description": "",
           "name": "ElectronFlux_E0_8_DailyAvg",
           "units": "1/(cm^2 sr day keV)"
+        }
+      ]
+    },
+    {
+      "description": "Clean up/post-processed POES/MetOp electron flux data from the NOAA archive into integral flux units (#/cm2-s-str) in 4 energy channels and in 0.25 L bins each from various satellites (n15, n16, n17, n18, n19, m01, m02, and m03). ",
+      "id": "shells_input",
+      "parameters": [
+        {
+          "description": "",
+          "name": "Time",
+          "units": "UTC"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 1.00",
+          "name": "mep_ele_tel90_flux_e1_L1_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 1.25",
+          "name": "mep_ele_tel90_flux_e1_L1_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 1.50",
+          "name": "mep_ele_tel90_flux_e1_L1_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 1.75",
+          "name": "mep_ele_tel90_flux_e1_L1_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 2.00",
+          "name": "mep_ele_tel90_flux_e1_L2_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 2.25",
+          "name": "mep_ele_tel90_flux_e1_L2_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 2.50",
+          "name": "mep_ele_tel90_flux_e1_L2_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 2.75",
+          "name": "mep_ele_tel90_flux_e1_L2_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e1_L3_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 3.25",
+          "name": "mep_ele_tel90_flux_e1_L3_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 3.50",
+          "name": "mep_ele_tel90_flux_e1_L3_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 3.75",
+          "name": "mep_ele_tel90_flux_e1_L3_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 4.00",
+          "name": "mep_ele_tel90_flux_e1_L4_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 4.25",
+          "name": "mep_ele_tel90_flux_e1_L4_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 4.50",
+          "name": "mep_ele_tel90_flux_e1_L4_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 4.75",
+          "name": "mep_ele_tel90_flux_e1_L4_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 5.00",
+          "name": "mep_ele_tel90_flux_e1_L5_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 5.25",
+          "name": "mep_ele_tel90_flux_e1_L5_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 5.50",
+          "name": "mep_ele_tel90_flux_e1_L5_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 5.75",
+          "name": "mep_ele_tel90_flux_e1_L5_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 6.00",
+          "name": "mep_ele_tel90_flux_e1_L6_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 6.25",
+          "name": "mep_ele_tel90_flux_e1_L6_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 6.50",
+          "name": "mep_ele_tel90_flux_e1_L6_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 6.75",
+          "name": "mep_ele_tel90_flux_e1_L6_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 7.00",
+          "name": "mep_ele_tel90_flux_e1_L7_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 7.25",
+          "name": "mep_ele_tel90_flux_e1_L7_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 7.50",
+          "name": "mep_ele_tel90_flux_e1_L7_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 7.75",
+          "name": "mep_ele_tel90_flux_e1_L7_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e1 energy channel and L Shell Bin 8.0",
+          "name": "mep_ele_tel90_flux_e1_L8_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 1.00",
+          "name": "mep_ele_tel90_flux_e2_L1_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 1.25",
+          "name": "mep_ele_tel90_flux_e2_L1_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 1.50",
+          "name": "mep_ele_tel90_flux_e2_L1_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 1.75",
+          "name": "mep_ele_tel90_flux_e2_L1_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e2_L2_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 2.25",
+          "name": "mep_ele_tel90_flux_e2_L2_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 2.50",
+          "name": "mep_ele_tel90_flux_e2_L2_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 2.75",
+          "name": "mep_ele_tel90_flux_e2_L2_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e2_L3_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 3.25",
+          "name": "mep_ele_tel90_flux_e2_L3_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 3.50",
+          "name": "mep_ele_tel90_flux_e2_L3_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 3.75",
+          "name": "mep_ele_tel90_flux_e2_L3_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 4.00",
+          "name": "mep_ele_tel90_flux_e2_L4_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 4.25",
+          "name": "mep_ele_tel90_flux_e2_L4_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 4.50",
+          "name": "mep_ele_tel90_flux_e2_L4_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 4.75",
+          "name": "mep_ele_tel90_flux_e2_L4_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 5.00",
+          "name": "mep_ele_tel90_flux_e2_L5_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 5.25",
+          "name": "mep_ele_tel90_flux_e2_L5_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 5.50",
+          "name": "mep_ele_tel90_flux_e2_L5_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 5.75",
+          "name": "mep_ele_tel90_flux_e2_L5_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 6.00",
+          "name": "mep_ele_tel90_flux_e2_L6_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 6.25",
+          "name": "mep_ele_tel90_flux_e2_L6_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 6.50",
+          "name": "mep_ele_tel90_flux_e2_L6_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 6.75",
+          "name": "mep_ele_tel90_flux_e2_L6_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 7.00",
+          "name": "mep_ele_tel90_flux_e2_L7_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 7.25",
+          "name": "mep_ele_tel90_flux_e2_L7_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 7.50",
+          "name": "mep_ele_tel90_flux_e2_L7_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 7.75",
+          "name": "mep_ele_tel90_flux_e2_L7_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e2 energy channel and L Shell Bin 8.0",
+          "name": "mep_ele_tel90_flux_e2_L8_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 1.00",
+          "name": "mep_ele_tel90_flux_e3_L1_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 1.25",
+          "name": "mep_ele_tel90_flux_e3_L1_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 1.50",
+          "name": "mep_ele_tel90_flux_e3_L1_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 1.75",
+          "name": "mep_ele_tel90_flux_e3_L1_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e3_L2_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 2.25",
+          "name": "mep_ele_tel90_flux_e3_L2_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 2.50",
+          "name": "mep_ele_tel90_flux_e3_L2_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 2.75",
+          "name": "mep_ele_tel90_flux_e3_L2_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e3_L3_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 3.25",
+          "name": "mep_ele_tel90_flux_e3_L3_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 3.50",
+          "name": "mep_ele_tel90_flux_e3_L3_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 3.75",
+          "name": "mep_ele_tel90_flux_e3_L3_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 4.00",
+          "name": "mep_ele_tel90_flux_e3_L4_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 4.25",
+          "name": "mep_ele_tel90_flux_e3_L4_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 4.50",
+          "name": "mep_ele_tel90_flux_e3_L4_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 4.75",
+          "name": "mep_ele_tel90_flux_e3_L4_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 5.00",
+          "name": "mep_ele_tel90_flux_e3_L5_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 5.25",
+          "name": "mep_ele_tel90_flux_e3_L5_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 5.50",
+          "name": "mep_ele_tel90_flux_e3_L5_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 5.75",
+          "name": "mep_ele_tel90_flux_e3_L5_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 6.00",
+          "name": "mep_ele_tel90_flux_e3_L6_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 6.25",
+          "name": "mep_ele_tel90_flux_e3_L6_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 6.50",
+          "name": "mep_ele_tel90_flux_e3_L6_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 6.75",
+          "name": "mep_ele_tel90_flux_e3_L6_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 7.00",
+          "name": "mep_ele_tel90_flux_e3_L7_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 7.25",
+          "name": "mep_ele_tel90_flux_e3_L7_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 7.50",
+          "name": "mep_ele_tel90_flux_e3_L7_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 7.75",
+          "name": "mep_ele_tel90_flux_e3_L7_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e3 energy channel and L Shell Bin 8.0",
+          "name": "mep_ele_tel90_flux_e3_L8_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 1.00",
+          "name": "mep_ele_tel90_flux_e4_L1_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 1.25",
+          "name": "mep_ele_tel90_flux_e4_L1_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 1.50",
+          "name": "mep_ele_tel90_flux_e4_L1_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 1.75",
+          "name": "mep_ele_tel90_flux_e4_L1_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e4_L2_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 2.25",
+          "name": "mep_ele_tel90_flux_e4_L2_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 2.50",
+          "name": "mep_ele_tel90_flux_e4_L2_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 2.75",
+          "name": "mep_ele_tel90_flux_e4_L2_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 3.00",
+          "name": "mep_ele_tel90_flux_e4_L3_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 3.25",
+          "name": "mep_ele_tel90_flux_e4_L3_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 3.50",
+          "name": "mep_ele_tel90_flux_e4_L3_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 3.75",
+          "name": "mep_ele_tel90_flux_e4_L3_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 4.00",
+          "name": "mep_ele_tel90_flux_e4_L4_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 4.25",
+          "name": "mep_ele_tel90_flux_e4_L4_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 4.50",
+          "name": "mep_ele_tel90_flux_e4_L4_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 4.75",
+          "name": "mep_ele_tel90_flux_e4_L4_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 5.00",
+          "name": "mep_ele_tel90_flux_e4_L5_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 5.25",
+          "name": "mep_ele_tel90_flux_e4_L5_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 5.50",
+          "name": "mep_ele_tel90_flux_e4_L5_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 5.75",
+          "name": "mep_ele_tel90_flux_e4_L5_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 6.00",
+          "name": "mep_ele_tel90_flux_e4_L6_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 6.25",
+          "name": "mep_ele_tel90_flux_e4_L6_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 6.50",
+          "name": "mep_ele_tel90_flux_e4_L6_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 6.75",
+          "name": "mep_ele_tel90_flux_e4_L6_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 7.00",
+          "name": "mep_ele_tel90_flux_e4_L7_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 7.25",
+          "name": "mep_ele_tel90_flux_e4_L7_25",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 7.50",
+          "name": "mep_ele_tel90_flux_e4_L7_50",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 7.75",
+          "name": "mep_ele_tel90_flux_e4_L7_75",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "Electron flux for e4 energy channel and L Shell Bin 8.0",
+          "name": "mep_ele_tel90_flux_e4_L8_00",
+          "units": "#/cm2-s-str"
+        },
+        {
+          "description": "KP multiplied by 10",
+          "name": "kp10",
+          "units": "index"
+        },
+        {
+          "description": "max KP in last 3 days multiplied by 10",
+          "name": "kp_3day_max",
+          "units": "index"
+        },
+        {
+          "description": "satellited identifier string",
+          "name": "satID",
+          "units": "identifier"
         }
       ]
     },

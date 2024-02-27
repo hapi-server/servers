@@ -92,7 +92,7 @@ def compileServer( myserver, mon=None ):
         catalog= readToJsonObject( u, mon.getSubtaskMonitor('read catalog') )
     except:
         logger.warning( 'unable to reach %s' % u )
-        return None
+        return None,None
     
     ids= JSONArray()
     idsAvailability= JSONArray()
@@ -205,6 +205,8 @@ else:
         
         iserver= iserver + 1
         if ( iserver>serverLimit ): break        
+        
+        print '## Indexing server '+server
         
         serverObject,availabilityObject= compileServer( server, mon )
         if serverObject==None:

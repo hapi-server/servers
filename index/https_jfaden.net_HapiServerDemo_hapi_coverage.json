@@ -3,7 +3,7 @@
     {
       "id": "poolTemperature",
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2023-04-09T06:22:00.000Z"
+      "stopDate": "2024-01-28T08:43:00.000Z"
     },
     {
       "id": "atticTemperature",
@@ -13,12 +13,12 @@
     {
       "id": "freezerTemperature",
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2023-04-09T06:22:00.000Z"
+      "stopDate": "2024-01-28T08:43:00.000Z"
     },
     {
       "id": "groundTemp",
       "startDate": "2019-01-01T00:00:00.000Z",
-      "stopDate": "2023-04-09T06:22:00.000Z"
+      "stopDate": "2024-01-28T08:43:00.000Z"
     },
     {
       "id": "0B000800408DD710",
@@ -48,7 +48,7 @@
     {
       "id": "icwc",
       "startDate": "2012-05-28T00:00:00.000Z",
-      "stopDate": "2023-04-09T00:00:00.000Z"
+      "stopDate": "2024-01-28T00:00:00.000Z"
     },
     {
       "id": "Spectrum",
@@ -63,7 +63,7 @@
     {
       "id": "SpectrogramRank2",
       "startDate": "2014-01-09T00:00:00.000Z",
-      "stopDate": "2023-04-09T06:22:21.447Z"
+      "stopDate": "2024-01-28T08:44:04.611Z"
     },
     {
       "id": "PowerOnesDigitSegments",
@@ -102,5 +102,5 @@
     }
   ],
   "id": "https://jfaden.net/HapiServerDemo/hapi",
-  "parameterDays": 63859.6
+  "parameterDays": 67094.4
 }

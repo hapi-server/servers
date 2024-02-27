@@ -21,6 +21,60 @@
         "emailAlerts": true,
         "emailAlertsTo": "Robert.SWeigel@gmail.com",
         "emailThreshold": 2,
+        "url": "https://hapi-server.github.io/",
+        "interval": 60000,
+        "testName": "landing-direct",
+        "tests": {
+            "timeout": 2000,
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["specification",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
+        "url": "https://hapi-server.github.io/servers/all_.txt",
+        "interval": 60000,
+        "testName": "all_.txt-direct-github.io",
+        "tests": {
+            "timeout": 2000,
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["cdaweb",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
+        "url": "https://raw.githubusercontent.com/hapi-server/servers/master/all_.txt",
+        "interval": 60000,
+        "testName": "all_.txt-direct",
+        "tests": {
+            "timeout": 2000,
+            "lengthChanged": true,
+            "statusCode": 200,
+            "md5Changed": true,
+            "firstByte": 1000,
+            "total": 2000,
+            "download": 1000,
+            "bodyRegExp": ["cdaweb",""]
+        }
+    },
+    {
+        "emailAlerts": true,
+        "emailAlertsTo": "Robert.SWeigel@gmail.com",
+        "emailThreshold": 2,
         "url": "http://hapi-server.org/all_.txt",
         "interval": 60000,
         "testName": "all_.txt",

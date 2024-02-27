@@ -7,7 +7,11 @@
     "LISIRD": "private/hapi/servers/lisird.json",
     "SSCWeb": "private/hapi/servers/sscweb.json",
     "VirES-for-SWARM": "private/hapi/servers/vires.json",
-    "TestData": "private/hapi/servers/testdata.json",
+    "TestData2.0": "private/hapi/servers/testdata2.0.json",
+    "TestData2.1": "private/hapi/servers/testdata2.1.json",
+    "TestData3.0": "private/hapi/servers/testdata3.0.json",
+    "TestData3.1": "private/hapi/servers/testdata3.1.json",
+    "TestData3.2": "private/hapi/servers/testdata3.2.json",
     "hapi-server.org": "private/hapi/servers/hapi-server.org.json",
     "Helioviewer": "private/hapi/servers/helioviewer.json"
 }

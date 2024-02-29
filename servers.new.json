@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "url": "https://csatools.esac.esa.int/HapiServer/hapi",
+      "title": "Cluster Science Archive",
+      "id": "CSA",
+      "contact": "Cluster Science Archive",
+      "contactID": " esdc_cluster_logs@cosmos.esa.int",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "C4_PP_FGM",
+          "start": "2020-02-24T11:00Z",
+          "stop": "2020-02-24T12:00Z",
+          "parameters": "B_xyz_gse"
+        }
+      },
+      "x_LastUpdateAttempt": "2024-02-29T22:10:32Z",
+      "x_LastUpdateError": false,
+      "x_LastUpdateChange": "2024-02-29T22:10:32Z"
+    }
+  ]
+}

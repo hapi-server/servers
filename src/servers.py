@@ -21,28 +21,37 @@ def get_about(about_url):
 
   return data
 
-def equivalent_dicts(d1, d2):
-  # Based on https://stackoverflow.com/a/10480904
-  for k1, v1 in d1.items():
-    if not k1.startswith("x_") and (k1 not in d2 or d2[k1] != v1):
-      return False
-  for k2, v2 in d2.items():
-    if k1.startswith("x_") and k2 not in d1:
-      return False
-  return True
+def equivalent_dicts(servers, about):
+  diff = False
+  for k1, v1 in servers.items():
+    if k1.startswith("x_"): continue
+    if k1 not in about:
+      print(f"  key '{k1}' not in /about response")
+      #diff = True
+  print("  ---")
+  for k2, v2 in about.items():
+    if k2.startswith("x_"): continue
+    if k2 not in servers:
+      print(f"  key '{k2}' not in /about response")
+      diff = True
+    if diff == False and servers[k2] != v2:
+      print(f"  servers[{k2}] != about[{k2}]")
+      diff = True
+  return diff
 
 def write(fname, data):
   print(f"Writing {fname}")
   with open(fname, 'w') as f:
     f.write(data)
 
-with open('../all.json') as f:
-  all = json.load(f)
+with open('../servers.new.json') as f:
+  servers = json.load(f)
 
 changed = False
 all_file_str1 = ""
 all_file_str2 = ""
-for server in all['servers']:
+for idx in range(len(servers['servers'])):
+  server = servers['servers'][idx]
 
   about = get_about(server['url'] + '/about') 
   server['x_LastUpdateAttempt'] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -52,18 +61,25 @@ for server in all['servers']:
     server['x_LastUpdateError'] = False
     del about["HAPI"]
     del about["status"]
-    server_new = {**server, **about}
-    if not equivalent_dicts(server, about):
-      changed = True
-      print(f"  Difference between all.json and {server['url']}")
-      server["x_LastUpdateChange"] = server["x_LastUpdateAttempt"]
+    if equivalent_dicts(server, about) == False:
+      print(f"  No difference between servers.json[{server['id']}] and {server['url']}")
     else:
-      print(f"  No difference between all.json and {server['url']}")
+      changed = True
+      print(f"  Difference between servers.json[{server['id']}] and {server['url']}")
+      server["x_LastUpdateChange"] = server["x_LastUpdateAttempt"]
+      print(json.dumps(about, indent=2))
+      print(json.dumps(server, indent=2))
+      servers['servers'][idx] = {**server, **about}
+      print(json.dumps(server, indent=2))
+      print(json.dumps(servers, indent=2))
+      exit()
 
   all_file_str1 += f"{server['url']}, {server['title']}, {server['id']}, {server['contact']}, {server['contactID']}\n"
   all_file_str2 += f"{server['url']}\n"
 
-write('../all.json.new', json.dumps(all, ensure_ascii=False, separators=(',', ': '), indent=2))
+servers["servers"] = servers
+
+write('../servers.new.updated.json', json.dumps(servers, ensure_ascii=False, separators=(',', ': '), indent=2))
 
 if changed == True:
   write('../all_.txt.new', all_file_str1)

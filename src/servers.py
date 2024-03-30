@@ -44,7 +44,13 @@ def write(fname, data):
   with open(fname, 'w') as f:
     f.write(data)
 
-with open('../servers.new.json') as f:
+fname_in   = '../servers.new.json'
+fname_out  = '../servers.new.updated.json'
+fname_all1 = '../all_.txt.new'
+fname_all2 = '../all.txt.new'
+
+with open(fname_in) as f:
+  print(f"Reading {fname_in}")
   servers = json.load(f)
 
 changed = False
@@ -52,7 +58,9 @@ all_file_str1 = ""
 all_file_str2 = ""
 for idx in range(len(servers['servers'])):
   server = servers['servers'][idx]
-
+  if server['id'] == 'CSA':
+    # https://github.com/hapi-server/server-issues/issues/18
+    continue
   about = get_about(server['url'] + '/about') 
   server['x_LastUpdateAttempt'] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
   if isinstance(about, Exception):
@@ -65,22 +73,25 @@ for idx in range(len(servers['servers'])):
       print(f"  No difference between servers.json[{server['id']}] and {server['url']}")
     else:
       changed = True
-      print(f"  Difference between servers.json[{server['id']}] and {server['url']}")
+      print(f"  Difference between servers.json[{server['id']}] and {server['url']}/about")
       server["x_LastUpdateChange"] = server["x_LastUpdateAttempt"]
+      print(f"servers.json[{server['id']}]")
+      print(json.dumps(server, indent=2))
+      print(f"{server['url']}/about")
       print(json.dumps(about, indent=2))
-      print(json.dumps(server, indent=2))
       servers['servers'][idx] = {**server, **about}
-      print(json.dumps(server, indent=2))
-      print(json.dumps(servers, indent=2))
-      exit()
 
   all_file_str1 += f"{server['url']}, {server['title']}, {server['id']}, {server['contact']}, {server['contactID']}\n"
   all_file_str2 += f"{server['url']}\n"
 
-servers["servers"] = servers
+if changed == False:
+  print(f"No changes to servers.json. Updating only x_ fields.")
 
-write('../servers.new.updated.json', json.dumps(servers, ensure_ascii=False, separators=(',', ': '), indent=2))
+servers = json.dumps(servers, ensure_ascii=False, separators=(',', ': '), indent=2)
+write(fname_out, servers)
 
 if changed == True:
-  write('../all_.txt.new', all_file_str1)
-  write('../all.txt.new', all_file_str2)
+  write(fname_all1, all_file_str1)
+  write(fname_all2, all_file_str2)
+else:
+  print(f"No changes to servers.json. Not writing {fname_all1} or {fname_all2}.")

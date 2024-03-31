@@ -15,7 +15,7 @@
           "parameters": "ace_r"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:24Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:12Z",
       "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -33,7 +33,7 @@
           "parameters": "BGSEc"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:13Z",
       "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
     },
     {
@@ -58,7 +58,7 @@
       "id": "CCMC_ISWA",
       "contact": "Rick Mullinix",
       "contactID": "richard.e.mullinix@nasa.gov",
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:13Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
     },
     {
@@ -76,7 +76,7 @@
           "parameters": "mg_index"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:14Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
     },
     {
@@ -94,9 +94,9 @@
           "parameters": "Field_Magnitude"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:14Z",
       "x_LastUpdateError": false,
-      "x_LastUpdateChange": "2024-03-31T00:55:25Z",
+      "x_LastUpdateChange": "2024-03-31T00:56:14Z",
       "description": "For more information see www.intermagnet.org",
       "citation": "https://intermagnet.github.io/data_conditions.html"
     },
@@ -106,7 +106,7 @@
       "id": "Helioviewer",
       "contact": "Daniel Garcia Briseno",
       "contactID": "daniel.garciabriseno@nasa.gov",
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:15Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
     },
     {
@@ -124,7 +124,7 @@
           "parameters": "X_GSE,Y_GSE,Z_GSE"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:25Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:15Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
     },
     {
@@ -142,9 +142,9 @@
           "parameters": "F"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": false,
-      "x_LastUpdateChange": "2024-03-31T00:55:26Z",
+      "x_LastUpdateChange": "2024-03-31T00:56:16Z",
       "description": "Web API for the ESA Swarm mission products."
     },
     {
@@ -163,7 +163,7 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
     },
     {
@@ -182,7 +182,7 @@
           "parameters": "vectorstring"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
     },
     {
@@ -201,9 +201,9 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": false,
-      "x_LastUpdateChange": "2024-03-31T00:55:26Z"
+      "x_LastUpdateChange": "2024-03-31T00:56:16Z"
     },
     {
       "url": "http://hapi-server.org/servers/TestData3.0/hapi",
@@ -221,9 +221,9 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": false,
-      "x_LastUpdateChange": "2024-03-31T00:55:26Z"
+      "x_LastUpdateChange": "2024-03-31T00:56:16Z"
     },
     {
       "url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -241,9 +241,9 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdateAttempt": "2024-03-31T00:55:26Z",
+      "x_LastUpdateAttempt": "2024-03-31T00:56:16Z",
       "x_LastUpdateError": false,
-      "x_LastUpdateChange": "2024-03-31T00:55:26Z"
+      "x_LastUpdateChange": "2024-03-31T00:56:16Z"
     }
   ]
 }

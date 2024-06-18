@@ -50,7 +50,7 @@ for idx in range(len(servers['servers'])):
     else:
       changed = True
       log.info(f"  Difference between servers.json[{server['id']}] and {server['url']}/about")
-      server["x_LastUpdateChange"] = server["x_LastUpdateAttempt"]
+      server["x_LastUpdateChange"] = utc_now()
       log.info(f"servers.json[{server['id']}]")
       log.info(json.dumps(server, indent=2, ensure_ascii=False))
       log.info(f"{server['url']}/about")

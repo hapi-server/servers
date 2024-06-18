@@ -37,7 +37,7 @@
       "title": "Cluster Science Archive",
       "id": "CSA",
       "contact": "Cluster Science Archive",
-      "contactID": " esdc_cluster_logs@cosmos.esa.int",
+      "contactID": "esdc_cluster_logs@cosmos.esa.int",
       "dataTest": {
         "name": "Ping Test",
         "query": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "url": "http://hapi-server.org/servers/TestData3.0/hapi",
+      "url": "http://hapi-server.org/servers/TestData3.1/hapi",
       "title": "HAPI 3.1 Test Data",
       "description": "Server for testing clients with HAPI 3.1 additions",
       "id": "TestData3.1",

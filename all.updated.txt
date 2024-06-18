@@ -9,5 +9,5 @@ https://vires.services/hapi
 http://hapi-server.org/servers/TestData2.0/hapi
 http://hapi-server.org/servers/TestData2.1/hapi
 http://hapi-server.org/servers/TestData3.0/hapi
-http://hapi-server.org/servers/TestData3.0/hapi
+http://hapi-server.org/servers/TestData3.1/hapi
 http://hapi-server.org/servers/TestData3.2/hapi

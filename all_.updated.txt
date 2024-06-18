@@ -9,5 +9,5 @@ https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EO
 http://hapi-server.org/servers/TestData2.0/hapi, HAPI 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData2.1/hapi, HAPI 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData3.0/hapi, HAPI 3.0 Test Data, TestData3.0, Bob Weigel, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData3.0/hapi, HAPI 3.1 Test Data, TestData3.1, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.1/hapi, HAPI 3.1 Test Data, TestData3.1, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData3.2/hapi, HAPI 3.2 Test Data, TestData3.2, Bob Weigel, rweigel@gmu.edu

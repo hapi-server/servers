@@ -28,8 +28,8 @@ jobs:
       # TODO: https://github.com/jaredpalmer/github-actions-rsync
       - name: Run a multi-line script
         run: |
+          git config --global user.name ${{secrets.USER_NAME}}
           git checkout master
           cd src; pip install -e .; python servers.py
-          git config --global user.name ${{secrets.USER_NAME}}
           git commit -a -m "Update servers.json, ... [skip ci]"
           git push

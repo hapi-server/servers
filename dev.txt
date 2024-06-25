@@ -1,3 +1,4 @@
+https://hapi.spaceweather.knmi.nl/hapi, KNMI (dev), KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl
 http://ec2-54-92-164-109.compute-1.amazonaws.com:8000/hapi, SuperMAG (dev), SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
 https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET (dev), INTERMAGNET, Edinburgh GIN manager, e_ginman@bgs.ac.uk
 https://jfaden.net/HapiServerDemo/hapi, Faden Test Server, FadenTest, Jeremy Faden, faden@cottagesystems.com

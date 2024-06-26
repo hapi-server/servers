@@ -15,8 +15,8 @@
           "parameters": "ace_r"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:40Z",
-      "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:26Z",
+      "x_LastUpdateError": "<class 'json.decoder.JSONDecodeError'> Expecting value: line 1 column 1 (char 0)"
     },
     {
       "url": "https://cdaweb.gsfc.nasa.gov/hapi",
@@ -33,14 +33,14 @@
           "parameters": "BGSEc"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:40Z",
-      "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:26Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
     },
     {
       "url": "https://csatools.esac.esa.int/HapiServer/hapi",
       "title": "Cluster Science Archive",
       "id": "CSA",
-      "contact": "Cluster Science Archive",
+      "contact": "https://www.cosmos.esa.int/web/csa/cluster-helpdesk",
       "contactID": "esdc_cluster_logs@cosmos.esa.int",
       "dataTest": {
         "name": "Ping Test",
@@ -50,7 +50,12 @@
           "stop": "2020-02-24T12:00Z",
           "parameters": "B_xyz_gse"
         }
-      }
+      },
+      "x_LastUpdate": "2024-06-26T01:50:27Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:27Z",
+      "description": "This HAPI server is based on responses provided by the TAP server at https://csa.esac.esa.int/csa-sl-tap/",
+      "x_hapi_home": "/tmp/hapi-server/",
+      "x_buildTime": "2024-03-12T07:42:00"
     },
     {
       "url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
@@ -58,8 +63,8 @@
       "id": "CCMC_ISWA",
       "contact": "Rick Mullinix",
       "contactID": "richard.e.mullinix@nasa.gov",
-      "x_LastUpdateAttempt": "2024-06-25T16:20:40Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:27Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
     },
     {
       "url": "http://lasp.colorado.edu/lisird/hapi",
@@ -76,8 +81,8 @@
           "parameters": "mg_index"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:41Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:28Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
     },
     {
       "url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
@@ -94,8 +99,8 @@
           "parameters": "Field_Magnitude"
         }
       },
-      "x_LastUpdate": "2024-06-25T16:20:41Z",
-      "x_LastUpdateChange": "2024-06-25T16:20:41Z",
+      "x_LastUpdate": "2024-06-26T01:50:29Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:29Z",
       "description": "For more information see intermagnet.org",
       "citation": "https://intermagnet.org/data_conditions.html"
     },
@@ -105,8 +110,8 @@
       "id": "Helioviewer",
       "contact": "Daniel Garcia Briseno",
       "contactID": "daniel.garciabriseno@nasa.gov",
-      "x_LastUpdateAttempt": "2024-06-25T16:20:41Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:29Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
     },
     {
       "url": "http://hapi-server.org/servers/SSCWeb/hapi",
@@ -123,8 +128,8 @@
           "parameters": "X_GSE,Y_GSE,Z_GSE"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:42Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:29Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
     },
     {
       "url": "https://vires.services/hapi",
@@ -141,8 +146,8 @@
           "parameters": "F"
         }
       },
-      "x_LastUpdate": "2024-06-25T16:20:42Z",
-      "x_LastUpdateChange": "2024-06-25T16:20:42Z",
+      "x_LastUpdate": "2024-06-26T01:50:30Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:30Z",
       "description": "Web API for the ESA Swarm mission products."
     },
     {
@@ -161,8 +166,8 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:43Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:30Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
     },
     {
       "url": "http://hapi-server.org/servers/TestData2.1/hapi",
@@ -180,8 +185,8 @@
           "parameters": "vectorstring"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-25T16:20:43Z",
-      "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
+      "x_LastUpdateAttempt": "2024-06-26T01:50:34Z",
+      "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
     },
     {
       "url": "http://hapi-server.org/servers/TestData3.0/hapi",
@@ -199,8 +204,8 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdate": "2024-06-25T16:20:43Z",
-      "x_LastUpdateChange": "2024-06-25T16:20:43Z"
+      "x_LastUpdate": "2024-06-26T01:50:34Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:34Z"
     },
     {
       "url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -218,8 +223,8 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdate": "2024-06-25T16:20:43Z",
-      "x_LastUpdateChange": "2024-06-25T16:20:43Z"
+      "x_LastUpdate": "2024-06-26T01:50:35Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:35Z"
     },
     {
       "url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -237,8 +242,8 @@
           "parameters": "scalar"
         }
       },
-      "x_LastUpdate": "2024-06-25T16:20:43Z",
-      "x_LastUpdateChange": "2024-06-25T16:20:43Z"
+      "x_LastUpdate": "2024-06-26T01:50:35Z",
+      "x_LastUpdateChange": "2024-06-26T01:50:35Z"
     }
   ]
 }

@@ -34,28 +34,27 @@ all_file_str1 = ""
 all_file_str2 = ""
 for idx in range(len(servers['servers'])):
   server = servers['servers'][idx]
-  if server['id'] == 'CSA':
-    # https://github.com/hapi-server/server-issues/issues/18
-    continue
-  about = get(server['url'] + '/about', log=log)
-  if isinstance(about, Exception):
+  try:
+    about = get(server['url'] + '/about', log=log)
+  except Exception as e:
     server['x_LastUpdateAttempt'] = utc_now()
-    server['x_LastUpdateError'] = str(about)
+    server['x_LastUpdateError'] = str(type(e)) + " " + str(e)
+    continue
+
+  server['x_LastUpdate'] = utc_now()
+  del about["HAPI"]
+  del about["status"]
+  if equivalent_dicts(server, about) == False:
+    log.info(f"  No difference between servers.json[{server['id']}] and {server['url']}")
   else:
-    server['x_LastUpdate'] = utc_now()
-    del about["HAPI"]
-    del about["status"]
-    if equivalent_dicts(server, about) == False:
-      log.info(f"  No difference between servers.json[{server['id']}] and {server['url']}")
-    else:
-      changed = True
-      log.info(f"  Difference between servers.json[{server['id']}] and {server['url']}/about")
-      server["x_LastUpdateChange"] = utc_now()
-      log.info(f"servers.json[{server['id']}]")
-      log.info(json.dumps(server, indent=2, ensure_ascii=False))
-      log.info(f"{server['url']}/about")
-      log.info(json.dumps(about, indent=2, ensure_ascii=False))
-      servers['servers'][idx] = {**server, **about}
+    changed = True
+    log.info(f"  Difference between servers.json[{server['id']}] and {server['url']}/about")
+    server["x_LastUpdateChange"] = utc_now()
+    log.info(f"servers.json[{server['id']}]")
+    log.info(json.dumps(server, indent=2, ensure_ascii=False))
+    log.info(f"{server['url']}/about")
+    log.info(json.dumps(about, indent=2, ensure_ascii=False))
+    servers['servers'][idx] = {**server, **about}
 
   all_file_str1 += f"{server['url']}, {server['title']}, {server['id']}, {server['contact']}, {server['contactID']}\n"
   all_file_str2 += f"{server['url']}\n"

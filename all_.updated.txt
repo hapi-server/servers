@@ -1,6 +1,7 @@
 https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, Cluster Science Archive, esdc_cluster_logs@cosmos.esa.int
 https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET, INTERMAGNET, Edinburgh GIN manager, e_ginman@bgs.ac.uk
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
+https://hapi.spaceweather.knmi.nl/hapi, KNMI, KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl
 http://hapi-server.org/servers/TestData3.0/hapi, HAPI 3.0 Test Data, TestData3.0, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData3.1/hapi, HAPI 3.1 Test Data, TestData3.1, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData3.2/hapi, HAPI 3.2 Test Data, TestData3.2, Bob Weigel, rweigel@gmu.edu

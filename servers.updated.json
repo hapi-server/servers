@@ -15,7 +15,7 @@
           "parameters": "ace_r"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-26T01:49:05Z",
+      "x_LastUpdateAttempt": "2024-06-26T01:50:26Z",
       "x_LastUpdateError": "<class 'json.decoder.JSONDecodeError'> Expecting value: line 1 column 1 (char 0)"
     },
     {
@@ -33,7 +33,7 @@
           "parameters": "BGSEc"
         }
       },
-      "x_LastUpdateAttempt": "2024-06-26T01:49:05Z",
+      "x_LastUpdateAttempt": "2024-06-26T01:50:26Z",
       "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
     },
     {

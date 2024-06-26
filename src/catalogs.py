@@ -1,8 +1,7 @@
-import json
-
 data_dir =  '../data'
-max_infos = 2
-
+max_infos = None # Set to None to get all infos.
+timeout = 20 # Set to small value to force failures.
+max_workers = 10
 files = {
   'servers': '../servers.json',
   'catalogs': '../data/catalogs.json',
@@ -12,65 +11,130 @@ files = {
 from hapimeta import logger, get, read, write, utc_now
 log = logger()
 
-servers = read(files['servers'], log=log)
+try:
+  servers = read(files['servers'], log=log)
+except Exception as e:
+  log.error(f"Error reading {files['servers']}: {e}")
+  exit(1)
 
-def get_infos(url, datasets, max_infos=None):
+def get_infos(cid, catalog, max_infos=None):
+  if not 'catalog' in catalog:
+    msg = f"Skipping {cid} because no catalog array."
+    log.info(msg)
+    return
+
   n = 1
-  for dataset in datasets:
-    info = get(url + "/info?id=" + dataset['id'], log=log)
-    if isinstance(info, Exception):
-      dataset['info'] = {'x_LastUpdateError': str(info)}
-      continue
-    dataset['info'] = info
-    for parameter in dataset['info']['parameters']:
-      if 'bins' in parameter:
-        del parameter['bins']
+  for dataset in catalog['catalog']:
+    id = dataset['id']
+    try:
+      info = get(f"{catalog['x_URL']}/info?id={id}", timeout=timeout, log=log)
+      info['x_LastUpdate'] = utc_now()
+    except Exception as e:
+      info = {
+        'x_LastUpdateError': str(e),
+        'x_LastUpdateAttempt': utc_now()
+      }
+
+    if 'parameters' not in info:
+      info = {
+        'x_LastUpdateAttempt': utc_now(),
+        'x_LastUpdateError': "No parameters node in JSON response."
+      }
+
+    fname = f"{data_dir}/infos/{cid}/{id}.json"
+    if 'x_LastUpdateError' in info:
+      log.info("  Attempting to read last successful /info response.")
+      try:
+        info_last = read(fname, log=log)
+        log.info("  Read last successful /info response.")
+        # Overwrites x_LastUpdate{Attempt,Error}
+        info = {**info_last, **info}
+      except:
+        log.info("  No last successful /info response found.")
+        continue
+    else:
+      info['x_LastUpdate'] = utc_now()
+
+    try:
+      write(fname, info, log=log)
+    except:
+      log.error(f"Error writing {fname}")
+
+    if 'parameter' in info['parameters']:
+      for parameter in info['parameters']:
+        if 'bins' in parameter:
+          del parameter['bins']
+
     if max_infos is not None and n >= max_infos:
-      return datasets
+      return
     n = n + 1
-  return datasets
 
 def get_catalogs(servers):
   catalogs = {}
   for obj in servers['servers']:
     log.info(obj['id'])
-    catalog = get(obj['url'] + '/catalog', log=log)
-
-    if isinstance(catalog, Exception):
+    try:
+      catalog = get(obj['url'] + '/catalog', timeout=timeout, log=log)
+    except Exception as e:
       catalog = {
         'x_LastUpdateAttempt': utc_now(),
-        'x_LastUpdateError': str(catalog)
+        'x_LastUpdateError': str(e)
       }
-      continue
 
-    if not 'catalog' in catalog:
+    if 'catalog' not in catalog:
       catalog = {
         'x_LastUpdateAttempt': utc_now(),
         'x_LastUpdateError': "No catalog node in JSON response."
       }
-      continue
 
-    if not 'x_LastUpdateError' in catalog:
+    fname = f"{data_dir}/catalogs/{obj['id']}.json"
+    if 'x_LastUpdateError' in catalog:
+      log.info("  Attempting to read last successful /catalog response.")
+      try:
+        catalog_last = read(fname, log=log)
+        log.info("  Read last successful /catalog response.")
+        # Overwrites x_LastUpdate{Attempt,Error}
+        catalog = {**catalog_last, **catalog}
+      except:
+        log.info("  No last successful /catalog response found.")
+        continue
+    else:
       catalog['x_LastUpdate'] = utc_now()
 
     catalog['x_URL'] = obj['url']
-    catalogs[obj['id']] = catalog
-    write(f"{data_dir}/catalogs/{obj['id']}.json", catalog, log=log)
 
+    catalogs[obj['id']] = catalog
+
+    try:
+      write(fname, catalog, log=log)
+    except:
+      log.error(f"Error writing {fname}")
+      exit(1)
   return catalogs
 
 catalogs = get_catalogs(servers)
-write(files['catalogs'], catalogs, log=log)
 
-for id, catalog in catalogs.items():
-  # catalog['catalog'] is an array of dataset objects with at least a key of
-  # 'id' (dataset id). The following adds an 'info' key to each dataset object.
-  if 'x_LastUpdateError' in catalog['catalog']:
-    msg = f"Skipping {id} because of error: {catalog['catalog']['x_LastUpdateError']}."
-    log.info(msg)
-    # TODO: read last info file: ../infos/{id}.json.
-    continue
-  get_infos(catalog['x_URL'], catalog['catalog'], max_infos=max_infos)
-  write(f"{data_dir}/infos/{id}.json", catalog, log=log)
+try:
+  write(files['catalogs'], catalogs, log=log)
+except:
+  log.error(f"Error writing {files['catalogs']}")
+  exit(1)
 
-write(files['catalogs_all'], catalogs, log=log)
+# catalog['catalog'] is an array of dataset objects with at least a key of
+# 'id' (dataset id). The following adds an 'info' key to each dataset object.
+
+if max_workers == 1:
+  for cid, catalog in catalogs.items():
+    get_infos(cid, catalog, max_infos=max_infos)
+else:
+  # Build infos for each server in parallel. (/info requests are sequential.)
+  from concurrent.futures import ThreadPoolExecutor
+  def call(cid):
+    get_infos(cid, catalogs[cid], max_infos=max_infos)
+  with ThreadPoolExecutor(max_workers=max_workers) as pool:
+    pool.map(call, catalogs.keys())
+
+try:
+  write(files['catalogs_all'], catalogs, log=log)
+except:
+  log.error(f"Error writing {files['catalogs_all']}")

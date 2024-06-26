@@ -1,3 +1,11 @@
+def version():
+  import os
+  import json
+  fname = open(os.path.join(os.path.dirname(__file__),'version.json'))
+  return json.load(fname)['version']
+
+__version__ = version()
+
 def logger(file_name=None):
   import os
   import time
@@ -41,7 +49,7 @@ def mkdir(dirname, log=None):
       log.info(f"Creating dir {dirname}")
     os.makedirs(dirname, exist_ok=True)
 
-def get(url, log=None):
+def get(url, log=None, timeout=10):
   assert log is not None, "log keyword argument must be provided"
   # TODO: Handle log=None
 
@@ -49,19 +57,20 @@ def get(url, log=None):
   import requests
 
   log.info(f"Getting {url}")
+  headers = {'User-Agent': f'hapibot-mirror/{version()}; https://github.com/hapi-server/data-specification/wiki/hapi-bots.md#hapibot-mirror'}
   try:
-    response = requests.get(url, timeout=10)
+    response = requests.get(url, headers=headers, timeout=timeout)
     response.raise_for_status()  # Raise an error if response code is not 2xx
-  except requests.exceptions.RequestException as e:
-    log.info(f"  {e}")
-    return e
+  except Exception as e:
+    log.error(f"  Error: {e}")
+    raise e
   log.info(f"  Got {url}")
 
   try:
     data = json.loads(response.text)
   except json.JSONDecodeError as e:
-    log.info(f"  Error parsing JSON from {url}:\n  {e}")
-    return e
+    log.error(f"  Error parsing JSON from {url}:\n  {e}")
+    raise e
   return data
 
 def write(fname, data, log=None):
@@ -76,37 +85,61 @@ def write(fname, data, log=None):
   if log is not None:
     log.info(f"Writing {fname}")
 
-  # TODO: Catch open exception
-  with open(fname, 'w', encoding='utf-8') as f:
-    f.write(data)
+  try:
+    f = open(fname, 'w', encoding='utf-8')
+  except Exception as e:
+    msg = f"Error opening {fname}: {e}"
     if log is not None:
-      log.info(f"  Wrote {fname}")
+      log.error(msg)
+    raise e
 
-def read(fname, log=None):
+  try:
+    f.write(data)
+  except:
+    msg = f"Error writing {fname}: {e}"
+    if log is not None:
+      log.error(msg)
+    raise e
+
+  if log is not None:
+    log.info(f"  Wrote {fname}")
+
+def read(fname, log=None, exit_on_error=False):
   import os
   import json
 
   if log is not None:
     log.info(f"Reading {fname}")
+
   try:
     f = open(fname, encoding='utf-8')
   except Exception as e:
-    exit(f"Error opening {fname}: {e}")
+    msg = f"Error opening {fname}: {e}"
+    if log is not None:
+      log.error(msg)
+    raise e
 
   if '.json' == os.path.splitext(fname)[1]:
     try:
       data = json.load(f)
-    except:
       if log is not None:
-        log.info(f"Error parsing {fname}")
-      exit(f"Error parsing {fname}: {e}")
+        log.info(f"  Read and parsed {fname}")
+    except Exception as e:
+      msg = f"json.load({fname}) raised: {e}"
+      if log is not None:
+        log.info(msg)
+      raise e
   else:
     try:
       data = f.readlines()
+      if log is not None:
+        log.info(f"  Read {fname}")
     except:
-      exit(f"Error reading {fname}: {e}")
+      msg = f"Error reading {fname}: {e}"
+      if log is not None:
+        log.error(msg)
+      raise e
+
   f.close()
 
-  if log is not None:
-    log.info(f"  Read {fname}")
   return data

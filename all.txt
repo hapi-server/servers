@@ -8,3 +8,5 @@ https://amda.irap.omp.eu/service/hapi
 https://vires.services/hapi
 https://api.helioviewer.org/hapi/Helioviewer/hapi
 https://csatools.esac.esa.int/HapiServer/hapi
+https://hapi.spaceweather.knmi.nl/hapi
+https://planet.physics.uiowa.edu/das/das2Server/hapi

@@ -8,3 +8,5 @@ https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, amda@irap.omp
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, Martin Pačes (EOX), feedback@vires.services
 https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
 https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, Cluster Science Archive, esdc_cluster_logs@cosmos.esa.int
+https://hapi.spaceweather.knmi.nl/hapi, KNMI, KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl
+https://planet.physics.uiowa.edu/das/das2Server/hapi, DAS 2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu

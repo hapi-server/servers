@@ -127,6 +127,38 @@
       }
     },
     {
+      "url": "https://hapi.spaceweather.knmi.nl/hapi",
+      "title": "KNMI",
+      "id": "KNMI",
+      "contact": "Eelco Doornbos",
+      "contactID": "eelco.doornbos@knmi.nl",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "champ_thermosphere_density",
+          "start": "2000-07-31T00:00:00.000000Z",
+          "stop": "2000-08-02T00:00:00.000Z",
+          "parameters": "density"
+        }
+      }
+    },
+    {
+      "url": "https://planet.physics.uiowa.edu/das/das2Server/hapi",
+      "title": "DAS2",
+      "id": "DAS2",
+      "contact": "Jeremy Faden",
+      "contactID": "jeremy-faden@uiowa.edu",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "Cassini/MAG/Magnitude",
+          "start": "2016-12-11T13:00:00Z",
+          "stop": "2016-12-11T23:00Z",
+          "parameters": "B_mag"
+        }
+      }
+    },
+    {
       "url": "http://hapi-server.org/servers/TestData2.0/hapi",
       "title": "HAPI 2.0 Test Data",
       "description": "Server for testing clients on HAPI 2.0 features",

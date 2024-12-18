@@ -18,7 +18,8 @@ except Exception as e:
   exit(1)
 
 def get_infos(cid, catalog, max_infos=None):
-  if not 'catalog' in catalog:
+
+  if 'catalog' not in catalog:
     msg = f"Skipping {cid} because no catalog array."
     log.info(msg)
     return
@@ -127,7 +128,7 @@ if max_workers == 1:
   for cid, catalog in catalogs.items():
     get_infos(cid, catalog, max_infos=max_infos)
 else:
-  # Build infos for each server in parallel. (/info requests are sequential.)
+  # Build infos for each server in parallel. (/info requests for a each server are sequential.)
   from concurrent.futures import ThreadPoolExecutor
   def call(cid):
     get_infos(cid, catalogs[cid], max_infos=max_infos)

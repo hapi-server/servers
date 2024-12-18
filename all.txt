@@ -1,6 +1,7 @@
 http://hapi-server.org/servers/SSCWeb/hapi
 https://cdaweb.gsfc.nasa.gov/hapi
 https://imag-data.bgs.ac.uk/GIN_V1/hapi
+https://wdcapi.bgs.ac.uk/hapi
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi
 http://lasp.colorado.edu/lisird/hapi
 http://hapi-server.org/servers/TestData2.0/hapi

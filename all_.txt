@@ -1,5 +1,6 @@
 https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Robert Candey, NASA-SPDF-Support@nasa.onmicrosoft.com
 https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET, INTERMAGNET, Edinburgh GIN manager, e_ginman@bgs.ac.uk
+https://wdcapi.bgs.ac.uk/hapi, WDC, WDC, Adam Emsley, Adam.Emsley@bgs.ac.uk
 http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@gmu.edu
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu

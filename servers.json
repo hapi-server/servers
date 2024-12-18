@@ -143,6 +143,22 @@
       }
     },
     {
+      "url": "https://wdcapi.bgs.ac.uk/hapi",
+      "title": "WDC",
+      "id": "WDC",
+      "contact": "Adam Emsley",
+      "contactID": "Adam.Emsley@bgs.ac.uk",
+      "dataTest": {
+        "name": "Ping Test",
+        "query": {
+          "dataset": "aaa/PT1M/xyz",
+          "start": "2005-01-01T00:00:00Z",
+          "stop": "2005-01-03T00:00:00.000Z",
+          "parameters": "Field_Vector"
+        }
+      }
+    },
+    {
       "url": "https://planet.physics.uiowa.edu/das/das2Server/hapi",
       "title": "DAS2",
       "id": "DAS2",

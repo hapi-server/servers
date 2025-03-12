@@ -139,3 +139,9 @@ try:
   write(files['catalogs_all'], catalogs, log=log)
 except:
   log.error(f"Error writing {files['catalogs_all']}")
+
+try:
+  catalogs_all_pkl = files['catalogs_all'].replace(".json", ".pkl")
+  write(catalogs_all_pkl, catalogs, log=log)
+except:
+  log.error(f"Error writing {catalogs_all_pkl}")

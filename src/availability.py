@@ -1,0 +1,218 @@
+# Usage:
+#   python availability.py [server_id1,server_id2,...]
+
+# TODO: Create service
+#  meta/catalog?include=all
+#  meta/availability?start=START&stop=stop
+#  meta/availability?start=START&stop=stop
+#  server, dataset, start, stop, cadence, x_lat, x_long, regions
+
+import os
+import sys
+import json
+import pickle
+
+from hapimeta import logger
+from hapiclient import hapitime2datetime
+
+max_workers    = 1    # Number of servers to process in parallel
+lines_per_plot = 50   # Number of time range plots per page
+
+dpi            = 300
+fig_width      = 3840  # pixels
+fig_height     = 2160  # pixels
+fig_width      = fig_width/dpi   # inches
+fig_height     = fig_height/dpi  # inches
+
+catalogs_all = '../data/catalogs-all.pkl' # Input file
+out_dir      = '../data/availability'     # Output directory
+
+# Only do these servers
+all = True
+if len(sys.argv) > 1:
+  all = False
+  servers_only = sys.argv[1].split(',')
+  print(f"Only doing servers '{servers_only}'")
+
+log = logger()
+
+with open(catalogs_all, 'rb') as f:
+  catalogs_all = pickle.load(f)
+
+def plot(server, title, datasets, starts, stops,
+         lines_per_plot=lines_per_plot,
+         fig_width=fig_width, fig_height=fig_height):
+
+  import math
+  import numpy
+
+  import matplotlib
+  import matplotlib.pyplot as plt
+  #matplotlib.set_loglevel('warning')
+
+  from datetick import datetick
+
+  def newfig():
+    plt.close('all')
+    fig, ax = plt.subplots()
+    fig.set_figheight(fig_height)
+    fig.set_figwidth(fig_width)
+    return ax
+
+  def config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots):
+
+    title = f'{title}    page {fn_padded}/{n_plots}'
+    ax.set_title(title)
+    ax.set_xlim([starts_min, stops_max])
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.grid(axis='x', which='minor', alpha=0.5, linestyle=':')
+    ax.grid(axis='x', which='major', color='k', alpha=0.5)
+    ax.set_yticks(ticks=[])
+    datetick('x')
+    right = 0.60*max_len/63 # Will depend on font size and possible dpi
+    plt.subplots_adjust(left=0.03, bottom=0.03, right=right, top=0.93)
+
+  def write(fn):
+    fname = f"{out_dir}/{server}/{server}.{fn}.svg"
+
+    if not os.path.exists(os.path.dirname(fname)):
+      os.makedirs(os.path.dirname(fname))
+
+    #log.info(f'Writing {fname}')
+    #plt.savefig(fname, bbox_inches='tight')
+    #log.info(f'Wrote   {fname}')
+
+    fname = fname.replace("svg", "png")
+    log.info(f'Writing {fname}')
+    plt.savefig(fname, dpi=300)
+    log.info(f'Wrote   {fname}')
+
+    return fname
+
+  def draw(ax, n, starts, stops, datasets, max_len):
+    line, = ax.plot([starts[n], stops[n]], [n, n], linewidth=5)
+    label = f' {datasets[n]:{max_len}s}'
+
+    text_kwargs = {
+      'family': 'monospace',
+      'color': line.get_color(),
+      'verticalalignment': 'center'
+    }
+
+    ax.text(stops[n], n, label, **text_kwargs)
+
+  n_plots = math.ceil(len(datasets)/50)
+  pad = math.ceil(math.log10(n_plots))
+  starts_min = numpy.min(starts)
+  stops_max = numpy.max(stops)
+  max_len = numpy.max([len(dataset) for dataset in datasets])
+
+  fn = 0
+  files = []
+  ax = newfig()
+  for n in range(len(datasets)):
+    draw(ax, n, starts, stops, datasets, max_len)
+    if (n + 1) % lines_per_plot == 0:
+      fn = fn + 1
+      fn_padded = f"{fn:0{pad}d}"
+      config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots)
+      file = write(fn_padded)
+      files.append(file)
+
+      ax = newfig()
+
+  # Finish last plot, if needed
+  if (n + 1) % lines_per_plot != 0:
+    fn_padded = f"{fn:0{pad}d}"
+    config(ax, title, starts_min, stops_max, max_len, fn_padded, n_plots)
+    file = write(fn)
+    files.append(file)
+
+  return files
+
+def process_server(server, catalogs_all):
+
+  def extract_time(info, key):
+    if key not in info:
+      log.error(f"{server}/{dataset['id']}: key '{key}' not in info")
+      return None, None
+
+    if info[key].strip() == "":
+      log.error(f"{server}/{dataset['id']}: info[{key}].strip() = ''")
+      return None, None
+
+    hapitime = info[key]
+    try:
+      dt = hapitime2datetime(hapitime, allow_missing_Z=True)
+    except e:
+      import traceback
+      trace = traceback.format_exc()
+      log.error(f"{server}/{dataset['id']}: hapitime2datetime({hapitime}) returned:\n{trace}")
+      return hapitime, None
+
+    return info[key], dt
+
+  if not all and server not in servers_only:
+    return
+
+  lines = []
+  datasets = []
+  starts = []
+  stops = []
+  for dataset in catalogs_all['catalog']:
+    if 'info' not in dataset:
+      log.error(f'No info node for {server}/{dataset["id"]}')
+      print(server, dataset['id'], None, None)
+      continue
+
+    info = dataset['info']
+
+    startDate, startDate_datetime = extract_time(info, 'startDate')
+    if startDate is None:
+      startDate = 'Error'
+    stopDate, stopDate_datetime = extract_time(info, 'stopDate')
+    if stopDate is None:
+      stopDate = 'Error'
+
+    line = f"{server},{dataset['id']},{startDate},{stopDate}"
+    lines.append(line)
+    log.info(line.replace(",", "\t"))
+
+    if startDate_datetime is not None and stopDate_datetime is not None:
+      stops.append(stopDate_datetime)
+      starts.append(startDate_datetime)
+      datasets.append(dataset['id'])
+
+  fname = f"{out_dir}/{server}/{server}.csv"
+  if not os.path.exists(os.path.dirname(fname)):
+    os.makedirs(os.path.dirname(fname))
+  with open(fname, 'w') as f:
+    log.info(f"Writing to {fname}")
+    f.write("\n".join(lines))
+
+  if len(datasets) == 0:
+    return
+
+  log.info(f"Plotting availability for {server}")
+  server_url = catalogs_all['x_URL']
+  x_LastUpdate = catalogs_all['x_LastUpdate']
+  title = f"{server}: {server_url}\n{x_LastUpdate}"
+  files = plot(server, title, datasets, starts, stops)
+
+  fname = f"{out_dir}/{server}/{server}-plots.all.json"
+  log.info(f"Writing {fname}")
+  with open(fname, 'w') as f:
+    json.dump(files, f, indent=2)
+    log.info(f"Wrote   {fname}")
+
+if max_workers == 1:
+  for server in catalogs_all.keys():
+    process_server(server, catalogs_all[server])
+else:
+  from concurrent.futures import ThreadPoolExecutor
+  def call(server):
+    process_server(server, catalogs_all[server])
+  with ThreadPoolExecutor(max_workers=max_workers) as pool:
+    pool.map(call, catalogs_all.keys())

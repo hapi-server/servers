@@ -44,7 +44,7 @@ for idx in range(len(servers['servers'])):
   server['x_LastUpdate'] = utc_now()
   del about["HAPI"]
   del about["status"]
-  if equivalent_dicts(server, about) == False:
+  if not equivalent_dicts(server, about):
     log.info(f"  No difference between servers.json[{server['id']}] and {server['url']}")
   else:
     changed = True
@@ -59,12 +59,12 @@ for idx in range(len(servers['servers'])):
   all_file_str1 += f"{server['url']}, {server['title']}, {server['id']}, {server['contact']}, {server['contactID']}\n"
   all_file_str2 += f"{server['url']}\n"
 
-if changed == False:
-  log.info(f"No changes to servers.json. Updating only x_ fields.")
+if not changed:
+  log.info("No changes to servers.json. Updating only x_ fields.")
 
 write(fname_out, servers, log=log)
 
-if changed == True:
+if changed:
   write(fname_all1, all_file_str1, log=log)
   write(fname_all2, all_file_str2, log=log)
 else:

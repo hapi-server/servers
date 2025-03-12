@@ -1,6 +1,12 @@
 from setuptools import setup, find_packages
-
 import json
+
+install_requires = [
+  "hapiplot",
+  "hapiclient",
+  "datetick @ git+https://github.com/rweigel/datetick@main#egg=hapiplot"
+]
+
 version = json.load(open('hapimeta/version.json'))['version']
 setup(
   name='hapimeta',

@@ -1,22 +1,22 @@
-2024-06-26T11:07:28.850Z Reading ../servers.json
-2024-06-26T11:07:28.851Z   Read and parsed ../servers.json
-2024-06-26T11:07:28.956Z Getting https://amda.irap.omp.eu/service/hapi/about
-2024-06-26T11:07:29.393Z   Got https://amda.irap.omp.eu/service/hapi/about
-2024-06-26T11:07:29.393Z   Error parsing JSON from https://amda.irap.omp.eu/service/hapi/about:
+2025-03-12T04:12:58.360Z Reading ../servers.json
+2025-03-12T04:12:58.360Z   Read and parsed ../servers.json
+2025-03-12T04:12:58.426Z Getting https://amda.irap.omp.eu/service/hapi/about
+2025-03-12T04:12:59.539Z   Got https://amda.irap.omp.eu/service/hapi/about
+2025-03-12T04:12:59.539Z   Error parsing JSON from https://amda.irap.omp.eu/service/hapi/about:
   Expecting value: line 1 column 1 (char 0)
-2024-06-26T11:07:29.396Z Getting https://cdaweb.gsfc.nasa.gov/hapi/about
-2024-06-26T11:07:29.495Z   Error: 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about
-2024-06-26T11:07:29.497Z Getting https://csatools.esac.esa.int/HapiServer/hapi/about
-2024-06-26T11:07:30.065Z   Got https://csatools.esac.esa.int/HapiServer/hapi/about
-2024-06-26T11:07:30.068Z   key 'url' not in /about response
-2024-06-26T11:07:30.068Z   key 'contactID' not in /about response
-2024-06-26T11:07:30.068Z   key 'dataTest' not in /about response
-2024-06-26T11:07:30.068Z   ---
-2024-06-26T11:07:30.069Z   servers[contact] != about[contact]
-2024-06-26T11:07:30.069Z   key 'description' not in /about response
-2024-06-26T11:07:30.069Z   Difference between servers.json[CSA] and https://csatools.esac.esa.int/HapiServer/hapi/about
-2024-06-26T11:07:30.069Z servers.json[CSA]
-2024-06-26T11:07:30.069Z {
+2025-03-12T04:12:59.540Z Getting https://cdaweb.gsfc.nasa.gov/hapi/about
+2025-03-12T04:12:59.696Z   Error: 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about
+2025-03-12T04:12:59.696Z Getting https://csatools.esac.esa.int/HapiServer/hapi/about
+2025-03-12T04:13:00.985Z   Got https://csatools.esac.esa.int/HapiServer/hapi/about
+2025-03-12T04:13:00.986Z   key 'url' not in /about response
+2025-03-12T04:13:00.986Z   key 'contactID' not in /about response
+2025-03-12T04:13:00.986Z   key 'dataTest' not in /about response
+2025-03-12T04:13:00.986Z   ---
+2025-03-12T04:13:00.986Z   servers[contact] != about[contact]
+2025-03-12T04:13:00.987Z   key 'description' not in /about response
+2025-03-12T04:13:00.987Z   Difference between servers.json[CSA] and https://csatools.esac.esa.int/HapiServer/hapi/about
+2025-03-12T04:13:00.987Z servers.json[CSA]
+2025-03-12T04:13:00.987Z {
   "url": "https://csatools.esac.esa.int/HapiServer/hapi",
   "title": "Cluster Science Archive",
   "id": "CSA",
@@ -31,11 +31,11 @@
       "parameters": "B_xyz_gse"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:30Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:30Z"
+  "x_LastUpdate": "2025-03-12T04:13:00Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:00Z"
 }
-2024-06-26T11:07:30.069Z https://csatools.esac.esa.int/HapiServer/hapi/about
-2024-06-26T11:07:30.069Z {
+2025-03-12T04:13:00.987Z https://csatools.esac.esa.int/HapiServer/hapi/about
+2025-03-12T04:13:00.987Z {
   "id": "CSA",
   "title": "Cluster Science Archive",
   "contact": "https://www.cosmos.esa.int/web/csa/cluster-helpdesk",
@@ -43,22 +43,22 @@
   "x_hapi_home": "/tmp/hapi-server/",
   "x_buildTime": "2024-03-12T07:42:00"
 }
-2024-06-26T11:07:30.069Z Getting https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about
-2024-06-26T11:07:30.171Z   Error: 404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about
-2024-06-26T11:07:30.173Z Getting http://lasp.colorado.edu/lisird/hapi/about
-2024-06-26T11:07:30.541Z   Error: 404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about
-2024-06-26T11:07:30.544Z Getting https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
-2024-06-26T11:07:31.024Z   Got https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
-2024-06-26T11:07:31.027Z   key 'url' not in /about response
-2024-06-26T11:07:31.027Z   key 'contactID' not in /about response
-2024-06-26T11:07:31.027Z   key 'dataTest' not in /about response
-2024-06-26T11:07:31.027Z   ---
-2024-06-26T11:07:31.027Z   servers[title] != about[title]
-2024-06-26T11:07:31.028Z   key 'description' not in /about response
-2024-06-26T11:07:31.028Z   key 'citation' not in /about response
-2024-06-26T11:07:31.028Z   Difference between servers.json[INTERMAGNET] and https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
-2024-06-26T11:07:31.028Z servers.json[INTERMAGNET]
-2024-06-26T11:07:31.028Z {
+2025-03-12T04:13:00.987Z Getting https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about
+2025-03-12T04:13:01.406Z   Error: 404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about
+2025-03-12T04:13:01.407Z Getting http://lasp.colorado.edu/lisird/hapi/about
+2025-03-12T04:13:01.960Z   Error: 404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about
+2025-03-12T04:13:01.961Z Getting https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
+2025-03-12T04:13:02.473Z   Got https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
+2025-03-12T04:13:02.474Z   key 'url' not in /about response
+2025-03-12T04:13:02.474Z   key 'contactID' not in /about response
+2025-03-12T04:13:02.474Z   key 'dataTest' not in /about response
+2025-03-12T04:13:02.474Z   ---
+2025-03-12T04:13:02.474Z   servers[title] != about[title]
+2025-03-12T04:13:02.474Z   key 'description' not in /about response
+2025-03-12T04:13:02.474Z   key 'citation' not in /about response
+2025-03-12T04:13:02.474Z   Difference between servers.json[INTERMAGNET] and https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
+2025-03-12T04:13:02.474Z servers.json[INTERMAGNET]
+2025-03-12T04:13:02.475Z {
   "url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
   "title": "INTERMAGNET",
   "id": "INTERMAGNET",
@@ -73,32 +73,35 @@
       "parameters": "Field_Magnitude"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:31Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:31Z"
+  "x_LastUpdate": "2025-03-12T04:13:02Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:02Z"
 }
-2024-06-26T11:07:31.028Z https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
-2024-06-26T11:07:31.028Z {
+2025-03-12T04:13:02.475Z https://imag-data.bgs.ac.uk/GIN_V1/hapi/about
+2025-03-12T04:13:02.475Z {
   "id": "INTERMAGNET",
   "title": "INTERMAGNET HAPI server",
   "contact": "e_ginman@bgs.ac.uk",
   "description": "For more information see intermagnet.org",
-  "citation": "https://intermagnet.org/data_conditions.html"
+  "citation": "https://intermagnet.org/data_conditions.html",
+  "x_warnings": [
+    "Data providers may embargo data. For details see https://imag-data.bgs.ac.uk/GIN_V1/GINForms2?request=ShowObservatoryDetails"
+  ]
 }
-2024-06-26T11:07:31.028Z Getting https://api.helioviewer.org/hapi/Helioviewer/hapi/about
-2024-06-26T11:07:31.105Z   Error: 404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about
-2024-06-26T11:07:31.106Z Getting http://hapi-server.org/servers/SSCWeb/hapi/about
-2024-06-26T11:07:31.223Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about
-2024-06-26T11:07:31.223Z Getting https://vires.services/hapi/about
-2024-06-26T11:07:31.686Z   Got https://vires.services/hapi/about
-2024-06-26T11:07:31.690Z   key 'url' not in /about response
-2024-06-26T11:07:31.690Z   key 'contactID' not in /about response
-2024-06-26T11:07:31.690Z   key 'dataTest' not in /about response
-2024-06-26T11:07:31.690Z   ---
-2024-06-26T11:07:31.690Z   servers[contact] != about[contact]
-2024-06-26T11:07:31.690Z   key 'description' not in /about response
-2024-06-26T11:07:31.690Z   Difference between servers.json[VirES-for-Swarm] and https://vires.services/hapi/about
-2024-06-26T11:07:31.690Z servers.json[VirES-for-Swarm]
-2024-06-26T11:07:31.690Z {
+2025-03-12T04:13:02.475Z Getting https://api.helioviewer.org/hapi/Helioviewer/hapi/about
+2025-03-12T04:13:02.930Z   Error: 404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about
+2025-03-12T04:13:02.930Z Getting http://hapi-server.org/servers/SSCWeb/hapi/about
+2025-03-12T04:13:03.107Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about
+2025-03-12T04:13:03.107Z Getting https://vires.services/hapi/about
+2025-03-12T04:13:03.759Z   Got https://vires.services/hapi/about
+2025-03-12T04:13:03.760Z   key 'url' not in /about response
+2025-03-12T04:13:03.760Z   key 'contactID' not in /about response
+2025-03-12T04:13:03.760Z   key 'dataTest' not in /about response
+2025-03-12T04:13:03.760Z   ---
+2025-03-12T04:13:03.761Z   servers[contact] != about[contact]
+2025-03-12T04:13:03.761Z   key 'description' not in /about response
+2025-03-12T04:13:03.761Z   Difference between servers.json[VirES-for-Swarm] and https://vires.services/hapi/about
+2025-03-12T04:13:03.761Z servers.json[VirES-for-Swarm]
+2025-03-12T04:13:03.761Z {
   "url": "https://vires.services/hapi",
   "title": "VirES for Swarm",
   "id": "VirES-for-Swarm",
@@ -113,27 +116,27 @@
       "parameters": "F"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:31Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:31Z"
+  "x_LastUpdate": "2025-03-12T04:13:03Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:03Z"
 }
-2024-06-26T11:07:31.690Z https://vires.services/hapi/about
-2024-06-26T11:07:31.690Z {
+2025-03-12T04:13:03.761Z https://vires.services/hapi/about
+2025-03-12T04:13:03.761Z {
   "id": "VirES-for-Swarm",
   "title": "VirES for Swarm",
   "contact": "feedback@vires.services",
   "description": "Web API for the ESA Swarm mission products."
 }
-2024-06-26T11:07:31.691Z Getting https://hapi.spaceweather.knmi.nl/hapi/about
-2024-06-26T11:07:32.337Z   Got https://hapi.spaceweather.knmi.nl/hapi/about
-2024-06-26T11:07:32.341Z   key 'url' not in /about response
-2024-06-26T11:07:32.341Z   key 'dataTest' not in /about response
-2024-06-26T11:07:32.341Z   ---
-2024-06-26T11:07:32.341Z   servers[id] != about[id]
-2024-06-26T11:07:32.341Z   key 'description' not in /about response
-2024-06-26T11:07:32.341Z   key 'citation' not in /about response
-2024-06-26T11:07:32.341Z   Difference between servers.json[KNMI] and https://hapi.spaceweather.knmi.nl/hapi/about
-2024-06-26T11:07:32.341Z servers.json[KNMI]
-2024-06-26T11:07:32.341Z {
+2025-03-12T04:13:03.761Z Getting https://hapi.spaceweather.knmi.nl/hapi/about
+2025-03-12T04:13:04.192Z   Got https://hapi.spaceweather.knmi.nl/hapi/about
+2025-03-12T04:13:04.193Z   key 'url' not in /about response
+2025-03-12T04:13:04.193Z   key 'dataTest' not in /about response
+2025-03-12T04:13:04.193Z   ---
+2025-03-12T04:13:04.193Z   servers[title] != about[title]
+2025-03-12T04:13:04.193Z   key 'description' not in /about response
+2025-03-12T04:13:04.193Z   key 'citation' not in /about response
+2025-03-12T04:13:04.193Z   Difference between servers.json[KNMI] and https://hapi.spaceweather.knmi.nl/hapi/about
+2025-03-12T04:13:04.193Z servers.json[KNMI]
+2025-03-12T04:13:04.193Z {
   "url": "https://hapi.spaceweather.knmi.nl/hapi",
   "title": "KNMI",
   "id": "KNMI",
@@ -148,37 +151,72 @@
       "parameters": "density"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:32Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:32Z"
+  "x_LastUpdate": "2025-03-12T04:13:04Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:04Z"
 }
-2024-06-26T11:07:32.341Z https://hapi.spaceweather.knmi.nl/hapi/about
-2024-06-26T11:07:32.342Z {
-  "id": "HAPIServer3.1",
-  "title": "HAPI Server 3.1",
-  "contact": "-",
-  "description": "",
-  "contactID": "",
+2025-03-12T04:13:04.193Z https://hapi.spaceweather.knmi.nl/hapi/about
+2025-03-12T04:13:04.193Z {
+  "id": "KNMI",
+  "title": "KNMI public HAPI server for use with the space weather timeline viewer",
+  "contact": "Eelco Doornbos",
+  "description": "Data on this server has been obtained from a variety of sources, and reproduced based on open licenses and/or with express permission of the data owners. It is intended for quick-look visualization with the space weather timeline viewer only. For further analysis, users are advised to retrieve copies of the data from the data owner's repositories.",
+  "contactID": "eelco.doornbos@knmi.nl",
   "citation": ""
 }
-2024-06-26T11:07:32.342Z Getting https://planet.physics.uiowa.edu/das/das2Server/hapi/about
-2024-06-26T11:07:32.679Z   Got https://planet.physics.uiowa.edu/das/das2Server/hapi/about
-2024-06-26T11:07:32.680Z   Error parsing JSON from https://planet.physics.uiowa.edu/das/das2Server/hapi/about:
+2025-03-12T04:13:04.193Z Getting https://wdcapi.bgs.ac.uk/hapi/about
+2025-03-12T04:13:04.669Z   Got https://wdcapi.bgs.ac.uk/hapi/about
+2025-03-12T04:13:04.670Z   key 'url' not in /about response
+2025-03-12T04:13:04.670Z   key 'contactID' not in /about response
+2025-03-12T04:13:04.670Z   key 'dataTest' not in /about response
+2025-03-12T04:13:04.670Z   ---
+2025-03-12T04:13:04.670Z   servers[title] != about[title]
+2025-03-12T04:13:04.670Z   key 'description' not in /about response
+2025-03-12T04:13:04.670Z   Difference between servers.json[WDC] and https://wdcapi.bgs.ac.uk/hapi/about
+2025-03-12T04:13:04.670Z servers.json[WDC]
+2025-03-12T04:13:04.670Z {
+  "url": "https://wdcapi.bgs.ac.uk/hapi",
+  "title": "WDC",
+  "id": "WDC",
+  "contact": "Adam Emsley",
+  "contactID": "Adam.Emsley@bgs.ac.uk",
+  "dataTest": {
+    "name": "Ping Test",
+    "query": {
+      "dataset": "aaa/PT1M/xyz",
+      "start": "2005-01-01T00:00:00Z",
+      "stop": "2005-01-03T00:00:00.000Z",
+      "parameters": "Field_Vector"
+    }
+  },
+  "x_LastUpdate": "2025-03-12T04:13:04Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:04Z"
+}
+2025-03-12T04:13:04.670Z https://wdcapi.bgs.ac.uk/hapi/about
+2025-03-12T04:13:04.670Z {
+  "id": "WDC",
+  "title": "HAPI WDC (Edinburgh) Server",
+  "contact": "wdcgeomag@bgs.ac.uk",
+  "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive."
+}
+2025-03-12T04:13:04.670Z Getting https://planet.physics.uiowa.edu/das/das2Server/hapi/about
+2025-03-12T04:13:05.166Z   Got https://planet.physics.uiowa.edu/das/das2Server/hapi/about
+2025-03-12T04:13:05.166Z   Error parsing JSON from https://planet.physics.uiowa.edu/das/das2Server/hapi/about:
   Expecting value: line 1 column 1 (char 0)
-2024-06-26T11:07:32.682Z Getting http://hapi-server.org/servers/TestData2.0/hapi/about
-2024-06-26T11:07:32.713Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about
-2024-06-26T11:07:32.713Z Getting http://hapi-server.org/servers/TestData2.1/hapi/about
-2024-06-26T11:07:32.762Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about
-2024-06-26T11:07:32.763Z Getting http://hapi-server.org/servers/TestData3.0/hapi/about
-2024-06-26T11:07:32.798Z   Got http://hapi-server.org/servers/TestData3.0/hapi/about
-2024-06-26T11:07:32.799Z   key 'url' not in /about response
-2024-06-26T11:07:32.799Z   key 'description' not in /about response
-2024-06-26T11:07:32.799Z   key 'contactID' not in /about response
-2024-06-26T11:07:32.799Z   key 'dataTest' not in /about response
-2024-06-26T11:07:32.799Z   ---
-2024-06-26T11:07:32.799Z   servers[title] != about[title]
-2024-06-26T11:07:32.799Z   Difference between servers.json[TestData3.0] and http://hapi-server.org/servers/TestData3.0/hapi/about
-2024-06-26T11:07:32.799Z servers.json[TestData3.0]
-2024-06-26T11:07:32.799Z {
+2025-03-12T04:13:05.167Z Getting http://hapi-server.org/servers/TestData2.0/hapi/about
+2025-03-12T04:13:05.344Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about
+2025-03-12T04:13:05.344Z Getting http://hapi-server.org/servers/TestData2.1/hapi/about
+2025-03-12T04:13:05.519Z   Error: 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about
+2025-03-12T04:13:05.519Z Getting http://hapi-server.org/servers/TestData3.0/hapi/about
+2025-03-12T04:13:05.694Z   Got http://hapi-server.org/servers/TestData3.0/hapi/about
+2025-03-12T04:13:05.694Z   key 'url' not in /about response
+2025-03-12T04:13:05.694Z   key 'description' not in /about response
+2025-03-12T04:13:05.694Z   key 'contactID' not in /about response
+2025-03-12T04:13:05.694Z   key 'dataTest' not in /about response
+2025-03-12T04:13:05.694Z   ---
+2025-03-12T04:13:05.694Z   servers[title] != about[title]
+2025-03-12T04:13:05.694Z   Difference between servers.json[TestData3.0] and http://hapi-server.org/servers/TestData3.0/hapi/about
+2025-03-12T04:13:05.694Z servers.json[TestData3.0]
+2025-03-12T04:13:05.694Z {
   "url": "http://hapi-server.org/servers/TestData3.0/hapi",
   "title": "HAPI 3.0 Test Data",
   "description": "Server for testing clients with HAPI 3.0 additions",
@@ -194,26 +232,26 @@
       "parameters": "scalar"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:32Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:32Z"
+  "x_LastUpdate": "2025-03-12T04:13:05Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:05Z"
 }
-2024-06-26T11:07:32.799Z http://hapi-server.org/servers/TestData3.0/hapi/about
-2024-06-26T11:07:32.799Z {
+2025-03-12T04:13:05.695Z http://hapi-server.org/servers/TestData3.0/hapi/about
+2025-03-12T04:13:05.695Z {
   "id": "TestData3.0",
   "title": "Server using HAPI 3.0 additions",
   "contact": "rweigel@gmu.edu"
 }
-2024-06-26T11:07:32.799Z Getting http://hapi-server.org/servers/TestData3.1/hapi/about
-2024-06-26T11:07:32.833Z   Got http://hapi-server.org/servers/TestData3.1/hapi/about
-2024-06-26T11:07:32.833Z   key 'url' not in /about response
-2024-06-26T11:07:32.833Z   key 'description' not in /about response
-2024-06-26T11:07:32.834Z   key 'contactID' not in /about response
-2024-06-26T11:07:32.834Z   key 'dataTest' not in /about response
-2024-06-26T11:07:32.834Z   ---
-2024-06-26T11:07:32.834Z   servers[title] != about[title]
-2024-06-26T11:07:32.834Z   Difference between servers.json[TestData3.1] and http://hapi-server.org/servers/TestData3.1/hapi/about
-2024-06-26T11:07:32.834Z servers.json[TestData3.1]
-2024-06-26T11:07:32.834Z {
+2025-03-12T04:13:05.695Z Getting http://hapi-server.org/servers/TestData3.1/hapi/about
+2025-03-12T04:13:05.873Z   Got http://hapi-server.org/servers/TestData3.1/hapi/about
+2025-03-12T04:13:05.873Z   key 'url' not in /about response
+2025-03-12T04:13:05.873Z   key 'description' not in /about response
+2025-03-12T04:13:05.873Z   key 'contactID' not in /about response
+2025-03-12T04:13:05.873Z   key 'dataTest' not in /about response
+2025-03-12T04:13:05.873Z   ---
+2025-03-12T04:13:05.873Z   servers[title] != about[title]
+2025-03-12T04:13:05.873Z   Difference between servers.json[TestData3.1] and http://hapi-server.org/servers/TestData3.1/hapi/about
+2025-03-12T04:13:05.873Z servers.json[TestData3.1]
+2025-03-12T04:13:05.873Z {
   "url": "http://hapi-server.org/servers/TestData3.1/hapi",
   "title": "HAPI 3.1 Test Data",
   "description": "Server for testing clients with HAPI 3.1 additions",
@@ -229,26 +267,26 @@
       "parameters": "scalar"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:32Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:32Z"
+  "x_LastUpdate": "2025-03-12T04:13:05Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:05Z"
 }
-2024-06-26T11:07:32.834Z http://hapi-server.org/servers/TestData3.1/hapi/about
-2024-06-26T11:07:32.834Z {
+2025-03-12T04:13:05.873Z http://hapi-server.org/servers/TestData3.1/hapi/about
+2025-03-12T04:13:05.873Z {
   "id": "TestData3.1",
   "title": "Server using HAPI 3.1 additions",
   "contact": "rweigel@gmu.edu"
 }
-2024-06-26T11:07:32.834Z Getting http://hapi-server.org/servers/TestData3.2/hapi/about
-2024-06-26T11:07:32.872Z   Got http://hapi-server.org/servers/TestData3.2/hapi/about
-2024-06-26T11:07:32.872Z   key 'url' not in /about response
-2024-06-26T11:07:32.872Z   key 'description' not in /about response
-2024-06-26T11:07:32.872Z   key 'contactID' not in /about response
-2024-06-26T11:07:32.872Z   key 'dataTest' not in /about response
-2024-06-26T11:07:32.872Z   ---
-2024-06-26T11:07:32.872Z   servers[title] != about[title]
-2024-06-26T11:07:32.872Z   Difference between servers.json[TestData3.2] and http://hapi-server.org/servers/TestData3.2/hapi/about
-2024-06-26T11:07:32.872Z servers.json[TestData3.2]
-2024-06-26T11:07:32.872Z {
+2025-03-12T04:13:05.873Z Getting http://hapi-server.org/servers/TestData3.2/hapi/about
+2025-03-12T04:13:06.048Z   Got http://hapi-server.org/servers/TestData3.2/hapi/about
+2025-03-12T04:13:06.048Z   key 'url' not in /about response
+2025-03-12T04:13:06.048Z   key 'description' not in /about response
+2025-03-12T04:13:06.048Z   key 'contactID' not in /about response
+2025-03-12T04:13:06.048Z   key 'dataTest' not in /about response
+2025-03-12T04:13:06.048Z   ---
+2025-03-12T04:13:06.048Z   servers[title] != about[title]
+2025-03-12T04:13:06.048Z   Difference between servers.json[TestData3.2] and http://hapi-server.org/servers/TestData3.2/hapi/about
+2025-03-12T04:13:06.048Z servers.json[TestData3.2]
+2025-03-12T04:13:06.048Z {
   "url": "http://hapi-server.org/servers/TestData3.2/hapi",
   "title": "HAPI 3.2 Test Data",
   "description": "Server for testing clients with HAPI 3.2 additions",
@@ -264,18 +302,18 @@
       "parameters": "scalar"
     }
   },
-  "x_LastUpdate": "2024-06-26T11:07:32Z",
-  "x_LastUpdateChange": "2024-06-26T11:07:32Z"
+  "x_LastUpdate": "2025-03-12T04:13:06Z",
+  "x_LastUpdateChange": "2025-03-12T04:13:06Z"
 }
-2024-06-26T11:07:32.872Z http://hapi-server.org/servers/TestData3.2/hapi/about
-2024-06-26T11:07:32.872Z {
+2025-03-12T04:13:06.049Z http://hapi-server.org/servers/TestData3.2/hapi/about
+2025-03-12T04:13:06.049Z {
   "id": "TestData3.2",
   "title": "Server using HAPI 3.2 additions",
   "contact": "rweigel@gmu.edu"
 }
-2024-06-26T11:07:32.873Z Writing ../servers.updated.json
-2024-06-26T11:07:32.874Z   Wrote ../servers.updated.json
-2024-06-26T11:07:32.874Z Writing ../all_.updated.txt
-2024-06-26T11:07:32.874Z   Wrote ../all_.updated.txt
-2024-06-26T11:07:32.875Z Writing ../all.updated.txt
-2024-06-26T11:07:32.875Z   Wrote ../all.updated.txt
+2025-03-12T04:13:06.049Z Writing ../servers.updated.json
+2025-03-12T04:13:06.049Z   Wrote ../servers.updated.json
+2025-03-12T04:13:06.049Z Writing ../all_.updated.txt
+2025-03-12T04:13:06.050Z   Wrote ../all_.updated.txt
+2025-03-12T04:13:06.050Z Writing ../all.updated.txt
+2025-03-12T04:13:06.050Z   Wrote ../all.updated.txt

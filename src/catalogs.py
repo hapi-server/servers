@@ -64,7 +64,10 @@ def get_infos(cid, catalog, max_infos=None):
     if 'parameter' in info['parameters']:
       for parameter in info['parameters']:
         if 'bins' in parameter:
-          del parameter['bins']
+          if 'centers' in parameter['bins']:
+            del parameter['bins']['centers']
+          if 'ranges' in parameter['ranges']:
+            del parameter['bins']['ranges']
 
     if max_infos is not None and n >= max_infos:
       return

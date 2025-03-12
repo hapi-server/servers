@@ -12,12 +12,14 @@ import sys
 import json
 import pickle
 
+from datetime import datetime, timedelta
+
 from hapimeta import logger
 from hapiclient import hapitime2datetime
 
 max_workers    = 1    # Number of servers to process in parallel
 lines_per_plot = 50   # Number of time range plots per page
-savefig_fmts = ['png', 'svg'] # File formats to save. 'png' and 'svg' are supported.
+savefig_fmts = ['png'] # File formats to save. 'png' and 'svg' are supported.
 
 dpi            = 300
 fig_width      = 3840  # pixels
@@ -58,11 +60,12 @@ def plot(server, title, datasets, starts, stops,
     fig, ax = plt.subplots()
     fig.set_figheight(fig_height)
     fig.set_figwidth(fig_width)
-    return ax
+    return fig, ax
 
-  def config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots):
+  def config(ax, starts_min, stops_max, title, n_plots, fn_padded=None, left_margin=None, right_margin=None):
 
-    title = f'{title}    page {fn_padded}/{n_plots}'
+    if fn_padded is not None:
+      title = f'{title}    page {fn_padded}/{n_plots}'
     ax.set_title(title)
     ax.set_xlim([starts_min, stops_max])
     ax.spines['top'].set_visible(False)
@@ -71,9 +74,10 @@ def plot(server, title, datasets, starts, stops,
     ax.grid(axis='x', which='minor', alpha=0.5, linestyle=':')
     ax.grid(axis='x', which='major', color='k', alpha=0.5)
     ax.set_yticks(ticks=[])
-    datetick('x')
-    right = 0.60*max_len/63 # Will depend on font size and possible dpi
-    plt.subplots_adjust(left=0.03, bottom=0.03, right=right, top=0.93)
+    datetick('x', debug=True)
+    if left_margin is not None and right_margin is not None:
+      plt.subplots_adjust(left=left_margin, right=right_margin)
+    plt.subplots_adjust(top=0.93, bottom=0.05)
 
   def write(fn):
     fname = f"{out_dir}/{server}/{server}.{fn}"
@@ -85,13 +89,13 @@ def plot(server, title, datasets, starts, stops,
       _fname = f"{fname}.svg"
       log.info(f'Writing {_fname}')
       plt.savefig(f"{_fname}")
-      log.info(f'Wrote   f"{_fname}"')
+      log.info(f'Wrote   {_fname}')
 
     if 'png' in savefig_fmts:
       _fname = f"{fname}.png"
       log.info(f'Writing {_fname}')
       plt.savefig(f"{_fname}", dpi=dpi)
-      log.info(f'Wrote   f"{_fname}"')
+      log.info(f'Wrote   {_fname}')
 
     return _fname
 
@@ -113,24 +117,55 @@ def plot(server, title, datasets, starts, stops,
   stops_max = numpy.max(stops)
   max_len = numpy.max([len(dataset) for dataset in datasets])
 
+  if stops_max.tzinfo is not None:
+    stops_max = stops_max.replace(tzinfo=None)
+  stops_max_max = datetime.now() + timedelta(days=5*365)
+  if stops_max > stops_max_max:
+    stops_max = stops_max_max
+
+  fig, ax = newfig()
+  for n in range(len(datasets)):
+    draw(ax, n, starts, stops, datasets, max_len)
+
+  config(ax, starts_min, stops_max, title, n_plots)
+  file = write('all-before-tight-layout')
+
+  l, b, w, h = ax.get_position().bounds
+  print(f"Left margin: {l}")
+  print(f"Bottom margin: {b}")
+  print(f"Width: {w}")
+  print(f"Height: {h}")
+  fig.tight_layout()
+  l, b, w, h = ax.get_position().bounds
+  print(f"Left margin: {l}")
+  print(f"Bottom margin: {b}")
+  print(f"Width: {w}")
+  print(f"Height: {h}")
+  # 2*l instead of l so we have the same margin on the right as on the left
+  # (instead of zero on right)
+  right_margin = w+l
+  left_margin = l
+  file = write('all-after-tight-layout')
+  exit()
+
   fn = 0
   files = []
-  ax = newfig()
+  fig, ax = newfig()
   for n in range(len(datasets)):
     draw(ax, n, starts, stops, datasets, max_len)
     if (n + 1) % lines_per_plot == 0:
       fn = fn + 1
       fn_padded = f"{fn:0{pad}d}"
-      config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots)
+      config(ax, starts_min, stops_max, title, n_plots, fn_padded, left_margin, right_margin)
       file = write(fn_padded)
       files.append(file)
 
-      ax = newfig()
+      fig, ax = newfig()
 
   # Finish last plot, if needed
   if (n + 1) % lines_per_plot != 0:
     fn_padded = f"{fn:0{pad}d}"
-    config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots)
+    config(ax, starts_min, stops_max, title, n_plots, fn_padded, left_margin, right_margin)
     file = write(fn)
     files.append(file)
 
@@ -140,7 +175,7 @@ def html(files):
   import base64
 
   # Create the HTML content with the embedded PNG data
-  html_content = f"""
+  html_content = """
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -153,6 +188,9 @@ def html(files):
   </body>
   </html>
   """
+
+  # Remove leading and trailing whitespace from each line
+  html_content = "\n".join([line.strip() for line in html_content.split("\n")])
 
   divs = ""
   for file in files:
@@ -237,7 +275,9 @@ def process_server(server, catalogs_all):
   server_url = catalogs_all['x_URL']
   x_LastUpdate = catalogs_all['x_LastUpdate']
   title = f"{server}: {server_url}\n{x_LastUpdate}"
-  files = plot(server, title, datasets, starts, stops)
+  files = plot(server, title, datasets, starts, stops,
+               lines_per_plot=lines_per_plot,
+               fig_width=fig_width, fig_height=fig_height)
 
   for savefig_fmt in savefig_fmts:
     fname = f"{out_dir}/{server}/{server}-plots.{savefig_fmt}.json"

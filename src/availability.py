@@ -17,6 +17,7 @@ from hapiclient import hapitime2datetime
 
 max_workers    = 1    # Number of servers to process in parallel
 lines_per_plot = 50   # Number of time range plots per page
+savefig_fmts = ['png', 'svg'] # File formats to save. 'png' and 'svg' are supported.
 
 dpi            = 300
 fig_width      = 3840  # pixels
@@ -75,21 +76,24 @@ def plot(server, title, datasets, starts, stops,
     plt.subplots_adjust(left=0.03, bottom=0.03, right=right, top=0.93)
 
   def write(fn):
-    fname = f"{out_dir}/{server}/{server}.{fn}.svg"
+    fname = f"{out_dir}/{server}/{server}.{fn}"
 
     if not os.path.exists(os.path.dirname(fname)):
       os.makedirs(os.path.dirname(fname))
 
-    #log.info(f'Writing {fname}')
-    #plt.savefig(fname, bbox_inches='tight')
-    #log.info(f'Wrote   {fname}')
+    if 'svg' in savefig_fmts:
+      _fname = f"{fname}.svg"
+      log.info(f'Writing {_fname}')
+      plt.savefig(f"{_fname}")
+      log.info(f'Wrote   f"{_fname}"')
 
-    fname = fname.replace("svg", "png")
-    log.info(f'Writing {fname}')
-    plt.savefig(fname, dpi=300)
-    log.info(f'Wrote   {fname}')
+    if 'png' in savefig_fmts:
+      _fname = f"{fname}.png"
+      log.info(f'Writing {_fname}')
+      plt.savefig(f"{_fname}", dpi=dpi)
+      log.info(f'Wrote   f"{_fname}"')
 
-    return fname
+    return _fname
 
   def draw(ax, n, starts, stops, datasets, max_len):
     line, = ax.plot([starts[n], stops[n]], [n, n], linewidth=5)
@@ -126,11 +130,45 @@ def plot(server, title, datasets, starts, stops,
   # Finish last plot, if needed
   if (n + 1) % lines_per_plot != 0:
     fn_padded = f"{fn:0{pad}d}"
-    config(ax, title, starts_min, stops_max, max_len, fn_padded, n_plots)
+    config(ax, starts_min, stops_max, max_len, title, fn_padded, n_plots)
     file = write(fn)
     files.append(file)
 
   return files
+
+def html(files):
+  import base64
+
+  # Create the HTML content with the embedded PNG data
+  html_content = f"""
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Embedded PNG</title>
+  </head>
+  <body>
+      DIVS
+  </body>
+  </html>
+  """
+
+  divs = ""
+  for file in files:
+    with open(file, "rb") as png_file:
+      png_data = png_file.read()
+      png_base64 = base64.b64encode(png_data).decode('utf-8')
+      divs += f'<img width="100%" src="data:image/png;base64,{png_base64}" alt="{file}">\n'
+
+  html_content = html_content.replace("DIVS", divs)
+
+  # Write the HTML content to the output file
+  fname = f"{out_dir}/{server}/{server}.html"
+  with open(fname, "w") as html_file:
+    log.info(f"Writing {fname}")
+    html_file.write(html_content)
+    log.info(f"Wrote   {fname}")
 
 def process_server(server, catalogs_all):
 
@@ -201,11 +239,14 @@ def process_server(server, catalogs_all):
   title = f"{server}: {server_url}\n{x_LastUpdate}"
   files = plot(server, title, datasets, starts, stops)
 
-  fname = f"{out_dir}/{server}/{server}-plots.all.json"
-  log.info(f"Writing {fname}")
-  with open(fname, 'w') as f:
-    json.dump(files, f, indent=2)
-    log.info(f"Wrote   {fname}")
+  for savefig_fmt in savefig_fmts:
+    fname = f"{out_dir}/{server}/{server}-plots.{savefig_fmt}.json"
+    log.info(f"Writing {fname}")
+    with open(fname, 'w') as f:
+      json.dump(files, f, indent=2)
+      log.info(f"Wrote   {fname}")
+
+  html(files)
 
 if max_workers == 1:
   for server in catalogs_all.keys():

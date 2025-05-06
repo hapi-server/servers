@@ -12,7 +12,7 @@ import sys
 import json
 import pickle
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from hapimeta import logger
 from hapiclient import hapitime2datetime
@@ -74,7 +74,7 @@ def plot(server, title, datasets, starts, stops,
     ax.grid(axis='x', which='minor', alpha=0.5, linestyle=':')
     ax.grid(axis='x', which='major', color='k', alpha=0.5)
     ax.set_yticks(ticks=[])
-    datetick('x', debug=True)
+    datetick('x')
     if left_margin is not None and right_margin is not None:
       plt.subplots_adjust(left=left_margin, right=right_margin)
     plt.subplots_adjust(top=0.93, bottom=0.05)
@@ -99,60 +99,73 @@ def plot(server, title, datasets, starts, stops,
 
     return _fname
 
-  def draw(ax, n, starts, stops, datasets, max_len):
+  def draw(ax, n, starts, stops, datasets, start_text, max_len):
     line, = ax.plot([starts[n], stops[n]], [n, n], linewidth=5)
-    label = f' {datasets[n]:{max_len}s}'
+    label = f'{datasets[n]:{max_len}s}'
 
     text_kwargs = {
       'family': 'monospace',
       'color': line.get_color(),
-      'verticalalignment': 'center'
+      'verticalalignment': 'center',
+      'size': 8,
     }
 
     ax.text(stops[n], n, label, **text_kwargs)
+    if start_text[n] is not None:
+      text_kwargs['horizontalalignment'] = 'right'
+      text_kwargs['size'] = 8
+      ax.text(starts[n], n, start_text[n], **text_kwargs)
 
-  n_plots = math.ceil(len(datasets)/50)
+  n_plots = math.ceil(len(datasets)/lines_per_plot)
   pad = math.ceil(math.log10(n_plots))
   starts_min = numpy.min(starts)
-  stops_max = numpy.max(stops)
-  max_len = numpy.max([len(dataset) for dataset in datasets])
-
-  if stops_max.tzinfo is not None:
-    stops_max = stops_max.replace(tzinfo=None)
-  stops_max_max = datetime.now() + timedelta(days=5*365)
-  if stops_max > stops_max_max:
-    stops_max = stops_max_max
+  stops_max = datetime.now(timezone.utc) + timedelta(days=5*365)
+  starts_min = datetime(1960, 1, 1, 0, 0, 0, tzinfo=timezone.utc)
+  max_len = 0
+  start_text = []
+  for ds in range(len(datasets)):
+    datasets[ds] = f" {datasets[ds]}"
+    if stops[ds] > stops_max:
+      stops[ds] = numpy.array([stops_max])
+      datasets[ds] = f"→{datasets[ds]}"
+    if starts[ds] < starts_min:
+      starts[ds] = numpy.array([starts_min])
+      start_text.append("←")
+    else:
+      start_text.append(None)
+    max_len = max(max_len, len(datasets[ds]))
 
   fig, ax = newfig()
   for n in range(len(datasets)):
-    draw(ax, n, starts, stops, datasets, max_len)
+    draw(ax, n, starts, stops, datasets, start_text, max_len)
 
+  debug = False
   config(ax, starts_min, stops_max, title, n_plots)
-  file = write('all-before-tight-layout')
-
   l, b, w, h = ax.get_position().bounds
-  print(f"Left margin: {l}")
-  print(f"Bottom margin: {b}")
-  print(f"Width: {w}")
-  print(f"Height: {h}")
+  if debug:
+    file = write('all-before-tight-layout')
+    print(f"Left margin: {l}")
+    print(f"Bottom margin: {b}")
+    print(f"Width: {w}")
+    print(f"Height: {h}")
   fig.tight_layout()
   l, b, w, h = ax.get_position().bounds
-  print(f"Left margin: {l}")
-  print(f"Bottom margin: {b}")
-  print(f"Width: {w}")
-  print(f"Height: {h}")
+  if debug:
+    file = write('all-after-tight-layout')
+    print(f"Left margin: {l}")
+    print(f"Bottom margin: {b}")
+    print(f"Width: {w}")
+    print(f"Height: {h}")
   # 2*l instead of l so we have the same margin on the right as on the left
   # (instead of zero on right)
   right_margin = w+l
   left_margin = l
-  file = write('all-after-tight-layout')
-  exit()
 
   fn = 0
   files = []
   fig, ax = newfig()
   for n in range(len(datasets)):
-    draw(ax, n, starts, stops, datasets, max_len)
+    draw(ax, n, starts, stops, datasets, start_text, max_len)
     if (n + 1) % lines_per_plot == 0:
       fn = fn + 1
       fn_padded = f"{fn:0{pad}d}"
@@ -164,6 +177,7 @@ def plot(server, title, datasets, starts, stops,
 
   # Finish last plot, if needed
   if (n + 1) % lines_per_plot != 0:
+    fn = fn + 1
     fn_padded = f"{fn:0{pad}d}"
     config(ax, starts_min, stops_max, title, n_plots, fn_padded, left_margin, right_margin)
     file = write(fn)
@@ -181,7 +195,7 @@ def html(files):
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Embedded PNG</title>
+      <title>TITLE</title>
   </head>
   <body>
       DIVS
@@ -200,6 +214,7 @@ def html(files):
       divs += f'<img width="100%" src="data:image/png;base64,{png_base64}" alt="{file}">\n'
 
   html_content = html_content.replace("DIVS", divs)
+  html_content = html_content.replace("TITLE", server)
 
   # Write the HTML content to the output file
   fname = f"{out_dir}/{server}/{server}.html"
@@ -274,7 +289,7 @@ def process_server(server, catalogs_all):
   log.info(f"Plotting availability for {server}")
   server_url = catalogs_all['x_URL']
   x_LastUpdate = catalogs_all['x_LastUpdate']
-  title = f"{server}: {server_url}\n{x_LastUpdate}"
+  title = f"{server}: {server_url}   {len(datasets)} datasets\n{x_LastUpdate}"
   files = plot(server, title, datasets, starts, stops,
                lines_per_plot=lines_per_plot,
                fig_width=fig_width, fig_height=fig_height)

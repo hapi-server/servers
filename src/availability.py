@@ -14,35 +14,36 @@ import pickle
 
 from datetime import datetime, timedelta, timezone
 
-from hapimeta import logger
+from hapimeta import logger, svglinks
 from hapiclient import hapitime2datetime
 
-max_workers    = 1    # Number of servers to process in parallel
-lines_per_plot = 50   # Number of time range plots per page
-savefig_fmts = ['png'] # File formats to save. 'png' and 'svg' are supported.
+max_workers    = 1      # Number of servers to process in parallel
+lines_per_plot = 50     # Number of time range plots per page
+savefig_fmts = ['svg']  # File formats to save. 'png' and 'svg' are supported.
 
-dpi            = 300
-fig_width      = 3840  # pixels
-fig_height     = 2160  # pixels
-fig_width      = fig_width/dpi   # inches
-fig_height     = fig_height/dpi  # inches
+dpi        = 300
+fig_width  = 3840           # pixels
+fig_width  = fig_width/dpi  # inches
+fig_height = 2160           # pixels
+fig_height = fig_height/dpi # inches
 
-catalogs_all = '../data/catalogs-all.pkl' # Input file
 out_dir      = '../data/availability'     # Output directory
+catalogs_all = '../data/catalogs-all.pkl' # Input file
 
-# Only do these servers
 all = True
 if len(sys.argv) > 1:
   all = False
   servers_only = sys.argv[1].split(',')
-  print(f"Only doing servers '{servers_only}'")
+  print(f"Generating availability for '{servers_only}'")
+else:
+  print(f"Generating availability for all servers in {catalogs_all}")
 
 log = logger()
 
 with open(catalogs_all, 'rb') as f:
   catalogs_all = pickle.load(f)
 
-def plot(server, title, datasets, starts, stops,
+def plot(server, server_url, title, datasets, starts, stops,
          lines_per_plot=lines_per_plot,
          fig_width=fig_width, fig_height=fig_height):
 
@@ -52,9 +53,18 @@ def plot(server, title, datasets, starts, stops,
   import matplotlib
   import matplotlib.pyplot as plt
   #matplotlib.set_loglevel('warning')
+  # The following is needed to prevent Matplotlib from writing
+  # text as paths. If text is written as paths, the SVG file will not
+  # be searchable using CTRL+F.
+  plt.rcParams['svg.fonttype'] = 'none'
 
   from datetick import datetick
 
+  special_chars = {
+    'en': ' ',       # Unicode en space # https://unicode-explorer.com/c/2002
+    'rarrow': '→ ',  # Unicode right arrow
+    'larrow': '←'    # Unicode left arrow
+  }
   def newfig():
     plt.close('all')
     fig, ax = plt.subplots()
@@ -79,6 +89,12 @@ def plot(server, title, datasets, starts, stops,
       plt.subplots_adjust(left=left_margin, right=right_margin)
     plt.subplots_adjust(top=0.93, bottom=0.05)
 
+
+  def id_strip(id):
+    for key, value in special_chars.items():
+      id = id.replace(value, '')
+    return id
+
   def write(fn):
     fname = f"{out_dir}/{server}/{server}.{fn}"
 
@@ -90,6 +106,7 @@ def plot(server, title, datasets, starts, stops,
       log.info(f'Writing {_fname}')
       plt.savefig(f"{_fname}")
       log.info(f'Wrote   {_fname}')
+      svglinks(_fname, link_attribs={'target': '_blank'}, debug=debug)
 
     if 'png' in savefig_fmts:
       _fname = f"{fname}.png"
@@ -100,7 +117,10 @@ def plot(server, title, datasets, starts, stops,
     return _fname
 
   def draw(ax, n, starts, stops, datasets, start_text, max_len):
-    line, = ax.plot([starts[n], stops[n]], [n, n], linewidth=5)
+    gid_bar = f"https://hapi-server.org/servers/#server={server}&dataset={id_strip(datasets[n])}"
+    gid_txt = f"https://hapi-server.org/plot/?server={server_url}&dataset={id_strip(datasets[n])}&format=gallery&usecache=true&usedatacache=true&mode=thumb"
+
+    line, = ax.plot([starts[n], stops[n]], [n, n], gid=gid_bar, linewidth=5)
     label = f'{datasets[n]:{max_len}s}'
 
     text_kwargs = {
@@ -108,12 +128,11 @@ def plot(server, title, datasets, starts, stops,
       'color': line.get_color(),
       'verticalalignment': 'center',
       'size': 8,
+      'gid': gid_txt
     }
-
     ax.text(stops[n], n, label, **text_kwargs)
     if start_text[n] is not None:
       text_kwargs['horizontalalignment'] = 'right'
-      text_kwargs['size'] = 8
       ax.text(starts[n], n, start_text[n], **text_kwargs)
 
   n_plots = math.ceil(len(datasets)/lines_per_plot)
@@ -124,13 +143,16 @@ def plot(server, title, datasets, starts, stops,
   max_len = 0
   start_text = []
   for ds in range(len(datasets)):
-    datasets[ds] = f" {datasets[ds]}"
+    # prefix with unicode em space
+    #   https://unicode-explorer.com/c/2002
+    # is needed, otherwise first letter overlaps with bar.
+    datasets[ds] = f"{special_chars['en']}{datasets[ds]}"
     if stops[ds] > stops_max:
       stops[ds] = numpy.array([stops_max])
-      datasets[ds] = f"→{datasets[ds]}"
+      datasets[ds] = f"{special_chars['rarrow']}{datasets[ds]}"
     if starts[ds] < starts_min:
       starts[ds] = numpy.array([starts_min])
-      start_text.append("←")
+      start_text.append(special_chars['larrow'])
     else:
       start_text.append(None)
     max_len = max(max_len, len(datasets[ds]))
@@ -192,13 +214,37 @@ def html(files):
   html_content = """
   <!DOCTYPE html>
   <html lang="en">
+  <script>
+  function searchKey() {
+    if (navigator.platform.toUpperCase().indexOf('MAC')) {
+      return "⌘+F";
+    }
+    return "Ctrl+F";
+  }
+  </script>
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>TITLE</title>
+    <link rel="icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAA0ODwAASP8Ab/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERERAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAAP/AAD//wAA//8AAAAPAAD//wAA//8AAP//AAAA/wAA//8AAP//AAAAAAAA//8AAP//AAD//wAA">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5X7EXZ3BBW"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);} gtag("js", new Date());gtag("config", "G-5X7EXZ3BBW");</script>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="TITLE HAPI Heliophysics Data Availability UI">
+    <meta name="description"
+      content="HAPI Server Availability for TITLE; https://github.com/hapi-server/servers">
+    <meta name="keywords" content="TITLE">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITLE</title>
   </head>
   <body>
-      DIVS
+    <h1>TITLE</h1>
+    <p>
+      Time range of datasets available from the <a href="https://hapi-server.org/servers/#server=TITLE" target="_blank">TITLE</a> HAPI server.
+    </p>
+    <ul>
+      <li>Use <script>document.write(searchKey());</script> to search for a dataset.</li>
+      <li>Click a dataset view information about dataset.</li>
+      <li>Click a bar view plots of parameters in dataset.</li>
+    </ul>
+    DIVS
   </body>
   </html>
   """
@@ -208,6 +254,12 @@ def html(files):
 
   divs = ""
   for file in files:
+    with open(file, "rb") as svg_file:
+      svg_data = svg_file.read()
+      divs += svg_data.decode('utf-8')
+    continue
+    file = os.path.basename(file)
+    #divs += f'<img width="100%" src="{file}" alt="{file}">\n'
     with open(file, "rb") as png_file:
       png_data = png_file.read()
       png_base64 = base64.b64encode(png_data).decode('utf-8')
@@ -290,7 +342,7 @@ def process_server(server, catalogs_all):
   server_url = catalogs_all['x_URL']
   x_LastUpdate = catalogs_all['x_LastUpdate']
   title = f"{server}: {server_url}   {len(datasets)} datasets\n{x_LastUpdate}"
-  files = plot(server, title, datasets, starts, stops,
+  files = plot(server, server_url, title, datasets, starts, stops,
                lines_per_plot=lines_per_plot,
                fig_width=fig_width, fig_height=fig_height)
 

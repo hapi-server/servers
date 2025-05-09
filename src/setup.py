@@ -4,6 +4,7 @@ import json
 install_requires = [
   "hapiplot",
   "hapiclient",
+  "lxml"
   "datetick @ git+https://github.com/rweigel/datetick@main#egg=hapiplot"
 ]
 

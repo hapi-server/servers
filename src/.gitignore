@@ -1,1 +1,3 @@
 hapimeta.egg-info/
+.DS_Store
+hapimeta/__pycache__/

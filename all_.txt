@@ -1,3 +1,4 @@
+https://supermag.jhuapl.edu/hapi, SuperMAG, SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
 https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, amda@irap.omp.eu
 https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Robert Candey, NASA-SPDF-Support@nasa.onmicrosoft.com
 https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, https://www.cosmos.esa.int/web/csa/cluster-helpdesk, esdc_cluster_logs@cosmos.esa.int

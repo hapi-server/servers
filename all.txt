@@ -1,3 +1,4 @@
+https://supermag.jhuapl.edu/hapi
 https://amda.irap.omp.eu/service/hapi
 https://cdaweb.gsfc.nasa.gov/hapi
 https://csatools.esac.esa.int/HapiServer/hapi

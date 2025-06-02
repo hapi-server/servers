@@ -5,7 +5,7 @@ https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, htt
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, feedback@vires.services, feedback@vires.services
 https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
-https://supermag.jhuapl.edu/hapi, SuperMAG, SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
+https://supermag.jhuapl.edu/hapi, SuperMAG (dev version), SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
 https://wdcapi.bgs.ac.uk/hapi, HAPI WDC (Edinburgh) Server, WDC, wdcgeomag@bgs.ac.uk, Adam.Emsley@bgs.ac.uk
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu
 https://hapi.spaceweather.knmi.nl/hapi, KNMI public HAPI server for use with the space weather timeline viewer, KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl

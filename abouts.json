@@ -143,7 +143,7 @@
   {
     "x_url": "https://supermag.jhuapl.edu/hapi",
     "id": "SuperMAG",
-    "title": "SuperMAG",
+    "title": "SuperMAG (dev version)",
     "contact": "Sandy Antunes",
     "contactID": "Sandy.Antunes@jhuapl.edu",
     "dataTest": {
@@ -161,7 +161,7 @@
   {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
     "id": "WDC",
-    "title": "HAPI WDC (Edinburgh) Server",
+    "title": "WDC (Edinburgh) HAPI Server",
     "contact": "wdcgeomag@bgs.ac.uk",
     "contactID": "Adam.Emsley@bgs.ac.uk",
     "dataTest": {

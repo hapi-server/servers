@@ -14,7 +14,7 @@
         "parameters": "BGSEc"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:15Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:14Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -32,7 +32,7 @@
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:15Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:14Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
   },
   {
@@ -50,7 +50,7 @@
         "parameters": "ace_r"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:20Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:19Z",
     "x_LastUpdateError": "<class 'requests.exceptions.RetryError'> HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ResponseError('too many 503 error responses'))"
   },
   {
@@ -68,7 +68,7 @@
         "parameters": "B_xyz_gse"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:21Z",
+    "x_LastUpdate": "2025-08-31T15:05:21Z",
     "x_LastUpdateChange": "2025-05-20T13:24:59Z",
     "HAPI": "3.2",
     "description": "This HAPI server is based on responses provided by the TAP server at https://csa.esac.esa.int/csa-sl-tap/",
@@ -85,7 +85,7 @@
     "title": "CCMC ISWA",
     "contact": "Rick Mullinix",
     "contactID": "richard.e.mullinix@nasa.gov",
-    "x_LastUpdateAttempt": "2025-08-30T15:05:21Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:21Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
   },
   {
@@ -103,7 +103,7 @@
         "parameters": "F"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:22Z",
+    "x_LastUpdate": "2025-08-31T15:05:21Z",
     "x_LastUpdateChange": "2025-05-20T13:25:01Z",
     "HAPI": "3.0",
     "description": "Web API for the ESA Swarm mission products.",
@@ -139,7 +139,7 @@
       "code": 1200,
       "message": "ok"
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:26Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:26Z",
     "x_LastUpdateError": "<class 'requests.exceptions.SSLError'> HTTPSConnectionPool(host='imag-data.bgs.ac.uk', port=443): Max retries exceeded with url: /GIN_V1/hapi/about (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))"
   },
   {
@@ -157,7 +157,7 @@
         "parameters": "SML"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:26Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:26Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://supermag.jhuapl.edu/hapi/about"
   },
   {
@@ -183,7 +183,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:30Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:30Z",
     "x_LastUpdateError": "<class 'requests.exceptions.SSLError'> HTTPSConnectionPool(host='wdcapi.bgs.ac.uk', port=443): Max retries exceeded with url: /hapi/about (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)')))"
   },
   {
@@ -201,7 +201,7 @@
         "parameters": "mg_index"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:30Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:30Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
   },
   {
@@ -227,7 +227,9 @@
     "status": {
       "code": 1200,
       "message": "HAPI 1200: OK"
-    }
+    },
+    "x_LastUpdateAttempt": "2025-08-31T15:05:49Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.ConnectionError'> HTTPSConnectionPool(host='hapi.spaceweather.knmi.nl', port=443): Max retries exceeded with url: /hapi/about (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f8800474fa0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))"
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
@@ -235,7 +237,7 @@
     "title": "Helioviewer",
     "contact": "Daniel Garcia Briseno",
     "contactID": "daniel.garciabriseno@nasa.gov",
-    "x_LastUpdateAttempt": "2025-08-30T15:05:31Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:49Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
   },
   {
@@ -253,7 +255,7 @@
         "parameters": "B_mag"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:32Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:49Z",
     "x_LastUpdateError": "<class 'json.decoder.JSONDecodeError'> Expecting value: line 1 column 1 (char 0)"
   },
   {
@@ -272,7 +274,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:32Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:49Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
   },
   {
@@ -291,7 +293,7 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2025-08-30T15:05:32Z",
+    "x_LastUpdateAttempt": "2025-08-31T15:05:50Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
   },
   {
@@ -310,7 +312,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:32Z",
+    "x_LastUpdate": "2025-08-31T15:05:50Z",
     "x_LastUpdateChange": "2025-05-20T13:25:02Z",
     "HAPI": "3.0",
     "status": {
@@ -334,7 +336,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:32Z",
+    "x_LastUpdate": "2025-08-31T15:05:50Z",
     "x_LastUpdateChange": "2025-05-20T13:25:02Z",
     "HAPI": "3.1",
     "status": {
@@ -358,7 +360,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:32Z",
+    "x_LastUpdate": "2025-08-31T15:05:50Z",
     "x_LastUpdateChange": "2025-05-20T13:25:02Z",
     "HAPI": "3.2",
     "status": {
@@ -382,7 +384,7 @@
         "parameters": "vector"
       }
     },
-    "x_LastUpdate": "2025-08-30T15:05:32Z",
+    "x_LastUpdate": "2025-08-31T15:05:50Z",
     "x_LastUpdateChange": "2025-05-20T13:36:47Z",
     "serverCitation": "DOI",
     "note": [

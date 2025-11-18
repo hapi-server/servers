@@ -17,4 +17,4 @@ script is going to guess time intervals several times before it gives up and dec
 
 Indexing is done once weekly.  This is a process which from each server downloads the catalog and all info responses.  These
 info responses are compiled into a smaller catalog file which contains the parameter names and start and stop dates.  
-Test
+

@@ -1,8 +1,0 @@
-https://csatools.esac.esa.int/HapiServer/hapi
-https://imag-data.bgs.ac.uk/GIN_V1/hapi
-https://vires.services/hapi
-https://hapi.spaceweather.knmi.nl/hapi
-https://wdcapi.bgs.ac.uk/hapi
-http://hapi-server.org/servers/TestData3.0/hapi
-http://hapi-server.org/servers/TestData3.1/hapi
-http://hapi-server.org/servers/TestData3.2/hapi

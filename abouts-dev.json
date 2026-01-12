@@ -1,0 +1,93 @@
+[
+    {
+    "x_url": "https://supermag.jhuapl.edu/hapi",
+    "id": "SuperMAG",
+    "title": "SuperMAG (dev)",
+    "contact": "Sandy Antunes",
+    "contactID": "Sandy.Antunes@jhuapl.edu"
+    },
+    {
+    "x_url": "https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi",
+    "id": "INTERMAGNET",
+    "title": "INTERMAGNET (dev)",
+    "contact": "Edinburgh GIN manager",
+    "contactID": "e_ginman@bgs.ac.uk"
+    },
+    {
+    "x_url": "https://jfaden.net/HapiServerDemo/hapi",
+    "id": "FadenTest",
+    "title": "Faden Test Server (dev)",
+    "contact": "Jeremy Faden",
+    "contactID": "faden@cottagesystems.com"
+    },
+    {
+    "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
+    "id": "PDS",
+    "title": "UCLA PDS Node (dev)",
+    "contact": "In Sook Moon",
+    "contactID": "imoon@igpp.ucla.edu"
+    },
+    {
+    "x_url": "http://hapi.ftecs.com/hapi",
+    "id": "RBSPICE",
+    "title": "Fundamental Tech RBSPICE (dev)",
+    "contact": "Jerry W. Manweiler",
+    "contactID": "Manweiler@ftecs.com"
+    },
+    {
+    "x_url": "https://staging.viresdisc.vires.services/hapi",
+    "id": "VirES-for-Swarm",
+    "title": "VirES for Swarm (dev)",
+    "contact": "Martin PaÄes (EOX)",
+    "contactID": "feedback@vires.services"
+    },
+    {
+    "x_url": "https://cottagesystems.com/server/esac/hapi",
+    "id": "ESAC-Cluster",
+    "title": "ESAC Cluster S/C Archive (dev)",
+    "contact": "Jeremy Faden",
+    "contactID": "faden@cottagesystems.org"
+    },
+    {
+    "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
+    "id": "CDAWebDev",
+    "title": "CDAWeb (dev)",
+    "contact": "Jeremy Faden",
+    "contactID": "faden@cottagesystems.org"
+    },
+    {
+    "x_url": "https://hapi-server.org/servers/TestData2.0/hapi",
+    "id": "TestData2.0",
+    "title": "2.0 Test Data",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu"
+    },
+    {
+    "x_url": "https://hapi-server.org/servers/TestData2.1/hapi",
+    "id": "TestData2.1",
+    "title": "2.1 Test Data",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu"
+    },
+    {
+    "x_url": "https://hapi-server.org/servers/TestData3.0/hapi",
+    "id": "TestData3.0",
+    "title": "3.0 Test Data",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu"
+    },
+    {
+    "x_url": "https://hapi-server.org/servers/TestData3.1/hapi",
+    "id": "TestData3.1",
+    "title": "3.1 Test Data",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu"
+    },
+    {
+    "x_url": "https://hapi-server.org/servers/TestData3.1/hapi",
+    "id": "TestData3.1",
+    "title": "3.2 Test Data",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu"
+    }
+]

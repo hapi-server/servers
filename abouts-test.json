@@ -1,4 +1,8 @@
 [
+{
+  "x_url": "https://hapi-server.org/servers-dev/URLWatcher/hapi",
+  "id": "URLWatcher"
+},
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
     "id": "TestData2.0",

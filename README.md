@@ -4,8 +4,6 @@
 
 `abouts-test.json` is the HAPI project's list of servers with data for testing clients.
 
-`abouts-all.json` ?
-
 If the server has an `/about` endpoint, this information is inserted into the server object in `abouts.json` on a nightly basis. If the server does not have an `/about` endpoint, missing information can be added into the server object in `abouts.json`. If the server is upgraded to have an `/about` response, any existing information is overwritten.
 
 If you have developed a HAPI server, and you would like to make it automatically visible to existing software in the HAPI ecosystem, please post an [issue with your server URL](https://github.com/hapi-server/servers/issues).

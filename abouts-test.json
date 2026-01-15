@@ -1,0 +1,153 @@
+[
+  {
+    "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
+    "id": "TestData2.0",
+    "title": "HAPI 2.0 Test Data",
+    "description": "Server for testing clients on HAPI 2.0 features",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "dataset1",
+        "start": "1970-01-01T00:00:00Z",
+        "stop": "1970-01-01T00:00:40Z",
+        "parameters": "scalar"
+      }
+    },
+    "x_LastUpdateAttempt": "2026-01-15T16:06:43Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
+  },
+  {
+    "x_url": "http://hapi-server.org/servers/TestData2.1/hapi",
+    "id": "TestData2.1",
+    "title": "HAPI 2.1 Test Data",
+    "description": "Server for testing clients with HAPI 2.1 additions",
+    "contact": "Bob Weigel",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "dataset1",
+        "start": "1970-01-01T00:00:00Z",
+        "stop": "1970-01-01T00:00:40Z",
+        "parameters": "vectorstring"
+      }
+    },
+    "x_LastUpdateAttempt": "2026-01-15T16:06:43Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
+  },
+  {
+    "x_url": "http://hapi-server.org/servers/TestData3.0/hapi",
+    "id": "TestData3.0",
+    "title": "Server using HAPI 3.0 additions",
+    "description": "Server for testing clients with HAPI 3.0 additions",
+    "contact": "rweigel@gmu.edu",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "spectra_time_dependent_bins",
+        "start": "1970-01-01T00:00:00Z",
+        "stop": "1970-01-01T00:00:40Z",
+        "parameters": "scalar"
+      }
+    },
+    "x_LastUpdate": "2026-01-15T16:06:43Z",
+    "x_LastUpdateChange": "2025-05-20T13:25:02Z",
+    "HAPI": "3.0",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "x_LastUpdateAttempt": "2025-11-16T16:05:34Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.RetryError'> HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.0/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+  },
+  {
+    "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
+    "id": "TestData3.1",
+    "title": "Server using HAPI 3.1 additions",
+    "description": "Server for testing clients with HAPI 3.1 additions",
+    "contact": "rweigel@gmu.edu",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "unicodevector (Z;α;☃;👍)",
+        "start": "1970-01-01T00:00:00Z",
+        "stop": "1970-01-01T00:00:40Z",
+        "parameters": "scalar"
+      }
+    },
+    "x_LastUpdate": "2026-01-15T16:06:43Z",
+    "x_LastUpdateChange": "2025-05-20T13:25:02Z",
+    "HAPI": "3.1",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "x_LastUpdateAttempt": "2025-11-16T16:05:38Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.RetryError'> HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.1/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+  },
+  {
+    "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
+    "id": "TestData3.2",
+    "title": "Server using HAPI 3.2 additions",
+    "description": "Server for testing clients with HAPI 3.2 additions",
+    "contact": "rweigel@gmu.edu",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "DE1/PWI/B_H",
+        "start": "1981-09-16T02:19Z",
+        "stop": "1981-09-17T19:24Z",
+        "parameters": "scalar"
+      }
+    },
+    "x_LastUpdate": "2026-01-15T16:06:43Z",
+    "x_LastUpdateChange": "2025-05-20T13:25:02Z",
+    "HAPI": "3.2",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "x_LastUpdateAttempt": "2025-11-16T16:05:41Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.RetryError'> HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.2/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+  },
+  {
+    "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
+    "id": "TestData3.3",
+    "title": "Server using HAPI 3.3 additions",
+    "description": "Server for testing clients with HAPI 3.3 additions",
+    "contact": "rweigel@gmu.edu",
+    "contactID": "rweigel@gmu.edu",
+    "dataTest": {
+      "name": "Ping Test",
+      "query": {
+        "dataset": "DE1/PWI/B_H",
+        "start": "1970-01-01T00:00:00Z",
+        "stop": "1970-01-01T00:00:20Z",
+        "parameters": "vector"
+      }
+    },
+    "x_LastUpdate": "2026-01-15T16:06:43Z",
+    "x_LastUpdateChange": "2025-05-20T13:36:47Z",
+    "serverCitation": "DOI",
+    "note": [
+      "note 1",
+      "note 2"
+    ],
+    "warning": [
+      "warning 1",
+      "warning 2"
+    ],
+    "HAPI": "3.3",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "x_LastUpdateAttempt": "2025-11-16T16:05:44Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.RetryError'> HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.3/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+  }
+]

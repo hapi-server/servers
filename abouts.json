@@ -14,7 +14,7 @@
         "parameters": "BGSEc"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:05:14Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:05:35Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -32,7 +32,7 @@
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:05:14Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:05:36Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
   },
   {
@@ -50,7 +50,7 @@
         "parameters": "ace_r"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:05:16Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:05:37Z",
     "x_LastUpdateError": "<class 'json.decoder.JSONDecodeError'> Expecting value: line 1 column 1 (char 0)"
   },
   {
@@ -78,8 +78,8 @@
       "code": 1200,
       "message": "OK request successful"
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:06:39Z",
-    "x_LastUpdateError": "<class 'requests.exceptions.ConnectTimeout'> HTTPSConnectionPool(host='csatools.esac.esa.int', port=443): Max retries exceeded with url: /HapiServer/hapi/about (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fd708502710>, 'Connection to csatools.esac.esa.int timed out. (connect timeout=20)'))"
+    "x_LastUpdateAttempt": "2026-02-08T16:07:01Z",
+    "x_LastUpdateError": "<class 'requests.exceptions.ConnectTimeout'> HTTPSConnectionPool(host='csatools.esac.esa.int', port=443): Max retries exceeded with url: /HapiServer/hapi/about (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fc730ada710>, 'Connection to csatools.esac.esa.int timed out. (connect timeout=20)'))"
   },
   {
     "x_url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
@@ -87,7 +87,7 @@
     "title": "CCMC ISWA",
     "contact": "Rick Mullinix",
     "contactID": "richard.e.mullinix@nasa.gov",
-    "x_LastUpdateAttempt": "2026-02-07T16:06:39Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:07:01Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
   },
   {
@@ -105,7 +105,7 @@
         "parameters": "F"
       }
     },
-    "x_LastUpdate": "2026-02-07T16:06:40Z",
+    "x_LastUpdate": "2026-02-08T16:07:02Z",
     "x_LastUpdateChange": "2025-05-20T13:25:01Z",
     "HAPI": "3.0",
     "description": "Web API for the ESA Swarm mission products.",
@@ -129,7 +129,7 @@
         "parameters": "Field_Magnitude"
       }
     },
-    "x_LastUpdate": "2026-02-07T16:06:41Z",
+    "x_LastUpdate": "2026-02-08T16:07:03Z",
     "x_LastUpdateChange": "2025-07-21T14:28:48Z",
     "HAPI": "3.1",
     "description": "This HAPI server provides datasets with IDs in the form IAGACode/DataType/Cadence/Components. IAGACode is the three-letter IAGA code (https://iaga-vobs.org/) for the observatory. DataType is one of: 'adjusted', 'definitive', 'quasi-def', 'reported' (https://tech-man.intermagnet.org/stable/appendices/terminology.html) or 'best-avail' for the best available data. See https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#best_avail for a discussion of what 'best-avail' implies. Cadence is an ISO8601 duration. This server only offers minute ('PT1M') and second ('PT1S') cadence data. Components is one of: 'xyzf', 'hdzf', 'diff' (https://intermagnet.org/faq/10.geomagnetic-comp.html) or 'native' to use the components that the data provider sent the data in.",
@@ -159,7 +159,7 @@
         "parameters": "SML"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:06:41Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:07:03Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://supermag.jhuapl.edu/hapi/about"
   },
   {
@@ -177,7 +177,7 @@
         "parameters": "Field_Vector"
       }
     },
-    "x_LastUpdate": "2026-02-07T16:06:41Z",
+    "x_LastUpdate": "2026-02-08T16:07:03Z",
     "x_LastUpdateChange": "2025-06-02T02:21:07Z",
     "HAPI": "3.2",
     "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive.",
@@ -203,7 +203,7 @@
         "parameters": "mg_index"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:06:42Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:07:04Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
   },
   {
@@ -221,7 +221,7 @@
         "parameters": "density"
       }
     },
-    "x_LastUpdate": "2026-02-07T16:06:42Z",
+    "x_LastUpdate": "2026-02-08T16:07:04Z",
     "x_LastUpdateChange": "2025-05-20T13:25:01Z",
     "description": "Data on this server has been obtained from a variety of sources, and reproduced based on open licenses and/or with express permission of the data owners. It is intended for quick-look visualization with the space weather timeline viewer only. For further analysis, users are advised to retrieve copies of the data from the data owner's repositories.",
     "citation": "",
@@ -239,7 +239,7 @@
     "title": "Helioviewer",
     "contact": "Daniel Garcia Briseno",
     "contactID": "daniel.garciabriseno@nasa.gov",
-    "x_LastUpdateAttempt": "2026-02-07T16:06:43Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:07:05Z",
     "x_LastUpdateError": "<class 'requests.exceptions.HTTPError'> 404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
   },
   {
@@ -257,7 +257,7 @@
         "parameters": "B_mag"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-07T16:06:44Z",
+    "x_LastUpdateAttempt": "2026-02-08T16:07:05Z",
     "x_LastUpdateError": "<class 'json.decoder.JSONDecodeError'> Expecting value: line 1 column 1 (char 0)"
   }
 ]

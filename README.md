@@ -4,7 +4,11 @@
 
 `abouts-test.json` is the HAPI project's list of servers with data for testing clients.
 
-If the server has an `/about` endpoint, this information is inserted into the server object in `abouts.json` on a nightly basis. If the server does not have an `/about` endpoint, missing information can be added into the server object in `abouts.json`. If the server is upgraded to have an `/about` response, any existing information is overwritten.
+If a server has an `/about` endpoint, this information is inserted into an object in the array in `abouts.json` on a daily basis.
+
+If a server does not have an `/about` endpoint, or its `/about` response is incomplete, missing information will be added using content in `defaults/abouts.json` if it exists.
+
+The code that does the daily updates is `abouts.py` in the [server-metadata](https://github.com/hapi-server/server-metadata/) repository.
 
 If you have developed a HAPI server, and you would like to make it automatically visible to existing software in the HAPI ecosystem, please post an [issue with your server URL](https://github.com/hapi-server/servers/issues).
 
@@ -12,6 +16,6 @@ If you have developed a HAPI server, and you would like to make it automatically
 
 Nightly, a process generates the legacy `all.txt` and `all_.txt` files using the content of `abouts.json`.
 
-* `all.txt` - List of production HAPI servers (legacy file)
-* `all_.txt` - Additional information about servers. To use until we have developed a schema for such information. (legacy file)
+* `all.txt` - List of production HAPI servers
+* `all_.txt` - Additional information about servers
 * `dev.txt` - List of HAPI servers under development and not production-ready

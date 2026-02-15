@@ -13,9 +13,7 @@
         "stop": "1997-09-03T00:01:12.000Z",
         "parameters": "BGSEc"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:30Z",
-    "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/SSCWeb/hapi",
@@ -31,9 +29,7 @@
         "stop": "1991-09-30T00:00:00.000Z",
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:30Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
+    }
   },
   {
     "x_url": "https://amda.irap.omp.eu/service/hapi",
@@ -49,9 +45,7 @@
         "stop": "2024-02-01T00:00:00Z",
         "parameters": "ace_r"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:30Z",
-    "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
+    }
   },
   {
     "x_url": "https://csatools.esac.esa.int/HapiServer/hapi",
@@ -67,18 +61,14 @@
         "stop": "2020-02-24T12:00Z",
         "parameters": "B_xyz_gse"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:35Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='csatools.esac.esa.int', port=443): Max retries exceeded with url: /HapiServer/hapi/about (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
+    }
   },
   {
     "x_url": "https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi",
     "id": "CCMC_ISWA",
     "title": "CCMC ISWA",
     "contact": "Rick Mullinix",
-    "contactID": "richard.e.mullinix@nasa.gov",
-    "x_LastUpdateAttempt": "2026-02-14T23:58:35Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi/about"
+    "contactID": "richard.e.mullinix@nasa.gov"
   },
   {
     "x_url": "https://vires.services/hapi",
@@ -95,13 +85,7 @@
         "parameters": "F"
       }
     },
-    "description": "Web API for the ESA Swarm mission products.",
-    "HAPI": "3.0",
-    "status": {
-      "code": 1200,
-      "message": "OK"
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:36Z"
+    "description": "Web API for the ESA Swarm mission products."
   },
   {
     "x_url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
@@ -123,17 +107,12 @@
     "citation": "https://intermagnet.org/data_conditions.html",
     "x_warnings": [
       "Some institutes choose to embargo their data for a short time. For more information see https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#embargo_data_plots"
-    ],
-    "status": {
-      "code": 1200,
-      "message": "ok"
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:36Z"
+    ]
   },
   {
     "x_url": "https://supermag.jhuapl.edu/hapi",
     "id": "SuperMAG",
-    "title": "SuperMAG",
+    "title": "SuperMAG (dev version)",
     "contact": "Sandy Antunes",
     "contactID": "Sandy.Antunes@jhuapl.edu",
     "dataTest": {
@@ -144,9 +123,7 @@
         "stop": "2018-01-19T00:00Z",
         "parameters": "SML"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:36Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://supermag.jhuapl.edu/hapi/about"
+    }
   },
   {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
@@ -163,13 +140,7 @@
         "parameters": "Field_Vector"
       }
     },
-    "HAPI": "3.2",
-    "status": {
-      "code": 1200,
-      "message": "OK"
-    },
-    "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive.",
-    "x_LastUpdateAttempt": "2026-02-14T23:58:37Z"
+    "HAPI": "3.2"
   },
   {
     "x_url": "http://lasp.colorado.edu/lisird/hapi",
@@ -185,9 +156,7 @@
         "stop": "2013-07-18Z",
         "parameters": "mg_index"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:37Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
+    }
   },
   {
     "x_url": "https://hapi.spaceweather.knmi.nl/hapi",
@@ -206,21 +175,14 @@
     },
     "description": "Data on this server has been obtained from a variety of sources, and reproduced based on open licenses and/or with express permission of the data owners. It is intended for quick-look visualization with the space weather timeline viewer only. For further analysis, users are advised to retrieve copies of the data from the data owner's repositories.",
     "citation": "",
-    "HAPI": "3.1",
-    "status": {
-      "code": 1200,
-      "message": "HAPI 1200: OK"
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:38Z"
+    "HAPI": "3.1"
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
     "id": "Helioviewer",
     "title": "Helioviewer",
     "contact": "Daniel Garcia Briseno",
-    "contactID": "daniel.garciabriseno@nasa.gov",
-    "x_LastUpdateAttempt": "2026-02-14T23:58:38Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
+    "contactID": "daniel.garciabriseno@nasa.gov"
   },
   {
     "x_url": "https://planet.physics.uiowa.edu/das/das2Server/hapi",
@@ -236,8 +198,6 @@
         "stop": "2016-12-11T23:00Z",
         "parameters": "B_mag"
       }
-    },
-    "x_LastUpdateAttempt": "2026-02-14T23:58:38Z",
-    "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
+    }
   }
 ]

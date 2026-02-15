@@ -5,12 +5,13 @@ https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, htt
 https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, feedback@vires.services, feedback@vires.services
 https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
-https://supermag.jhuapl.edu/hapi, SuperMAG (dev version), SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
+https://supermag.jhuapl.edu/hapi, SuperMAG, SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
 https://wdcapi.bgs.ac.uk/hapi, HAPI WDC (Edinburgh) Server, WDC, wdcgeomag@bgs.ac.uk, Adam.Emsley@bgs.ac.uk
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu
 https://hapi.spaceweather.knmi.nl/hapi, KNMI public HAPI server for use with the space weather timeline viewer, KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl
 https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
 https://planet.physics.uiowa.edu/das/das2Server/hapi, DAS2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu
+https://hapi-server.org/servers-dev/URLWatcher/hapi, Serve URLWatcher data from https://hapi-server.org/urlwatcher, URLWatcher, rweigel@gmu.edu, 
 http://hapi-server.org/servers/TestData2.0/hapi, HAPI 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData2.1/hapi, HAPI 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
 http://hapi-server.org/servers/TestData3.0/hapi, Server using HAPI 3.0 additions, TestData3.0, rweigel@gmu.edu, rweigel@gmu.edu

@@ -1,0 +1,44 @@
+[
+    {
+        "x_url": "https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi",
+        "id": "INTERMAGNET",
+        "title": "INTERMAGNET (dev)",
+        "contact": "Edinburgh GIN manager",
+        "contactID": "e_ginman@bgs.ac.uk"
+    },
+    {
+        "x_url": "https://jfaden.net/HapiServerDemo/hapi",
+        "id": "FadenTest",
+        "title": "Faden Test Server (dev)",
+        "contact": "Jeremy Faden",
+        "contactID": "faden@cottagesystems.com"
+    },
+    {
+        "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
+        "id": "PDS",
+        "title": "UCLA PDS Node (dev)",
+        "contact": "In Sook Moon",
+        "contactID": "imoon@igpp.ucla.edu"
+    },
+    {
+        "x_url": "https://staging.viresdisc.vires.services/hapi",
+        "id": "VirES-for-Swarm",
+        "title": "VirES for Swarm (dev)",
+        "contact": "Martin Pačes (EOX)",
+        "contactID": "feedback@vires.services"
+    },
+    {
+        "x_url": "https://cottagesystems.com/server/esac/hapi",
+        "id": "ESAC-Cluster",
+        "title": "ESAC Cluster S/C Archive (dev)",
+        "contact": "Jeremy Faden",
+        "contactID": "faden@cottagesystems.org"
+    },
+    {
+        "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
+        "id": "CDAWebDev",
+        "title": "CDAWeb (dev)",
+        "contact": "Jeremy Faden",
+        "contactID": "faden@cottagesystems.org"
+    }
+]

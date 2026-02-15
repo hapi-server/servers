@@ -11,10 +11,3 @@ http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindho
 https://hapi.spaceweather.knmi.nl/hapi, KNMI public HAPI server for use with the space weather timeline viewer, KNMI, Eelco Doornbos, eelco.doornbos@knmi.nl
 https://api.helioviewer.org/hapi/Helioviewer/hapi, Helioviewer, Helioviewer, Daniel Garcia Briseno, daniel.garciabriseno@nasa.gov
 https://planet.physics.uiowa.edu/das/das2Server/hapi, DAS2, DAS2, Jeremy Faden, jeremy-faden@uiowa.edu
-https://hapi-server.org/servers-dev/URLWatcher/hapi, Serve URLWatcher data from https://hapi-server.org/urlwatcher, URLWatcher, rweigel@gmu.edu, 
-http://hapi-server.org/servers/TestData2.0/hapi, HAPI 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData2.1/hapi, HAPI 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData3.0/hapi, Server using HAPI 3.0 additions, TestData3.0, rweigel@gmu.edu, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData3.1/hapi, Server using HAPI 3.1 additions, TestData3.1, rweigel@gmu.edu, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData3.2/hapi, Server using HAPI 3.2 additions, TestData3.2, rweigel@gmu.edu, rweigel@gmu.edu
-http://hapi-server.org/servers/TestData3.3/hapi, Server using HAPI 3.3 additions, TestData3.3, rweigel@gmu.edu, rweigel@gmu.edu

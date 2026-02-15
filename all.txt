@@ -11,10 +11,3 @@ http://lasp.colorado.edu/lisird/hapi
 https://hapi.spaceweather.knmi.nl/hapi
 https://api.helioviewer.org/hapi/Helioviewer/hapi
 https://planet.physics.uiowa.edu/das/das2Server/hapi
-https://hapi-server.org/servers-dev/URLWatcher/hapi
-http://hapi-server.org/servers/TestData2.0/hapi
-http://hapi-server.org/servers/TestData2.1/hapi
-http://hapi-server.org/servers/TestData3.0/hapi
-http://hapi-server.org/servers/TestData3.1/hapi
-http://hapi-server.org/servers/TestData3.2/hapi
-http://hapi-server.org/servers/TestData3.3/hapi

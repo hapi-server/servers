@@ -47,10 +47,10 @@
     "dataTest": {
       "name": "Ping Test",
       "query": {
-        "dataset": "spectra_time_dependent_bins",
+        "dataset": "dataset1",
         "start": "1970-01-01T00:00:00Z",
         "stop": "1970-01-01T00:00:40Z",
-        "parameters": "scalar"
+        "parameters": "spectra_time_dependent_bins"
       }
     }
   },
@@ -64,10 +64,10 @@
     "dataTest": {
       "name": "Ping Test",
       "query": {
-        "dataset": "unicodevector (Z;α;☃;👍)",
+        "dataset": "dataset1-Aα☃",
         "start": "1970-01-01T00:00:00Z",
         "stop": "1970-01-01T00:00:40Z",
-        "parameters": "scalar"
+        "parameters": "unicodevector (A;α;☃;👍)"
       }
     }
   },
@@ -84,7 +84,7 @@
         "dataset": "DE1/PWI/B_H",
         "start": "1981-09-16T02:19Z",
         "stop": "1981-09-17T19:24Z",
-        "parameters": "scalar"
+        "parameters": "TimeEnd"
       }
     }
   },
@@ -98,7 +98,7 @@
     "dataTest": {
       "name": "Ping Test",
       "query": {
-        "dataset": "DE1/PWI/B_H",
+        "dataset": "dataset1",
         "start": "1970-01-01T00:00:00Z",
         "stop": "1970-01-01T00:00:20Z",
         "parameters": "vector"

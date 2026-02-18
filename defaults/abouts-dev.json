@@ -15,7 +15,7 @@
     },
     {
         "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
-        "id": "PDS",
+        "id": "NASA/PDS/PPI",
         "title": "UCLA PDS Node (dev)",
         "contact": "In Sook Moon",
         "contactID": "imoon@igpp.ucla.edu"

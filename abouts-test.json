@@ -10,7 +10,7 @@
       "message": "OK"
     },
     "contactID": "",
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z"
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -28,7 +28,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
   },
   {
@@ -47,7 +47,7 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
   },
   {
@@ -73,20 +73,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
-    "x_LastChange": "2026-02-18T21:56:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['dataTest']['query']['dataset']": {
-          "new_value": "dataset1",
-          "old_value": "spectra_time_dependent_bins"
-        },
-        "root['dataTest']['query']['parameters']": {
-          "new_value": "spectra_time_dependent_bins",
-          "old_value": "scalar"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -111,20 +98,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
-    "x_LastChange": "2026-02-18T21:56:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['dataTest']['query']['dataset']": {
-          "new_value": "dataset1-Aα☃",
-          "old_value": "unicodevector (Z;α;☃;👍)"
-        },
-        "root['dataTest']['query']['parameters']": {
-          "new_value": "unicodevector (A;α;☃;👍)",
-          "old_value": "scalar"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -149,16 +123,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
-    "x_LastChange": "2026-02-18T21:56:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['dataTest']['query']['parameters']": {
-          "new_value": "TimeEnd",
-          "old_value": "scalar"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
@@ -192,15 +157,6 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-18T21:56:56Z",
-    "x_LastChange": "2026-02-18T21:56:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['dataTest']['query']['dataset']": {
-          "new_value": "dataset1",
-          "old_value": "DE1/PWI/B_H"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-02-19T16:05:21Z"
   }
 ]

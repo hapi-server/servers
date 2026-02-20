@@ -1,6 +1,6 @@
 https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
 https://jfaden.net/HapiServerDemo/hapi, Demo Server, Jeremy-Demo-Server, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.com
-https://pds-ppi.igpp.ucla.edu/hapi, HAPI PPI Data and Metadata, NASA/PDS/PPI-HAPI3.0, pds_operator@igpp.ucla.edu, imoon@igpp.ucla.edu
+https://pds-ppi.igpp.ucla.edu/hapi, HAPI PPI Data and Metadata, NASA/PDS/PPI, pds_operator@igpp.ucla.edu, imoon@igpp.ucla.edu
 https://staging.viresdisc.vires.services/hapi, VirES for Swarm, VirES-for-Swarm-DISC, feedback@vires.services, feedback@vires.services
 https://cottagesystems.com/server/esac/hapi, CSA ESAC HAPI Server, Server-Java-ESAC-CSA, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.org
 https://cottagesystems.com/server/cdaweb/hapi, CDAWeb HAPI Server, cdaweb, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.org

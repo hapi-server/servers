@@ -1,0 +1,13 @@
+https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
+https://jfaden.net/HapiServerDemo/hapi, Demo Server, Jeremy-Demo-Server, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.com
+https://pds-ppi.igpp.ucla.edu/hapi, HAPI PPI Data and Metadata, NASA/PDS/PPI, pds_operator@igpp.ucla.edu, imoon@igpp.ucla.edu
+https://staging.viresdisc.vires.services/hapi, VirES for Swarm, VirES-for-Swarm-DISC, feedback@vires.services, feedback@vires.services
+https://cottagesystems.com/server/esac/hapi, CSA ESAC HAPI Server, Server-Java-ESAC-CSA, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.org
+https://cottagesystems.com/server/cdaweb/hapi, CDAWeb HAPI Server, cdaweb, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.org
+https://hapi-server.org/servers-dev/URLWatcher/hapi, Serve URLWatcher data from https://hapi-server.org/urlwatcher, URLWatcher, rweigel@gmu.edu, 
+http://hapi-server.org/servers/TestData2.0/hapi, HAPI 2.0 Test Data, TestData2.0, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData2.1/hapi, HAPI 2.1 Test Data, TestData2.1, Bob Weigel, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.0/hapi, Server using HAPI 3.0 additions, TestData3.0, rweigel@gmu.edu, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.1/hapi, Server using HAPI 3.1 additions, TestData3.1, rweigel@gmu.edu, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.2/hapi, Server using HAPI 3.2 additions, TestData3.2, rweigel@gmu.edu, rweigel@gmu.edu
+http://hapi-server.org/servers/TestData3.3/hapi, Server using HAPI 3.3 additions, TestData3.3, rweigel@gmu.edu, rweigel@gmu.edu

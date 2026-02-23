@@ -9,18 +9,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['HAPI']",
-        "root['contact']",
-        "root['status']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:09Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -38,20 +27,8 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:11Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.1/hapi",
@@ -69,20 +46,8 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:11Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.0/hapi",
@@ -105,21 +70,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']",
-        "root['HAPI']",
-        "root['status']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:11Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -142,21 +93,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']",
-        "root['HAPI']",
-        "root['status']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:13Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -179,21 +116,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']",
-        "root['HAPI']",
-        "root['status']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:14Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
@@ -225,23 +148,6 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-21T16:05:19Z",
-    "x_LastChange": "2026-02-21T16:05:19Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_url']",
-        "root['id']",
-        "root['title']",
-        "root['description']",
-        "root['contact']",
-        "root['contactID']",
-        "root['dataTest']",
-        "root['HAPI']",
-        "root['serverCitation']",
-        "root['note']",
-        "root['warning']",
-        "root['status']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-02-23T14:51:15Z"
   }
 ]

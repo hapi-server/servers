@@ -9,7 +9,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:06Z"
+    "x_LastUpdateAttempt": "2026-02-23T15:13:25Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -27,7 +27,7 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:06Z",
+    "x_LastUpdateAttempt": "2026-02-23T15:13:25Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
   },
   {
@@ -46,7 +46,7 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:07Z",
+    "x_LastUpdateAttempt": "2026-02-23T15:13:27Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
   },
   {
@@ -70,7 +70,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:07Z"
+    "x_LastUpdateAttempt": "2026-02-23T15:13:29Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -93,7 +93,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:08Z"
+    "x_LastUpdateAttempt": "2026-02-23T15:13:30Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -116,7 +116,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:09Z"
+    "x_LastUpdateAttempt": "2026-02-23T15:13:32Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
@@ -148,6 +148,6 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-02-23T15:09:11Z"
+    "x_LastUpdateAttempt": "2026-02-23T15:13:33Z"
   }
 ]

@@ -9,8 +9,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:21Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='hapi-server.org', port=443): Max retries exceeded with url: /servers-dev/URLWatcher/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -28,8 +27,8 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:24Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData2.0/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.1/hapi",
@@ -47,8 +46,8 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:28Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData2.1/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.0/hapi",
@@ -71,8 +70,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:31Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.0/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -95,8 +93,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:34Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.1/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -119,8 +116,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:37Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.2/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
@@ -152,7 +148,6 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-04-20T15:05:41Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='hapi-server.org', port=80): Max retries exceeded with url: /servers/TestData3.3/hapi/about (Caused by ResponseError('too many 503 error responses'))"
+    "x_LastUpdateAttempt": "2026-04-21T15:05:16Z"
   }
 ]

@@ -77,6 +77,22 @@
     "x_LastUpdateAttempt": "2026-04-24T15:05:26Z"
   },
   {
+    "x_url": "https://cottagesystems.com/server/ct/hapi",
+    "id": "Jeremy-Demo-Server",
+    "title": "Jeremy's Demo Server",
+    "contact": "Jeremy Faden <faden@cottagesystems.com>",
+    "contactID": "faden@cottagesystems.com",
+    "HAPI": "3.2",
+    "description": "Various data feeds from Jeremy's data collection hobby, and also demonstrations of new HAPI features.",
+    "status": {
+      "code": 1200,
+      "message": "OK request successful"
+    },
+    "x_modificationDate": "2026-03-30T17:08:04.921Z",
+    "x_buildTime": "2026-03-30T09:11",
+    "x_LastUpdateAttempt": "2026-04-24T15:05:26Z"
+  },  
+  {
     "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
     "id": "cdaweb-dev",
     "title": "CDAWeb HAPI Server Jeremy",

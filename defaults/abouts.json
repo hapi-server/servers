@@ -190,6 +190,7 @@
     "title": "DAS2",
     "contact": "Jeremy Faden",
     "contactID": "jeremy-faden@uiowa.edu",
+    "x_SPASE_PersonID": "Jeremy.Faden",
     "dataTest": {
       "name": "Ping Test",
       "query": {

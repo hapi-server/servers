@@ -2,7 +2,7 @@ https://cdaweb.gsfc.nasa.gov/hapi
 http://hapi-server.org/servers/SSCWeb/hapi
 https://amda.irap.omp.eu/service/hapi
 https://csatools.esac.esa.int/HapiServer/hapi
-https://iswa.gsfc.nasa.gov/IswaSystemWebApp/hapi
+https://iswa.gsfc.nasa.gov/hapi
 https://vires.services/hapi
 https://imag-data.bgs.ac.uk/GIN_V1/hapi
 https://supermag.jhuapl.edu/hapi

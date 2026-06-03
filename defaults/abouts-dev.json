@@ -7,6 +7,13 @@
         "contactID": "e_ginman@bgs.ac.uk"
     },
     {
+        "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
+        "id": "NCEI",
+        "title": "NCEI Space Weather Portal (dev)",
+        "contact": "Andrew Wilson",
+        "contactID": "andrew.wilson@noaa.gov"
+    },
+    {
         "x_url": "https://jfaden.net/HapiServerDemo/hapi",
         "id": "FadenTest",
         "title": "Faden Test Server (dev)",

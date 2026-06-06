@@ -15,8 +15,8 @@
     "x_warnings": [
       "Some institutes choose to embargo their data for a short time. For more information see https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#embargo_data_plots"
     ],
-    "x_LastUpdateAttempt": "2026-06-05T15:05:59Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='imag-data-staging.bgs.ac.uk', port=443): Max retries exceeded with url: /GIN_V1/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='imag-data-staging.bgs.ac.uk', port=443) at 0x7fd811d31f30>, 'Connection to imag-data-staging.bgs.ac.uk timed out. (connect timeout=10)'))"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:37Z",
+    "x_LastUpdateError": "HTTPSConnectionPool(host='imag-data-staging.bgs.ac.uk', port=443): Max retries exceeded with url: /GIN_V1/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='imag-data-staging.bgs.ac.uk', port=443) at 0x7fd751b5df30>, 'Connection to imag-data-staging.bgs.ac.uk timed out. (connect timeout=10)'))"
   },
   {
     "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
@@ -30,7 +30,7 @@
       "message": "OK"
     },
     "description": "Space weather data from NOAA platforms.",
-    "x_LastUpdateAttempt": "2026-06-05T15:06:00Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:51Z"
   },
   {
     "x_url": "https://jfaden.net/HapiServerDemo/hapi",
@@ -44,7 +44,7 @@
       "message": "OK"
     },
     "description": "This server is used to quickly demonstrate new parts of the API so that clients can be coded and tested.  This contains no data of value.",
-    "x_LastUpdateAttempt": "2026-06-05T15:06:00Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:52Z"
   },
   {
     "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
@@ -57,7 +57,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-06-05T15:06:00Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:52Z"
   },
   {
     "x_url": "https://staging.viresdisc.vires.services/hapi",
@@ -71,7 +71,7 @@
       "message": "OK"
     },
     "description": "Web API for the ESA Swarm mission products.",
-    "x_LastUpdateAttempt": "2026-06-05T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:54Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/esac/hapi",
@@ -88,7 +88,7 @@
     "x_hapi_home": "/tmp/hapi-server/",
     "x_modificationDate": "2026-03-30T17:08:04.921Z",
     "x_buildTime": "2026-03-30T09:11",
-    "x_LastUpdateAttempt": "2026-06-05T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:54Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
@@ -105,6 +105,6 @@
     },
     "x_modificationDate": "2026-03-30T17:09:41.230Z",
     "x_buildTime": "2026-03-30T09:11",
-    "x_LastUpdateAttempt": "2026-06-05T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-06-06T15:06:54Z"
   }
 ]

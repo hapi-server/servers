@@ -1,6 +1,6 @@
-https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
-https://cedar.openmadrigal.org/hapi, Madrigal, Madrigal, Katherine Cariglia, cariglia@mit.edu
 https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi, NESDIS Space Weather Portal, NESDIS_SPACE_WEATHER_PORTAL, ncei.info@noaa.gov, andrew.wilson@noaa.gov
+https://cedar.openmadrigal.org/hapi, Madrigal-HAPI server, Madrigal, haystack-madrigal-admin@mit.edu, cariglia@mit.edu
+https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
 https://jfaden.net/HapiServerDemo/hapi, Demo Server, Jeremy-Demo-Server, Jeremy Faden <faden@cottagesystems.com>, faden@cottagesystems.com
 https://pds-ppi.igpp.ucla.edu/hapi, HAPI PPI Data and Metadata, NASA/PDS/PPI, pds_operator@igpp.ucla.edu, imoon@igpp.ucla.edu
 https://staging.viresdisc.vires.services/hapi, VirES for Swarm, VirES-for-Swarm-DISC, feedback@vires.services, feedback@vires.services

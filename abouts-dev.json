@@ -1,5 +1,56 @@
 [
   {
+    "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
+    "id": "NESDIS_SPACE_WEATHER_PORTAL",
+    "title": "NESDIS Space Weather Portal",
+    "contact": "ncei.info@noaa.gov",
+    "contactID": "andrew.wilson@noaa.gov",
+    "HAPI": "3.2.0",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "description": "Space weather data from NOAA platforms.",
+    "x_LastUpdateAttempt": "2026-06-19T15:05:13Z"
+  },
+  {
+    "x_url": "https://cedar.openmadrigal.org/hapi",
+    "id": "Madrigal",
+    "title": "Madrigal-HAPI server",
+    "contact": "haystack-madrigal-admin@mit.edu",
+    "contactID": "cariglia@mit.edu",
+    "HAPI": "3.3",
+    "status": {
+      "code": 1200,
+      "message": "OK"
+    },
+    "citation": "https://cedar.openmadrigal.org/hapi",
+    "description": "Madrigal-HAPI server",
+    "x_LastUpdateAttempt": "2026-06-19T15:05:13Z",
+    "x_LastChange": "2026-06-19T15:05:13Z",
+    "x_LastChangeDiff": {
+      "values_changed": {
+        "root": {
+          "new_value": {
+            "x_url": "https://cedar.openmadrigal.org/hapi",
+            "id": "Madrigal",
+            "title": "Madrigal-HAPI server",
+            "contact": "haystack-madrigal-admin@mit.edu",
+            "contactID": "cariglia@mit.edu",
+            "HAPI": "3.3",
+            "status": {
+              "code": 1200,
+              "message": "OK"
+            },
+            "citation": "https://cedar.openmadrigal.org/hapi",
+            "description": "Madrigal-HAPI server"
+          },
+          "old_value": {}
+        }
+      }
+    }
+  },
+  {
     "x_url": "https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi",
     "id": "INTERMAGNET",
     "title": "INTERMAGNET HAPI server",
@@ -15,22 +66,8 @@
     "x_warnings": [
       "Some institutes choose to embargo their data for a short time. For more information see https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#embargo_data_plots"
     ],
-    "x_LastUpdateAttempt": "2026-06-18T15:05:56Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='imag-data-staging.bgs.ac.uk', port=443): Max retries exceeded with url: /GIN_V1/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='imag-data-staging.bgs.ac.uk', port=443) at 0x7f8819833490>, 'Connection to imag-data-staging.bgs.ac.uk timed out. (connect timeout=10)'))"
-  },
-  {
-    "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
-    "id": "NESDIS_SPACE_WEATHER_PORTAL",
-    "title": "NESDIS Space Weather Portal",
-    "contact": "ncei.info@noaa.gov",
-    "contactID": "andrew.wilson@noaa.gov",
-    "HAPI": "3.2.0",
-    "status": {
-      "code": 1200,
-      "message": "OK"
-    },
-    "description": "Space weather data from NOAA platforms.",
-    "x_LastUpdateAttempt": "2026-06-18T15:05:57Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:05:57Z",
+    "x_LastUpdateError": "HTTPSConnectionPool(host='imag-data-staging.bgs.ac.uk', port=443): Max retries exceeded with url: /GIN_V1/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='imag-data-staging.bgs.ac.uk', port=443) at 0x7fb111f9d9c0>, 'Connection to imag-data-staging.bgs.ac.uk timed out. (connect timeout=10)'))"
   },
   {
     "x_url": "https://jfaden.net/HapiServerDemo/hapi",
@@ -44,7 +81,7 @@
       "message": "OK"
     },
     "description": "This server is used to quickly demonstrate new parts of the API so that clients can be coded and tested.  This contains no data of value.",
-    "x_LastUpdateAttempt": "2026-06-18T15:05:57Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:05:57Z"
   },
   {
     "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
@@ -57,7 +94,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-06-18T15:05:57Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:05:58Z"
   },
   {
     "x_url": "https://staging.viresdisc.vires.services/hapi",
@@ -71,7 +108,7 @@
       "message": "OK"
     },
     "description": "Web API for the ESA Swarm mission products.",
-    "x_LastUpdateAttempt": "2026-06-18T15:05:59Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:05:59Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/esac/hapi",
@@ -88,7 +125,7 @@
     "x_hapi_home": "/tmp/hapi-server/",
     "x_modificationDate": "2026-03-30T17:08:04.921Z",
     "x_buildTime": "2026-03-30T09:11",
-    "x_LastUpdateAttempt": "2026-06-18T15:05:59Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:05:59Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
@@ -105,6 +142,6 @@
     },
     "x_modificationDate": "2026-03-30T17:09:41.230Z",
     "x_buildTime": "2026-03-30T09:11",
-    "x_LastUpdateAttempt": "2026-06-18T15:05:59Z"
+    "x_LastUpdateAttempt": "2026-06-19T15:06:00Z"
   }
 ]

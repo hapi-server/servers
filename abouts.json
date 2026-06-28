@@ -14,7 +14,7 @@
         "parameters": "BGSEc"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:08Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:15Z",
     "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -32,7 +32,7 @@
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:08Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:15Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
   },
   {
@@ -50,8 +50,8 @@
         "parameters": "ace_r"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:09Z",
-    "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:20Z",
+    "x_LastUpdateError": "HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ResponseError('too many 503 error responses'))"
   },
   {
     "x_url": "https://csatools.esac.esa.int/HapiServer/hapi",
@@ -76,7 +76,7 @@
       "message": "OK request successful"
     },
     "x_buildTime": "2024-03-12T07:42:00",
-    "x_LastUpdateAttempt": "2026-06-27T15:05:09Z"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:20Z"
   },
   {
     "x_url": "https://iswa.gsfc.nasa.gov/hapi",
@@ -84,7 +84,7 @@
     "title": "CCMC ISWA",
     "contact": "Rick Mullinix",
     "contactID": "richard.e.mullinix@nasa.gov",
-    "x_LastUpdateAttempt": "2026-06-27T15:05:10Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:21Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -108,7 +108,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:10Z"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:21Z"
   },
   {
     "x_url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
@@ -135,7 +135,7 @@
       "code": 1200,
       "message": "ok"
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:11Z"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:22Z"
   },
   {
     "x_url": "https://supermag.jhuapl.edu/hapi",
@@ -152,7 +152,7 @@
         "parameters": "SML"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:11Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:22Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://supermag.jhuapl.edu/hapi/about"
   },
   {
@@ -176,7 +176,7 @@
       "message": "OK"
     },
     "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive.",
-    "x_LastUpdateAttempt": "2026-06-27T15:05:12Z"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:22Z"
   },
   {
     "x_url": "http://lasp.colorado.edu/lisird/hapi",
@@ -193,8 +193,8 @@
         "parameters": "mg_index"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:55Z",
-    "x_LastUpdateError": "HTTPConnectionPool(host='lasp.colorado.edu', port=80): Max retries exceeded with url: /lisird/hapi/about (Caused by ConnectTimeoutError(<HTTPConnection(host='lasp.colorado.edu', port=80) at 0x7fb0c1a0a980>, 'Connection to lasp.colorado.edu timed out. (connect timeout=10)'))"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:23Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
   },
   {
     "x_url": "https://hapi.spaceweather.knmi.nl/hapi",
@@ -218,7 +218,7 @@
       "code": 1200,
       "message": "HAPI 1200: OK"
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:56Z"
+    "x_LastUpdateAttempt": "2026-06-28T15:05:23Z"
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
@@ -226,7 +226,7 @@
     "title": "Helioviewer",
     "contact": "Daniel Garcia Briseno",
     "contactID": "daniel.garciabriseno@nasa.gov",
-    "x_LastUpdateAttempt": "2026-06-27T15:05:56Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:24Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
   },
   {
@@ -244,7 +244,7 @@
         "parameters": "B_mag"
       }
     },
-    "x_LastUpdateAttempt": "2026-06-27T15:05:57Z",
+    "x_LastUpdateAttempt": "2026-06-28T15:05:24Z",
     "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
   }
 ]

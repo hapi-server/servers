@@ -9,7 +9,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z"
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -18,6 +18,10 @@
     "description": "Server for testing clients on HAPI 2.0 features",
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -27,8 +31,14 @@
         "parameters": "scalar"
       }
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.0/hapi/about",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.1/hapi",
@@ -37,6 +47,10 @@
     "description": "Server for testing clients with HAPI 2.1 additions",
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -46,8 +60,14 @@
         "parameters": "vectorstring"
       }
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/TestData2.1/hapi/about",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.0/hapi",
@@ -56,6 +76,10 @@
     "description": "Server for testing clients with HAPI 3.0 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -70,7 +94,13 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.1/hapi",
@@ -79,6 +109,10 @@
     "description": "Server for testing clients with HAPI 3.1 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -93,7 +127,13 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.2/hapi",
@@ -102,6 +142,10 @@
     "description": "Server for testing clients with HAPI 3.2 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -116,7 +160,13 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData3.3/hapi",
@@ -125,6 +175,10 @@
     "description": "Server for testing clients with HAPI 3.3 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -148,6 +202,12 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-07-08T15:06:02Z"
+    "x_LastUpdateAttempt": "2026-07-08T23:20:23Z",
+    "x_LastChange": "2026-07-08T23:20:23Z",
+    "x_LastChangeDiff": {
+      "dictionary_item_added": [
+        "root['x_SPASE']"
+      ]
+    }
   }
 ]

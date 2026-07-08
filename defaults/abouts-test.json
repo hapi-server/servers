@@ -10,6 +10,10 @@
     "description": "Server for testing clients on HAPI 2.0 features",
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -27,6 +31,10 @@
     "description": "Server for testing clients with HAPI 2.1 additions",
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -44,6 +52,10 @@
     "description": "Server for testing clients with HAPI 3.0 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -61,6 +73,10 @@
     "description": "Server for testing clients with HAPI 3.1 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -78,6 +94,10 @@
     "description": "Server for testing clients with HAPI 3.2 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -95,6 +115,10 @@
     "description": "Server for testing clients with HAPI 3.3 additions",
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {

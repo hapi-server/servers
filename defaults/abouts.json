@@ -5,6 +5,10 @@
     "title": "CDAWeb",
     "contact": "Robert Candey",
     "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.M.Candey",
+      "RepositoryID": "spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -21,6 +25,10 @@
     "title": "SSCWeb",
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Robert.S.Weigel",
+      "RepositoryID": "spase://NASA/Repository/GSFC/SPDF"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -37,6 +45,10 @@
     "title": "AMDA",
     "contact": "Vincent Génot",
     "contactID": "amda@irap.omp.eu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Vincent.Genot",
+      "RepositoryID": "spase://SMWG/Repository/CDPP/AMDA"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -53,6 +65,10 @@
     "title": "Cluster Science Archive",
     "contact": "https://www.cosmos.esa.int/web/csa/cluster-helpdesk",
     "contactID": "esdc_cluster_logs@cosmos.esa.int",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/UNKNOWN",
+      "RepositoryID": "spase://SMWG/Repository/CSA"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -68,14 +84,23 @@
     "id": "CCMC_ISWA",
     "title": "CCMC ISWA",
     "contact": "Rick Mullinix",
-    "contactID": "richard.e.mullinix@nasa.gov"
+    "contactID": "richard.e.mullinix@nasa.gov",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Richard.E.Mullinix",
+      "RepositoryID": "spase://SMWG/Repository/NASA/GSFC"
+    }
   },
   {
     "x_url": "https://vires.services/hapi",
     "id": "VirES-for-Swarm",
     "title": "VirES for Swarm",
+    "description": "Web API for the ESA Swarm mission products.",
     "contact": "feedback@vires.services",
     "contactID": "feedback@vires.services",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/UNKNOWN",
+      "RepositoryID": "spase://SMWG/Repository/ESA/VIRES"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -84,13 +109,13 @@
         "stop": "2017-11-01Z",
         "parameters": "F"
       }
-    },
-    "description": "Web API for the ESA Swarm mission products."
+    }
   },
   {
     "x_url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
     "id": "INTERMAGNET",
     "title": "INTERMAGNET HAPI server",
+    "description": "This HAPI server provides datasets with IDs in the form IAGACode/DataType/Cadence/Components. IAGACode is the three-letter IAGA code (https://iaga-vobs.org/) for the observatory. DataType is one of: 'adjusted', 'definitive', 'quasi-def', 'reported' (https://tech-man.intermagnet.org/stable/appendices/terminology.html) or 'best-avail' for the best available data. See https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#best_avail for a discussion of what 'best-avail' implies. Cadence is an ISO8601 duration. This server only offers minute ('PT1M') and second ('PT1S') cadence data. Components is one of: 'xyzf', 'hdzf', 'diff' (https://intermagnet.org/faq/10.geomagnetic-comp.html) or 'native' to use the components that the data provider sent the data in.",
     "contact": "e_ginman@bgs.ac.uk",
     "contactID": "e_ginman@bgs.ac.uk",
     "dataTest": {
@@ -102,8 +127,6 @@
         "parameters": "Field_Magnitude"
       }
     },
-    "HAPI": "3.1",
-    "description": "This HAPI server provides datasets with IDs in the form IAGACode/DataType/Cadence/Components. IAGACode is the three-letter IAGA code (https://iaga-vobs.org/) for the observatory. DataType is one of: 'adjusted', 'definitive', 'quasi-def', 'reported' (https://tech-man.intermagnet.org/stable/appendices/terminology.html) or 'best-avail' for the best available data. See https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#best_avail for a discussion of what 'best-avail' implies. Cadence is an ISO8601 duration. This server only offers minute ('PT1M') and second ('PT1S') cadence data. Components is one of: 'xyzf', 'hdzf', 'diff' (https://intermagnet.org/faq/10.geomagnetic-comp.html) or 'native' to use the components that the data provider sent the data in.",
     "citation": "https://intermagnet.org/data_conditions.html",
     "x_warnings": [
       "Some institutes choose to embargo their data for a short time. For more information see https://imag-data.bgs.ac.uk/GIN_V1/index.jsp#embargo_data_plots"
@@ -115,6 +138,10 @@
     "title": "SuperMAG (dev version)",
     "contact": "Sandy Antunes",
     "contactID": "Sandy.Antunes@jhuapl.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Sandy.Antunes",
+      "RepositoryID": "spase://SMWG/Repository/JHU_APL"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -131,6 +158,10 @@
     "title": "HAPI WDC (Edinburgh) Server",
     "contact": "wdcgeomag@bgs.ac.uk",
     "contactID": "Adam.Emsley@bgs.ac.uk",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/UNKNOWN",
+      "RepositoryID": "?spase://SMWG/Repository/WDC/Geomagnetism/Edinburgh"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -139,8 +170,7 @@
         "stop": "2005-01-03T00:00:00.000Z",
         "parameters": "Field_Vector"
       }
-    },
-    "HAPI": "3.2"
+    }
   },
   {
     "x_url": "http://lasp.colorado.edu/lisird/hapi",
@@ -148,6 +178,10 @@
     "title": "LISIRD",
     "contact": "Doug Lindholm",
     "contactID": "Doug.Lindholm@lasp.colorado.edu",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Doug.Lindholm",
+      "RepositoryID": "spase://SMWG/Repository/UCOLO/LASP/LISIRD"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -162,8 +196,13 @@
     "x_url": "https://hapi.spaceweather.knmi.nl/hapi",
     "id": "KNMI",
     "title": "KNMI public HAPI server for use with the space weather timeline viewer",
+    "description": "Data on this server has been obtained from a variety of sources, and reproduced based on open licenses and/or with express permission of the data owners. It is intended for quick-look visualization with the space weather timeline viewer only. For further analysis, users are advised to retrieve copies of the data from the data owner's repositories.",
     "contact": "Eelco Doornbos",
     "contactID": "eelco.doornbos@knmi.nl",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Eelco.Doornbos",
+      "RepositoryID": "?spase://SMWG/Repository/KNMI"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {
@@ -172,17 +211,18 @@
         "stop": "2000-08-02T00:00:00.000Z",
         "parameters": "density"
       }
-    },
-    "description": "Data on this server has been obtained from a variety of sources, and reproduced based on open licenses and/or with express permission of the data owners. It is intended for quick-look visualization with the space weather timeline viewer only. For further analysis, users are advised to retrieve copies of the data from the data owner's repositories.",
-    "citation": "",
-    "HAPI": "3.1"
+    }
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
     "id": "Helioviewer",
     "title": "Helioviewer",
     "contact": "Daniel Garcia Briseno",
-    "contactID": "daniel.garciabriseno@nasa.gov"
+    "contactID": "daniel.garciabriseno@nasa.gov",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Daniel.Garcia.Briseno",
+      "RepositoryID": "spase://SMWG/Repository/SDAC"
+    }
   },
   {
     "x_url": "https://planet.physics.uiowa.edu/das/das2Server/hapi",
@@ -190,7 +230,10 @@
     "title": "DAS2",
     "contact": "Jeremy Faden",
     "contactID": "jeremy-faden@uiowa.edu",
-    "x_SPASE_PersonID": "Jeremy.Faden",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Jeremy.Faden",
+      "RepositoryID": "spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup"
+    },
     "dataTest": {
       "name": "Ping Test",
       "query": {

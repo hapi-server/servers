@@ -12,7 +12,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -33,7 +33,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -54,7 +54,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -75,7 +75,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -96,7 +96,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -117,7 +117,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://NASA/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",

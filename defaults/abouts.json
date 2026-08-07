@@ -133,6 +133,7 @@
     ]
   },
   {
+    "x_url": "https://api.phys.ucalgary.ca/hapi",
     "id": "UCalgary/SRS",
     "title": "UCalgary Space Remote Sensing HAPI Server",
     "description": "HAPI server providing time series data from the University of Calgary Space Remote Sensing ground-based instrument arrays",

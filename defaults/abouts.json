@@ -133,26 +133,6 @@
     ]
   },
   {
-    "x_url": "https://supermag.jhuapl.edu/hapi",
-    "id": "SuperMAG",
-    "title": "SuperMAG (dev version)",
-    "contact": "Sandy Antunes",
-    "contactID": "Sandy.Antunes@jhuapl.edu",
-    "x_SPASE": {
-      "PersonID": "spase://SMWG/Sandy.Antunes",
-      "RepositoryID": "spase://SMWG/Repository/JHU_APL"
-    },
-    "dataTest": {
-      "name": "Ping Test",
-      "query": {
-        "dataset": "indices_all",
-        "start": "2018-01-18T00:00Z",
-        "stop": "2018-01-19T00:00Z",
-        "parameters": "SML"
-      }
-    }
-  },
-  {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
     "id": "WDC",
     "title": "HAPI WDC (Edinburgh) Server",

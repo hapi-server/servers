@@ -5,7 +5,7 @@ https://csatools.esac.esa.int/HapiServer/hapi
 https://iswa.gsfc.nasa.gov/hapi
 https://vires.services/hapi
 https://imag-data.bgs.ac.uk/GIN_V1/hapi
-https://supermag.jhuapl.edu/hapi
+https://api.phys.ucalgary.ca/hapi
 https://wdcapi.bgs.ac.uk/hapi
 http://lasp.colorado.edu/lisird/hapi
 https://hapi.spaceweather.knmi.nl/hapi

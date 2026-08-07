@@ -1,3 +1,4 @@
+https://supermag.jhuapl.edu/hapi, SuperMAG (dev version), SuperMAG, Sandy Antunes, Sandy.Antunes@jhuapl.edu
 https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi, NESDIS Space Weather Portal, NESDIS_SPACE_WEATHER_PORTAL, ncei.info@noaa.gov, andrew.wilson@noaa.gov
 https://cedar.openmadrigal.org/hapi, Madrigal-HAPI server, Madrigal, haystack-madrigal-admin@mit.edu, cariglia@mit.edu
 https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk

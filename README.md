@@ -6,7 +6,7 @@
 
 These files should be used by clients.
 
-These files are updated daily based on the files in `defaults/` and the results of an `/about` query. The code that does this is `abouts.py` in the [server-metadata](https://github.com/hapi-server/server-metadata/) repository.
+These files are updated daily by amending the content of the `defaults/` files based on the results of `/about` queries. The code that does this is `abouts.py` in the [server-metadata](https://github.com/hapi-server/server-metadata/) repository.
 
 # Adding a Server
 

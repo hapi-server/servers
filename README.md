@@ -12,7 +12,7 @@ Nightly, the about information in the `defaults` files is updated using an `/abo
 
 `abouts-test.json`
 
-These files should be used by clients.
+These amended files should be used by clients.
 
 The code that amends the `default` files is `abouts.py` in the [server-metadata](https://github.com/hapi-server/server-metadata/) repository.
 

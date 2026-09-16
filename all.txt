@@ -8,6 +8,7 @@ https://imag-data.bgs.ac.uk/GIN_V1/hapi
 https://api.phys.ucalgary.ca/hapi
 https://wdcapi.bgs.ac.uk/hapi
 http://lasp.colorado.edu/lisird/hapi
+https://wdc.kugi.kyoto-u.ac.jp/hapi
 https://hapi.spaceweather.knmi.nl/hapi
 https://api.helioviewer.org/hapi/Helioviewer/hapi
 https://planet.physics.uiowa.edu/das/das2Server/hapi

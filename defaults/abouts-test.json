@@ -1,7 +1,11 @@
 [
   {
     "x_url": "https://hapi-server.org/servers-dev/URLWatcher/hapi",
-    "id": "URLWatcher"
+    "id": "URLWatcher",
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
+    }
   },
   {
     "x_url": "http://hapi-server.org/servers/TestData2.0/hapi",
@@ -11,8 +15,8 @@
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -32,8 +36,8 @@
     "contact": "Bob Weigel",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -53,8 +57,8 @@
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -74,8 +78,8 @@
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -95,8 +99,8 @@
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -116,8 +120,8 @@
     "contact": "rweigel@gmu.edu",
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
-      "PersonID": "spase://SMWG/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
+      "RepositoryID": "spase://SMWG/Person/Repository/UNKNOWN"
     },
     "dataTest": {
       "name": "Ping Test",

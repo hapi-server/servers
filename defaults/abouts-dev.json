@@ -1,78 +1,110 @@
 [
-  {
-    "x_url": "https://supermag.jhuapl.edu/hapi",
-    "id": "SuperMAG",
-    "title": "SuperMAG (dev version)",
-    "contact": "Sandy Antunes",
-    "contactID": "Sandy.Antunes@jhuapl.edu",
-    "x_SPASE": {
-      "PersonID": "spase://SMWG/Sandy.Antunes",
-      "RepositoryID": "spase://SMWG/Repository/JHU_APL"
+    {
+        "x_url": "https://supermag.jhuapl.edu/hapi",
+        "id": "SuperMAG",
+        "title": "SuperMAG (dev version)",
+        "contact": "Sandy Antunes",
+        "contactID": "Sandy.Antunes@jhuapl.edu",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/Sandy.Antunes",
+            "RepositoryID": "spase://SMWG/Repository/JHU_APL"
+        },
+        "dataTest": {
+            "name": "Ping Test",
+            "query": {
+            "dataset": "indices_all",
+            "start": "2018-01-18T00:00Z",
+            "stop": "2018-01-19T00:00Z",
+            "parameters": "SML"
+            }
+        }
     },
-    "dataTest": {
-      "name": "Ping Test",
-      "query": {
-        "dataset": "indices_all",
-        "start": "2018-01-18T00:00Z",
-        "stop": "2018-01-19T00:00Z",
-        "parameters": "SML"
-      }
-    }
-  },
     {
         "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
         "id": "NCEI",
         "title": "NCEI Space Weather Portal (dev)",
         "contact": "Andrew Wilson",
-        "contactID": "andrew.wilson@noaa.gov"
+        "contactID": "andrew.wilson@noaa.gov",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://cedar.openmadrigal.org/hapi",
         "id": "Madrigal",
         "title": "Madrigal (dev)",
         "contact": "Katherine Cariglia",
-        "contactID": "cariglia@mit.edu"
+        "contactID": "cariglia@mit.edu",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://imag-data-staging.bgs.ac.uk/GIN_V1/hapi",
         "id": "INTERMAGNET",
         "title": "INTERMAGNET (dev)",
         "contact": "Edinburgh GIN manager",
-        "contactID": "e_ginman@bgs.ac.uk"
+        "contactID": "e_ginman@bgs.ac.uk",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://jfaden.net/HapiServerDemo/hapi",
         "id": "FadenTest",
         "title": "Faden Test Server (dev)",
         "contact": "Jeremy Faden",
-        "contactID": "faden@cottagesystems.com"
+        "contactID": "faden@cottagesystems.com",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
         "id": "NASA/PDS/PPI",
         "title": "UCLA PDS Node (dev)",
         "contact": "In Sook Moon",
-        "contactID": "imoon@igpp.ucla.edu"
+        "contactID": "imoon@igpp.ucla.edu",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://staging.viresdisc.vires.services/hapi",
         "id": "VirES-for-Swarm",
         "title": "VirES for Swarm (dev)",
         "contact": "Martin Pačes (EOX)",
-        "contactID": "feedback@vires.services"
+        "contactID": "feedback@vires.services",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://cottagesystems.com/server/esac/hapi",
         "id": "ESAC-Cluster",
         "title": "ESAC Cluster S/C Archive (dev)",
         "contact": "Jeremy Faden",
-        "contactID": "faden@cottagesystems.org"
+        "contactID": "faden@cottagesystems.org",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     },
     {
         "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
         "id": "CDAWebDev",
         "title": "CDAWeb (dev)",
         "contact": "Jeremy Faden",
-        "contactID": "faden@cottagesystems.org"
+        "contactID": "faden@cottagesystems.org",
+        "x_SPASE": {
+            "PersonID": "spase://SMWG/Person/UNKNOWN",
+            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+        }
     }
 ]

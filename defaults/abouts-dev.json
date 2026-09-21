@@ -20,17 +20,6 @@
         }
     },
     {
-        "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
-        "id": "NCEI",
-        "title": "NCEI Space Weather Portal (dev)",
-        "contact": "Andrew Wilson",
-        "contactID": "andrew.wilson@noaa.gov",
-        "x_SPASE": {
-            "PersonID": "spase://SMWG/Person/UNKNOWN",
-            "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
-        }
-    },
-    {
         "x_url": "https://cedar.openmadrigal.org/hapi",
         "id": "Madrigal",
         "title": "Madrigal (dev)",

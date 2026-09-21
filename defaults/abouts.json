@@ -144,6 +144,17 @@
     "contact": "Darren Chaddock (dchaddoc@ucalgary.ca)"
   },
   {
+      "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
+      "id": "NCEI",
+      "title": "NCEI Space Weather Portal",
+      "contact": "Andrew Wilson",
+      "contactID": "andrew.wilson@noaa.gov",
+      "x_SPASE": {
+          "PersonID": "spase://SMWG/Person/UNKNOWN",
+          "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      }
+  },
+  {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
     "id": "WDC",
     "title": "HAPI WDC (Edinburgh) Server",

@@ -6,6 +6,7 @@ https://iswa.gsfc.nasa.gov/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.
 https://vires.services/hapi, VirES for Swarm, VirES-for-Swarm, feedback@vires.services, feedback@vires.services
 https://imag-data.bgs.ac.uk/GIN_V1/hapi, INTERMAGNET HAPI server, INTERMAGNET, e_ginman@bgs.ac.uk, e_ginman@bgs.ac.uk
 https://api.phys.ucalgary.ca/hapi, UCalgary Space Remote Sensing HAPI Server, UCalgary/SRS, Darren Chaddock (dchaddoc@ucalgary.ca), 
+https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi, NESDIS Space Weather Portal, NESDIS_SPACE_WEATHER_PORTAL, ncei.info@noaa.gov, andrew.wilson@noaa.gov
 https://wdcapi.bgs.ac.uk/hapi, HAPI WDC (Edinburgh) Server, WDC, wdcgeomag@bgs.ac.uk, Adam.Emsley@bgs.ac.uk
 http://lasp.colorado.edu/lisird/hapi, LISIRD, LISIRD, Doug Lindholm, Doug.Lindholm@lasp.colorado.edu
 https://wdc.kugi.kyoto-u.ac.jp/hapi, WDC for Geomagnetism, Kyoto HAPI Server, WDC-Kyoto-HAPI, WDC for Geomagnetism, Kyoto <wdc-service@kugi.kyoto-u.ac.jp>, 

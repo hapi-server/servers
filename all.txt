@@ -8,7 +8,7 @@ https://imag-data.bgs.ac.uk/GIN_V1/hapi
 https://api.phys.ucalgary.ca/hapi
 https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi
 https://wdcapi.bgs.ac.uk/hapi
-http://lasp.colorado.edu/lisird/hapi
+https://lasp.colorado.edu/lisird/hapi
 https://wdc.kugi.kyoto-u.ac.jp/hapi
 https://hapi.spaceweather.knmi.nl/hapi
 https://api.helioviewer.org/hapi/Helioviewer/hapi

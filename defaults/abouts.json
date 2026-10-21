@@ -7,7 +7,7 @@
     "contactID": "NASA-SPDF-Support@nasa.onmicrosoft.com",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Robert.M.Candey",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/CDAWeb"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -27,7 +27,7 @@
     "contactID": "rweigel@gmu.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Robert.S.Weigel",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/SSCWeb"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -47,7 +47,7 @@
     "contactID": "amda@irap.omp.eu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Vincent.Genot",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/AMDA"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -67,7 +67,7 @@
     "contactID": "esdc_cluster_logs@cosmos.esa.int",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/CSA"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -87,7 +87,7 @@
     "contactID": "richard.e.mullinix@nasa.gov",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Richard.E.Mullinix",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/CCMC_ISWA"
     }
   },
   {
@@ -99,7 +99,7 @@
     "contactID": "feedback@vires.services",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/VirES-for-Swarm"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -120,7 +120,7 @@
     "contactID": "e_ginman@bgs.ac.uk",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/INTERMAGNET"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -142,16 +142,20 @@
     "title": "UCalgary Space Remote Sensing HAPI Server",
     "description": "HAPI server providing time series data from the University of Calgary Space Remote Sensing ground-based instrument arrays",
     "contact": "Darren Chaddock (dchaddoc@ucalgary.ca)"
+    "x_SPASE": {
+      "PersonID": "spase://SMWG/Person/UNKNOWN",
+      "RepositoryID": "spase://SMWG/Repository/HAPI/UCalgary/SRS"
+    }
   },
   {
       "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
-      "id": "NCEI",
+      "id": "NESDIS_SPACE_WEATHER_PORTAL",
       "title": "NCEI Space Weather Portal",
       "contact": "Andrew Wilson",
       "contactID": "andrew.wilson@noaa.gov",
       "x_SPASE": {
           "PersonID": "spase://SMWG/Person/UNKNOWN",
-          "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+          "RepositoryID": "spase://SMWG/Repository/HAPI/NESDIS_SPACE_WEATHER_PORTAL"
       }
   },
   {
@@ -162,7 +166,7 @@
     "contactID": "Adam.Emsley@bgs.ac.uk",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/WDC"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -182,7 +186,7 @@
     "contactID": "Doug.Lindholm@lasp.colorado.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Doug.Lindholm",
-      "RepositoryID": "spase://SMWG/Repository/UCOLO/LASP/LISIRD"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/LISIRD"
     },
     "dataTest": {
       "name": "Ping Test",
@@ -202,7 +206,7 @@
     "description": "HAPI server for the World Data Center for Geomagnetism, Kyoto. Provides geomagnetic indices and geomagnetic observatory data.",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/WDC-Kyoto-HAPI"
     }
   },
   {
@@ -214,7 +218,7 @@
     "contactID": "eelco.doornbos@knmi.nl",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/Eelco.Doornbos",
-      "RepositoryID": "spase://SMWG/Repository/UNKNOWN"
+      "RepositoryID": "spase://SMWG/Repository/HAPI/KNMI"
     },
     "dataTest": {
       "name": "Ping Test",

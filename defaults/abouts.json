@@ -40,6 +40,17 @@
     }
   },
   {
+    "x_url": "https://cedar.openmadrigal.org/hapi",
+    "id": "Madrigal",
+    "title": "Madrigal-HAPI Server",
+    "contact": "Katherine Cariglia",
+    "contactID": "haystack-madrigal-admin@mit.edu",
+    "x_SPASE": {
+        "PersonID": "spase://SMWG/Person/Katherine.Cariglia",
+        "RepositoryID": "spase://HamSCI/Repository/Madrigal"
+      },
+  },
+  {
     "x_url": "https://amda.irap.omp.eu/service/hapi",
     "id": "AMDA",
     "title": "AMDA",

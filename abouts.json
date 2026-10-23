@@ -18,17 +18,8 @@
         "parameters": "BGSEc"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-22T15:05:07Z",
-    "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about",
-    "x_LastChange": "2026-10-22T15:05:07Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/CDAWeb",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:07Z",
+    "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
   },
   {
     "x_url": "http://hapi-server.org/servers/SSCWeb/hapi",
@@ -49,17 +40,8 @@
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-22T15:05:07Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about",
-    "x_LastChange": "2026-10-22T15:05:07Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/SSCWeb",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:07Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
   },
   {
     "x_url": "https://amda.irap.omp.eu/service/hapi",
@@ -80,17 +62,8 @@
         "parameters": "ace_r"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-22T15:05:51Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='amda.irap.omp.eu', port=443) at 0x7fe8b8ac1c60>, 'Connection to amda.irap.omp.eu timed out. (connect timeout=10)'))",
-    "x_LastChange": "2026-10-22T15:05:51Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/AMDA",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:50Z",
+    "x_LastUpdateError": "HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='amda.irap.omp.eu', port=443) at 0x7fe879c66530>, 'Connection to amda.irap.omp.eu timed out. (connect timeout=10)'))"
   },
   {
     "x_url": "https://csatools.esac.esa.int/HapiServer/hapi",
@@ -119,17 +92,7 @@
       "message": "OK request successful"
     },
     "x_buildTime": "2024-03-12T07:42:00",
-    "x_LastUpdateAttempt": "2026-10-22T18:05:54Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='csatools.esac.esa.int', port=443): Max retries exceeded with url: /HapiServer/hapi/about (Caused by ResponseError('too many 503 error responses'))",
-    "x_LastChange": "2026-10-22T18:05:54Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/CSA",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:51Z"
   },
   {
     "x_url": "https://iswa.gsfc.nasa.gov/hapi",
@@ -141,17 +104,8 @@
       "PersonID": "spase://SMWG/Person/Richard.E.Mullinix",
       "RepositoryID": "spase://SMWG/Repository/HAPI/CCMC_ISWA"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:54Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/hapi/about",
-    "x_LastChange": "2026-10-22T18:05:54Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/CCMC_ISWA",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:51Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/hapi/about"
   },
   {
     "x_url": "https://vires.services/hapi",
@@ -178,16 +132,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:55Z",
-    "x_LastChange": "2026-10-22T18:05:55Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/VirES-for-Swarm",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:52Z"
   },
   {
     "x_url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
@@ -218,16 +163,7 @@
       "code": 1200,
       "message": "ok"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:56Z",
-    "x_LastChange": "2026-10-22T18:05:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/INTERMAGNET",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:52Z"
   },
   {
     "x_url": "https://api.phys.ucalgary.ca/hapi",
@@ -244,13 +180,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:56Z",
-    "x_LastChange": "2026-10-22T18:05:56Z",
-    "x_LastChangeDiff": {
-      "dictionary_item_added": [
-        "root['x_SPASE']"
-      ]
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:53Z"
   },
   {
     "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
@@ -268,16 +198,7 @@
       "message": "OK"
     },
     "description": "Space weather data from NOAA platforms.",
-    "x_LastUpdateAttempt": "2026-10-22T18:05:56Z",
-    "x_LastChange": "2026-10-22T18:05:56Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/NESDIS_SPACE_WEATHER_PORTAL",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:53Z"
   },
   {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
@@ -304,16 +225,7 @@
       "message": "OK"
     },
     "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive.",
-    "x_LastUpdateAttempt": "2026-10-22T18:05:57Z",
-    "x_LastChange": "2026-10-22T18:05:57Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/WDC",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:54Z"
   },
   {
     "x_url": "https://lasp.colorado.edu/lisird/hapi",
@@ -334,17 +246,8 @@
         "parameters": "mg_index"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:57Z",
-    "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about",
-    "x_LastChange": "2026-10-22T18:05:57Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/LISIRD",
-          "old_value": "spase://SMWG/Repository/UCOLO/LASP/LISIRD"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:54Z",
+    "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
   },
   {
     "x_url": "https://wdc.kugi.kyoto-u.ac.jp/hapi",
@@ -361,16 +264,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:58Z",
-    "x_LastChange": "2026-10-22T18:05:58Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/WDC-Kyoto-HAPI",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:55Z"
   },
   {
     "x_url": "https://hapi.spaceweather.knmi.nl/hapi",
@@ -398,16 +292,7 @@
       "code": 1200,
       "message": "HAPI 1200: OK"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:59Z",
-    "x_LastChange": "2026-10-22T18:05:59Z",
-    "x_LastChangeDiff": {
-      "values_changed": {
-        "root['x_SPASE']['RepositoryID']": {
-          "new_value": "spase://SMWG/Repository/HAPI/KNMI",
-          "old_value": "spase://SMWG/Repository/UNKNOWN"
-        }
-      }
-    }
+    "x_LastUpdateAttempt": "2026-10-23T15:05:55Z"
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
@@ -419,7 +304,7 @@
       "PersonID": "spase://SMWG/Person/Daniel.Garcia.Briseno",
       "RepositoryID": "spase://SMWG/Repository/SDAC"
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:05:59Z",
+    "x_LastUpdateAttempt": "2026-10-23T15:05:56Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
   },
   {
@@ -441,7 +326,7 @@
         "parameters": "B_mag"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-22T18:06:00Z",
+    "x_LastUpdateAttempt": "2026-10-23T15:05:56Z",
     "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
   }
 ]

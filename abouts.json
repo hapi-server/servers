@@ -18,7 +18,7 @@
         "parameters": "BGSEc"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:07Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:07Z",
     "x_LastUpdateError": "400 Client Error: 400 for url: https://cdaweb.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -40,7 +40,7 @@
         "parameters": "X_GSE,Y_GSE,Z_GSE"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:07Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:07Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: http://hapi-server.org/servers/SSCWeb/hapi/about"
   },
   {
@@ -62,8 +62,8 @@
         "parameters": "ace_r"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:50Z",
-    "x_LastUpdateError": "HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ConnectTimeoutError(<HTTPSConnection(host='amda.irap.omp.eu', port=443) at 0x7fc3d1d7a260>, 'Connection to amda.irap.omp.eu timed out. (connect timeout=10)'))"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:11Z",
+    "x_LastUpdateError": "HTTPSConnectionPool(host='amda.irap.omp.eu', port=443): Max retries exceeded with url: /service/hapi/about (Caused by ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))"
   },
   {
     "x_url": "https://csatools.esac.esa.int/HapiServer/hapi",
@@ -92,7 +92,7 @@
       "message": "OK request successful"
     },
     "x_buildTime": "2024-03-12T07:42:00",
-    "x_LastUpdateAttempt": "2026-10-25T15:05:51Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:11Z"
   },
   {
     "x_url": "https://iswa.gsfc.nasa.gov/hapi",
@@ -104,7 +104,7 @@
       "PersonID": "spase://SMWG/Person/Richard.E.Mullinix",
       "RepositoryID": "spase://SMWG/Repository/HAPI/CCMC_ISWA"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:51Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:12Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://iswa.gsfc.nasa.gov/hapi/about"
   },
   {
@@ -132,7 +132,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:52Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:12Z"
   },
   {
     "x_url": "https://imag-data.bgs.ac.uk/GIN_V1/hapi",
@@ -163,7 +163,7 @@
       "code": 1200,
       "message": "ok"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:53Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:13Z"
   },
   {
     "x_url": "https://api.phys.ucalgary.ca/hapi",
@@ -180,7 +180,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:53Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:14Z"
   },
   {
     "x_url": "https://www.ncei.noaa.gov/cloud-access/space-weather-portal/api/v1/hapi",
@@ -198,7 +198,7 @@
       "message": "OK"
     },
     "description": "Space weather data from NOAA platforms.",
-    "x_LastUpdateAttempt": "2026-10-25T15:05:54Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:14Z"
   },
   {
     "x_url": "https://wdcapi.bgs.ac.uk/hapi",
@@ -225,7 +225,7 @@
       "message": "OK"
     },
     "description": "Web API for the WDC at Edinburgh datasets. Data is offered at cadences of: minute, hour, day, month and year. K-index data is also available. Data are delivered on a best-quality basis, and converted on-the-fly to the requested orientation and file format. All data are definitive.",
-    "x_LastUpdateAttempt": "2026-10-25T15:05:54Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:15Z"
   },
   {
     "x_url": "https://lasp.colorado.edu/lisird/hapi",
@@ -246,7 +246,7 @@
         "parameters": "mg_index"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:55Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:15Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://lasp.colorado.edu/lisird/hapi/about"
   },
   {
@@ -264,7 +264,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:56Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:16Z"
   },
   {
     "x_url": "https://hapi.spaceweather.knmi.nl/hapi",
@@ -292,7 +292,7 @@
       "code": 1200,
       "message": "HAPI 1200: OK"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:56Z"
+    "x_LastUpdateAttempt": "2026-10-26T15:05:17Z"
   },
   {
     "x_url": "https://api.helioviewer.org/hapi/Helioviewer/hapi",
@@ -304,7 +304,7 @@
       "PersonID": "spase://SMWG/Person/Daniel.Garcia.Briseno",
       "RepositoryID": "spase://SMWG/Repository/SDAC"
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:57Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:18Z",
     "x_LastUpdateError": "404 Client Error: Not Found for url: https://api.helioviewer.org/hapi/Helioviewer/hapi/about"
   },
   {
@@ -326,7 +326,7 @@
         "parameters": "B_mag"
       }
     },
-    "x_LastUpdateAttempt": "2026-10-25T15:05:57Z",
+    "x_LastUpdateAttempt": "2026-10-26T15:05:18Z",
     "x_LastUpdateError": "Expecting value: line 1 column 1 (char 0)"
   }
 ]

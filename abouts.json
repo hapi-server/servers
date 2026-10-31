@@ -187,7 +187,6 @@
     "id": "NESDIS_SPACE_WEATHER_PORTAL",
     "title": "NESDIS Space Weather Portal",
     "contact": "ncei.info@noaa.gov",
-    "contactID": "andrew.wilson@noaa.gov",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
       "RepositoryID": "spase://SMWG/Repository/HAPI/NESDIS_SPACE_WEATHER_PORTAL"

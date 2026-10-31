@@ -1,5 +1,6 @@
 https://cdaweb.gsfc.nasa.gov/hapi
 http://hapi-server.org/servers/SSCWeb/hapi
+https://cedar.openmadrigal.org/hapi
 https://amda.irap.omp.eu/service/hapi
 https://csatools.esac.esa.int/HapiServer/hapi
 https://iswa.gsfc.nasa.gov/hapi

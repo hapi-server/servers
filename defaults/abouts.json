@@ -48,7 +48,7 @@
     "x_SPASE": {
         "PersonID": "spase://SMWG/Person/Katherine.Cariglia",
         "RepositoryID": "spase://HamSCI/Repository/Madrigal"
-      },
+      }
   },
   {
     "x_url": "https://amda.irap.omp.eu/service/hapi",

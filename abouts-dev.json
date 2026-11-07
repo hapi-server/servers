@@ -18,14 +18,14 @@
         "parameters": "SML"
       }
     },
-    "x_LastUpdateAttempt": "2026-11-06T16:05:18Z",
+    "x_LastUpdateAttempt": "2026-11-07T16:05:15Z",
     "x_LastUpdateError": "Expecting value: line 2 column 7 (char 7)"
   },
   {
     "x_url": "https://cedar.openmadrigal.org/hapi",
     "id": "Madrigal",
-    "title": "Madrigal-HAPI Server",
-    "contact": "K Cariglia",
+    "title": "Madrigal-HAPI server",
+    "contact": "haystack-madrigal-admin@mit.edu",
     "contactID": "haystack-madrigal-admin@mit.edu",
     "x_SPASE": {
       "PersonID": "spase://SMWG/Person/UNKNOWN",
@@ -36,9 +36,26 @@
       "code": 1200,
       "message": "OK"
     },
-    "citation": "https://cedar.openmadrigal.org",
+    "citation": "https://cedar.openmadrigal.org/hapi",
     "description": "Madrigal-HAPI server",
-    "x_LastUpdateAttempt": "2026-11-06T16:05:18Z"
+    "x_LastUpdateAttempt": "2026-11-07T16:05:15Z",
+    "x_LastChange": "2026-11-07T16:05:15Z",
+    "x_LastChangeDiff": {
+      "values_changed": {
+        "root['title']": {
+          "new_value": "Madrigal-HAPI server",
+          "old_value": "Madrigal-HAPI Server"
+        },
+        "root['contact']": {
+          "new_value": "haystack-madrigal-admin@mit.edu",
+          "old_value": "K Cariglia"
+        },
+        "root['citation']": {
+          "new_value": "https://cedar.openmadrigal.org/hapi",
+          "old_value": "https://cedar.openmadrigal.org"
+        }
+      }
+    }
   },
   {
     "x_url": "https://pds-ppi.igpp.ucla.edu/hapi",
@@ -55,7 +72,7 @@
       "code": 1200,
       "message": "OK"
     },
-    "x_LastUpdateAttempt": "2026-11-06T16:05:19Z"
+    "x_LastUpdateAttempt": "2026-11-07T16:05:16Z"
   },
   {
     "x_url": "https://jfaden.net/HapiServerDemo/hapi",
@@ -73,7 +90,7 @@
       "message": "OK"
     },
     "description": "This server is used to quickly demonstrate new parts of the API so that clients can be coded and tested.  This contains no data of value.",
-    "x_LastUpdateAttempt": "2026-11-06T16:05:19Z"
+    "x_LastUpdateAttempt": "2026-11-07T16:05:16Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/esac/hapi",
@@ -94,7 +111,7 @@
     "x_hapi_home": "/tmp/hapi-server/",
     "x_modificationDate": "2026-03-30T17:08:04.921Z",
     "x_buildTime": "2026-10-14T16:38:25Z",
-    "x_LastUpdateAttempt": "2026-11-06T16:05:19Z"
+    "x_LastUpdateAttempt": "2026-11-07T16:05:16Z"
   },
   {
     "x_url": "https://cottagesystems.com/server/cdaweb/hapi",
@@ -115,6 +132,6 @@
     },
     "x_modificationDate": "2026-10-08T11:28:30.461Z",
     "x_buildTime": "2026-10-14T16:38:25Z",
-    "x_LastUpdateAttempt": "2026-11-06T16:05:19Z"
+    "x_LastUpdateAttempt": "2026-11-07T16:05:16Z"
   }
 ]

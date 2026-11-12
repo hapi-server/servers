@@ -1,6 +1,6 @@
 https://cdaweb.gsfc.nasa.gov/hapi, CDAWeb, CDAWeb, Robert Candey, NASA-SPDF-Support@nasa.onmicrosoft.com
 http://hapi-server.org/servers/SSCWeb/hapi, SSCWeb, SSCWeb, Bob Weigel, rweigel@gmu.edu
-https://cedar.openmadrigal.org/hapi, Madrigal-HAPI server, Madrigal, haystack-madrigal-admin@mit.edu, haystack-madrigal-admin@mit.edu
+https://cedar.openmadrigal.org/hapi, Madrigal-HAPI Server, Madrigal, K Cariglia, haystack-madrigal-admin@mit.edu
 https://amda.irap.omp.eu/service/hapi, AMDA, AMDA, Vincent Génot, amda@irap.omp.eu
 https://csatools.esac.esa.int/HapiServer/hapi, Cluster Science Archive, CSA, https://www.cosmos.esa.int/web/csa/cluster-helpdesk, esdc_cluster_logs@cosmos.esa.int
 https://iswa.gsfc.nasa.gov/hapi, CCMC ISWA, CCMC_ISWA, Rick Mullinix, richard.e.mullinix@nasa.gov
